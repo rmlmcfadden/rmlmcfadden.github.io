@@ -104,14 +104,17 @@ color_scheme: nil
 
 plugins:
   - jekyll-seo-tag
+  - github-pages
 
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
   input: GFM
+  math_engine: mathjax
   syntax_highlighter: rouge
   syntax_highlighter_opts:
+    disable: false
     block:
       line_numbers: false
 
