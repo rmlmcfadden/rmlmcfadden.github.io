@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Curriculum Vitae
-nav_order: 2
+title: CV
 description: My curriculum vitae.
+nav_order: 2
 permalink: /cv
 ---
 
