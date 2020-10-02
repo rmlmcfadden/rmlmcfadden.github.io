@@ -559,12 +559,12 @@ where multiple [CAMP] or [EPICS] setting commands are surrounded
 by &ldquo;<b>do</b><code>...</code><b>enddo</b>&rdquo;, or their equivalents, curly braces
 &ldquo;<b>{</b><code>...</code><b>}</b>&rdquo;, and controlled by a single When 
 command.  For example,
-```
+~~~
 When /Hall/field stable within .5 {
    setCamp /field_cont/setpoint </Hall/field>
    setCamp /field_cont/function 2
 }
-```
+~~~
 Note which commands go on separate lines in this example.  You cannot combine
 those multiple lines onto one.
 
