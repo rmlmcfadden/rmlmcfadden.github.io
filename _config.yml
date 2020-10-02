@@ -106,6 +106,7 @@ plugins:
   - jekyll-seo-tag
 
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
