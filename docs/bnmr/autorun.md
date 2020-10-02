@@ -7,12 +7,19 @@ parent: β-NMR
 ---
 
 # Autorun
+{: .no_toc }
 
 <i>
 This page is a reproduction of the content found at
 [http://cmms.triumf.ca/howto/op/autobnmr.html](http://cmms.triumf.ca/howto/op/autobnmr.html "βNMR Automatic Run Control").
 This is mainly a test of the quality of text formatting.
 </i>
+
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
 
 ## Introduction
 
