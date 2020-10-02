@@ -6,9 +6,13 @@ permalink: /bnmr/autorun
 parent: β-NMR
 ---
 
+# Autorun
+
+<i>
 This page is a reproduction of the content found at
 [http://cmms.triumf.ca/howto/op/autobnmr.html](http://cmms.triumf.ca/howto/op/autobnmr.html "βNMR Automatic Run Control").
 This is mainly a test of the quality of text formatting.
+</i>
 
 ## Introduction
 
@@ -38,7 +42,7 @@ the autorun program re-reads it.
 If there are problems with the syntax of a plan file, the autorun processor 
 usually only reports the first error it encounters.  Check the [MIDAS]
 message log for error messages. There is also a stand-alone command, 
-&ldquo;checkplan&rdquo; (executing `$MUSR_DIR/musr_midas/mui/checkplan.tcl`; usage
+`checkplan` (executing `$MUSR_DIR/musr_midas/mui/checkplan.tcl`; usage
 
 &ldquo;checkplan&nbsp;&nbsp;<i>filename</i>&nbsp;&nbsp;[<i>first_run</i>]&rdquo;)
 that performs checks on a plan file, useful for verifying a hand-edited plan.
