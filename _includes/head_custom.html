@@ -3,3 +3,13 @@
 
 <!-- get fontawesome from cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+<!-- add mathjax support for pages that need it -->
+{% if page.mathjax %}
+  <script type="text/x-mathjax-config">
+    {{ site.mathjax.config }};
+  </script>
+  <script type="text/javascript" async 
+    src="{{ site.mathjax.source }}">
+  </script>
+{% endif %}
