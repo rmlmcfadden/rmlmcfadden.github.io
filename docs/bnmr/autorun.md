@@ -363,14 +363,14 @@ documented in Appendix&nbsp;B of the
 <a href=http://cmms.triumf.ca/software/camp_soft.pdf>Camp Software Manual</a>.
 <p>
 Examples are:
-<p>
-<code>SetCamp:  /Magnet/mag_field  0.25</code><br>
-<code>SetCamp:  /Sample/control_set  15</code><br>
-<code>SetCamp:  /Diffuser/control_set  &lt;/Sample/control_set> - 0.5</code><br>
-<code>SetCamp:  /field_control/setpoint  &lt;/Hall/field></code><br>
-<code>SetCamp:  /Diffuser/heat_range MED</code><br>
-<code>camp_cmd: insLoad /defibrulator medical.kit</code>
-<p>
+{% highlight bash %}
+SetCamp:  /Magnet/mag_field  0.25
+SetCamp:  /Sample/control_set  15
+SetCamp:  /Diffuser/control_set  </Sample/control_set> - 0.5
+SetCamp:  /field_control/setpoint  </Hall/field>
+SetCamp:  /Diffuser/heat_range MED
+camp_cmd: insLoad /defibrulator medical.kit
+{% endhighlight %}
 
 
 The autorun controller will perform all those [CAMP] and [EPICS] commands at once,
@@ -559,12 +559,12 @@ where multiple [CAMP] or [EPICS] setting commands are surrounded
 by &ldquo;<b>do</b><code>...</code><b>enddo</b>&rdquo;, or their equivalents, curly braces
 &ldquo;<b>{</b><code>...</code><b>}</b>&rdquo;, and controlled by a single When 
 command.  For example,
-~~~
+{% highlight bash %}
 When /Hall/field stable within .5 {
    setCamp /field_cont/setpoint </Hall/field>
    setCamp /field_cont/function 2
 }
-~~~
+{% endhighlight %}
 Note which commands go on separate lines in this example.  You cannot combine
 those multiple lines onto one.
 
