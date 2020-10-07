@@ -29,7 +29,7 @@ run-control user-interface.  It should be
 started automatically, but if it is not, then one can execute 
 `$MUSR_DIR/musr_midas/mui/autoruns.tcl`.
 The autorun server is controlled by a few parameters in the ODB, under 
-`/autorun`, but it is mostly controlled by the auto-run plan file, which
+`/autorun`, but it is mostly controlled by the autorun plan file, which
 it monitors continuously for changes.
 
 (The ODB is the [MIDAS] data acquisition system's central storage of experiment
@@ -56,7 +56,7 @@ that performs checks on a plan file, useful for verifying a hand-edited plan.
 Nevertheless, the autorun processor may encounter some errors that the preliminary 
 scan does not detect, so these checks will not completely replace a good proofread.
 
-## Auto-run Control Parameters
+## Autorun Control Parameters
 
 There are a few parameters to set on the autorun control panel.
 Most of these are passed to the autorun processor through the [MIDAS] ODB (in the area “/autorun”).
@@ -250,7 +250,7 @@ if the beam is off for a long time.
 The Sweeps command is for TI runs only, and tells how many sweeps 
 to make.  It updates the corresponding parameter in the ODB:
 &ldquo;/Equipment/MUSR_I_acq/settings/input/num&nbsp;sweeps&rdquo;, which 
-applies to any run, not only auto-runs.
+applies to any run, not only autoruns.
 <p>
 The Cycles command is for TD runs only, and tells how many cycles to perform.
 It applies to all runs, even when autoruns are disabled or idle.
