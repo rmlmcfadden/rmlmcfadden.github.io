@@ -62,8 +62,9 @@ $MUSR_DIR/musr_midas/mui/checkplan.tcl
 
 (used as "checkplan <i>filename</i> [<i>first_run</i>]")
 that performs checks on a plan file, useful for verifying a hand-edited plan.
-Nevertheless, the autorun processor may encounter some errors that the preliminary 
-scan does not detect, so these checks will not completely replace a good proofread.
+Nevertheless, the autorun processor may
+encounter some errors that the preliminary scan does not detect,
+so these checks will not completely replace a good proofread.
 
 ## Control Parameters
 
@@ -74,9 +75,9 @@ Most of these are passed to the autorun processor through the [MIDAS] ODB
 ### Autoruns Operation Enabled
 
 ODB: `/autorun/enable`, boolean (1/0)<br>
-Set this to control whether the autorun process operates at all. It does not actually
-shut down when disabled, but it checks only this parameter, waiting
-to be enabled again.
+Set this to control whether the autorun process operates at all.
+It does not actually shut down when disabled,
+but it checks only this parameter, waiting to be enabled again.
 
 ### Autorun State
 
@@ -197,10 +198,11 @@ or colons can make a plan file more readable, especially when
 there are continued lines. In this documentation, the optional 
 capitalization is usually used, and the colon used occasionally.
 
-Commands may be broken across multiple lines by ending the partial line(s) with `\`.
+Commands may be broken across multiple lines
+by ending the partial line(s) with `\`.
 
-Lines that begin with certain characters (`!#%;`) are comments, and are ignored,
-as are blank lines.
+Lines that begin with certain characters (`!#%;`) are comments,
+and are ignored, as are blank lines.
 
 In the command syntax below, <b>bold</b> indicates a literal keyword,
 <i>italics</i> indicate some sort of value, 
@@ -212,31 +214,31 @@ The `|`, `[`, and `]` characters should not be typed into a run plan!
 
 One command, <b>Run</b>, is absolutely required, and it comes first:
 
-<b>Run</b> &nbsp;<i>number</i><br>
-<b>Run</b> &nbsp;<b>next</b><br>
-<b>Next</b> &nbsp;<b>run</b>
+<b>Run</b> <i>number</i><br>
+<b>Run</b> <b>next</b><br>
+<b>Next</b> <b>run</b>
 
-The `Run` command begins the commands for that particular run; all ensuing 
-commands apply to that run, until the next Run command.
-The specified run number must be consecutive with the previous. You
-can use the `next` keyword instead of a number, but the first 
-run must be explicitly numbered. (The reason the numbering must
-be defined is so that the plan can be edited and reloaded in the
-middle, without having to remove all the runs that have already been
-performed.)
+The `Run` command begins the commands for that particular run;
+all ensuing commands apply to that run, until the next `Run` command.
+The specified run number must be consecutive with the previous.
+You can use the `next` keyword instead of a number,
+but the first run must be explicitly numbered.
+(The reason the numbering must be defined is so that the plan can be edited
+and reloaded in the middle, without having to remove all the runs
+that have already been performed.)
 
 If there are settings to be made after the last run has completed, use
 
 <b>Finally</b>
 
-to separate those settings from the preceding run; it is like a Run command, but
-no run will be performed.
+to separate those settings from the preceding run; it is like a `Run` command,
+but no run will be performed.
 
 The remaining commands can be in any order.
 
 In the case of TI (type-1) runs, there is the required sweep range:
 
-<b>SweepRange</b> &nbsp;<i>from</i> &nbsp;<i>delim</i> &nbsp;<i>to</i>&nbsp;<i>delim</i> &nbsp;<i>step</i>
+<b>SweepRange</b> <i>from</i> <i>delim</i> <i>to</i> <i>delim</i> <i>step</i>
 
 The delimiter <i>delim</i> signifies white-space and/or punctuation
 characters or even any of the letters in `toby`
@@ -247,21 +249,32 @@ misinterpreting a minus sign are too great.
 All the values (<i>from</i>, <i>to</i>, <i>step</i>) are integers.
 
 Other commands (all the commands listed below) are strictly optional, 
-and, if omitted, they retain the previous settings; that is, the values 
-will not be actively set to any values, but will be retained by the 
-respective [MIDAS] or [CAMP] systems.
+and, if omitted, they retain the previous settings.
+That is, the values will not be actively set to any values,
+but will be retained by the respective [MIDAS] or [CAMP] systems.
 
 There are four possible commands to control when the run should be
 ended:
 
-<table border=0 cellspacing=0 cellpadding=0>
-<tr><td><b>Counts</b> &nbsp;<i>number</i> [ <b>M</b> ] &nbsp;[ <i>hist_number</i> ] </td><td> &nbsp;&nbsp; ( for TD )</td></tr>
-<tr><td><b>Time_limit</b> &nbsp;<i>elapsed_time</i></td><td> &nbsp;&nbsp;&nbsp; ( for TD or I )</td></tr>
-<tr><td><b>Sweeps</b> &nbsp;<i>number_of_sweeps</i></td><td> &nbsp;&nbsp;&nbsp; ( for I )</td></tr>
-<tr><td><b>Cycles</b> &nbsp;<i>number_of_cycles</i></td><td> &nbsp;&nbsp;&nbsp; ( for TD )</td></tr>
+<table>
+<tr>
+<td><b>Counts</b> <i>number</i> [ <b>M</b> ] [ <i>hist_number</i> ] </td>
+<td>( for TD )</td>
+</tr>
+<tr>
+<td><b>Time_limit</b> <i>elapsed_time</i></td>
+<td>( for TD or I )</td>
+</tr>
+<tr>
+<td><b>Sweeps</b> <i>number_of_sweeps</i></td>
+<td>( for I )</td>
+</tr>
+<tr>
+<td><b>Cycles</b> <i>number_of_cycles</i></td>
+<td>( for TD )</td></tr>
 </table>
 
-Typically, one should use Counts to tell the total number of events 
+Typically, one should use `Counts` to tell the total number of events
 to accumulate in a TD/Type-2 run; it can be given in "real"
 number form, and with an optional `M` suffix to indicate
 "millions" (e.g., `3200000`, `32e5`, and `3.2M` are all the same).
@@ -273,16 +286,18 @@ If no `Counts` command is given for a run, the existing value of
 If the optional <i>hist_number</i> is specified, then the counts
 are checked for that histogram only, rather than the total of all histograms.
 
-The Time_limit setting (with alias `Elapsed`) tells the longest time that 
-may be spent on a run.
-The <i>elapsed_time</i> can be in many formats, and a simple number is interpreted
-as minutes; all of the following are equal: `1:30`, `5400 s`, `90 min`, `1.5hr`,
-`01:30:00`, `90`.
+The Time_limit setting (with alias `Elapsed`) tells the longest time
+that may be spent on a run.
+The <i>elapsed_time</i> can be in many formats,
+and a simple number is interpreted as minutes;
+all of the following are equal:
+`1:30`, `5400 s`, `90 min`, `1.5hr`, `01:30:00`, `90`.
 Units are any strings that begin with `s`, `m`, or `h`.
-Notice that `1:30` means 1.5 hours, not 1.5 minutes! For 1.5 minutes
-you would need `0:01:30` (or `1.5 min` or `90s`).
-You can specify both counts and time limits, in which case the run ends when either 
-is satisfied. Note that using an elapsed-time limit may result in runs with no data 
+Notice that `1:30` means 1.5 hours, not 1.5 minutes!
+For 1.5 minutes you would need `0:01:30` (or `1.5 min` or `90s`).
+You can specify both counts and time limits,
+in which case the run ends when either is satisfied.
+Note that using an elapsed-time limit may result in runs with no data
 if the beam is off for a long time.
 
 The `Sweeps` command is for TI runs only, and tells how many sweeps to make.
@@ -295,32 +310,35 @@ It applies to all runs, even when autoruns are disabled or idle.
 
 Arrange to have autorun error and warning messages forwarded by email with
 
-<b>Email</b> &nbsp;<i>addr</i>&nbsp; [ <b>,</b> <i>addr</i> <code>...</code> ]
+<b>Email</b> <i>addr</i> [ <b>,</b> <i>addr</i> <code>...</code> ]
 
-providing a list of email addresses, separated by commas. When there are problems,
-the corresponding messages will be emailed to these addresses. If you have an
-address that gets forwarded to a cell phone or pager, that would be good to use.
+providing a list of email addresses, separated by commas.
+When there are problems, the corresponding messages
+will be emailed to these addresses.
+If you have an address that gets forwarded to a cell phone or pager,
+that would be good to use.
 
 Several commands apply to the run headers, corresponding to the [MIDAS]
 "edit on start" variables.
 
-<b>Sample</b> &nbsp; <code> ...</code><br>
-<b>Orientation</b> &nbsp; <code> ...</code><br>
-<b>Operator</b> &nbsp; <code> ...</code><br>
-<b>Experiment</b> &nbsp; <i>number</i><br>
-<b>Temperature</b> &nbsp; <i>temperature</i> &nbsp;| &nbsp;<i>Camp_var</i><br>
-<b>Field</b> &nbsp; &nbsp; <i>field</i> &nbsp;| &nbsp;<i>Camp_var</i>
+<b>Sample</b> <code>...</code><br>
+<b>Orientation</b> <code>...</code><br>
+<b>Operator</b> <code>...</code><br>
+<b>Experiment</b> <i>number</i><br>
+<b>Temperature</b> <i>temperature</i> | <i>Camp_var</i><br>
+<b>Field</b> <i>field</i> | <i>Camp_var</i>
 
 Note that temperature and field may be entered as numbers (with implicit
 units of Kelvin and Gauss), as numbers with units (provided the conversion
 to Kelvin or Gauss is known to the program), or as a the full [CAMP] path
 for a temperature or field variable.
 
-<b>Title: </b> &nbsp; <code> ...</code>
+<b>Title: </b> <code> ...</code>
 
 The run title allows automatic insertion of other header fields using the tags 
-`<Sample>`, `<Operator>`, `<Experiment>`, `<Temperature>`, `<Field>`, and
-`<Orientation>` (yes, you type the "angle brackets" `<...>` around the tag name).
+`<Sample>`, `<Operator>`, `<Experiment>`, `<Temperature>`, `<Field>`,
+and `<Orientation>`.
+(Yes, you type the "angle brackets" `<` and `>` around the tag name).
 For example:
 
 {% highlight bash %}
@@ -334,25 +352,17 @@ well as any manual settings, are propagated to the run title. The system
 will <strong>STOP</strong> updating the title if the user manually sets it
 to something different. 
 
-For time-integral runs, there is also the percentage tolerance for the beam normalization:
+For time-integral runs,
+there is also the percentage tolerance for the beam normalization:
 
-<b>Tolerance</b> &nbsp; <i>number</i> &nbsp; [ <b>%</b> ]
+<b>Tolerance</b> <i>number</i> [ <b>%</b> ]
 
 (The percent sign is optional, and does not affect the interpretation of
 the number.)
 
-<!-- 
-Other acquisition control parameters have no "personalized" commands,
-but should be set by loading a previously-saved configuration:
-<p>
-<b>Mode:</b>  &nbsp;<i>saved_TDmuSR_mode_name</i><br>
-<b>Setup:</b> &nbsp;<i>saved_ImuSR_setup</i>
-<p>
--->
-
 Any ODB parameter can be set using the `SetOdb` command:
 
-<b>SetOdb</b> &nbsp;<i>odb_variable</i>&nbsp; &nbsp;<i>value</i>
+<b>SetOdb</b> <i>odb_variable</i> <i>value</i>
 
 where <i>odb_variable</i> is the full ODB path to the variable, enclosed in
 quotes if the name contains any spaces. The value should also be quoted
@@ -360,30 +370,32 @@ if it contains spaces (use double-quotes, not apostrophes).
 
 You can control some portions of the beamline or platform:
 
-<b>SetEpics:</b> &nbsp;<i>Epics_var</i> &nbsp; <i>value</i>
+<b>SetEpics:</b> <i>Epics_var</i> <i>value</i>
 
 The `SetEpics` command (with spelling variants) sets a particular beam element 
-to a value. [EPICS] variables are always in upper case, and contain
-colons (`:`) as separators; they usually begin with the beamline or system name.
-To find the <i>Epics_var</i>, go to the beamline [EPICS] control window and click the
-middle mouse button on the entry field (blue text) where you would type the value. 
-The <i>Epics_var</i> will be displayed in a small pop-up window (the text 
-is "selected", so you can immediately "paste" it into the plan file).
+to a value. [EPICS] variables are always in upper case,
+and contain colons (`:`) as separators;
+they usually begin with the beamline or system name.
+To find the <i>Epics_var</i>, go to the beamline [EPICS] control window and
+click the middle mouse button on the entry field (blue text)
+where you would type the value.
+The <i>Epics_var</i> will be displayed in a small pop-up window
+(the text is "selected", so you can immediately "paste" it into the plan file).
 The full <i>Epics_var</i> may be abbreviated for some elements
 commonly adjusted in autoruns, especially for turning elements on or off.
 When switching an element on or off, the <i>value</i> should
 be "on" or "off" for clarity; thus the examples
 
 {% highlight bash %}
-SetEpics:  BNMR:HVBIAS:POS:VOL  16.0
-SetEpics:  BIAS  16.0
+SetEpics: BNMR:HVBIAS:POS:VOL 16.0
+SetEpics: BIAS 16.0
 {% endhighlight %}
 (short for β-NQR's `ILE2:BIAS15:VOL`).
 
 Make [CAMP] settings using either or both of:
 
-<b>SetCamp</b> &nbsp;<i>Camp_var</i> &nbsp; <i>value</i><br>
-<b>Camp_cmd</b> &nbsp;<i>Camp_command</i>
+<b>SetCamp</b> <i>Camp_var</i> <i>value</i><br>
+<b>Camp_cmd</b> <i>Camp_command</i>
 
 (`SetCamp` has aliases `set_camp`, `camp_set` and `CampSet`, because we all
 forget.)
@@ -406,11 +418,11 @@ documented in Appendix B of the [CAMP Software Manual](http://cmms.triumf.ca/sof
 Examples are:
 
 {% highlight bash %}
-SetCamp:  /Magnet/mag_field  0.25
-SetCamp:  /Sample/control_set  15
-SetCamp:  /Diffuser/control_set  </Sample/control_set> - 0.5
-SetCamp:  /field_control/setpoint  </Hall/field>
-SetCamp:  /Diffuser/heat_range MED
+SetCamp: /Magnet/mag_field 0.25
+SetCamp: /Sample/control_set 15
+SetCamp: /Diffuser/control_set </Sample/control_set> - 0.5
+SetCamp: /field_control/setpoint </Hall/field>
+SetCamp: /Diffuser/heat_range MED
 camp_cmd: insLoad /defibrulator medical.kit
 {% endhighlight %}
 
@@ -421,19 +433,17 @@ field control example above, where one would like to reference the
 `/Hall/field` value after the magnet has stabilized. One way to handle
 this is to schedule some settings after a fixed time delay:
 
-<b>After</b> <i>elapsed_time</i>&nbsp;<b>:</b> 
-    &nbsp;<b>SetCamp &nbsp;.&nbsp;.&nbsp;.</b> &nbsp;|
-    &nbsp;<b>camp_cmd &nbsp;.&nbsp;.&nbsp;.</b> &nbsp;| 
-    &nbsp;<b>SetEpics &nbsp;.&nbsp;.&nbsp;.</b> &nbsp;| 
-    &nbsp;<b>AutoTune &nbsp;.&nbsp;.&nbsp;.</b> &nbsp;|
+<b>After</b> <i>elapsed_time</i> <b>:</b>
+<b>SetCamp ...</b> | <b>camp_cmd ...</b> | 
+<b>SetEpics ...</b> | <b>AutoTune ...</b> |
 
-
-where the forms of <i>elapsed_time</i> is similar to the run time-limit, except that a bare
-number is interpreted as <em>seconds</em> (six minutes could be given by any of
-6m, 0:06, 0.1h, 360s, 360). This is the first of two 
-composite commands, where a <i>required</i> colon (`:`) must separate the `After`
-declaration from the ensuing, delayed, command. Note that only some commands can 
-be deferred with `After`; any others give a syntax error (because they aren't allowed).
+where the forms of <i>elapsed_time</i> is similar to the run time-limit,
+except that a bare number is interpreted as <i>seconds</i>
+(six minutes could be given by any of `6m`, `0:06`, `0.1h`, `360s`, `360`).
+This is the first of two composite commands, where a <i>required</i> colon (`:`)
+must separate the `After` declaration from the ensuing, delayed, command.
+Note that only some commands can be deferred with `After`;
+any others give a syntax error (because they aren't allowed).
 
 Before a run can begin, we must know that the experimental conditions 
 have responded to the device settings, so we specify "requirements"
@@ -464,22 +474,26 @@ have responded to the device settings, so we specify "requirements"
 </table>
 
 The run will not begin until every requirement is satisfied simultaneously, 
-<strong>and there are no [CAMP] alarms active</strong>. (Thus, you can enforce many typical 
-constraints by setting alarms in [CAMP], rather than giving requirement commands.)
+<strong>and there are no [CAMP] alarms active</strong>.
+(Thus, you can enforce many typical constraints by setting alarms in [CAMP],
+rather than giving requirement commands.)
 
 Each <i>Variable</i> is the full path specification of a [CAMP] variable, such as
 `/Sample/sample_read`, or an [EPICS] variable, such as `M20:S1:HVNEG:VOL`
 (distinguished by the presense of `/` or `:`).
 
 For numeric variables, one should usually use the "stable" form of the command.
-The autorun system will collect values of the primary <i>Variable</i>, retaining those over 
-the latest <i>elapsed_time</i>. To satisfy the requirement, all retained values must be
-within <i>error</i> of either: the latest value (blank comparison fields), or the 
-given <i>number</i> ("at"), or the current value of the comparison variable 
-("equal"). (Notice that `Require /foo/bar stable` is the same as `Require /foo/bar stable equal /foo/bar`.)
+The autorun system will collect values of the primary <i>Variable</i>,
+retaining those over the latest <i>elapsed_time</i>.
+To satisfy the requirement,
+all retained values must be within <i>error</i> of either:
+the latest value (blank comparison fields), or the given <i>number</i> (`at`),
+or the current value of the comparison variable (`equal`).
+(Notice that `Require /foo/bar stable` is the same as `Require /foo/bar stable equal /foo/bar`.)
 
-The default <i>elapsed_time</i>, if none was specified, is 1 second (almost 
-immediately). The default units, if a bare number was given, is seconds.
+The default <i>elapsed_time</i>, if none was specified,
+is 1 second (almost immediately).
+The default units, if a bare number was given, is seconds.
 
 Numeric variables can also be tested to be "above" or "below" some value.
 
@@ -489,64 +503,72 @@ If the <i>string</i> contains spaces, then it should be quoted.
 Examples:
 
 {% highlight bash %}
-Require /diffuser/control_read  stable  equal  /diffuser/control_set  within  0.5
-Require /sample/sample_read  stable  within 0.5  for  2 m
-Require /Hall_Probe/field  stable  at  1.0  for  30
+Require /diffuser/control_read stable equal /diffuser/control_set within 0.5
+Require /sample/sample_read stable within 0.5 for 2 m
+Require /Hall_Probe/field stable at 1.0 for 30
 Require /shield/sample_read below 100
-Require M20:EXPT:RDCUR  stable  equal  M20:EXPT:CUR  within  2
-Require /Magnet/ramp_status  is  Persistent
+Require M20:EXPT:RDCUR stable equal M20:EXPT:CUR within 2
+Require /Magnet/ramp_status is Persistent
 {% endhighlight %}
 
-(Note that the last example specifies "Persistent"; "persistent" 
-would not work because the actual value in [CAMP] is capitalized. Make sure the requirement 
-string exactly matches what [CAMP] displays!)
+Note that the last example specifies "Persistent";
+"persistent" would not work because the actual value in [CAMP] is capitalized.
+Make sure the requirement string exactly matches what [CAMP] displays!
 
-Here is another example, part of a temperature scan, where the desired temperature
-is specified just <emph>once</emph>, on the diffuser set-point.
+Here is another example, part of a temperature scan, where the desired
+temperature is specified just <emph>once</emph>, on the diffuser set-point.
 
 {% highlight bash %}
-Run  1234
-Title  <Sample>, <Temperature>, automatically
-Temperature  /sample/sample_read
-Require  /sample/sample_read stable equal /diffuser/control_set within 3
-Require  /sample/sample_read stable within 0.5 for 2m
-Setcamp  /diffuser/control_set   22
+Run 1234
+Title <Sample>, <Temperature>, automatically
+Temperature /sample/sample_read
+Require /sample/sample_read stable equal /diffuser/control_set within 3
+Require /sample/sample_read stable within 0.5 for 2m
+Setcamp /diffuser/control_set 22
 {% endhighlight %}
 
-The run will begin when the sample temperature levels off (within 0.5 K) for
-2 minutes, and within 3 K of the diffuser setpoint (i.e., between 19 and 25 K).
-Whatever the average sample temperature is, over the course of the run, it will be recorded 
-in the temperature field of the run header, and thence the run title of the data file.
-Note that, in this example as always, the `Setcamp` command is performed before ever
-checking requirements; entering the `Setcamp` declaration after the requirements does
-<i>not</i> imply that the settings are performed after requirements are satisfied.
+The run will begin when the sample temperature levels off (within 0.5 K)
+for 2 minutes, and within 3 K of the diffuser setpoint
+(i.e., between 19 and 25 K).
+Whatever the average sample temperature is, over the course of the run,
+it will be recorded in the temperature field of the run header,
+and thence the run title of the data file.
+Note that, in this example as always,
+the `Setcamp` command is performed before ever checking requirements;
+entering the `Setcamp` declaration after the requirements does <i>not</i>
+imply that the settings are performed after requirements are satisfied.
 For that feature, see the `When` command.
 
-<b>Max_wait</b> &nbsp;<i>elapsed_time</i>
+<b>Max_wait</b> <i>elapsed_time</i>
 
-In case of conflicting requirements, or some other problem where the requirements
-are never satisfied, there is a `Max_wait` command. After waiting for <i>elapsed_time</i>,
-the autorun sequencer will start the next run even if the requirements are not satisfied.
-The various formats for <i>elapsed_time</i> are that same as on the `Time_limit` command,
-with default units of minutes (see above).
+In case of conflicting requirements,
+or some other problem where the requirements are never satisfied,
+there is a `Max_wait` command.
+After waiting for <i>elapsed_time</i>,
+the autorun sequencer will start the next run
+even if the requirements are not satisfied.
+The various formats for <i>elapsed_time</i> are that same as
+on the `Time_limit` command, with default units of minutes (see above).
 
-For greater control over the timing of [CAMP] settings than is provided by the `After` command,
+For greater control over the timing of [CAMP] settings
+than is provided by the `After` command,
 one can schedule them the same way as specifying a requirement:
 
-<b>When</b> &nbsp;<i>requirement_specification</i> 
-    &nbsp;<b>:</b> 
-  &nbsp;<b>SetCamp</b> &nbsp; <code>...</code> &nbsp;| 
-  &nbsp;<b>camp_cmd</b>  &nbsp; <code>...</code> &nbsp;|
-  &nbsp;<b>SetEpics</b>  &nbsp; <code>...</code> &nbsp;|
-  &nbsp;<b>AutoTune</b> &nbsp; <code>...</code> &nbsp;|
-  &nbsp;<b>After</b> &nbsp; <code>...</code> &nbsp;|
-  &nbsp;<i>blank</i>
+<b>When</b> <i>requirement_specification</i> <b>:</b>
+<b>SetCamp</b> <code>...</code> | 
+<b>camp_cmd</b> <code>...</code> |
+<b>SetEpics</b> <code>...</code> |
+<b>AutoTune</b> <code>...</code> |
+<b>After</b> <code>...</code> |
+<i>blank</i>
 
-The <i>requirement_specification</i> is any valid parameter list for the `Require`
-command (above), and is followed by a mandatory colon separator. Only the device 
-setting commands for [CAMP] and [EPICS] (`SetCamp`, `SetEpics`, `camp_cmd`, and their aliases) 
-and the `After` command may be scheduled this way. You can also specify a null action 
-with no scheduled command, which behaves like a simple `Require` command except... 
+The <i>requirement_specification</i> is any valid parameter list for
+the `Require` command (above), and is followed by a mandatory colon separator.
+Only the device setting commands for [CAMP] and [EPICS]
+(`SetCamp`, `SetEpics`, `camp_cmd`, and their aliases)
+and the `After` command may be scheduled this way.
+You can also specify a null action with no scheduled command,
+which behaves like a simple `Require` command except...
 
 Conditions specified by `When` must all be satisfied at some point
 <i>before</i> a run can begin, but they need not <i>remain</i> satisfied
@@ -555,8 +577,9 @@ different from the same `Require` command: all `Require` conditions must be
 simultaneously satisfied when the run begins, whereas all `When` actions (or
 null actions) must have been performed sometime before the run begins.
 
-If a [CAMP] setting must be delayed until after the run begins, then you must use 
-an `After` command, either alone or scheduled by a `When` command, like:
+If a [CAMP] setting must be delayed until after the run begins,
+then you must use an `After` command,
+either alone or scheduled by a `When` command, like:
 
 {% highlight bash %}
 When /sample/sample_read stable within .5 After 5m: setCamp /sample/setup/P 20
@@ -575,33 +598,28 @@ When /diffuser/sample_read stable equal /diffuser/control_set within 1 for 1.5m:
 
 (Note the use of `\` to join multiple lines when commands get too long,
 and the substitution for the current value of the field readback.)
-This example turns on (feedback) field control when the magnet current reaches its
-setpoint, and turns on needle-valve control three minutes after the cryostat
-diffuser temperature gets close to its setpoint. Notably, it also specifies the
-same requirements for beginning the run;  thus, presuming the (diffuser) temperature
-is the last to stabilize, the needle-valve control will begin about three minutes
-after the run begins. 
+This example turns on (feedback) field control when
+the magnet current reaches its setpoint,
+and turns on needle-valve control three minutes after the cryostat
+diffuser temperature gets close to its setpoint.
+Notably, it also specifies the same requirements for beginning the run;
+thus, presuming the (diffuser) temperature is the last to stabilize,
+the needle-valve control will begin about three minutes after the run begins.
 
-In the example (and in practice) note the use of multiple `When` commands having the
-same requirement but different actions. To save typing and computer processing, these can
-be written as a <i>block</i>
+In the example (and in practice)
+note the use of multiple `When` commands having the same requirement,
+but different actions.
+To save typing and computer processing, these can be written as a <i>block</i>
 
-<table border=0 cellpadding=0><tr><td>
-<table valign=c>
-<tr><td><b>When</b> &nbsp;<i>requirement_specification</i> &nbsp;&nbsp;<b>do</b> &nbsp;</td></tr>
-<tr><td>  &nbsp;  &nbsp;<b>.&nbsp;&nbsp;.&nbsp;&nbsp;.</b></td></tr>
-<tr><td><b>enddo</b></td></tr>
-</table>
-</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</td><td width=1 bgcolor=black>
-</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>
-<table valign=c>
-<tr><td><b>When</b> &nbsp;<i>requirement_specification</i> &nbsp;&nbsp;<b>{</b> &nbsp;</td></tr>
-<tr><td>  &nbsp;  &nbsp;<b>.&nbsp;&nbsp;.&nbsp;&nbsp;.</b></td></tr>
-<tr><td><b>}</b></td></tr>
-</table>
-</td></tr>
-</table>
+<b>When</b> <i>requirement_specification</i> <b>do</b> <br>
+... <br>
+<b>enddo</b> <br>
+
+or
+
+<b>When</b> <i>requirement_specification</i> <b>{</b> <br>
+... <br>
+<b>}</b> <br>
 
 where multiple [CAMP] or [EPICS] setting commands are surrounded
 by "<b>do</b>`...`<b>enddo</b>", or their equivalents, curly braces
