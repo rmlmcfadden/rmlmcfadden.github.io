@@ -52,6 +52,33 @@ publications:
       published: 2019-11-27
   articles:
     - title: >-
+        Selectivity of free radical reactions with vinylidene fluoride in
+        supercritical carbon dioxide, probed by muon spin spectroscopy
+      author:
+        - P. Satija
+        - R. M. L. McFadden
+        - P. Cormier
+        - K. Ghandi
+      abstract: >-
+        Free radical addition to alkenes is an important aspect of radical
+        mediated polymerization reactions. In this work, we investigated free
+        radical addition to vinylidene fluoride (VDF) in supercritical
+        CO<sub>2</sub> (scCO<sub>2</sub>). scCO<sub>2</sub> is an important
+        "green solvent" and polymerization is one of the most important
+        applications of this solvent. Our results suggest a clear selectivity
+        among different free radical reaction channels for reaction of H atom
+        with VDF. In particular the preferred reaction channel in the
+        temperature range of 280 to 420 K and density range of 0.1 to 0.6
+        g/cm<sup>3</sup> is the addition to the CH<sub>2</sub> side.
+      journal: Int. Rev. Chem. Eng.
+      volume: 3
+      issue: 5
+      pages: 542-549
+      year: 2011
+      url: >-
+        https://www.praiseworthyprize.org/latest_issues/IRECHE-latest/IRECHE_vol_3_n_5.html
+      published: 2011-09-01
+    - title: >-
         Investigation of ionic and anomalous magnetic behavior in
         CrSe<sub>2</sub> using <sup>8</sup>Li β-NMR
       author:
@@ -142,9 +169,57 @@ publications:
       journal: JPS Conf. Proc.
       volume: 21
       issue: null
-      pages: 011047
+      pages: '011047'
       year: 2018
       doi: 10.7566/JPSCP.21.011047
       submitted: 2017-06-15
       published: 2018-03-01
+  theses:
+    - title: >-
+        Microscopic dynamics of isolated lithium in crystalline solids revealed
+        by nuclear magnetic relaxation and resonance of <sup>8</sup>Li
+      author:
+        - R. M. L. McFadden
+      abstract: >-
+        This thesis reports measurements on the dynamics of isolated lithium in
+        single crystal materials using ion-implanted <sup>8</sup>Li β-detected
+        nuclear magnetic resonance. From spin-lattice relaxation and resonance
+        measurements, we identify the kinetic parameters describing the ion’s
+        site-to-site hop rate – the elementary process in long-range solid-state
+        diffusion – and compare the results with theoretical work in the
+        literature, as well as experiments at higher concentration. In addition
+        to these “ionic” details, the nuclear magnetic resonance probe provides
+        information on the electronic properties of the host, whose most
+        intriguing features are also discussed. In the one-dimensional ion
+        conductor rutile TiO<sup>2</sup>, we find two sets of thermally
+        activated dynamics: one below 100 K and another at higher temperatures.
+        We suggest the low temperature process is unrelated to lithium motion,
+        but rather a consequence of electron polarons in the vicinity of the
+        implanted <sup>8</sup>Li<sup>+</sup>. Above 100 K, Li⁺ undergoes
+        diffusion as an isolated uncomplexed cation, characterized by an
+        activation energy and prefactor that are in agreement with macroscopic
+        diffusion measurements, but not with theory. In
+        Bi<sub>2</sub>Te<sub>2</sub>Se, a topological insulator with layered
+        tetradymite structure, implanted <sup>8</sup>Li<sup>+</sup> undergoes
+        ionic diffusion above 150 K, likely in the van der Waals gap between
+        adjacent Te planes. A comparison with structurally related materials
+        reveals the mobility of isolated Li<sup>+</sup> is exceptional. At lower
+        temperature, we find linear Korringa-like relaxation, but with a field
+        dependent slope and intercept, accompanied by an anomalous field
+        dependence to the resonance shift. We suggest that these may be related
+        to a strong contribution from orbital currents or the magnetic freezeout
+        of charge carriers in this heavily compensated semiconductor. In the
+        doped tetradymite topological insulators Bi<sub>2</sub>Se<sub>3</sub>:Ca
+        and Bi<sub>2</sub>Te<sub>3</sub>:Mn, the onset of lithium dynamics is
+        suppressed to above 200 K. At low temperatures, the nuclear magnetic
+        resonance properties are those of a heavily doped semiconductor in the
+        metallic limit, with Korringa relaxation and a small, negative,
+        temperature-dependent Knight shift. From this, we make a detailed
+        comparison with isostructural Bi<sub>2</sub>Te<sub>2</sub>Se.
+      degree: PhD
+      school: University of British Columbia
+      address: Vancouver
+      year: 2020
+      doi: 10.14288/1.0389972
+      published: 2020-04-24
 

@@ -86,11 +86,9 @@ permalink: /cv
 
 ## Publications
 
-{% assign preprints = site.data.rmlmcfadden.publications.preprints | sort: "published" | reverse %}
-{% assign articles = site.data.rmlmcfadden.publications.articles | sort: "published" | reverse %}
-{% assign proceedings = site.data.rmlmcfadden.publications.proceedings | sort: "published" | reverse %}
-
 ### Electronic Preprints
+
+{% assign preprints = site.data.rmlmcfadden.publications.preprints | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in preprints %}
@@ -142,15 +140,24 @@ permalink: /cv
       </p>
    {% endif %}
    {% if pub.abstract %}
-      <p>
-      {{ pub.abstract }}
-      </p>
+      <details>
+         <summary>
+         <b>
+         Abstract
+         </b>
+         </summary>
+         <p>
+         {{ pub.abstract }}
+         </p>
+      </details>
    {% endif %}
    </li>
 {% endfor %}
 </ol>
 
-### Journal articles
+### Journal Articles
+
+{% assign articles = site.data.rmlmcfadden.publications.articles | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in articles %}
@@ -202,20 +209,24 @@ permalink: /cv
       </p>
    {% endif %}
    {% if pub.abstract %}
-      <dl>
-         <dt>
-         Abstract:
-         </dt>
-         <dd>
+      <details>
+         <summary>
+         <b>
+         Abstract
+         </b>
+         </summary>
+         <p>
          {{ pub.abstract }}
-         </dd>
-      </dl>
+         </p>
+      </details>
    {% endif %}
    </li>
 {% endfor %}
 </ol>
 
-### Conference proceedings
+### Conference Proceedings
+
+{% assign proceedings = site.data.rmlmcfadden.publications.proceedings | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in proceedings %}
@@ -269,7 +280,74 @@ permalink: /cv
    {% if pub.abstract %}
       <details>
          <summary>
-         Abstract:
+         <b>
+         Abstract
+         </b>
+         </summary>
+         <p>
+         {{ pub.abstract }}
+         </p>
+      </details>
+   {% endif %}
+   </li>
+{% endfor %}
+</ol>
+
+### Theses
+
+{% assign theses = site.data.rmlmcfadden.publications.theses | sort: "published" | reverse %}
+
+<ol reversed>
+{% for pub in theses %}
+   <li>
+   {% if pub.author %}
+      <p>
+      {% for author in pub.author  %}
+         {{ author }}.
+      {% endfor %}
+      </p>
+   {% endif %}
+   {% if pub.title %}
+      <p>
+      <i>{{ pub.title }}.</i>
+      </p>
+   {% endif %}
+   {% if pub.degree and pub.school and pub.address and pub.year %}
+      <p>
+      {{ pub.degree }} Thesis ({{ pub.school }}, {{ pub.address }}, {{ pub.year }}).
+      </p>
+   {% endif %}
+   {% if pub.doi or pub.arxiv or pub.url %}
+      <p>
+      {% if pub.doi %}
+         <i class="ai ai-doi"></i>
+         <a href="https://doi.org/{{ pub.doi }}">
+         {{ pub.doi }}
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.arxiv %}
+         <i class="ai ai-arxiv"></i>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
+         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.url %}
+         <i class="fa fa-link"></i>
+         <a href="{{ pub.url }}">
+         {{ pub.url }}
+         </a>
+         <br>
+      {% endif %}
+      </p>
+   {% endif %}
+   {% if pub.abstract %}
+      <details>
+         <summary>
+         <b>
+         Abstract
+         </b>
          </summary>
          <p>
          {{ pub.abstract }}
