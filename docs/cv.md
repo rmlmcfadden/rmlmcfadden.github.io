@@ -202,9 +202,14 @@ permalink: /cv
       </p>
    {% endif %}
    {% if pub.abstract %}
-      <p>
-      {{ pub.abstract }}
-      </p>
+      <dl>
+         <dt>
+         Abstract:
+         </dt>
+         <dd>
+         {{ pub.abstract }}
+         </dd>
+      </dl>
    {% endif %}
    </li>
 {% endfor %}
@@ -262,9 +267,14 @@ permalink: /cv
       </p>
    {% endif %}
    {% if pub.abstract %}
-      <p>
-      {{ pub.abstract }}
-      </p>
+      <details>
+         <summary>
+         Abstract:
+         </summary>
+         <p>
+         {{ pub.abstract }}
+         </p>
+      </details>
    {% endif %}
    </li>
 {% endfor %}
