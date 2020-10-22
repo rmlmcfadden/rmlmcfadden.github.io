@@ -1,0 +1,150 @@
+publications:
+  preprints:
+    - title: >-
+        Local electronic and magnetic properties of the doped topological
+        insulators Bi<sub>2</sub>Se<sub>3</sub>:Ca and
+        Bi<sub>2</sub>Te<sub>3</sub>:Mn investigated using ion-implanted
+        <sup>8</sup>Li β-NMR
+      author:
+        - R. M. L. McFadden
+        - A. Chatzichristos
+        - D. L. Cortie
+        - D. Fujimoto
+        - Y. S. Hor
+        - H. Ji
+        - V. L. Karner
+        - R. F. Kiefl
+        - C. D. P. Levy
+        - R. Li
+        - I. McKenzie
+        - G. D. Morris
+        - M. R. Pearson
+        - M. Stachura
+        - R. J. Cava
+        - W. A. MacFarlane
+      abstract: >-
+        We report β-detected nuclear magnetic resonance (β-NMR) measurements in
+        Bi<sub>2</sub>Se<sub>3</sub>:Ca (BSC) and
+        Bi<sub>2</sub>Te<sub>3</sub>:Mn (BTM) single crystals using
+        <sup>8</sup>Li<sup>+</sup> implanted to depths on the order of 100 nm.
+        Above ~200 K, spin-lattice relaxation (SLR) reveals diffusion of
+        <sup>8</sup>Li<sup>+</sup>, with activation energies of ~0.4 eV (~0.2
+        eV) in BSC (BTM). At lower temperatures, the nuclear magnetic resonance
+        (NMR) properties are those of a heavily doped semiconductor in the
+        metallic limit, with Korringa relaxation and a small, negative,
+        temperature-dependent Knight shift in BSC. From this, we make a detailed
+        comparison with the isostructural tetradymite
+        Bi<sub>2</sub>Te<sub>2</sub>Se (BTS) [McFadden et al., Phys Rev. B 99,
+        125201 (2019)]. In the magnetic BTM, the effects of the dilute Mn
+        moments predominate, but remarkably the <sup>8</sup>Li signal is not
+        wiped out through the magnetic transition at 13 K, with a prominent
+        critical peak in the SLR that is suppressed in a high applied field.
+        This detailed characterization of the <sup>8</sup>Li NMR response is an
+        important step towards using depth-resolved β-NMR to study the
+        low-energy properties of the chiral topological surface state (TSS).
+        With the bulk NMR response now established in several
+        Bi<sub>2</sub>Ch<sub>3</sub> tetradymite topological insulators (TIs),
+        the prospect of directly probing their chiral TSS using the depth
+        resolution afforded by β-NMR remains strong.
+      arxiv:
+        id: 1911.12212
+        cat: cond-mat.mtrl-sci
+      published: 2019-11-27
+  articles:
+    - title: >-
+        Investigation of ionic and anomalous magnetic behavior in
+        CrSe<sub>2</sub> using <sup>8</sup>Li β-NMR
+      author:
+        - J. O. Ticknor
+        - I. Umegaki
+        - R. M. L. McFadden
+        - A. Chatzichristos
+        - D. Fujimoto
+        - V. L. Karner
+        - R. F. Kiefl
+        - S. Kobayashi
+        - C. D. P. Levy
+        - R. Li
+        - G. D. Morris
+        - M. R. Pearson
+        - K. Yoshimura
+        - J. Sugiyama
+        - W. A. MacFarlane
+      abstract: >-
+        We have studied a mosaic of 1T-CrSe<sub>2</sub> single crystals using
+        β-detected nuclear magnetic resonance of <sup>8</sup>Li from 4 to 300 K.
+        We identify two broad resonances that show no evidence of quadrupolar
+        splitting, indicating two magnetically distinct environments for the
+        implanted ion. We observe stretched exponential spin lattice relaxation
+        and a corresponding rate (1/<i>T</i><sub>1</sub>) that increases
+        monotonically above 200 K, consistent with the onset of ionic diffusion.
+        A pronounced maximum in 1/<i>T</i><sub>1</sub> is observed at the low
+        temperature magnetic transition near 20 K. Between these limits,
+        1/<i>T</i><sub>1</sub> exhibits a broad minimum with an anomalous
+        absence of strong features in the vicinity of structural and magnetic
+        transitions between 150 and 200 K. Together, the results suggest
+        <sup>8</sup>Li<sup>+</sup> site occupation within the van der Waals gap
+        between CrSe<sub>2</sub> trilayers. Possible origins of the two
+        environments are discussed.
+      journal: RSC Adv.
+      volume: 10
+      issue: null
+      pages: 8190-8197
+      year: 2020
+      doi: 10.1039/C9RA07065F
+      arxiv:
+        id: 1908.05421
+        cat: cond-mat.mtrl-sci
+      submitted: 2019-09-04
+      accepted: 2020-02-14
+      published: 2020-02-26
+  proceedings:
+    - title: On the use of <sup>31</sup>Mg for β-detected NMR studies of solids
+      author:
+        - R. M. L. McFadden
+        - A. Chatzichristos
+        - M. H. Dehn
+        - D. Fujimoto
+        - H. Funakubo
+        - A. Gottberg
+        - T. Hitosugi
+        - V. L. Karner
+        - R. F. Kiefl
+        - M. Kurokawa
+        - J. Lassen
+        - C. D. P. Levy
+        - R. Li
+        - G. D. Morris
+        - M. R. Pearson
+        - S. Shiraki
+        - M. Stachura
+        - J. Sugiyama
+        - D. M. Szunyogh
+        - W. A. MacFarlane
+      abstract: >-
+        It has long been desirable to develop a spin-1/2 nucleus as a probe for
+        β-detected NMR studies of solid materials. As a pure magnetic probe, it
+        would greatly compliment our most extensively used nucleus
+        <sup>8</sup>Li (spin-2), which is sensitive to both dipolar and
+        quadrupolar interactions. Following the recent successful polarization
+        of spin-1/2 <sup>31</sup>Mg at TRIUMF, we report here on its use to
+        study solids where host magnesium atoms occupy lattice sites with cubic
+        symmetry - a situation most directly comparable to (stable)
+        <sup>25</sup>Mg NMR. We show preliminary results in: rocksalt MgO;
+        spinel MgAl<sub>2</sub>O<sub>4</sub>; and antifluorite Mg<sub>2</sub>Si,
+        which is an interesting semiconducting thermoelectric. Deviations from
+        the results with conventional <sup>25</sup>Mg NMR are attributed to the
+        systematics associated with the β-NMR technique. The <sup>31</sup>Mg
+        decay chain is found to complicate the extraction of spin–lattice
+        relaxation rates due to a time-dependent background signal introduced by
+        its progeny. The prospect of further use of 31Mg as a β-NMR probe for
+        the study of condensed matter is good.
+      journal: JPS Conf. Proc.
+      volume: 21
+      issue: null
+      pages: 4647
+      year: 2018
+      doi: 10.7566/JPSCP.21.011047
+      submitted: 2017-06-15
+      published: 2018-03-01
+

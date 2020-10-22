@@ -78,3 +78,187 @@ permalink: /cv
 </table>
 
 ## Publications
+
+{% assign preprints = site.data.rmlmcfadden.publications.preprints | sort: "published" | reverse %}
+{% assign articles = site.data.rmlmcfadden.publications.articles | sort: "published" | reverse %}
+{% assign proceedings = site.data.rmlmcfadden.publications.proceedings | sort: "published" | reverse %}
+
+### Electronic Preprints
+
+<ol reversed>
+{% for pub in preprints %}
+   <li>
+   {% if pub.author %}
+      <p>
+      {% for author in pub.author  %}
+         {% if author == pub.author.last %}
+            {{ author | prepend: "and " | append: "." }}
+         {% else %}
+            {{ author | append: ", " }}
+         {% endif %}
+      {% endfor %}
+      </p>
+   {% endif %}
+   {% if pub.title %}
+      <p>
+      <i>{{ pub.title }}</i>
+      </p>
+   {% endif %}
+   {% if pub.journal and pub.volume and pub.pages and pub.year %}
+      <p>
+      {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
+      </p>
+   {% endif %}
+   {% if pub.doi or pub.arxiv or pub.url %}
+      <p>
+      {% if pub.doi %}
+         <i class="ai ai-doi"></i>
+         <a href="https:/doi.org/{{ pub.doi }}">
+         {{ pub.doi }}
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.arxiv %}
+         <i class="ai ai-arxiv"></i>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
+         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.url %}
+         <i class="fa fa-link"></i>
+         <a href="{{ pub.url }}">
+         {{ pub.url }}
+         </a>
+         <br>
+      {% endif %}
+      </p>
+   {% endif %}
+   {% if pub.abstract %}
+      <p>
+      {{ pub.abstract }}
+      </p>
+   {% endif %}
+   </li>
+{% endfor %}
+</ol>
+
+### Journal articles
+
+<ol reversed>
+{% for pub in articles %}
+   <li>
+   {% if pub.author %}
+      <p>
+      {% for author in pub.author  %}
+         {% if author == pub.author.last %}
+            {{ author | prepend: "and " | append: "." }}
+         {% else %}
+            {{ author | append: ", " }}
+         {% endif %}
+      {% endfor %}
+      </p>
+   {% endif %}
+   {% if pub.title %}
+      <p>
+      <i>{{ pub.title }}</i>
+      </p>
+   {% endif %}
+   {% if pub.journal and pub.volume and pub.pages and pub.year %}
+      <p>
+      {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
+      </p>
+   {% endif %}
+   {% if pub.doi or pub.arxiv or pub.url %}
+      <p>
+      {% if pub.doi %}
+         <i class="ai ai-doi"></i>
+         <a href="https:/doi.org/{{ pub.doi }}">
+         {{ pub.doi }}
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.arxiv %}
+         <i class="ai ai-arxiv"></i>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
+         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.url %}
+         <i class="fa fa-link"></i>
+         <a href="{{ pub.url }}">
+         {{ pub.url }}
+         </a>
+         <br>
+      {% endif %}
+      </p>
+   {% endif %}
+   {% if pub.abstract %}
+      <p>
+      {{ pub.abstract }}
+      </p>
+   {% endif %}
+   </li>
+{% endfor %}
+</ol>
+
+### Conference proceedings
+
+<ol reversed>
+{% for pub in proceedings %}
+   <li>
+   {% if pub.author %}
+      <p>
+      {% for author in pub.author  %}
+         {% if author == pub.author.last %}
+            {{ author | prepend: "and " | append: "." }}
+         {% else %}
+            {{ author | append: ", " }}
+         {% endif %}
+      {% endfor %}
+      </p>
+   {% endif %}
+   {% if pub.title %}
+      <p>
+      <i>{{ pub.title }}</i>
+      </p>
+   {% endif %}
+   {% if pub.journal and pub.volume and pub.pages and pub.year %}
+      <p>
+      {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
+      </p>
+   {% endif %}
+   {% if pub.doi or pub.arxiv or pub.url %}
+      <p>
+      {% if pub.doi %}
+         <i class="ai ai-doi"></i>
+         <a href="https:/doi.org/{{ pub.doi }}">
+         {{ pub.doi }}
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.arxiv %}
+         <i class="ai ai-arxiv"></i>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
+         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
+         </a>
+         <br>
+      {% endif %}
+      {% if pub.url %}
+         <i class="fa fa-link"></i>
+         <a href="{{ pub.url }}">
+         {{ pub.url }}
+         </a>
+         <br>
+      {% endif %}
+      </p>
+   {% endif %}
+   {% if pub.abstract %}
+      <p>
+      {{ pub.abstract }}
+      </p>
+   {% endif %}
+   </li>
+{% endfor %}
+</ol>
