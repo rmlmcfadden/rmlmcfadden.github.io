@@ -8,6 +8,12 @@ permalink: /cv
 
 # CV
 
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
+
 ## Education
 
 <table id="experiments">
@@ -101,7 +107,7 @@ permalink: /cv
    {% endif %}
    {% if pub.title %}
       <p>
-      <i>{{ pub.title }}</i>
+      <i>{{ pub.title }}.</i>
       </p>
    {% endif %}
    {% if pub.journal and pub.volume and pub.pages and pub.year %}
@@ -113,7 +119,7 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https:/doi.org/{{ pub.doi }}">
+         <a href="https://doi.org/{{ pub.doi }}">
          {{ pub.doi }}
          </a>
          <br>
@@ -161,7 +167,7 @@ permalink: /cv
    {% endif %}
    {% if pub.title %}
       <p>
-      <i>{{ pub.title }}</i>
+      <i>{{ pub.title }}.</i>
       </p>
    {% endif %}
    {% if pub.journal and pub.volume and pub.pages and pub.year %}
@@ -173,7 +179,7 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https:/doi.org/{{ pub.doi }}">
+         <a href="https://doi.org/{{ pub.doi }}">
          {{ pub.doi }}
          </a>
          <br>
@@ -221,7 +227,7 @@ permalink: /cv
    {% endif %}
    {% if pub.title %}
       <p>
-      <i>{{ pub.title }}</i>
+      <i>{{ pub.title }}.</i>
       </p>
    {% endif %}
    {% if pub.journal and pub.volume and pub.pages and pub.year %}
@@ -233,7 +239,7 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https:/doi.org/{{ pub.doi }}">
+         <a href="https://doi.org/{{ pub.doi }}">
          {{ pub.doi }}
          </a>
          <br>
