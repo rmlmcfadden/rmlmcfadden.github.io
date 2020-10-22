@@ -29,7 +29,7 @@ exclude:
 - package.json
 - package-lock.json
 - script/
-- LICENSE.txt
+- LICENSE
 - lib/
 - bin/
 - README.md
