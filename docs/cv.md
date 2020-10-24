@@ -88,7 +88,7 @@ permalink: /cv
 
 ### Electronic Preprints
 
-{% assign preprints = site.data.rmlmcfadden.publications.preprints | sort: "published" | reverse %}
+{% assign preprints = site.data.rmlm.publications.preprints | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in preprints %}
@@ -118,37 +118,22 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https://doi.org/{{ pub.doi }}">
-         {{ pub.doi }}
-         </a>
-         <br>
+         <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
       {% endif %}
       {% if pub.arxiv %}
          <i class="ai ai-arxiv"></i>
-         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
-         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
-         </a>
-         <br>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]</a>
       {% endif %}
       {% if pub.url %}
          <i class="fa fa-link"></i>
-         <a href="{{ pub.url }}">
-         {{ pub.url }}
-         </a>
-         <br>
+         <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
    {% endif %}
    {% if pub.abstract %}
       <details>
-         <summary>
-         <b>
-         Abstract
-         </b>
-         </summary>
-         <p>
-         {{ pub.abstract }}
-         </p>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
       </details>
    {% endif %}
    </li>
@@ -157,7 +142,7 @@ permalink: /cv
 
 ### Journal Articles
 
-{% assign articles = site.data.rmlmcfadden.publications.articles | sort: "published" | reverse %}
+{% assign articles = site.data.rmlm.publications.articles | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in articles %}
@@ -187,37 +172,22 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https://doi.org/{{ pub.doi }}">
-         {{ pub.doi }}
-         </a>
-         <br>
+         <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
       {% endif %}
       {% if pub.arxiv %}
          <i class="ai ai-arxiv"></i>
-         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
-         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
-         </a>
-         <br>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]</a>
       {% endif %}
       {% if pub.url %}
          <i class="fa fa-link"></i>
-         <a href="{{ pub.url }}">
-         {{ pub.url }}
-         </a>
-         <br>
+         <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
    {% endif %}
    {% if pub.abstract %}
       <details>
-         <summary>
-         <b>
-         Abstract
-         </b>
-         </summary>
-         <p>
-         {{ pub.abstract }}
-         </p>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
       </details>
    {% endif %}
    </li>
@@ -226,7 +196,7 @@ permalink: /cv
 
 ### Conference Proceedings
 
-{% assign proceedings = site.data.rmlmcfadden.publications.proceedings | sort: "published" | reverse %}
+{% assign proceedings = site.data.rmlm.publications.proceedings | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in proceedings %}
@@ -256,37 +226,22 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https://doi.org/{{ pub.doi }}">
-         {{ pub.doi }}
-         </a>
-         <br>
+         <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
       {% endif %}
       {% if pub.arxiv %}
          <i class="ai ai-arxiv"></i>
-         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
-         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
-         </a>
-         <br>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]</a>
       {% endif %}
       {% if pub.url %}
          <i class="fa fa-link"></i>
-         <a href="{{ pub.url }}">
-         {{ pub.url }}
-         </a>
-         <br>
+         <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
    {% endif %}
    {% if pub.abstract %}
       <details>
-         <summary>
-         <b>
-         Abstract
-         </b>
-         </summary>
-         <p>
-         {{ pub.abstract }}
-         </p>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
       </details>
    {% endif %}
    </li>
@@ -295,14 +250,14 @@ permalink: /cv
 
 ### Theses
 
-{% assign theses = site.data.rmlmcfadden.publications.theses | sort: "published" | reverse %}
+{% assign theses = site.data.rmlm.publications.theses | sort: "published" | reverse %}
 
 <ol reversed>
 {% for pub in theses %}
    <li>
    {% if pub.author %}
       <p>
-      {% for author in pub.author  %}
+      {% for author in pub.author %}
          {{ author }}.
       {% endfor %}
       </p>
@@ -321,37 +276,22 @@ permalink: /cv
       <p>
       {% if pub.doi %}
          <i class="ai ai-doi"></i>
-         <a href="https://doi.org/{{ pub.doi }}">
-         {{ pub.doi }}
-         </a>
-         <br>
+         <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
       {% endif %}
       {% if pub.arxiv %}
          <i class="ai ai-arxiv"></i>
-         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">
-         arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]
-         </a>
-         <br>
+         <a href="https://arxiv.org/abs/{{ pub.arxiv.id }}">arXiv:{{ pub.arxiv.id }} [{{ pub.arxiv.cat }}]</a>
       {% endif %}
       {% if pub.url %}
          <i class="fa fa-link"></i>
-         <a href="{{ pub.url }}">
-         {{ pub.url }}
-         </a>
-         <br>
+         <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
    {% endif %}
    {% if pub.abstract %}
       <details>
-         <summary>
-         <b>
-         Abstract
-         </b>
-         </summary>
-         <p>
-         {{ pub.abstract }}
-         </p>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
       </details>
    {% endif %}
    </li>

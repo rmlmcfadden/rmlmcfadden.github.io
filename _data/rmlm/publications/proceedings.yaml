@@ -1,0 +1,48 @@
+- title: On the use of <sup>31</sup>Mg for β-detected NMR studies of solids
+  author:
+    - R. M. L. McFadden
+    - A. Chatzichristos
+    - M. H. Dehn
+    - D. Fujimoto
+    - H. Funakubo
+    - A. Gottberg
+    - T. Hitosugi
+    - V. L. Karner
+    - R. F. Kiefl
+    - M. Kurokawa
+    - J. Lassen
+    - C. D. P. Levy
+    - R. Li
+    - G. D. Morris
+    - M. R. Pearson
+    - S. Shiraki
+    - M. Stachura
+    - J. Sugiyama
+    - D. M. Szunyogh
+    - W. A. MacFarlane
+  abstract: >-
+    It has long been desirable to develop a spin-1/2 nucleus as a probe for
+    β-detected NMR studies of solid materials. As a pure magnetic probe, it
+    would greatly compliment our most extensively used nucleus <sup>8</sup>Li
+    (spin-2), which is sensitive to both dipolar and quadrupolar interactions.
+    Following the recent successful polarization of spin-1/2 <sup>31</sup>Mg at
+    TRIUMF, we report here on its use to study solids where host magnesium atoms
+    occupy lattice sites with cubic symmetry - a situation most directly
+    comparable to (stable) <sup>25</sup>Mg NMR. We show preliminary results in:
+    rocksalt MgO; spinel MgAl<sub>2</sub>O<sub>4</sub>; and antifluorite
+    Mg<sub>2</sub>Si, which is an interesting semiconducting thermoelectric.
+    Deviations from the results with conventional <sup>25</sup>Mg NMR are
+    attributed to the systematics associated with the β-NMR technique. The
+    <sup>31</sup>Mg decay chain is found to complicate the extraction of
+    spin-lattice relaxation rates due to a time-dependent background signal
+    introduced by its progeny. The prospect of further use of 31Mg as a β-NMR
+    probe for the study of condensed matter is good.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011047'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011047
+  submitted: 2017-06-15T00:00:00.000Z
+  published: 2018-03-01T00:00:00.000Z
+
