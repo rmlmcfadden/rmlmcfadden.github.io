@@ -344,28 +344,28 @@
     - R. F. Kiefl
     - and W. A. MacFarlane
   abstract: >-
-    We report measurements of the dynamics of isolated 8Li+ in single crystal
-    rutile TiO<sub>2</sub> using β-detected nuclear magnetic resonance. From
-    spin–lattice relaxation and motional narrowing, we find two sets of
-    thermally activated dynamics: one below 100 K and one at higher
-    temperatures. At low temperature, the activation barrier is 26.8(6) meV with
-    prefactor 1.23(5) × 10<sup>10</sup> s<sup>-1</sup>. We suggest this is
-    unrelated to Li<sup>+</sup> motion and rather is a consequence of electron
-    polarons in the vicinity of the implanted <sup>8</sup>Li<sup>+</sup> that
-    are known to become mobile in this temperature range. Above 100 K,
-    Li<sup>+</sup> undergoes long-range diffusion as an isolated uncomplexed
-    cation, characterized by an activation energy and prefactor of 0.32(2) eV
-    and 1.0(5) × 10<sup>16</sup> s<sup>-1</sup>, respectively, in agreement with
-    macroscopic diffusion measurements. These results in the dilute limit from a
-    microscopic probe indicate that Li<sup>+</sup> concentration does not limit
-    the diffusivity even up to high concentrations but that some key ingredient
-    is missing in the calculations of the migration barrier. The anomalous
-    prefactors provide further insight into both Li<sup>+</sup> and polaron
-    motion.
+    We report measurements of the dynamics of isolated
+    <sup>8</sup>Li<sup>+</sup> in single crystal rutile TiO<sub>2</sub> using
+    β-detected nuclear magnetic resonance. From spin-lattice relaxation and
+    motional narrowing, we find two sets of thermally activated dynamics: one
+    below 100 K and one at higher temperatures. At low temperature, the
+    activation barrier is 26.8(6) meV with prefactor 1.23(5) × 10<sup>10</sup>
+    s<sup>-1</sup>. We suggest this is unrelated to Li<sup>+</sup> motion and
+    rather is a consequence of electron polarons in the vicinity of the
+    implanted <sup>8</sup>Li<sup>+</sup> that are known to become mobile in this
+    temperature range. Above 100 K, Li<sup>+</sup> undergoes long-range
+    diffusion as an isolated uncomplexed cation, characterized by an activation
+    energy and prefactor of 0.32(2) eV and 1.0(5) × 10<sup>16</sup>
+    s<sup>-1</sup>, respectively, in agreement with macroscopic diffusion
+    measurements. These results in the dilute limit from a microscopic probe
+    indicate that Li<sup>+</sup> concentration does not limit the diffusivity
+    even up to high concentrations but that some key ingredient is missing in
+    the calculations of the migration barrier. The anomalous prefactors provide
+    further insight into both Li<sup>+</sup> and polaron motion.
   journal: Chem. Mater.
   volume: 29
   issue: 23
-  pages: 10187–10197
+  pages: 10187-10197
   year: 2017
   doi: 10.1021/acs.chemmater.7b04093
   arxiv:
