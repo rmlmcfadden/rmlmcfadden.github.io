@@ -139,10 +139,11 @@
     first-order Morin spin reorientation in single crystal
     α−Fe<sub>2</sub>O<sub>3</sub> occurs at the same temperature at all depths
     between 1 and 100 nm from the (110) surface; however, the implanted nuclear
-    spin experiences an increased 1/T1 relaxation rate at shallow depths
-    revealing soft-surface magnons. The surface-localized dynamics decay towards
-    the bulk with a characteristic length of ε=11±1  nm, closely matching the
-    finite-size thresholds of hematite nanostructures.
+    spin experiences an increased 1/<i>T</i><sub>1</sub> relaxation rate at
+    shallow depths revealing soft-surface magnons. The surface-localized
+    dynamics decay towards the bulk with a characteristic length of ε = 11 ±
+    1  nm, closely matching the finite-size thresholds of hematite
+    nanostructures.
   journal: Phys. Rev. Lett.
   volume: 116
   issue: 10-11
@@ -220,9 +221,9 @@
     lithium salt rather than the polymer glass transition temperature. The
     pre-exponential factor increases exponentially with ionicity, while the
     activation energy for hopping increases approximately linearly, going from
-    6.3±0.2 kJ mol<sup>-1</sup> in PEO:LiTFA to 17.8±0.2 kJ mol<sup>-1</sup> in
-    PEO:LiTFSI. The more rapid increase in the pre-exponential factor outweighs
-    the effect of the larger activation energy and results in
+    6.3 ± 0.2 kJ mol<sup>-1</sup> in PEO:LiTFA to 17.8 ± 0.2 kJ mol<sup>-1</sup>
+    in PEO:LiTFSI. The more rapid increase in the pre-exponential factor
+    outweighs the effect of the larger activation energy and results in
     <sup>8</sup>Li<sup>+</sup> hopping being fastest in PEO followed by
     PEO:LiTFSI, PEO:LiOTf, and PEO:LiTFA.
   journal: J. Chem. Phys.
@@ -234,6 +235,143 @@
   submitted: null
   accepted: null
   published: 2017-06-27
+- title: >-
+    Determination of the nature of fluctuations using <sup>8</sup>Li and
+    <sup>9</sup>Li β-NMR and spin-lattice relaxation
+  author:
+    - A. Chatzichristos
+    - R. M. L. McFadden
+    - V. L. Karner
+    - D. L. Cortie
+    - C. D. P. Levy
+    - W. A. MacFarlane
+    - G. D. Morris
+    - M. R. Pearson
+    - Z. Salman
+    - R. F. Kiefl
+  abstract: >-
+    We report a comparison of the 1/<i>T</i><sub>1</sub> spin-lattice relaxation
+    rates for <sup>9</sup>Li and <sup>8</sup>Li in Pt and SrTiO<sub>3</sub>, in
+    order to differentiate between magnetic and electric quadrupolar relaxation
+    mechanisms. In Pt, the ratio of the 1/<i>T</i><sub>1</sub> spin relaxation
+    rates <i>R</i><sub>Pt</sub> was found to be 6.82(29), which is close to but
+    less than the theoretical limit of ∼7.68 for pure magnetic relaxation. In
+    SrTiO<sub>3</sub> this ratio was found to be 2.7(3), which is close to but
+    larger than the theoretical limit of ∼2.14 expected for pure electric
+    quadrupolar relaxation. These results bring insight into the nature of the
+    fluctuations in the local environment of implanted <sup>8</sup>Li observed
+    by β-NMR.
+  journal: Phys. Rev. B
+  volume: 96
+  issue: 1
+  pages: '014307'
+  year: 2017
+  doi: 10.1103/PhysRevB.96.014307
+  arxiv:
+    id: 1703.10156
+    cat: cond-mat.mtrl-sci
+  submitted: 2017-03-26
+  published: 2017-07-31
+- title: >-
+    Lithium diffusion in spinel Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub> and
+    LiTi<sub>2</sub>O<sub>4</sub> films detected with <sup>8</sup>Li β-NMR
+  author:
+    - J. Sugiyama
+    - I. Umegaki
+    - T. Uyama
+    - R. M. L. McFadden
+    - S. Shiraki
+    - T. Hitosugi
+    - Z. Salman
+    - H. Saadaoui
+    - G. D. Morris
+    - W. A. MacFarlane
+    - R. F. Kiefl
+  abstract: >-
+    Diffusion of Li<sup>+</sup> in (111) oriented thin films of the spinels
+    Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub> and LiTi<sub>2</sub>O<sub>4</sub>
+    has been studied with <sup>8</sup>Li β-detected NMR in the temperature range
+    between 5 and 310 K. In Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub>, the
+    spin-lattice relaxation rate (1/<i>T</i><sub>1</sub>) versus temperature
+    shows a clear maximum around 100 K (= <i>T</i><sub>max</sub>) which we
+    attribute to magnetic freezing of dilute Ti<sup>3+</sup> local magnetic
+    moments, consistent with the results of magnetization and muon spin
+    relaxation (μ<sup>+</sup>SR) measurements. The decrease in
+    1/<i>T</i><sub>1</sub> with temperature above <i>T</i><sub>max</sub>
+    indicates that Li<sup>+</sup> starts to diffuse with a thermal activation
+    energy (<i>E<sub>a</sub></i>) of 0.11(1) eV. In
+    LiTi<sub>2</sub>O<sub>4</sub>, on the contrary, as temperature increases
+    from 200 K, 1/<i>T</i><sub>1</sub> increases monotonically up to 310 K. This
+    suggests that Li also starts to diffuse above 200 K with
+    <i>E<sub>a</sub></i> = 0.16(2) eV in LiTi<sub>2</sub>O<sub>4</sub>.
+    Comparison with conventional Li-NMR on
+    Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub> implies that both β-NMR and
+    μ<sup>+</sup>SR sense short-range Li motion, i.e., a jump diffusion of
+    Li<sup>+</sup> to the nearest neighboring sites.
+  journal: Phys. Rev. B
+  volume: 96
+  issue: 9
+  pages: 094402
+  year: 2017
+  doi: 10.1103/PhysRevB.96.094402
+  recieved: 2017-02-01
+  revised: 2017-05-18
+  published: 2017-09-01
+- title: >-
+    Microscopic dynamics of Li<sup>+</sup> in rutile TiO<sub>2</sub> revealed by
+    <sup>8</sup>Li β-detected nuclear magnetic resonance
+  author:
+    - R. M. L. McFadden
+    - T. J. Buck
+    - A. Chatzichristos
+    - C.-C. Chen
+    - K. H. Chow
+    - D. L. Cortie
+    - M. H. Dehn
+    - V. L. Karner
+    - D. Koumoulis
+    - C. D. P. Levy
+    - C. Li
+    - I. McKenzie
+    - R. Merkle
+    - G. D. Morris
+    - M. R. Pearson
+    - Z. Salman
+    - D. Samuelis
+    - M. Stachura
+    - J. Xiao
+    - J. Maier
+    - R. F. Kiefl
+    - and W. A. MacFarlane
+  abstract: >-
+    We report measurements of the dynamics of isolated 8Li+ in single crystal
+    rutile TiO<sub>2</sub> using β-detected nuclear magnetic resonance. From
+    spin–lattice relaxation and motional narrowing, we find two sets of
+    thermally activated dynamics: one below 100 K and one at higher
+    temperatures. At low temperature, the activation barrier is 26.8(6) meV with
+    prefactor 1.23(5) × 10<sup>10</sup> s<sup>-1</sup>. We suggest this is
+    unrelated to Li<sup>+</sup> motion and rather is a consequence of electron
+    polarons in the vicinity of the implanted <sup>8</sup>Li<sup>+</sup> that
+    are known to become mobile in this temperature range. Above 100 K,
+    Li<sup>+</sup> undergoes long-range diffusion as an isolated uncomplexed
+    cation, characterized by an activation energy and prefactor of 0.32(2) eV
+    and 1.0(5) × 10<sup>16</sup> s<sup>-1</sup>, respectively, in agreement with
+    macroscopic diffusion measurements. These results in the dilute limit from a
+    microscopic probe indicate that Li<sup>+</sup> concentration does not limit
+    the diffusivity even up to high concentrations but that some key ingredient
+    is missing in the calculations of the migration barrier. The anomalous
+    prefactors provide further insight into both Li<sup>+</sup> and polaron
+    motion.
+  journal: Chem. Mater.
+  volume: 29
+  issue: 23
+  pages: 10187–10197
+  year: 2017
+  doi: 10.1021/acs.chemmater.7b04093
+  arxiv:
+    id: 1709.06674
+    cat: cond-mat.mtrl-sci
+  published: 2017-11-07
 - title: >-
     Investigation of ionic and anomalous magnetic behavior in CrSe<sub>2</sub>
     using <sup>8</sup>Li β-NMR
