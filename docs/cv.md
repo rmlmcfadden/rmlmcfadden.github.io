@@ -114,6 +114,12 @@ permalink: /cv
       {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
       </p>
    {% endif %}
+   {% if pub.abstract %}
+      <details>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
+      </details>
+   {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
       {% if pub.doi %}
@@ -129,12 +135,6 @@ permalink: /cv
          <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
-   {% endif %}
-   {% if pub.abstract %}
-      <details>
-         <summary>Abstract</summary>
-         <p>{{ pub.abstract }}</p>
-      </details>
    {% endif %}
    </li>
 {% endfor %}
@@ -168,6 +168,12 @@ permalink: /cv
       {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
       </p>
    {% endif %}
+   {% if pub.abstract %}
+      <details>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
+      </details>
+   {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
       {% if pub.doi %}
@@ -183,12 +189,6 @@ permalink: /cv
          <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
-   {% endif %}
-   {% if pub.abstract %}
-      <details>
-         <summary>Abstract</summary>
-         <p>{{ pub.abstract }}</p>
-      </details>
    {% endif %}
    </li>
 {% endfor %}
@@ -222,6 +222,12 @@ permalink: /cv
       {{ pub.journal }} <b>{{ pub.volume }}</b>, {{ pub.pages }} ({{ pub.year }}).
       </p>
    {% endif %}
+   {% if pub.abstract %}
+      <details>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
+      </details>
+   {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
       {% if pub.doi %}
@@ -237,12 +243,6 @@ permalink: /cv
          <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
-   {% endif %}
-   {% if pub.abstract %}
-      <details>
-         <summary>Abstract</summary>
-         <p>{{ pub.abstract }}</p>
-      </details>
    {% endif %}
    </li>
 {% endfor %}
@@ -272,6 +272,12 @@ permalink: /cv
       {{ pub.degree }} Thesis ({{ pub.school }}, {{ pub.address }}, {{ pub.year }}).
       </p>
    {% endif %}
+   {% if pub.abstract %}
+      <details>
+         <summary>Abstract</summary>
+         <p>{{ pub.abstract }}</p>
+      </details>
+   {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
       {% if pub.doi %}
@@ -287,12 +293,6 @@ permalink: /cv
          <a href="{{ pub.url }}">{{ pub.url }}</a>
       {% endif %}
       </p>
-   {% endif %}
-   {% if pub.abstract %}
-      <details>
-         <summary>Abstract</summary>
-         <p>{{ pub.abstract }}</p>
-      </details>
    {% endif %}
    </li>
 {% endfor %}
