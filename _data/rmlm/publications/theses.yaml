@@ -4,23 +4,23 @@
   author:
     - R. M. L. McFadden
   abstract: >-
-    This thesis reports measurements on the dynamics of isolated lithium in
+    <p>This thesis reports measurements on the dynamics of isolated lithium in
     single crystal materials using ion-implanted <sup>8</sup>Li β-detected
     nuclear magnetic resonance. From spin-lattice relaxation and resonance
     measurements, we identify the kinetic parameters describing the ion’s
     site-to-site hop rate – the elementary process in long-range solid-state
     diffusion – and compare the results with theoretical work in the literature,
-    as well as experiments at higher concentration. In addition to these “ionic”
+    as well as experiments at higher concentration. In addition to these "ionic"
     details, the nuclear magnetic resonance probe provides information on the
     electronic properties of the host, whose most intriguing features are also
-    discussed. In the one-dimensional ion conductor rutile TiO<sup>2</sup>, we
-    find two sets of thermally activated dynamics: one below 100 K and another
-    at higher temperatures. We suggest the low temperature process is unrelated
-    to lithium motion, but rather a consequence of electron polarons in the
-    vicinity of the implanted <sup>8</sup>Li<sup>+</sup>. Above 100 K, Li⁺
-    undergoes diffusion as an isolated uncomplexed cation, characterized by an
-    activation energy and prefactor that are in agreement with macroscopic
-    diffusion measurements, but not with theory. In
+    discussed.</p> <p>In the one-dimensional ion conductor rutile
+    TiO<sub>2</sub>, we find two sets of thermally activated dynamics: one below
+    100 K and another at higher temperatures. We suggest the low temperature
+    process is unrelated to lithium motion, but rather a consequence of electron
+    polarons in the vicinity of the implanted <sup>8</sup>Li<sup>+</sup>. Above
+    100 K, Li⁺ undergoes diffusion as an isolated uncomplexed cation,
+    characterized by an activation energy and prefactor that are in agreement
+    with macroscopic diffusion measurements, but not with theory.</p> <p>In
     Bi<sub>2</sub>Te<sub>2</sub>Se, a topological insulator with layered
     tetradymite structure, implanted <sup>8</sup>Li<sup>+</sup> undergoes ionic
     diffusion above 150 K, likely in the van der Waals gap between adjacent Te
@@ -30,14 +30,14 @@
     intercept, accompanied by an anomalous field dependence to the resonance
     shift. We suggest that these may be related to a strong contribution from
     orbital currents or the magnetic freezeout of charge carriers in this
-    heavily compensated semiconductor. In the doped tetradymite topological
-    insulators Bi<sub>2</sub>Se<sub>3</sub>:Ca and
+    heavily compensated semiconductor.</p> <p>In the doped tetradymite
+    topological insulators Bi<sub>2</sub>Se<sub>3</sub>:Ca and
     Bi<sub>2</sub>Te<sub>3</sub>:Mn, the onset of lithium dynamics is suppressed
     to above 200 K. At low temperatures, the nuclear magnetic resonance
     properties are those of a heavily doped semiconductor in the metallic limit,
     with Korringa relaxation and a small, negative, temperature-dependent Knight
     shift. From this, we make a detailed comparison with isostructural
-    Bi<sub>2</sub>Te<sub>2</sub>Se.
+    Bi<sub>2</sub>Te<sub>2</sub>Se.</p>
   degree: PhD
   school: University of British Columbia
   address: Vancouver
