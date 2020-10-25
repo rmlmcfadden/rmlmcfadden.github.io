@@ -3,7 +3,6 @@ layout: default
 title: CV
 description: My curriculum vitae.
 nav_order: 2
-permalink: /cv
 ---
 
 # CV

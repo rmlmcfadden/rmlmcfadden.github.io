@@ -2,7 +2,6 @@
 layout: default
 title: Publications
 description: β-NMR publications.
-permalink: /triumf/bnmr/publications
 parent: β-NMR
 grand_parent: TRIUMF
 ---
