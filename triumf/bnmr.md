@@ -4,7 +4,7 @@ title: β-NMR
 description: β-detected nuclear magnetic resonance.
 parent: TRIUMF
 has_children: true
-has_toc: false
+has_toc: true
 ---
 
 # β-NMR
