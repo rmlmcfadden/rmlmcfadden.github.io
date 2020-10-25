@@ -111,7 +111,7 @@
   pages: 241113(R)
   year: 2015
   doi: 10.1103/PhysRevB.91.241113
-  recieved: 2015-02-14
+  submitted: 2015-02-14
   revised: 2015-06-03
   published: 2015-06-23
 - title: >-
@@ -150,7 +150,7 @@
   pages: 106103
   year: 2016
   doi: 10.1103/PhysRevLett.116.106103
-  recieved: 2015-08-15
+  submitted: 2015-08-15
   published: 2016-03-10
 - title: >-
     Chemisorption of muonium on gold nanoparticles: a sensitive new probe of
@@ -216,7 +216,7 @@
     results are compared with previous β-NMR measurements on pure PEO and PEO
     with lithium triflate (LiOTf) at the same loading [McKenzie et al., J. Am.
     Chem. Soc. 136, 7833 (2014)]. Activated hopping of
-    <sup>8</sup>Li<sup>+</sup> was observed in all of the films above ∼250 K,
+    <sup>8</sup>Li<sup>+</sup> was observed in all of the films above ~250 K,
     with the hopping parameters strongly correlated with the ionicity of the
     lithium salt rather than the polymer glass transition temperature. The
     pre-exponential factor increases exponentially with ionicity, while the
@@ -255,9 +255,9 @@
     order to differentiate between magnetic and electric quadrupolar relaxation
     mechanisms. In Pt, the ratio of the 1/<i>T</i><sub>1</sub> spin relaxation
     rates <i>R</i><sub>Pt</sub> was found to be 6.82(29), which is close to but
-    less than the theoretical limit of ∼7.68 for pure magnetic relaxation. In
+    less than the theoretical limit of ~7.68 for pure magnetic relaxation. In
     SrTiO<sub>3</sub> this ratio was found to be 2.7(3), which is close to but
-    larger than the theoretical limit of ∼2.14 expected for pure electric
+    larger than the theoretical limit of ~2.14 expected for pure electric
     quadrupolar relaxation. These results bring insight into the nature of the
     fluctuations in the local environment of implanted <sup>8</sup>Li observed
     by β-NMR.
@@ -314,7 +314,7 @@
   pages: 094402
   year: 2017
   doi: 10.1103/PhysRevB.96.094402
-  recieved: 2017-02-01
+  submitted: 2017-02-01
   revised: 2017-05-18
   published: 2017-09-01
 - title: >-
@@ -371,7 +371,369 @@
   arxiv:
     id: 1709.06674
     cat: cond-mat.mtrl-sci
+  submitted: 2017-09-26
   published: 2017-11-07
+- title: >-
+    Nature of magnetism in thiol-capped gold nanoparticles investigated with
+    muon spin rotation
+  author:
+    - M. H. Dehn
+    - D. J. Arseneau
+    - T. Buck
+    - D. L. Cortie
+    - D. G. Fleming
+    - S. R. King
+    - W. A. MacFarlane
+    - A. M. McDonagh
+    - R. M. L. McFadden
+    - D. R. G. Mitchell
+    - R. F. Kiefl
+  abstract: >-
+    Muon spin rotation/relaxation measurements show clear evidence for magnetism
+    in 2.2 nm gold nanoparticles capped with butanethiol. At low temperatures
+    (1.8 K), there is significant spin relaxation which decreases as a function
+    of both the applied longitudinal magnetic field and increasing temperature.
+    The results indicate that there are spatially inhomogeneous electronic
+    moments that fluctuate with a wide distribution of correlation times.
+    Possible explanations are discussed.
+  journal: Appl. Phys. Lett.
+  volume: 112
+  issue: 5
+  pages: 22085
+  year: 2018
+  doi: 10.1063/1.5017768
+  submitted: 2017-11-30
+  published: 2018-01-31
+- title: >-
+    Direct measurements of the temperature, depth and processing dependence of
+    phenyl ring dynamics in polystyrene thin films by β-detected NMR
+  author:
+    - I. McKenzie
+    - Y. Chai
+    - D. L. Cortie
+    - J. A. Forrest
+    - D. Fujimoto
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - W. A. MacFarlane
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - S. Zhu
+  abstract: >-
+    There is indirect evidence that the dynamics of a polymer near a free
+    surface are enhanced compared with the bulk but there are few studies of how
+    dynamics varies with depth. β-Detected nuclear spin relaxation of implanted
+    <sup>8</sup>Li<sup>+</sup> has been used to directly probe the temperature
+    and depth dependence of the γ-relaxation mode, which is due to phenyl rings
+    undergoing restricted rotation, in thin films of atactic deuterated
+    polystyrene (PS-d8) and determine how the depth dependence of dynamics is
+    affected by sample processing, such as annealing, floating on water and the
+    inclusion of a surfactant, and by the presence of a buried interface. The
+    activation energy for the γ-relaxation process is lower near the free
+    surface. Annealing the PS-d8 films and then immersing in water to mimic the
+    floating procedure used to transfer films had negligible effects on the
+    thickness of the region near the free surface with enhanced mobility.
+    Measurements on a bilayer film indicate enhanced phenyl ring dynamics near
+    the buried interface compared with a single film at the same depth. PS-d8
+    films annealed with the surfactant sodium dodecyl sulfate (SDS) deposited on
+    the surface show enhanced dynamics in the bulk compared with a pure PS-d8
+    film and a PS-d8 film where the SDS was washed away. There is less contrast
+    between the surface and bulk in the SDS-treated sample, which could account
+    for the elimination of the <i>T<sub>g</sub></i> confinement effect observed
+    in films containing SDS [Chen and Torkelson, Polymer, 2016, <b>87</b>, 226].
+  journal: Soft Matter
+  volume: 14
+  issue: 36
+  pages: 7324-7334
+  year: 2018
+  doi: 10.1039/C8SM00812D
+  submitted: 2018-04-19
+  published: 2018-05-24
+- title: >-
+    Direct observation of Mg<sup>2+</sup> complexes in ionic liquid solutions by
+    <sup>31</sup>Mg β-NMR spectroscopy
+  author:
+    - D. Szunyogh
+    - R. M. L. McFadden
+    - V. L. Karner
+    - A. Chatzichristos
+    - T. Day Goodacre
+    - M. H. Dehn
+    - L. Formenti
+    - D. Fujimoto
+    - A. Gottberg
+    - E. Kallenberg
+    - I. Kálomista
+    - R. F. Kiefl
+    - F. H. Larsen
+    - J. Lassen
+    - C. D. P. Levy
+    - R. Li
+    - W. A. MacFarlane
+    - I. McKenzie
+    - G. D. Morris
+    - S. Pallada
+    - M. R. Pearson
+    - S. P. A. Sauer
+    - P. Schaffer
+    - P. W. Thulstrup
+    - L. Hemmingsen
+    - M. Stachura
+  abstract: >-
+    NMR spectra of Mg<sup>2+</sup> ions in ionic liquids were recorded using a
+    highly sensitive variant of NMR spectroscopy known as β-NMR. The β-NMR
+    spectra of MgCl<sub>2</sub> in EMIM-Ac and EMIM-DCA compare favourably with
+    conventional NMR, and exhibit linewidths of ~3 ppm, allowing for
+    discrimination of species with oxygen and nitrogen coordination.
+  journal: Dalton Trans.
+  volume: 47
+  issue: 41
+  pages: 14431-14435
+  year: 2018
+  doi: 10.1039/C8DT02350F
+  submitted: 2018-06-07
+  published: 2018-10-03
+- title: >-
+    Ionic and electronic properties of the topological insulator
+    Bi<sub>2</sub>Te<sub>2</sub>Se investigated via β-detected nuclear magnetic
+    relaxation and resonance of <sup>8</sup>Li
+  author:
+    - R. M. L. McFadden
+    - A. Chatzichristos
+    - K. H. Chow
+    - D. L. Cortie
+    - M. H. Dehn
+    - D. Fujimoto
+    - M. D. Hossain
+    - H. Ji
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - G. D. Morris
+    - O. Ofer
+    - M. R. Pearson
+    - M. Stachura
+    - R. J. Cava
+    - W. A. MacFarlane
+  abstract: >-
+    We report measurements on the high-temperature ionic and low-temperature
+    electronic properties of the three-dimensional topological insulator
+    Bi<sub>2</sub>Te<sub>2</sub>Se using ion-implanted <sup>8</sup>Li β-detected
+    nuclear magnetic relaxation and resonance. With implantation energies in the
+    range 5-28 keV, the probes penetrate beyond the expected range of the
+    topological surface state, but are still within 250 nm of the surface. At
+    temperatures above ~150K, spin-lattice relaxation measurements reveal
+    isolated <sup>8</sup>Li<sup>+</sup> diffusion with an activation energy
+    <i>E<sub>A</sub></i> = 0.185(8) eV and attempt frequency
+    τ<sup>−1</sup><sub>0</sub> = 8 ± 3 × 10<sup>11</sup> s<sup>-1</sup> for
+    atomic site-to-site hopping. At lower temperature, we find a linear
+    Korringa-type relaxation mechanism with a field-dependent slope and
+    intercept, which is accompanied by an anomalous field dependence to the
+    resonance shift. We suggest that these may be related to a strong
+    contribution from orbital currents or the magnetic freeze-out of charge
+    carriers in this heavily compensated semiconductor, but that conventional
+    theories are unable to account for the extent of the field dependence.
+    Conventional NMR of the stable host nuclei may help elucidate their origin.
+  journal: Phys. Rev. B
+  volume: 99
+  issue: 12
+  pages: 125201
+  year: 2019
+  doi: 10.1103/PhysRevB.99.125201
+  arxiv:
+    id: 1810.07879
+    cat: cond-mat.mtrl-sci
+  submitted: 2018-10-26
+  published: 2019-03-08
+- title: >-
+    Bi-Arrhenius diffusion and surface trapping of <sup>8</sup>Li<sup>+</sup> in
+    rutile TiO<sub>2</sub>
+  author:
+    - A. Chatzichristos
+    - R. M. L. McFadden
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - D. Fujimoto
+    - V. L. Karner
+    - I. McKenzie
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - J. Sugiyama
+    - J. O. Ticknor
+    - W. A. MacFarlane
+    - R. F. Kiefl
+  abstract: >-
+    We report measurements of the diffusion rate of isolated ion-implanted
+    <sup>8</sup>Li<sup>+</sup> within ~120  nm of the surface of oriented
+    single-crystal rutile TiO<sub>2</sub> using a radiotracer technique. The α
+    particles from the <sup>8</sup>Li decay provide a sensitive monitor of the
+    distance from the surface and how the depth profile of <sup>8</sup>Li
+    evolves with time. The main findings are that the implanted Li<sup>+</sup>
+    diffuses and traps at the (001) surface. The <i>T</i> dependence of the
+    diffusivity is described by a bi-Arrhenius expression with activation
+    energies of 0.3341(21) eV above 200 K, whereas at lower temperatures it has
+    a much smaller barrier of 0.0313(15) eV. We consider possible origins for
+    the surface trapping, as well the nature of the low-<i>T</i> barrier.
+  journal: Phys. Rev. Lett.
+  volume: 123
+  issue: 9
+  pages: 095901
+  year: 2019
+  doi: 10.1103/PhysRevLett.123.095901
+  arxiv:
+    id: 1810.12537
+    cat: cond-mat.mtrl-sci
+  submitted: 2019-03-04
+  published: 2019-08-29
+- title: >-
+    Local metallic and structural properties of the strongly correlated metal
+    LaNiO<sub>3</sub> using <sup>8</sup>Li β-NMR
+  author:
+    - V. L. Karner
+    - A. Chatzichristos
+    - D. L. Cortie
+    - M. H. Dehn
+    - O. Foyevtsov
+    - K. Foyevtsova
+    - D. Fujimoto
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - J. O. Ticknor
+    - G. Cristiani
+    - G. Logvenov
+    - F. Wrobel
+    - B. Keimer
+    - J. Zhang
+    - J. F. Mitchell
+    - W. A. MacFarlane
+  abstract: >-
+    We report β-detected NMR of ion-implanted <sup>8</sup>Li in a single crystal
+    and thin film of the strongly correlated metal LaNiO<sup>3</sup>.
+    Spin-lattice relaxation measurements reveal two distinct local environments,
+    both metallic as evident from <i>T</i>-linear Korringa
+    1/<i>T</i><sub>1</sub> below 200 K with slopes comparable to other metals. A
+    small approximately temperature-independent Knight shift of ~74 ppm is
+    observed, yielding a normalized Korringa product characteristic of
+    substantial antiferromagnetic correlations. We find no evidence for a
+    magnetic transition from 4 to 310 K. The similarity of these features in the
+    two very different samples indicates that they are intrinsic and unrelated
+    to dilute oxygen vacancies. We attribute the two environments to two
+    distinct but similar crystallographic <sup>8</sup>Li sites and not to any
+    form of phase inhomogeneity, but this is inconsistent with the conventional
+    rhombohedral structure of LaNiO<sup>3</sup>, and also cannot be simply
+    explained by the common alternative orthorhombic or monoclinic distortions.
+  journal: Phys. Rev. B
+  volume: 100
+  issue: 16
+  pages: 165109
+  year: 2019
+  doi: 10.1103/PhysRevB.100.165109
+  arxiv:
+    id: 1906.07878
+    cat: cond-mat.str-el
+  submitted: 2019-06-18
+  published: 2019-10-07
+- title: >-
+    Dynamics of liquid 1-ethyl-3-methylimidazolium acetate measured with
+    implanted-ion <sup>8</sup>Li β-NMR
+  author:
+    - D. Fujimoto
+    - R. M. L. McFadden
+    - M. H. Dehn
+    - Y. Petel
+    - A. Chatzichristos
+    - L. Hemmingsen
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - I. McKenzie
+    - C. A. Michal
+    - G. D. Morris
+    - M. R. Pearson
+    - D. Szunyogh
+    - J. O. Ticknor
+    - M. Stachura
+    - W. A. MacFarlane
+  abstract: >-
+    We demonstrate the application of implanted-ion β-detected NMR as a probe of
+    ionic liquid molecular dynamics through the measurement of <sup>8</sup>Li
+    spin-lattice relaxation (SLR) and resonance in 1-ethyl-3-methylimidazolium
+    acetate. The motional narrowing of the resonance and the local maxima in the
+    SLR rate, 1/<i>T</i><sub>1</sub>, imply sensitivity to subnanosecond
+    Li<sup>+</sup> solvation dynamics. From an analysis of
+    1/<i>T</i><sub>1</sub>, we extract an activation energy <i>E<sub>A</sub></i>
+    = 74.8(1.5) meV and Vogel–Fulcher–Tammann constant <i>T</i><sub>VFT</sub> =
+    165.8(0.9) K, in agreement with the dynamic viscosity of the bulk solvent.
+    Near the melting point, the lineshape is broad and intense, and the form of
+    the relaxation is nonexponential, reflective of our sensitivity to
+    heterogeneous dynamics near the glass transition. The depth resolution of
+    this technique may later provide a unique means of studying nanoscale
+    phenomena in ionic liquids.
+  journal: Chem. Mater.
+  volume: 31
+  issue: 22
+  pages: 9346-9353
+  year: 2019
+  doi: 10.1021/acs.chemmater.9b02864
+  arxiv:
+    id: 1907.03684
+    cat: cond-mat.soft
+  submitted: 2019-07-19
+  published: 2019-11-12
+- title: >-
+    Observation of a charge-neutral muon-polaron complex in antiferromagnetic
+    Cr<sub>2</sub>O<sub>3</sub>
+  author:
+    - M. H. Dehn
+    - J. K. Shenton
+    - S. Holenstein
+    - Q. N. Meier
+    - D. J. Arseneau
+    - D. L. Cortie
+    - B. Hitti
+    - A. C. Y. Fang
+    - W. A. MacFarlane
+    - R. M. L. McFadden
+    - G. D. Morris
+    - Z. Salman
+    - H. Luetkens
+    - N. A. Spaldin
+    - M. Fechner
+    - R. F. Kiefl
+  abstract: >-
+    We report a comprehensive muon spin rotation (μSR) study of the prototypical
+    magnetoelectric antiferromagnet Cr<sub>2</sub>O<sub>3</sub>. We find the
+    positively charged muon (μ<sup>+</sup>) occupies several distinct
+    interstitial sites and displays a rich dynamic behavior involving local
+    hopping, thermally activated site transitions, and the formation of a
+    charge-neutral complex composed of a muon and an electron polaron. The
+    discovery of such a complex has implications for the interpretation of μSR
+    spectra in a wide range of magnetic oxides and opens a route to study the
+    dopant characteristics of interstitial hydrogen impurities in such
+    materials. We address implications arising from implanting a μ<sup>+</sup>
+    into a linear magnetoelectric and discuss the challenges of observing a
+    local magnetoelectric effect generated by the charge of the muon.
+  journal: Phys. Rev. X
+  volume: 10
+  issue: 1
+  pages: 4638
+  year: 2020
+  doi: 10.1103/PhysRevX.10.011036
+  arxiv:
+    id: 1909.00416
+    cat: cond-mat.soft
+  submitted: 2019-09-01
+  published: 2020-02-14
 - title: >-
     Investigation of ionic and anomalous magnetic behavior in CrSe<sub>2</sub>
     using <sup>8</sup>Li β-NMR
