@@ -25,10 +25,12 @@ parent: β-NMR
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
-         {% if author == pub.author.last %}
+         {% if pub.author.size > 2 and author != pub.author.last %}
+            {{ author | append: ", " }}
+         {% elsif pub.author.size > 1 and author == pub.author.last %}
             {{ author | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: ", " }}
+            {{ author | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
@@ -79,10 +81,12 @@ parent: β-NMR
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
-         {% if author == pub.author.last %}
+         {% if pub.author.size > 2 and author != pub.author.last %}
+            {{ author | append: ", " }}
+         {% elsif pub.author.size > 1 and author == pub.author.last %}
             {{ author | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: ", " }}
+            {{ author | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
@@ -133,10 +137,12 @@ parent: β-NMR
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
-         {% if author == pub.author.last %}
+         {% if pub.author.size > 2 and author != pub.author.last %}
+            {{ author | append: ", " }}
+         {% elsif pub.author.size > 1 and author == pub.author.last %}
             {{ author | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: ", " }}
+            {{ author | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
@@ -186,8 +192,14 @@ parent: β-NMR
    <li>
    {% if pub.author %}
       <p>
-      {% for author in pub.author %}
-         {{ author }}.
+      {% for author in pub.author  %}
+         {% if pub.author.size > 2 and author != pub.author.last %}
+            {{ author | append: ", " }}
+         {% elsif pub.author.size > 1 and author == pub.author.last %}
+            {{ author | prepend: "and " | append: "." }}
+         {% else %}
+            {{ author | append: "." }}
+         {% endif %}
       {% endfor %}
       </p>
    {% endif %}
