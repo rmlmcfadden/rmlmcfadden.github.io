@@ -1,3 +1,395 @@
+- title: β-NMR study of a buried Mn δ-doped layer in a silicon host
+  author:
+    - D. Cortie
+    - T. Buck
+    - R. M. L. McFadden
+    - J. Xiao
+    - C. D. P. Levy
+    - M. Dehn
+    - M. Pearson
+    - G. D. Morris
+    - S. R. Dunsiger
+    - R. F. Kiefl
+    - F. J. Rueß
+    - A. Fuhrer
+    - W. A. MacFarlane
+  abstract: >-
+    Low temperature growth methods were used to encapsulate a buried Mn δ-doping
+    layer into a silicon host. A β-NMR investigation was performed of the
+    magnetic properties in the temperature range 10-300 K using spin-polarized
+    <sup>8</sup>Li<sup>+</sup>. A depth-dependent broadening and shift of the
+    NMR resonance was detected that is consistent with internal fields
+    distributed at depths of 10-30 nm beneath the surface. At low temperatures,
+    a negative relative shift occurred and the resonance was significantly
+    broadened. At 300 K the line-shape could be described by a single Gaussian
+    line, however, at 10 K the line is best approximated by a two component
+    Lorentzian shape consisting of a broad and narrow component as anticipated
+    for a diluted magnetic alloy. The overall magnitude of the resonance shift
+    at both temperatures is small suggesting a weak interaction between the
+    <sup>8</sup>Li<sup>+</sup> and the magnetic Mn environment.
+  journal: 'J. Phys.: Conf. Ser.'
+  volume: 551
+  issue: null
+  pages: '012023'
+  year: 2014
+  doi: 10.1088/1742-6596/551/1/012023
+  submitted: 2014-10-21
+  published: 2014-12-16
+- title: β-NMR of <sup>8</sup>Li<sup>+</sup> in rutile TiO<sub>2</sub>
+  author:
+    - R. M. L. McFadden
+    - D. L. Cortie
+    - D. J. Arseneau
+    - T. J. Buck
+    - C.-C. Chen
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - C. Li
+    - G. D. Morris
+    - M. R. Pearson
+    - D. Samuelis
+    - J. Xiao
+    - J. Maier
+    - W. A. MacFarlane
+  abstract: >-
+    We report preliminary low-energy β-NMR measurements of
+    <sup>8</sup>Li<sup>+</sup> implanted in single crystal rutile
+    TiO<sub>2</sub> at an applied field of 6.55 T and 300 K. We observe a broad
+    12 kHz wide quadrupole split resonance with unresolved features and a sharp
+    component at the Larmor frequency. The line broadening may be caused by
+    overlapping multi-quantum transitions or motion of
+    <sup>8</sup>Li<sup>+</sup> on the scale of its lifetime (1.21 s). We also
+    find spin-lattice relaxation that is relatively fast compared to other wide
+    band gap insulators. The origin of this fast relaxation is also likely
+    quadrupolar and may be due to anisotropic <sup>8</sup>Li<sup>+</sup>
+    diffusion.
+  journal: 'J. Phys.: Conf. Ser.'
+  volume: 551
+  issue: null
+  pages: '012032'
+  year: 2014
+  doi: 10.1088/1742-6596/551/1/012032
+  submitted: 2014-10-21
+  published: 2014-12-16
+- title: <sup>8</sup>Li<sup>+</sup> β-NMR in the cubic insulator MgO
+  author:
+    - W. A. MacFarlane
+    - T. J. Parolin
+    - D. L. Cortie
+    - K. H. Chow
+    - M. D. Hossain
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - H. Saadaoui
+    - Z. Salman
+    - Q. Song
+    - D. Wang
+  abstract: >-
+    We present extensive high magnetic field β-NMR measurements of
+    <sup>8</sup>Li<sup>+</sup> implanted in single crystals of MgO. The narrow
+    resonance, consistent with a cubic <sup>8</sup>Li<sup>+</sup> site, likely
+    the tetrahedral interstitital, is used routinely as a reference for shift
+    measurements. We show the intrinsic linewidth is on the order of 200 Hz,
+    allowing a frequency determination to an accuracy of a few Hz. We find no
+    implantation energy dependence of the resonance within a few ppm, but there
+    is evidence of slow spin dynamics in hole-burning measurements. The spin
+    lattice relaxation is slow. The temperature dependence reveals interesting
+    changes at low temperature whose origin remains uncertain.
+  journal: 'J. Phys.: Conf. Ser.'
+  volume: 551
+  issue: null
+  pages: '012033'
+  year: 2014
+  doi: 10.1088/1742-6596/551/1/012033
+  submitted: 2014-10-21
+  published: 2014-12-16
+- title: >-
+    Development of a polarized <sup>31</sup>Mg<sup>+</sup> beam as a spin-1/2
+    probe for BNMR
+  author:
+    - C. D. P. Levy
+    - M. R. Pearson
+    - M. H. Dehn
+    - V. L. Karner
+    - R. F. Kiefl
+    - J. Lassen
+    - R. Li
+    - W. A. MacFarlane
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. Stachura
+    - A. Teigelhöfer
+    - A. Voss
+  abstract: >-
+    A 28 keV beam of <sup>31</sup>Mg<sup>+</sup> ions was extracted from a
+    uranium carbide, proton-beam-irradiated target coupled to a laser ion
+    source. The ion beam was nuclear-spin polarized by collinear optical pumping
+    on the <sup>2</sup><i>S</i><sub>1/2</sub>-<sup>2</sup><i>P</i><sub>1/2</sub>
+    transition at 280 nm. The polarization was preserved by an extended 1 mT
+    guide field as the beam was transported via electrostatic bends into a 2.5 T
+    longitudinal magnetic field. There the beam was implanted into a single
+    crystal MgO target and the beta decay asymmetry was measured. Both hyperfine
+    ground states were optically pumped with a single frequency light source,
+    using segmentation of the beam energy, which boosted the polarization by
+    approximately 50 % compared to pumping a single ground state. The total
+    decay asymmetry of 0.06 and beam intensity were sufficient to provide a
+    useful spin-1/2 beam for future BNMR experiments. A variant of the method
+    was used previously to optically pump the full Doppler-broadened absorption
+    profile of a beam of <sup>11</sup>Be<sup>+</sup> with a single-frequency
+    light source.
+  journal: Hyperfine Interact.
+  volume: 237
+  issue: null
+  pages: '162'
+  year: 2016
+  doi: 10.1007/s10751-016-1372-8
+  submitted: 2016-11-22
+  published: 2016-11-22
+- title: >-
+    Towards <sup>31</sup>Mg-β-NMR resonance linewidths adequate for applications
+    in magnesium chemistry
+  author:
+    - M. Stachura
+    - R. M. L. McFadden
+    - A. Chatzichristos
+    - M. H. Dehn
+    - A. Gottberg
+    - L. Hemmingsen
+    - A. Jancso
+    - V. L. Karner
+    - R. F. Kiefl
+    - F. H. Larsen
+    - J. Lassen
+    - C. D. P. Levy
+    - R. Li
+    - W. A. MacFarlane
+    - G. D. Morris
+    - S. Pallada
+    - M. R. Pearson
+    - D. Szunyogh
+    - P. W. Thulstrup
+    - A. Voss
+  abstract: >-
+    The span of most chemical shifts recorded in conventional
+    <sup>25</sup>Mg-NMR spectroscopy is ~100 ppm. Accordingly, linewidths of ~10
+    ppm or better are desirable to achieve adequate resolution for applications
+    in chemistry. Here we present first high-field <sup>31</sup>Mg-β-NMR
+    measurements of <sup>31</sup>Mg<sup>+</sup> ions implanted into a MgO single
+    crystal carried out at the ISAC facility at TRIUMF. The resonances recorded
+    at 2.5 T and 3.5 T show strong linewidth dependency on the applied RF power,
+    ranging from ~419 ppm for the highest RF power down to ~48 ppm for the
+    lowest one.
+  journal: Hyperfine Interact.
+  volume: 238
+  issue: null
+  pages: '32'
+  year: 2017
+  doi: 10.1007/s10751-017-1408-8
+  submitted: 2017-02-14
+  published: 2017-02-14
+- title: >-
+    The spin relaxation of <sup>8</sup>Li<sup>+</sup> in gold at low magnetic
+    field
+  author:
+    - W. A. MacFarlane
+    - K. H. Chow
+    - M. D. Hossain
+    - V. L. Karner
+    - R. F. Kiefl
+    - R. M. L. McFadden
+    - G. D. Morris
+    - H. Saadaoui
+    - Z. Salman
+  abstract: >-
+    Here we report the temperature and applied magnetic field dependence of the
+    spin lattice relaxation of implanted into Au foil in the range 4 to 290 K
+    and 3 to 150 G. Below about 50 G, relaxation due to the dynamic host lattice
+    nuclear spins is important, becoming dominant below 20 G. At 150 G, this
+    process is quenched, and the relaxation is Korringa-like. We report the
+    first measurement of its temperature dependence which shows the
+    characteristic features of the site change around 190 K. At lower field the
+    relaxation is two component above 100 K and exhibits a strong peak at the
+    site change, which we attribute to quadrupolar relaxation of the adjacent Au
+    spins. We discuss the ingredients required for a quantitative theory of the
+    low field relaxation.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011020'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011020
+  submitted: 2017-06-23
+  published: 2018-03-01
+- title: >-
+    Challenge for detecting the interface between electrode and electrolyte with
+    β-NMR
+  author:
+    - J. Sugiyama
+    - I. Umegaki
+    - S. Shiraki
+    - T. Hitosugi
+    - R. M. L. McFadden
+    - D. Wang
+    - V. Karner
+    - G. D. Morris
+    - W. A. MacFarlane
+    - R. F. Kiefl
+  abstract: >-
+    It is widely believed that a space-charge layer (SCL) exists at the vicinity
+    of a boundary between a solid electrolyte layer and electrode layer in an
+    all solid-state Li-ion battery due to the difference of their chemical
+    potentials, although there are no direct experimental evidences. Here, the
+    Li concentration is predicted to decrease drastically in the SCL. In order
+    to clarify whether SCL exists or not, we have attempted to measure the
+    <sup>8</sup>Li β-NMR spectrum for a multilayer sample, MgO (50
+     nm)/Li<sub>3</sub>PO<sub>4</sub> (70  nm)/LiCoO<sub>2</sub> (200  nm) as a
+    function of implanted energy of <sup>8</sup>Li. The resonance spectrum was
+    fitted by a combination of two Lorentzians and one background signal.
+    Furthermore, the line width of the resonance signal from the
+    Li<sub>3</sub>PO<sub>4</sub> layer is found to become broad towards the
+    boundary with the LiCoO<sub>2</sub> layer. This is consistent with the
+    presence of an SCL.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011021'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011021
+  submitted: 2017-06-14
+  published: 2018-03-01
+- title: Exploring the dynamics of glasses using beta detected NMR
+  author:
+    - V. L. Karner
+    - T. Liu
+    - I. Mckenzie
+    - A. Chatzichristos
+    - D. L. Cortie
+    - G. D. Morris
+    - R. F. Kiefl
+    - R. M. L. Mcfadden
+    - Z. Fakhraai
+    - M. Stachura
+    - W. A. Macfarlane
+  abstract: >-
+    We report <sup>8</sup>Li spin lattice relaxation in two forms of the
+    molecular glass TPD, one a normal glass and one prepared in an ultrastable
+    configuration. The relaxation is remarkably fast, similar to <sup>8</sup>Li
+    relaxation in other organic materials and shows a stretched exponential
+    behavior typical of glasses with a small stretching exponent β = 0.3. At low
+    temperature, there is little or no difference between the two glasses, while
+    above 250 K, the relaxation in the denser ultrastable form is faster. In
+    addition, in this temperature range, the data shows a significant thermal
+    hysteresis.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011022'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011022
+  submitted: 2017-06-21
+  published: 2018-03-01
+- title: Beta detected NMR of LaAlO<sub>3</sub>
+  author:
+    - V. L. Karner
+    - R. M. L. Mcfadden
+    - A. Chatzichristos
+    - G. D. Morris
+    - M. R. Pearson
+    - C. D. P. Levy
+    - Z. Salman
+    - D. L. Cortie
+    - R. F. Kiefl
+    - W. A. Macfarlane
+  abstract: >-
+    Using 8Li β-NMR we studied the temperature dependence of the spin–lattice
+    relaxation in LaAlO<sub>3</sub> in high magnetic field. The relaxation in
+    LAO is composed of two components: a fast-relaxing signal with a small
+    amplitude, and a large amplitude, slow relaxing component. The data was fit
+    using a highly-constrained model which assumes that the temperature
+    dependence of the slow and fast component is the same at all temperatures.
+    The <sup>8</sup>Li relaxation suggests a <i>T</i><sup>2</sup> temperature
+    dependence, indicating that the relaxation mechanism could be due to a
+    coupling between the quadrupole moment of <sup>8</sup>Li and the soft-mode,
+    low energy phonons in LAO.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011023'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011023
+  submitted: 2017-06-21
+  published: 2018-03-01
+- title: Beta-detected NMR of LSAT and YSZ
+  author:
+    - V. L. Karner
+    - R. M. L. Mcfadden
+    - M. H. Dehn
+    - D. Fujimoto
+    - A. Chatzichristos
+    - G. D. Morris
+    - M. R. Pearson
+    - C. D. P. Levy
+    - A. Reisner
+    - L. H. Tjeng
+    - R. F. Kiefl
+    - W. A. Macfarlane
+  abstract: >-
+    Using <sup>8</sup>Li β-NMR we studied two cation substituted solid
+    solutions: yttria-stabilized zirconia (YSZ) and (La,Sr)(Al,Ta)O<sub>3</sub>
+    (LSAT). LSAT showed well defined but highly broadened quadrupolar
+    satellites, with a similar pattern to that observed in SrTiO<sub>3</sub>. In
+    contrast, the resonance in YSZ showed a single, broad peak indicative of a
+    cubic <sup>8</sup>Li implantation site. The <sup>8</sup>Li spin–lattice
+    relaxation at 6.55 T, for both solid solutions, is very slow; while at
+    150 G, the relaxation in LSAT becomes faster due to the <sup>27</sup>Al
+    nuclear moments similar to Al<sub>2</sub>O<sub>3</sub>. For YSZ the low
+    field relaxation rate is also relatively fast possibly due to mobile
+    O<sup>2-</sup> anions.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011024'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011024
+  submitted: 2017-06-21
+  published: 2018-03-01
+- title: >-
+    Origin of the multi-peak muon frequency spectrum in the heavy fermion
+    compound UBe<sub>13</sub>
+  author:
+    - A. C. Y. Fang
+    - M. H. Dehn
+    - R. M. L. McFadden
+    - V. L. Karner
+    - J. E. Sonier
+    - W. A. MacFarlane
+    - G. D. Morris
+    - C. Gomez
+    - K. Akintola
+    - R. F. Kiefl
+  abstract: >-
+    Transverse-field muon spin rotation (TF-μSR) experiments have been carried
+    out on an oriented mosaic of UBe<sub>13</sub> single crystals as a function
+    of temperature and crystal orientation with respect to an applied magnetic
+    field. The observed frequency splittings are consistent with dipolar fields
+    from the paramagnetic U<sup>3+</sup> moments and an anisotropic hyperfine
+    interaction with the muons stopping midway on the edges of the cubic uranium
+    sublattice. The disappearance of the splittings above 180 K is attributed to
+    rapid muon diffusion. We find no evidence of a spin polaron bound to the
+    muon in UBe<sub>13</sub>.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011029'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011029
+  submitted: 2017-06-22
+  published: 2018-03-01
 - title: On the use of <sup>31</sup>Mg for β-detected NMR studies of solids
   author:
     - R. M. L. McFadden
@@ -43,6 +435,48 @@
   pages: '011047'
   year: 2018
   doi: 10.7566/JPSCP.21.011047
-  submitted: 2017-06-15T00:00:00.000Z
-  published: 2018-03-01T00:00:00.000Z
+  submitted: 2017-06-15
+  published: 2018-03-01
+- title: >-
+    Comparison of <sup>8</sup>Li and <sup>9</sup>Li spin relaxation in
+    SrTiO<sub>3</sub> and Pt: a means to distinguish magnetic and electric
+    quadrupolar sources of relaxation
+  author:
+    - A. Chatzichristos
+    - R. M. L. McFadden
+    - V. L. Karner
+    - D. L. Cortie
+    - C. D. P. Levy
+    - W. A. MacFarlane
+    - G. D. Morris
+    - M. R. Pearson
+    - Z. Salman
+    - R. F. Kiefl
+  abstract: >-
+    We demonstrate that the ratio of 1/<i>T</i><sub>1</sub> spin–lattice
+    relaxation rates (SLR) of two different isotopes (here <sup>8</sup>Li and
+    <sup>9</sup>Li) can be used in order to identify the predominant relaxation
+    mechanism within the β-NMR technique. We studied with both isotopes a Pt
+    foil and two samples of single crystal SrTiO<sub>3</sub>. In Pt, the ratio
+    of the SLR rates was 6.82(29), which is close to but less than the
+    theoretical limit of ~7.68 for pure magnetic relaxation. In
+    SrTiO<sub>3</sub>, the weighted averaged SLR ratio of the two samples was
+    2.7(3), which is close but larger than the theoretical limit of ~2.14
+    expected for pure electric quadrupolar relaxation. This indicates that the
+    primary source of relaxation in SrTiO<sub>3</sub> is electric quadrupolar in
+    origin and that magnetic effects have a much smaller importance in this
+    material. The low effective asymmetry of <sup>9</sup>Li was the dominant
+    cause of uncertainty of the measurements in this study. We propose a system
+    of tagging the beta-decays in coincidence with the alpha decays that take
+    place in two of the three primary decay channels of <sup>9</sup>Li as a way
+    of increasing the effective asymmetry and enhance the signal of
+    <sup>9</sup>Li β-NMR.
+  journal: JPS Conf. Proc.
+  volume: 21
+  issue: null
+  pages: '011048'
+  year: 2018
+  doi: 10.7566/JPSCP.21.011048
+  submitted: 2017-06-19
+  published: 2018-03-01
 
