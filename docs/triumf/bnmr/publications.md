@@ -4,7 +4,7 @@ title: Publications
 description: β-NMR publications.
 permalink: /triumf/bnmr/publications
 parent: β-NMR
-grandparent: TRIUMF
+grand_parent: TRIUMF
 ---
 
 # Publications
