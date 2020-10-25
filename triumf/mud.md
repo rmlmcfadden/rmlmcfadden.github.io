@@ -4,7 +4,7 @@ title: MUD
 description: MUon Data (MUD).
 parent: TRIUMF
 has_children: true
-has_toc: true
+has_toc: false
 ---
 
 # MUD

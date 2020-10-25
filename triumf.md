@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TRIUMF
-description: 'TRIUMF: Canada's Accelerator Centre.'
+description: TRIUMF - Canada's Accelerator Centre.
 has_children: true
 has_toc: true
 ---
