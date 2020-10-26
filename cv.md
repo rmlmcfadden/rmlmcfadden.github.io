@@ -96,11 +96,11 @@ nav_order: 1
       <p>
       {% for author in pub.author  %}
          {% if pub.author.size > 2 and author != pub.author.last %}
-            {{ author | append: ", " }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: ", " }}
          {% elsif pub.author.size > 1 and author == pub.author.last %}
-            {{ author | prepend: "and " | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
@@ -149,11 +149,11 @@ nav_order: 1
       <p>
       {% for author in pub.author  %}
          {% if pub.author.size > 2 and author != pub.author.last %}
-            {{ author | append: ", " }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: ", " }}
          {% elsif pub.author.size > 1 and author == pub.author.last %}
-            {{ author | prepend: "and " | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
@@ -202,11 +202,11 @@ nav_order: 1
       <p>
       {% for author in pub.author  %}
          {% if pub.author.size > 2 and author != pub.author.last %}
-            {{ author | append: ", " }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: ", " }}
          {% elsif pub.author.size > 1 and author == pub.author.last %}
-            {{ author | prepend: "and " | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | prepend: "and " | append: "." }}
          {% else %}
-            {{ author | append: "." }}
+            {{ author | replace: "R. M. L. McFadden", "<u>R. M. L. McFadden</u>" | replace: "R. M. L. Mcfadden", "<u>R. M. L. Mcfadden</u>" | append: "." }}
          {% endif %}
       {% endfor %}
       </p>
