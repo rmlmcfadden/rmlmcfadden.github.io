@@ -46,7 +46,10 @@ grand_parent: TRIUMF
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -99,7 +102,10 @@ grand_parent: TRIUMF
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -152,7 +158,10 @@ grand_parent: TRIUMF
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -205,7 +214,10 @@ grand_parent: TRIUMF
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>

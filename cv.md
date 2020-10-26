@@ -116,7 +116,10 @@ nav_order: 1
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -169,7 +172,10 @@ nav_order: 1
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -222,7 +228,10 @@ nav_order: 1
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
@@ -275,7 +284,10 @@ nav_order: 1
       </p>
    {% endif %}
    {% if pub.abstract %}
+      <details>
+      <summary>Abstract</summary>
       <p>{{ pub.abstract }}</p>
+      </details>
    {% endif %}
    {% if pub.doi or pub.arxiv or pub.url %}
       <p>
