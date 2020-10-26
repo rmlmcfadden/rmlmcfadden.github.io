@@ -52,6 +52,7 @@
   address: Vancouver
   year: 2009
   doi: 10.14288/1.0068610
+  url: http://hdl.handle.net/2429/17464
   published: 2010-01-04
 - title: >-
     Using low-energy <sup>8</sup>Li beta-detected NMR to probe the magnetism of
@@ -105,6 +106,7 @@
   address: Vancouver
   year: 2011
   doi: 10.14288/1.0062186
+  url: http://hdl.handle.net/2429/39778
   published: 2011-12-16
 - title: β-Detected NMR of <sup>8</sup>Li<sup>+</sup> in spintronic materials
   author:
@@ -159,6 +161,7 @@
   address: Vancouver
   year: 2012
   doi: 10.14288/1.0073399
+  url: http://hdl.handle.net/2429/43638
   published: 2012-11-30
 - title: >-
     Synthesis and electronic ordering phenomena of calcium ruthenate thin films
@@ -276,6 +279,7 @@
   address: Stuttgart
   year: 2018
   doi: 10.18419/opus-10069
+  url: http://elib.uni-stuttgart.de/handle/11682/10086
   published: 2018-10-04
 - title: >-
     Diffusion and surface trapping of <sup>8</sup>Li in rutile TiO<sub>2</sub>
@@ -327,6 +331,7 @@
   address: Vancouver
   year: 2020
   doi: 10.14288/1.0388862
+  url: http://hdl.handle.net/2429/73678
   published: 2020-03-04
 - title: >-
     Microscopic dynamics of isolated lithium in crystalline solids revealed by
@@ -382,5 +387,6 @@
   address: Vancouver
   year: 2020
   doi: 10.14288/1.0389972
+  url: http://hdl.handle.net/2429/74167
   published: 2020-04-24
 
