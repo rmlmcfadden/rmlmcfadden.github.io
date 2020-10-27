@@ -443,7 +443,7 @@ int MUD_getIndVarDescription( int fh, int num, char* description, int strdim );
 int MUD_getIndVarUnits( int fh, int num, char* units, int strdim );
 {% endhighlight %}
 
-For array data in `MUD_GRP_GEN_IND_VAR_ARR_ID groups`:
+For array data in `MUD_GRP_GEN_IND_VAR_ARR_ID` groups:
 
 {% highlight c %}
 int MUD_getIndVarNumData( int fh, int num, UINT32* pNumData );
