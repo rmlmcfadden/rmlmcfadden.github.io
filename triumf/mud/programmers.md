@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Programmers
+title: Programmer's Guide
 description: MUD Programmer's Guide.
 parent: MUD
 grand_parent: TRIUMF

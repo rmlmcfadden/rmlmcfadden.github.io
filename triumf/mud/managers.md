@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Managers
+title: Software Manager's Guide
 description: MUD Manager's Guide.
 parent: MUD
 grand_parent: TRIUMF

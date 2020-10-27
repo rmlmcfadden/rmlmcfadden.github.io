@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Format
+title: Data File Format
 description: MUD format.
 parent: MUD
 grand_parent: TRIUMF
