@@ -141,8 +141,8 @@
     between 1 and 100 nm from the (110) surface; however, the implanted nuclear
     spin experiences an increased 1/<i>T</i><sub>1</sub> relaxation rate at
     shallow depths revealing soft-surface magnons. The surface-localized
-    dynamics decay towards the bulk with a characteristic length of ε = 11 ±
-    1  nm, closely matching the finite-size thresholds of hematite
+    dynamics decay towards the bulk with a characteristic length of <i>ε</i> =
+    11 ± 1  nm, closely matching the finite-size thresholds of hematite
     nanostructures.
   journal: Phys. Rev. Lett.
   volume: 116
@@ -529,8 +529,8 @@
     temperatures above ~150K, spin-lattice relaxation measurements reveal
     isolated <sup>8</sup>Li<sup>+</sup> diffusion with an activation energy
     <i>E<sub>A</sub></i> = 0.185(8) eV and attempt frequency
-    τ<sup>−1</sup><sub>0</sub> = 8 ± 3 × 10<sup>11</sup> s<sup>-1</sup> for
-    atomic site-to-site hopping. At lower temperature, we find a linear
+    <i>τ</i><sub>0</sub><sup>−1</sup> = 8 ± 3 × 10<sup>11</sup> s<sup>-1</sup>
+    for atomic site-to-site hopping. At lower temperature, we find a linear
     Korringa-type relaxation mechanism with a field-dependent slope and
     intercept, which is accompanied by an anomalous field dependence to the
     resonance shift. We suggest that these may be related to a strong
