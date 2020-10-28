@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ryan M. L. McFadden
+title: rmlmcfadden.github.io
 description: My personal website
 baseurl: ""
 url: https://rmlmcfadden.github.io
@@ -27,7 +27,7 @@ exclude:
 - Gemfile.lock
 - package.json
 - package-lock.json
-- script/
+- scripts/
 - LICENSE
 - lib/
 - bin/
@@ -36,7 +36,7 @@ exclude:
 - docs/tests/
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/logo.png"
+logo: /assets/images/logo.png
 
 # Enable or disable the site search
 # Supports true (default) or false
