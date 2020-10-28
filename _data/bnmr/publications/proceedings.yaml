@@ -18,11 +18,21 @@
     - R. Poutissou
     - G. W. Wight
     - A. Zelenski
-  abstract: null
+  abstract: >-
+    The recently completed ISAC facility at TRIUMF is the most intense source of
+    low-energy radioactive ions in the world. Beams of short-lived radioactive
+    ions have applications in many different areas of physics including
+    condensed matter research. At ISAC we are developing the technique of
+    beta-detected nuclear magnetic resonance (β-NMR) as a tool for investigating
+    thin structures and dilute impurities. Large nuclear spin polarization can
+    be generated using a fast collinear laser method so that a beam of highly
+    spin polarized ions can be implanted at low energies (1-90 keV). In this
+    paper we describe the facility and the initial experimental program with
+    emphasis on how this technique can complement μSR.
   journal: Physica B
-  volume: 289–290
+  volume: 289-290
   issue: null
-  pages: '640'
+  pages: '640-647'
   year: 2000
   doi: 10.1016/S0921-4526(00)00301-X
   submitted: 2000-06-02
@@ -38,11 +48,24 @@
     - G. W. Wight
     - D. Yuan
     - A. N. Zelenski
-  abstract: null
+  abstract: >-
+    A polarizer beam line at the radioactive beams facility ISAC at TRIUMF is
+    nearly complete. Initially for <sup>8</sup>Li<sup>+</sup> ions for β-NMR
+    studies in condensed matter, it can in principle supply three or more
+    experiments simultaneously, and the technique used is practicable with all
+    alkali-metal ion beams. An atomic beam, created with over 90 % efficiency by
+    passing the initial unpolarized 30 keV beam through a sodium vapor jet
+    target, will be polarized by colinear optical pumping. A novel feature is
+    that the atomic beam is reionized with demonstrated high efficiency in a
+    helium gas target. The emittance growth through the helium cell has been
+    measured for stable <sup>7</sup>Li<sup>+</sup> beam on a test stand and
+    found to be small. We report these measurements as a function of helium flow
+    rates. A preliminary polarized <sup>8</sup>Li<sup>+</sup> run is planned for
+    May, 2000.
   journal: Nucl. Phys. A
   volume: 701
-  issue: null
-  pages: '253'
+  issue: 1-4
+  pages: '253-258'
   year: 2002
   doi: 10.1016/S0375-9474(01)01593-7
   submitted: 2002-01-03
@@ -76,11 +99,19 @@
     - C. Bommas
     - E. Dumont
     - L. H. Greene
-  abstract: null
+  abstact: >-
+    A spectrometer for β-detected nuclear magnetic resonance (β-NMR) has been
+    commissioned at the ISAC facility at TRIUMF. A beam of low energy highly
+    spin polarized 8Li+ can be decelerated and implanted into ultra-thin
+    structures 6-400 nm thick. β-NMR provides local information on the
+    electronic and magnetic properties of materials which is similar to
+    conventional NMR but can be used as a sensitive probe of ultra-thin films,
+    interfaces and other nanostructures. We report here on the status of the
+    spectrometer and preliminary results on a simple metal film.
   journal: 'Nucl. Instrum. Methods Phys. Res., Sect. B'
   volume: 204
   issue: null
-  pages: '682'
+  pages: '682-688'
   year: 2003
   doi: 10.1016/S0168-583X(03)00479-8
   submitted: 2003-01-30
@@ -101,11 +132,23 @@
     - M. Pearson
     - R. Poutissou
     - G. W. Wight
-  abstract: null
+  abstract: >-
+    The polarized beam line at ISAC relies on the well known technique of
+    collinear optical pumping to polarize the nuclear spins of a low energy
+    (10-60 keV) radioactive beam. Alkali-metal beams are longitudinally
+    polarized by optical pumping of a fast atomic beam, which is created by
+    charge exchange of the incident ion beam in a Na vapour cell. At ISAC, the
+    beam is then reionized in a He gas target and directed to the experiments.
+    To date, 30 keV beams of <sup>8</sup>Li and <sup>9</sup>Li have been
+    polarized, and <sup>11</sup>Li and <sup>20</sup>Na beams are scheduled
+    immediately following this conference. The polarization of the 8Li beam,
+    using a dual frequency, standing wave Ti:sapphire laser, is up to ~80 %.
+    High polarization is achieved by matching the laser bandwidth to the energy
+    spread in the beam. The status of the facility is reported.
   journal: 'Nucl. Instrum. Methods Phys. Res., Sect. B'
   volume: 204
   issue: null
-  pages: '689'
+  pages: '689-693'
   year: 2003
   doi: 10.1016/S0168-583X(03)00485-3
   submitted: 2003-01-30
@@ -129,11 +172,16 @@
     - G. D. Morris
     - R. Poutissou
     - E. Reynard
-  abstract: null
+  abstract: >-
+    A new facililty for conducting beta-detected nuclear magnetic resonance
+    (β-NMR) investigations of condensed matter systems has recently been
+    constucted at TriUniversity Meson Facility in Vancouver, Canada. The unique
+    features of this new facility are described, and some preliminary results on
+    <sup>8</sup>Li<sup>+</sup> in GaAs are presented.
   journal: Physica B
-  volume: 340–342
+  volume: 340-342
   issue: null
-  pages: '1151'
+  pages: '1151-1154'
   year: 2003
   doi: 10.1016/j.physb.2003.09.101
   submitted: 2003-12-03
@@ -153,11 +201,19 @@
     - S. Daviel
     - R. A. Baartman
     - K. H. Chow
-  abstract: null
+  abstract: >-
+    Recently it has been demonstrated that low energy spin polarized radioactive
+    nuclei can be used to probe the electronic and magnetic properties of
+    ultra-thin samples using β detected NMR. However, use of the technique
+    requires an accurate understanding of ion penetration depth and range
+    straggling as a function of beam implantation energy and target density.
+    Range straggling measurements of <sup>8</sup>Li were conducted with thin
+    films of metallic Al and Au on sapphire and SrTiO<sub>3</sub> substrates and
+    the results were compared to SRIM code predictions.
   journal: Physica B
   volume: 326
-  issue: null
-  pages: '205'
+  issue: 1-4
+  pages: '205-208'
   year: 2003
   doi: 10.1016/S0921-4526(02)01602-2
   submitted: 2002-12-24
@@ -189,11 +245,22 @@
     - R. I. Miller
     - M. Olivo
     - R. Poutissou
-  abstract: null
+  abstract: >-
+    We have commissioned a polarized low-energy <sup>8</sup>Li ion beam line,
+    which together with a high-field β-NMR spectrometer, can act as sensitive
+    new probe of thin films and interfaces. The implantation energy can be
+    continuously adjusted from 1 to 90 keB and the maximum polarization achieved
+    thus far is 80 %. This instrument opens up new applications for β-NMR which
+    parallel and complement efforts with low-energy muons. For example, it is
+    possible to probe the magnetic field distribution near the surface of a
+    material by stopping a polarized <sup>8</sup>Li beam in a thin overlayer of
+    Ag. Since the <sup>8</sup>Li adopts a site with cubic symmetry in Ag there
+    is no quadrupolar splitting of the resonance, and the <sup>8</sup>Li acts as
+    a purely magnetic sensor.
   journal: Physica B
   volume: 326
-  issue: null
-  pages: '189'
+  issue: 1-4
+  pages: '189-195'
   year: 2003
   doi: 10.1016/S0921-4526(02)01600-9
   submitted: 2002-12-27
@@ -215,11 +282,19 @@
     - E. Dumont
     - L. H. Greene
     - R. F. Kiefl
-  abstract: null
+  abstract: >-
+    We have measured the temperature dependence of the β-NMR resonances of
+    <sup>8</sup>Li<sup>+</sup> implanted in the top few thousand of a crystal of
+    SrTiO<sub>3</sub> in a magnetic field of 3 T || <100>. A well-resolved
+    quadrupolar splitting of the resonance is observed indicating a noncubic Li
+    site with symmetry <100> and a quadrupolar frequency
+    <i>ν<sub>Q</sub></i>(211 K) = 153.2(4) kHz. The cubic-to-tetragonal phase
+    transition is reflected in the linewidths demonstrating that β-NMR is a
+    sensitive probe of the structure near a surface.
   journal: Physica B
   volume: 326
-  issue: null
-  pages: '209'
+  issue: 1-4
+  pages: '209-213'
   year: 2003
   doi: 10.1016/S0921-4526(02)01603-4
   submitted: 2002-12-27
@@ -240,11 +315,20 @@
     - K. M. Nichol
     - R. Poutissou
     - R. F. Kiefl
-  abstract: null
+  abstract: >-
+    We have measured the temperature dependence of the β-NMR resonances of
+    <sup>8</sup>Li implanted in thin films of Au and Ag. At room temperature
+    single narrow resonances are observed. The absence of appreciable
+    quadrupolar splitting or broadening indicates that the Li is isolated and at
+    a site of cubic symmetry. As the temperature is lowered, a second resonance
+    appears which is shifted higher in frequency by ~100 ppm. We attribute the
+    two lines to two distinct cubic sites with slightly different Knight shifts
+    and discuss the application of this result to study fundamental phenomena
+    exhibited by nano-confined metallic electrons.
   journal: Physica B
   volume: 326
-  issue: null
-  pages: '213'
+  issue: 1-4
+  pages: '213-216'
   year: 2003
   doi: 10.1016/S0921-4526(02)01604-6
   submitted: 2002-12-28
@@ -272,11 +356,26 @@
     - Z. Salman
     - D. Wang
     - J. Y. T. Wei
-  abstract: null
+  abstract: >-
+    We report β-NMR measurements of the nuclear spin relaxation rate in a thin
+    film of La<sub>0.67</sub>Ca<sub>0.33</sub>MnO<sub>3</sub> (LCMO) using a
+    low-energy beam of spin-polarized <sup>8</sup>Li. In a small magnetic field
+    of 150 G, there is a broad peak in 1/<i>T</i><sub>1</sub> near the Curie
+    temperature (<i>T<sub>c</sub></i> = 295 K) and a dramatic decrease in
+    1/<i>T</i><sub>1</sub> at lower temperatures. This is attributed to a
+    critical slowing down of the spin fluctuations near <i>T<sub>c</sub></i> and
+    freezing of the magnetic excitations at low temperatures, respectively. In
+    addition, there is a small amplitude, slow relaxing component at high
+    temperatures, which we attribute to <sup>8</sup>Li in the SrTiO<sub>3</sub>
+    substrate. There is an indication that the spin relaxation rate in the
+    substrate is also peaked at <i>T<sub>c</sub></i> due to close proximity to
+    the magnetic film. These results establish that low-energy β-NMR can be used
+    as a probe of magnetic fluctuations in magnetic thin films over a wide range
+    of temperatures.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '30'
+  pages: '30-33'
   year: 2006
   doi: 10.1016/j.physb.2005.11.009
   submitted: 2005-11-07
@@ -294,11 +393,23 @@
     - G. D. Morris
     - R. I. Miller
     - W. A. MacFarlane
-  abstract: null
+  abstract: >-
+    Beta-detected NMR (β-NMR) of low-energy implanted <sup>8</sup>Li<sup>+</sup>
+    was studied in metallic palladium. The resonance was found to have a large
+    negative shift with respect to the reference signal in the cubic insulator
+    MgO. This shift exhibited significant temperature dependence on cooling
+    below room temperature, approximately proportionate to the
+    temperature-dependent spin susceptibility of pure Pd. Thus it is tentatively
+    attributed to a Knight shift (<i>K</i>) caused by a large negative hyperfine
+    coupling; a phenomenon common in transition metal ions, but not in alkalis.
+    However, the spin-lattice relaxation of <sup>8</sup>Li is much slower than
+    expected from the Korringa law for such a large <i>K</i>. We compare results
+    from samples of very different thicknesses: 12.5 μm foil and a 100 nm thin
+    film.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '419'
+  pages: '419-422'
   year: 2006
   doi: 10.1016/j.physb.2005.11.121
   submitted: 2005-11-07
@@ -319,11 +430,23 @@
     - O. Mosendz
     - T. J. Parolin
     - D. Wang
-  abstract: null
+  abstract: >-
+    A beam of low energy <sup>8</sup>Li has been used to probe the hyperfine
+    field distribution in a magnetic multilayer composed of Au(4 nm)/Ag(80
+    nm)/Fe(2 nm) grown on a GaAs substrate. The β-NMR frequency spectrum is
+    shown to be a strong function of the implantation energy reflecting the
+    depth dependence of the local hyperfine fields. Correlating the spectra with
+    TRIM.SP implantation profiles allows us to identify signals from the GaAs,
+    Ag and Au layers. The frequency spectrum in Ag is a strong function of
+    energy. A very narrow line, and corresponding distribution of hyperfine
+    fields, is observed when the beam in centered well away from the Fe whereas
+    a much broader distribution is observed when the Li stops close to the Fe.
+    These results demonstrate that low energy β-NMR can act as a sensitive probe
+    of the induced magnetism in the otherwise non-magnetic Ag spacer layers.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '79'
+  pages: '79-82'
   year: 2006
   doi: 10.1016/j.physb.2005.11.020
   submitted: 2005-11-07
@@ -345,11 +468,22 @@
     - W. A. MacFarlane
     - T. J. Parolin
     - H. Saadaoui
-  abstract: null
+  abstract: >-
+    β-NMR of isolated <sup>8</sup>Li has been investigated in the normal state
+    of 2H-NbSe<sub>2</sub>. In a high magnetic field of 3 T a single resonance
+    is observed with a Gaussian line width of 3.5 kHz. The line shape varies
+    weakly as function of magnetic field and temperature but has a strong
+    orientation dependence. The nuclear electric quadrupole splitting is
+    unresolved implying that the electric field gradients are 10-100 times
+    smaller than in other non-cubic crystals. The nuclear spin relaxation rate
+    is also anomalously small but varies linearly with temperature as expected
+    for Korringa relaxation in a metal. These results suggest that Li adopts an
+    interstitial position between the weakly coupled NbSe<sub>2</sub> layers and
+    away from the conduction band.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '239'
+  pages: '239-242'
   year: 2006
   doi: 10.1016/j.physb.2005.11.064
   arxiv:
@@ -371,11 +505,24 @@
     - C. D. P. Levy
     - Y. Maeno
     - R. Poutissou
-  abstract: null
+  abstract: >-
+    Beta-detected nuclear quadrupole resonances (β-NQR) in zero field are
+    observed using a beam of low energy highly polarized radioactive
+    <sup>8</sup>Li<sup>+</sup>. The resonances were detected in
+    SrTiO<sub>3</sub>, Al<sub>2</sub>O<sub>3</sub> and
+    Sr<sub>2</sub>RuO<sub>4</sub> single crystals by monitoring the beta-decay
+    anisotropy as a function of a small audio frequency magnetic field. The
+    resonances show clearly that <sup>8</sup>Li<sup>+</sup> occupies one site
+    with non-cubic symmetry in SrTiO<sub>3</sub>, two in
+    Al<sub>2</sub>O<sub>3</sub> and three sites in
+    Sr<sub>2</sub>RuO<sub>4</sub>. The resonance amplitude and width are
+    surprisingly large compared to the values expected from transitions between
+    the |±2> ↔ |±1> spin states, indicating a significant mixing between the
+    |±<i>m</i>> quadrupolar split levels.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '468'
+  pages: '468-471'
   year: 2006
   doi: 10.1016/j.physb.2005.11.168
   arxiv:
@@ -397,11 +544,24 @@
     - T. J. Parolin
     - S. Daviel
     - Z. Yamani
-  abstract: null
+  abstract: >-
+    In this paper, we describe initial studies of the structure and dynamics
+    associated with <sup>8</sup>Li<sup>+</sup> in bulk crystalline GaAs and Ge.
+    At low temperatures in GaAs, the amplitude of the <sup>8</sup>Li<sup>+</sup>
+    resonance signal at ~3 T indicates that a large fraction (at least 70 %) of
+    the Li end up in locations with cubic symmetry (i.e. the tetrahedral
+    interstitial and substitutional sites). The linewidth of the β-NMR resonance
+    increases dramatically above 150 K, reaches a maximum at about 290 K, and
+    decreases again. This suggests that the Li starts to change its location,
+    probably from an interstitial to a substitutional site, at ~150 K.
+    Experiments in Ge are also described. In this sample, a narrow resonance is
+    seen at low temperatures that is likely due to Li located at an interstitial
+    site. Near room temperature, it appears that Li is converting to another
+    site.
   journal: Physica B
-  volume: 374–375
+  volume: 374-375
   issue: null
-  pages: '415'
+  pages: '415-418'
   year: 2006
   doi: 10.1016/j.physb.2005.11.120
   submitted: 2005-11-07
@@ -420,11 +580,19 @@
     - W. A. MacFarlane
     - G. Morris
     - T. J. Parolin
-  abstract: null
+  abstract: >-
+    β-NMR has been used to study isolated spin polarized
+    <sup>8</sup>Li<sup>+</sup> in bulk crystalline GaAs. At low temperatures a
+    large fraction (at least 70 %) of the Li end up in locations with cubic
+    symmetry (e.g. a tetrahedral interstitial site). The linewidth of the β-NMR
+    <sup>8</sup>Li<sup>+</sup> resonance increases dramatically above 150 K, and
+    reaches a maximum at about 290 K. These results are consistent with a site
+    change from an interstitial to a substitutional beginning at ~150 K. The
+    field dependence of the linewidth at 100 K is also discussed.
   journal: Physica B
-  volume: 401–402
+  volume: 401-402
   issue: null
-  pages: '254'
+  pages: '254-257'
   year: 2007
   doi: 10.1016/j.physb.2007.08.160
   submitted: 2007-08-20
@@ -451,17 +619,25 @@
     - O. Mosendz
     - B. Kardasz
     - B. Heinrich
-  abstract: null
+  abstract: >-
+    The so-called "cross-relaxation" method is a powerful technique that can be
+    used to provide detailed structural and site information on impurities in
+    condensed matter systems, including semiconductors. In this paper, we report
+    on the progress of its development at the new <sup>8</sup>Li β-detected
+    nuclear magnetic resonance (β-NMR) facility located in TRIUMF in Vancouver,
+    Canada. We present first measurements using this method on a Cu single
+    crystal and discuss future application for studies of isolated impurities in
+    semiconductors.
   journal: Physica B
-  volume: 401–402
+  volume: 401-402
   issue: null
-  pages: '662'
+  pages: '662-665'
   year: 2007
   doi: 10.1016/j.physb.2007.09.046
   submitted: 2007-08-20
   published: 2007-09-11
 - title: >-
-    Polarisation of a spin-1⁄2 β-NMR probe <sup>11</sup>Be using collinear laser
+    Polarisation of a spin-1/2 β-NMR probe <sup>11</sup>Be using collinear laser
     optical pumping
   author:
     - C. D. P. Levy
@@ -478,11 +654,26 @@
     - H. Saadaoui
     - M. Smadella
     - D. Wang
-  abstract: null
+  abstract: >-
+    Spin 1/2 probes have special importance in the field of NMR, since they have
+    no electric quadrupole moment and are thus pure magnetic sensors. The
+    absence of quadrupolar splittings greatly simplifies the NMR frequency
+    spectrum. That the muon is spin 1/2 is one of the reasons it has become so
+    useful as a magnetic probe. Until now there has been no spin 1/2 probe
+    suitable for beta-detected NMR. Such a probe would be particularly useful in
+    complex materials, which are in general non-cubic. In this paper we describe
+    the development of a low energy beam of spin-polarised <sup>11</sup>Be,
+    which is the lightest spin 1/2 isotope suitable for β-NMR. The intensity of
+    the <sup>11</sup>Be<sup>+</sup> beam - generated by a laser ionisation
+    source - is about 10<sup>6</sup>/s. The <sup>11</sup>Be nuclei are polarised
+    by collinear laser optical pumping with an externally frequency doubled dye
+    laser tuned to the
+    <sup>2</sup><i>S</i><sub>1/2</sub>-<sup>2</sup><i>P</i><sub>1/2</sub>
+    transition of <sup>11</sup>Be<sup>+</sup> at 313 nm.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '1010'
+  issue: 5-7
+  pages: '1010-1012'
   year: 2009
   doi: 10.1016/j.physb.2008.11.205
   submitted: 2008-11-15
@@ -508,18 +699,28 @@
     - D. Wang
     - N. J. C. Ingle
     - W. A. MacFarlane
-  abstract: null
+  abstract: >-
+    We inject a low energy spin polarized <sup>8</sup>Li<sup>+</sup> beam into
+    an epitaxially grown multilayer film consisting of Au(20 nm)/EuO(100
+    nm)/LaAlO<sub>3</sub>, and investigate the nuclear spin relaxation at 3.33
+    T. The relaxation varies with implantation energy below 28 keV as the
+    fraction of the probe <sup>8</sup>Li stopping in each layer changes. We
+    attribute the fast relaxating component to the EuO, while the much slower
+    relaxation has contributions from both the Au and the substrate. However,
+    fast relaxation is still observed at the lowest implantation energy where
+    all the <sup>8</sup>Li stops in the Au capping layer. This may be due to a
+    proximity effect from the EuO.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '619'
+  issue: 5-7
+  pages: '619-621'
   year: 2009
   doi: 10.1016/j.physb.2008.11.110
   submitted: 2008-11-15
   published: 2008-12-06
 - title: >-
     Search for time-reversal symmetry breaking order at the (110) interface of
-    YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7–δ</sub> using βNMR
+    YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7-δ</sub> using βNMR
   author:
     - H. Saadaoui
     - G. D. Morris
@@ -536,18 +737,28 @@
     - L. H. Greene
     - R. F. Kiefl
     - W. A. MacFarlane
-  abstract: null
+  abstract: >-
+    In this paper, we report initial βNMR measurements seeking the spontaneous
+    magnetic fields associated with a time-reversal symmetry breaking (TRSB)
+    order at the (110) interface of the high temperature superconductor
+    YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7-δ</sub> (YBCO). A 2 keV beam of highly
+    spin-polarized <sup>8</sup>Li<sup>+</sup> was implanted into a thin
+    overlayer of silver sputtered onto an oriented YBCO film. The NMR of
+    <sup>8</sup>Li in the Ag layer showed additional broadening with an onset
+    <i>below</i> the superconducting transition temperature
+    <i>T<sub>c</sub></i>. This is evidence of spontaneous disordered magnetism
+    which could be associated with TRSB order.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '724'
+  issue: 5-7
+  pages: '724-726'
   year: 2009
   doi: 10.1016/j.physb.2008.11.188
   submitted: 2008-11-15
   published: 2008-12-06
 - title: >-
     β-NMR investigation of the vortex lattice near the interface of silver and
-    Pr<sub>1.85</sub>Ce<sub>0.15</sub>CuO<sub>4–δ</sub> thin films
+    Pr<sub>1.85</sub>Ce<sub>0.15</sub>CuO<sub>4-δ</sub> thin films
   author:
     - H. Saadaoui
     - W. A. MacFarlane
@@ -567,17 +778,26 @@
     - Q. Song
     - D. Wang
     - R. F. Kiefl
-  abstract: null
+  abstract: >-
+    In this paper, we report observation of the vortex lattice above the surface
+    of high-temperature superconductors
+    Pr<sub>1.85</sub>Ce<sub>0.15</sub>CuO<sub>4-δ</sub> using beta-detected NMR
+    (β-NMR) of implanted in a 40 nm thick Ag overlayer. The resonance in Ag
+    broadens dramatically below the transition temperature <i>T<sub>c</sub></i>
+    as expected from the vortex lattice in the underlying superconductor.
+    However, the lineshape is nearly symmetric with the absence of a
+    <i>high-field</i> tail and exhibits a slight positive shift of the average
+    field below <i>T<sub>c</sub></i>.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '727'
+  issue: 5-7
+  pages: '727-729'
   year: 2009
   doi: 10.1016/j.physb.2008.11.187
   submitted: 2008-11-15
   published: 2008-12-06
 - title: >-
-    Vortex lattice disorder in YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7–δ</sub>
+    Vortex lattice disorder in YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7-δ</sub>
     studied with β-NMR
   author:
     - H. Saadaoui
@@ -594,10 +814,18 @@
     - Q. Song
     - D. Wang
     - R. F. Kiefl
-  abstract: null
+  abstract: >-
+    In this paper, we report β-NMR measurements in thin Ag films deposited on
+    the surface of YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7-δ</sub> (YBCO) in the
+    vortex state. The resonance in the Ag overlayer broadens dramatically below
+    the superconducting transition temperature <i>T<sub>c</sub></i>, as expected
+    from the underlying vortex lattice in the YBCO. However, the lineshape is
+    much broader and more symmetric than expected for an ideal vortex lattice.
+    These results indicate the observed field distribution in the Ag overlayer
+    is dominated by extrinsic, long length scale disorder.
   journal: Physica B
   volume: 404
-  issue: null
+  issue: 5-7
   pages: '730'
   year: 2009
   doi: 10.1016/j.physb.2008.11.229
@@ -623,10 +851,21 @@
     - X. Liu
     - J. Furdyna
     - W. MacFarlane
-  abstract: null
+  abstract: >-
+    A low energy beam of spin polarized <sup>8</sup>Li<sup>+</sup> has been
+    employed to study the magnetic field distribution in an epitaxial thin film
+    of 5.4 % Mn doped GaAs(180 nm) on a (100) GaAs substrate via beta-detected
+    NMR. The spectrum is a strong function of the implantation energy in the
+    range 28-3 keV. In the magnetic layer, there is no indication of a missing
+    fraction, and even more remarkable, there is a broad negatively shifted
+    resonance. The spin lattice relaxation rate is, however, much faster in the
+    Mn doped layer than in the substrate. A sharp peak characteristic of
+    nonmagnetic GaAs is observed down to the lowest implantation energy, for
+    which none of the Li should reach the substrate. This unexpected depth
+    dependence is discussed.
   journal: Physica B
   volume: 404
-  issue: null
+  issue: 5-7
   pages: '892'
   year: 2009
   doi: 10.1016/j.physb.2008.11.143
@@ -654,11 +893,18 @@
     - D. Wang
     - M. Xu
     - W. MacFarlane
-  abstract: null
+  abstract: >-
+    We report beta-detected NMR (β-NMR) measurements on a 50 nm thick platinum
+    (Pt) film grown on a magnesium oxide (MgO) substrate. The frequency of the
+    β-NMR resonance in Pt was compared to the MgO reference frequency to
+    estimate the Knight shift at various temperatures (100-300 K). The Knight
+    shift was found to be negative and strongly temperature dependent. The
+    implications are discussed and compared to other transition metals that have
+    been studied via β-NMR previously.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '906'
+  issue: 5-7
+  pages: '906-909'
   year: 2009
   doi: 10.1016/j.physb.2008.11.139
   submitted: 2008-11-15
@@ -685,11 +931,23 @@
     - B. Heinrich
     - C. D. P. Levy
     - M. R. Pearson
-  abstract: null
+  abstract: >-
+    The "cross-relaxation" method (also called "level-crossing resonance" or
+    "avoided level-crossing") is a powerful technique that can be used to
+    provide detailed structural and site information on impurities in materials.
+    In this paper, we report on the development of the cross-relaxation
+    technique for at the β-detected nuclear magnetic resonance (β-NMR) facility
+    located in TRIUMF in Vancouver. The measurements were carried out on a <110>
+    Cu single crystal where the relaxation rate of the polarization was
+    monitored as a function of the applied longitudinal magnetic field. The
+    occurrence of cross-relaxation, at a particular magnetic field, between the
+    and the surrounding nuclei is evident as a resonant enhancement of the
+    relaxation rate at the level crossing field. We discuss inferences about the
+    site and structure of <sup>8</sup>Li<sup>+</sup> in Cu from this data.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '910'
+  issue: 5-7
+  pages: '910-913'
   year: 2009
   doi: 10.1016/j.physb.2008.11.138
   submitted: 2008-11-15
@@ -712,11 +970,16 @@
     - M. R. Pearson
     - Z. Salman
     - W. A. MacFarlane
-  abstract: null
+  abstract: >-
+    We report the modification to the linear temperature dependence of the
+    Korringa nuclear spin-lattice relaxation rate of an implanted NMR probe in
+    silver, as it makes a thermally activated site change. We develop a simple
+    model of this phenomenon, which is found in a number of metals including Au
+    and Nb.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '914'
+  issue: 5-7
+  pages: '914-916'
   year: 2009
   doi: 10.1016/j.physb.2008.11.157
   submitted: 2008-11-15
@@ -744,11 +1007,19 @@
     - D. Wang
     - M. Xu
     - W. A. MacFarlane
-  abstract: null
+  abstract: >-
+    Using low energy beta-detected nuclear magnetic resonance (β-NMR), the
+    Knight shift and spin-lattice relaxation rate of dilute
+    <sup>8</sup>Li<sup>+</sup> implanted into a 28 nm Pd film on a MgO substrate
+    were studied as a function of temperature. The shift of the resonance is
+    negative, but much smaller in magnitude than observed in two other much
+    thicker samples. The corresponding spin-lattice relaxation rates are found
+    to be linear with temperature <i>T</i>, but are roughly 50 % slower than the
+    rates measured in a Pd foil. Potential explanations are discussed.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '917'
+  issue: 5-7
+  pages: '917-919'
   year: 2009
   doi: 10.1016/j.physb.2008.11.137
   submitted: 2008-11-15
@@ -771,11 +1042,21 @@
     - M. Smadella
     - Q. Song
     - W. A. MacFarlane
-  abstract: null
+   abstract: >-
+    A low energy beam of spin polarized <sup>8</sup>Li has been used to study
+    the behaviour of isolated <sup>8</sup>Li implanted into a 150 nm thick film
+    of Al on an MgO substrate. The spin relaxation rate 1/<i>T</i><sub>1</sub>
+    and β-NMR lineshape were measured as a function of temperature in a large
+    magnetic field of 4.1 T. The resonances from different sites are unresolved
+    due to the large nuclear dipolar interaction with the host <sup>27</sup>Al
+    magnetic dipole moments. Nevertheless the temperature variation of the site
+    averaged and Knight shift show evidence for a transition between the
+    octahedral <i>O</i> and substitutional <i>S</i> sites at about 150 K, as
+    observed in other fcc metals.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '920'
+  issue: 5-7
+  pages: '920-923'
   year: 2009
   doi: 10.1016/j.physb.2008.11.136
   submitted: 2008-11-15
@@ -801,11 +1082,24 @@
     - H. Saadaoui
     - Q. Song
     - D. Wang
-  abstract: null
+  abstract: >-
+    We investigate the 105 K structural phase transition in SrTiO<sub>3</sub>
+    using depth controlled measurements of the spin relaxation of
+    <sup>8</sup>Li. The measurements were performed in zero external magnetic
+    field and rely on the local electric field gradient (EFG) at the crystalline
+    implantation site of the <sup>8</sup>Li (<i>I</i> = 2) to hold the nuclear
+    polarization. The tetragonal distortion accompanying the phase transition
+    modifies the EFG in some <sup>8</sup>Li implantation sites, resulting in an
+    observable loss of <sup>8</sup>Li polarization. This loss of polarization
+    begins at a temperature <i>T</i><sup>*</sup>, indicating there is some loss
+    of cubic symmetry well above the bulk transition. We find that the value of
+    is unaffected by the range of implantation depths available (10-150 nm);
+    however, the temperature dependence of the polarization depends on the
+    surface preparation of the SrTiO<sub>3</sub> sample.
   journal: Physica B
   volume: 404
-  issue: null
-  pages: '924'
+  issue: 5-7
+  pages: '924-926'
   year: 2009
   doi: 10.1016/j.physb.2008.11.135
   submitted: 2008-11-15
@@ -1550,11 +1844,11 @@
     - R. F. Kiefl
     - W. A. Macfarlane
   abstract: >-
-    Using 8Li β-NMR we studied the temperature dependence of the spin–lattice
-    relaxation in LaAlO<sub>3</sub> in high magnetic field. The relaxation in
-    LAO is composed of two components: a fast-relaxing signal with a small
-    amplitude, and a large amplitude, slow relaxing component. The data was fit
-    using a highly-constrained model which assumes that the temperature
+    Using <sup>8</sup>Li β-NMR we studied the temperature dependence of the
+    spin-lattice relaxation in LaAlO<sub>3</sub> in high magnetic field. The
+    relaxation in LAO is composed of two components: a fast-relaxing signal with
+    a small amplitude, and a large amplitude, slow relaxing component. The data
+    was fit using a highly-constrained model which assumes that the temperature
     dependence of the slow and fast component is the same at all temperatures.
     The <sup>8</sup>Li relaxation suggests a <i>T</i><sup>2</sup> temperature
     dependence, indicating that the relaxation mechanism could be due to a
@@ -1588,7 +1882,7 @@
     (LSAT). LSAT showed well defined but highly broadened quadrupolar
     satellites, with a similar pattern to that observed in SrTiO<sub>3</sub>. In
     contrast, the resonance in YSZ showed a single, broad peak indicative of a
-    cubic <sup>8</sup>Li implantation site. The <sup>8</sup>Li spin–lattice
+    cubic <sup>8</sup>Li implantation site. The <sup>8</sup>Li spin-lattice
     relaxation at 6.55 T, for both solid solutions, is very slow; while at
     150 G, the relaxation in LSAT becomes faster due to the <sup>27</sup>Al
     nuclear moments similar to Al<sub>2</sub>O<sub>3</sub>. For YSZ the low
@@ -1665,7 +1959,7 @@
     - Z. Salman
     - R. F. Kiefl
   abstract: >-
-    We demonstrate that the ratio of 1/<i>T</i><sub>1</sub> spin–lattice
+    We demonstrate that the ratio of 1/<i>T</i><sub>1</sub> spin-lattice
     relaxation rates (SLR) of two different isotopes (here <sup>8</sup>Li and
     <sup>9</sup>Li) can be used in order to identify the predominant relaxation
     mechanism within the β-NMR technique. We studied with both isotopes a Pt
