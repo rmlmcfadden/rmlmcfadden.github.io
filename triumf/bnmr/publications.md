@@ -15,9 +15,9 @@ grand_parent: TRIUMF
 1. TOC
 {:toc}
 
-## Electronic Preprints
-
 {% assign preprints = site.data.bnmr.publications.preprints | sort: "published" | reverse %}
+
+## Electronic Preprints ({{ preprints.size }})
 
 <ol reversed>
 {% for pub in preprints %}
@@ -71,9 +71,9 @@ grand_parent: TRIUMF
 {% endfor %}
 </ol>
 
-## Journal Articles
-
 {% assign articles = site.data.bnmr.publications.articles | sort: "published" | reverse %}
+
+## Journal Articles ({{ articles.size }})
 
 <ol reversed>
 {% for pub in articles %}
@@ -127,9 +127,9 @@ grand_parent: TRIUMF
 {% endfor %}
 </ol>
 
-## Conference Proceedings
-
 {% assign proceedings = site.data.bnmr.publications.proceedings | sort: "published" | reverse %}
+
+## Conference Proceedings ({{ proceedings.size }})
 
 <ol reversed>
 {% for pub in proceedings %}
@@ -183,9 +183,9 @@ grand_parent: TRIUMF
 {% endfor %}
 </ol>
 
-## Theses
-
 {% assign theses = site.data.bnmr.publications.theses | sort: "published" | reverse %}
+
+## Theses ({{ theses.size }})
 
 <ol reversed>
 {% for pub in theses %}

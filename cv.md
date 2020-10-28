@@ -85,9 +85,9 @@ nav_order: 1
 
 ## Publications
 
-### Electronic Preprints
-
 {% assign preprints = site.data.rmlm.publications.preprints | sort: "published" | reverse %}
+
+### Electronic Preprints ({{ preprints.size }})
 
 <ol reversed>
 {% for pub in preprints %}
@@ -141,9 +141,9 @@ nav_order: 1
 {% endfor %}
 </ol>
 
-### Journal Articles
-
 {% assign articles = site.data.rmlm.publications.articles | sort: "published" | reverse %}
+
+### Journal Articles ({{ articles.size }})
 
 <ol reversed>
 {% for pub in articles %}
@@ -197,9 +197,9 @@ nav_order: 1
 {% endfor %}
 </ol>
 
-### Conference Proceedings
-
 {% assign proceedings = site.data.rmlm.publications.proceedings | sort: "published" | reverse %}
+
+### Conference Proceedings ({{ proceedings.size }})
 
 <ol reversed>
 {% for pub in proceedings %}
@@ -253,9 +253,9 @@ nav_order: 1
 {% endfor %}
 </ol>
 
-### Theses
-
 {% assign theses = site.data.rmlm.publications.theses | sort: "published" | reverse %}
+
+### Theses ({{ theses.size }})
 
 <ol reversed>
 {% for pub in theses %}
