@@ -631,13 +631,13 @@
     nuclei of interest. Recently, the β-NQR technique in a zero magnetic field
     has been applied for the first time to measure the ratio of static nuclear
     quadrupole moments of <sup>8,9</sup>Li, Q<sub>9</sub>/Q<sub>8</sub> =
-    0.96675(9) denoted by Q<sub>8</sub> for <sup>8</sup>Li and Q<sub>9</sub> for
-    <sup>9</sub>Li, respectively. This shows agreement with present literature
-    values but with significantly improved precision. Based on the literature,
-    the quadrupole moment for <sup>8</sup>Li has been re-evaluated to be
-    |Q<sub>8</sub>| = 32.6(5) mb. From this, the quadrupole moment for
-    <sup>9</sup>Li is calculated as |Q<sub>9</sub>| = 31.5(5) mb with the error
-    being dominated by the error of Q<sub>8</sub>.
+    0.96675(9) denoted by <i>Q</i><sub>8</sub> for <sup>8</sup>Li and
+    <i>Q</i><sub>9</sub> for <sup>9</sup>Li, respectively. This shows agreement
+    with present literature values but with significantly improved precision.
+    Based on the literature, the quadrupole moment for <sup>8</sup>Li has been
+    re-evaluated to be |Q<sub>8</sub>| = 32.6(5) mb. From this, the quadrupole
+    moment for <sup>9</sup>Li is calculated as |<i>Q</i><sub>9</sub>| = 31.5(5)
+    mb with the error being dominated by the error of <i>Q</i><sub>8</sub>.
   journal: 'J. Phys. G: Nucl. Part. Phys.'
   volume: 38
   issue: 7
@@ -989,9 +989,9 @@
     The ratio of electric quadrupole moments of <sup>11</sup>Li and
     <sup>9</sup>Li was measured using the zero-field β-detected nuclear
     quadrupole resonance technique at TRIUMF-ISAC. The precision on the ratio
-    Q<sub>11</sub>/Q<sub>9</sub> = 1.0775(12) was improved by more than one
-    order of magnitude and an absolute value for the quadrupole moment of
-    <sup>11</sup>Li was inferred. Systematic effects, as argued here, are not
+    <i>Q</i><sub>11</sub>/<i>Q</i><sub>9</sub> = 1.0775(12) was improved by more
+    than one order of magnitude and an absolute value for the quadrupole moment
+    of <sup>11</sup>Li was inferred. Systematic effects, as argued here, are not
     expected to contribute to the ratio on this scale. The zero-field
     spin-lattice relaxation time for <sup>8</sup>Li implanted within
     SrTiO<sub>3</sub> at 295 K in zero-field was found to be

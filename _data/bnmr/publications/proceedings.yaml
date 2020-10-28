@@ -1349,7 +1349,8 @@
     show that on a time scale much longer than the mean time between collisions
     (fluctuations) the longitudinal polarization decays exponentially with a
     relaxation rate equal to a sum of Lorentzians - one for each frequency
-    component in the static polarization function <i>p<sub>s</sub><i>(<i>t</i>).
+    component in the static polarization function
+    <i>p<sub>s</sub></i>(<i>t</i>).
   journal: Phys. Proc.
   volume: 30
   issue: null
