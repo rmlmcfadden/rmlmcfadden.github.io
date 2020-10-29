@@ -1389,7 +1389,7 @@
     trifluoroacetate (LiTFA) salts at monomer-to-salt ratios (EO/Li) of 8.3. The
     results are compared with previous β-NMR measurements on pure PEO and PEO
     with lithium triflate (LiOTf) at the same loading [McKenzie et al., J. Am.
-    Chem. Soc. 136, 7833 (2014)]. Activated hopping of
+    Chem. Soc. <b>136</b>, 7833 (2014)]. Activated hopping of
     <sup>8</sup>Li<sup>+</sup> was observed in all of the films above ~250 K,
     with the hopping parameters strongly correlated with the ionicity of the
     lithium salt rather than the polymer glass transition temperature. The
@@ -1585,7 +1585,8 @@
     film and a PS-d8 film where the SDS was washed away. There is less contrast
     between the surface and bulk in the SDS-treated sample, which could account
     for the elimination of the <i>T<sub>g</sub></i> confinement effect observed
-    in films containing SDS [Chen and Torkelson, Polymer, 2016, <b>87</b>, 226].
+    in films containing SDS [Chen and Torkelson, <i>Polymer</i>, 2016,
+    <b>87</b>, 226].
   journal: Soft Matter
   volume: 14
   issue: 36
