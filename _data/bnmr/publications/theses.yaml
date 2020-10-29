@@ -1,4 +1,103 @@
 - title: >-
+    Hyperfine magnetic fields in Fe/Ag magnetic multilayers probed with low
+    energy spin polarized <sup>8</sup>Li
+  author:
+    - T. A. Keeler
+  abstract: >-
+    This thesis is a presentation of experiments examining the induced hyperfine
+    magnetism in the nonmagnetic layers of two thin film magnetic multilayers,
+    Au(40 Å)/Ag(200 Å)/Fe(140 Å) and Au(40 Å)/Ag(800 Å)/Fe(20 Å) grown on GaAs
+    (001) single crystal substrates. The main technique used in this study was
+    beta-detected nuclear magnetic resonance (βNMR) conducted at TRIUMF
+    laboratories in Vancouver, British Columbia. βNMR makes NMR measurements on
+    radioactive <sup>8</sup>Li<sup>+</sup> (<i>τ</i> = 1.21 sec) nuclei that are
+    implanted directly into the sample. Resonant βNMR experiments showed strong
+    induced magnetism in the non-magnetic Ag layer due the magnetic Fe.
+    Comparison of a theoretical model to experimental results on the
+    Au(40 Å)/Ag(200 Å)/Fe(140 Å) sample suggest that the induced hyperfine
+    magnetism decays with distance into the Ag layer from the
+    magnetic/nonmagnetic interface like x<sup>-1.84</sup> from a maximum of
+    ~0.3 T at the magnetic/nonmagnetic interface.
+  degree: MSc
+  school: University of British Columbia
+  address: Vancouver
+  year: 2006
+  doi: 10.14288/1.0092912
+  url: http://hdl.handle.net/2429/18291
+  published: 2006-04-20
+- title: >-
+    Measurement of the London penetration depth in the Meissner state of
+    NbSe<sub>2</sub> using low energy polarized <sup>8</sup>Li
+  author:
+    - M. M. Hossain
+  abstract: >-
+    In this thesis, the Meissner state of NbSe<sub>2</sub> was investigated
+    using low energy beam of spin polarized <sup>8</sup>Li. The <sup>8</sup>Li
+    nuclear spin relaxation rate 1/<i>T</i><sub>1</sub> was measured as a
+    function of temperature and magnetic field. The spin relaxation rate is
+    sensitive to low frequency nuclear spin dynamics of the host Nb spins and is
+    strongly field dependent. This is used to determine the reduction in the
+    magnetic field upon cooling into the Meissner state. Using a calculated
+    implantation profile and a model field distribution, one can extract a
+    measure of the absolute value of the London penetration depth <i>λ</i> in
+    Meissner state. In addition, a model field distribution, assuming a
+    suppression of order parameter near surface, was developed. In this case, we
+    can extract another length scale which is related to the "coherence" length
+    <i>ξ</i>. The value of <i>λ</i> depends on the model field distribution but
+    is significantly longer than that obtained previously in the vortex state
+    using μSR. From the measured internal magnetic field distribution, London
+    penetration <i>λ<sub>L</sub></i> is extracted as a function of temperature.
+    There is also evidence of the coherence peak in 1/<i>T</i><sub>1</sub> of
+    host nuclear spins. <i>λ<sub>L</sub></i>(<i>T</i>) follows the two-fluid
+    model of superconductivity. Depending on the model for internal field
+    distribution, <i>λ<sub>L</sub></i>(0) varies in the range (1795-2434) Å.
+  degree: MSc
+  school: University of British Columbia
+  address: Vancouver
+  year: 2006
+  doi: 10.14288/1.0092663
+  url: http://hdl.handle.net/2429/17846
+  published: 2006-04-28
+- title: >-
+    Near surface vortex lattice in NbSe<sub>2</sub> studied with low energy
+    beta-NMR
+  author:
+    - D. Wang
+  abstract: >-
+    <p>
+    In this thesis, the magnetic field distribution in the vortex state of
+    NbSe<sub>2</sub> is investigated with the technique of depth resolved
+    β-detected NMR using a beam of highly polarized <sup>8</sup>Li produced at
+    the TRIUMF ISAC facility. The β-NMR lineshape is a direct measure of the
+    local magnetic field distribution weighted according to the implantation
+    profile of the <sup>8</sup>Li beam. By varying the implantation energy
+    between 1 ~ 30 keV, one can control the average implantation depth
+    corresponds in a range between 5 ~ 136 nm. Above <i>T<sub>c</sub></i> = 7.0
+    K a relatively narrow resonance is observed whose width is attributed to
+    magnetic dipolar broadening from the <sup>93</sup>Nb nuclear moments. Below
+    <i>T<sub>c</sub></i> a much broader asymmetric lineshape is observed, which
+    is characteristic of a triangular magnetic vortex lattice. Modeling the
+    magnetic field distribution allows one to determine both the effective in
+    plane penetration depth <i>λ</i><sub>||</sub> and the effective in plane
+    coherence length <i>ξ</i><sub>||</sub> or vortex core radius.
+    </p>
+    <p>
+    In a magnetic field of 302 mT, we obtain <i>λ</i><sub>||</sub> = 279(30) nm
+    and <i>ξ</i><sub>||</sub> = 12(1) nm. In a smaller magnetic field of 10.84
+    mT, the effective coherence length increases dramatically to a value of
+    77(10) nm. This is more than an order of magnitude larger than the expected
+    from the coherence length in NbSe<sub>2</sub>. The origin of the giant
+    vortices is discussed. We propose an explanation involving the multiband
+    nature of NbSe<sub>2</sub>.
+    </p>
+  degree: MSc
+  school: University of British Columbia
+  address: Vancouver
+  year: 2006
+  doi: 10.14288/1.0085246
+  url: http://hdl.handle.net/2429/18344
+  published: 2006-08-01
+- title: >-
     Magnetic properties near the surface of cuprate superconductors studied
     using beta-detected NMR
   author:
