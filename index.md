@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Home
-nav_order: 0
 description: Homepage of my personal website.
+nav_exclude: true
 ---
 
-Hello, world!
+Hello, world! Welcome to my personal webpage.
+
+The content here is largely a collection of academic notes pertaining to my own
+interests, but hopefully some of it is of use to you too!
