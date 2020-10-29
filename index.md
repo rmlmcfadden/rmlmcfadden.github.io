@@ -7,5 +7,5 @@ nav_exclude: true
 
 Hello, world! Welcome to my personal webpage.
 
-The content here is largely a collection of academic notes pertaining to my own
-interests, but hopefully some of it is of use to you too!
+The site's contents largely cater to my own academic interests, but hopefully
+some of it is of use/interest to you too!
