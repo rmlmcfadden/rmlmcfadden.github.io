@@ -1,4 +1,66 @@
 - title: >-
+    Muonium kinetics in sub- and supercritical carbon dioxide: reaction with
+    vinylidene fluoride
+  author:
+    - R. M. L. McFadden
+  abstract: >-
+    <p>
+    Transverse field muon spin relaxation was employed to study the reaction
+    kinetics of muonium and vinylidene fluoride in sub- and supercritical carbon
+    dioxide. Rate constants for the reaction were determined over range of
+    thermodynamic conditions spanning 290-530 K and 40-360 bar. This included a
+    solvent density range of 0.05-0.90 g cm<sup>-3</sup>, which is more than an
+    order of magnitude in difference. This is the first muonium kinetics study
+    under conditions of such a large density range and is the largest density
+    range for any kinetics study in carbon dioxide.
+    </p>
+    <p>
+    Three dimensional analysis of the rate constants as a function of
+    temperature and pressure indicates that 80 bar ≤ <i>P</i> ≤ 120 bar and
+    290 K ≤ <i>T</i> ≤ 330 bar is the thermodynamic range where change in rate
+    constant are most affected by small changes in thermodynamic conditions. In
+    general, for an increase in solvent density, the reaction rate increases,
+    indicating that the reaction is chemically controlled, unlike what is
+    usually proposed for free radical reactions in supercritical fluids.
+    </p>
+    <p>
+    Arrhenius temperature dependence was displayed for the reaction rate under
+    isodense conditions. This produced a general decrease of activation energy
+    as solvent density increased, ranging from 10.4-4.7 kJ mol<sup>−1</sup> over
+    a density range of 0.11-0.83 g cm<sup>−3</sup>. Activation entropy remained
+    largely constant over this range of densities, with an approximate value of
+    -59 J mol<sup>-1</sup> K<sup>−1</sup>. Maxima in thermal activation
+    parameters are observed at a solvent density <i>ρ</i> ≈ 0.55 g
+    cm<sup>-3</sup>, likely due to a change in mechanism from activation
+    controlled to diffusion controlled reaction.
+    </p>
+    <p>
+    Pressure dependence of the reaction manifested critical reaction slowing for
+    isotherms where <i>T</i> ≈ <i>T<sub>c</sub></i>. These produced activation
+    volumes on the order of ±10<sup>5</sup> cm<sup>3</sup> mol<sup>−1</sup>,
+    which is nearly four orders of magnitude larger than typical values found
+    for reactions in supercritical fluids. For isotherms where <i>T</i> >>
+    <i>T<sub>c</sub></i>, the critical slowing vanished, and activations volumes
+    found in the range of −134 to −220 cm<sup>3</sup> mol<sup>−1</sup> for
+    temperatures between 363-433 K.
+    </p>
+    <p>
+    A preliminary computational model was developed to elucidate the primary
+    reaction channel for hydrogen atom reactions with vinylidene fluoride in the
+    gas phase. The results of this computational work were used to help
+    interpret the analogous reaction of muonium with vinylidene fluoride. The
+    UB3LYP/6-311++G(3<i>df</i>, 3<i>pd</i>) method and basis set was employed
+    for these calculations and produced results which confirmed literature
+    suggestions that addition to vinylidene fluoride's protonated carbon is the
+    primary reaction channel.
+    </p>
+  degree: BSc Honours
+  school: Mount Allison University
+  address: Sackville
+  year: 2011
+  url: null
+  published: 2011-04-19
+- title: >-
     Microscopic dynamics of isolated lithium in crystalline solids revealed by
     nuclear magnetic relaxation and resonance of <sup>8</sup>Li
   author:
