@@ -230,4 +230,4 @@ with open("../_data/triumf/bnmr/experiments.yaml", "w") as fh:
             if experiment == number:
                 fh.write("- experiment: '%s'\n" % number)
                 fh.write("  title: '%s'\n" % fix_fmt(title))
-                fh.write("  spokespersons: [%s]'\n" % spokespersons.replace("  ", ", "))
+                fh.write("  spokespersons: [%s]\n" % spokespersons.replace("  ", ", "))
