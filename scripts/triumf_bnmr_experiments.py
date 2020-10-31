@@ -62,11 +62,13 @@ experiments = [
     "M1100",
     "M1119",
     "M1153",
+    "S1155",
     "M1165",
     "M1176",
     "M1226",
     "M1305",
     "M1306",
+    "S1329",
     "M1354",
     "M1399",
     "M1401",
@@ -109,6 +111,7 @@ experiments = [
     "M1939",
     "M1945",
     "M1960",
+    "M1963",
     "M2038",
     "M2061",
     "M2072",
@@ -116,8 +119,14 @@ experiments = [
 ]
 
 # sort and reorder
-# experiments = sorted(experiments, reverse=True, key=lambda n: int(n.strip("M")))
-experiments = sorted(experiments, reverse=False, key=lambda n: int(n.strip("M")))
+"""
+experiments = sorted(
+    experiments, reverse=True, key=lambda n: int(n.strip("M").strip("S"))
+)
+"""
+experiments = sorted(
+    experiments, reverse=False, key=lambda n: int(n.strip("M").strip("S"))
+)
 
 #
 def md_table_row(number, title, spokespersons):
