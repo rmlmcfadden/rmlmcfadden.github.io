@@ -25,11 +25,14 @@ An up-to-date list of approved β-NMR experiments is given below.
          <td>Spokespersons</td>
       </tr>
    </thead>
-   {% for exp in site.data.triumf.bnmr.experiments %}
+   <tbody>
+   {% assign experiments = site.data.triumf.bnmr.experiments | reverse %}
+   {% for exp in experiments %}
    <tr>
       <td><a href="{{ exp.url }}">{{ exp.number }}</a></td>
       <td>{{ exp.title }}</td>
       <td>{{ exp.spokespersons | join: ", " }}</td>
    </tr>
    {% endfor %}
+   </tbody>
 </table>
