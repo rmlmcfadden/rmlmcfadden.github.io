@@ -19,9 +19,9 @@ An up-to-date list of approved β-NMR experiments is given below.
 
 <table>
    <thead>
-      <td>Number</td>
-      <td>Title</td>
-      <td>Spokespersons</td>
+      <th>Number</th>
+      <th>Title</th>
+      <th>Spokespersons</th>
    </thead>
    <tbody>
    {% assign experiments = site.data.triumf.bnmr.experiments | reverse %}
