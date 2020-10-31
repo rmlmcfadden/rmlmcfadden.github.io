@@ -89,9 +89,9 @@ nav_order: 1
 
 ### Electronic Preprints ({{ preprints.size }})
 
-<ol reversed>
+<ol>
 {% for pub in preprints %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -145,9 +145,9 @@ nav_order: 1
 
 ### Journal Articles ({{ articles.size }})
 
-<ol reversed>
+<ol>
 {% for pub in articles %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -201,9 +201,9 @@ nav_order: 1
 
 ### Conference Proceedings ({{ proceedings.size }})
 
-<ol reversed>
+<ol>
 {% for pub in proceedings %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -257,9 +257,9 @@ nav_order: 1
 
 ### Theses ({{ theses.size }})
 
-<ol reversed>
+<ol>
 {% for pub in theses %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}

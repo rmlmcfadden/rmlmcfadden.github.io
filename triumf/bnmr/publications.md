@@ -19,9 +19,9 @@ grand_parent: TRIUMF
 
 ## Electronic Preprints ({{ preprints.size }})
 
-<ol reversed>
+<ol>
 {% for pub in preprints %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -75,9 +75,9 @@ grand_parent: TRIUMF
 
 ## Journal Articles ({{ articles.size }})
 
-<ol reversed>
+<ol>
 {% for pub in articles %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -131,9 +131,9 @@ grand_parent: TRIUMF
 
 ## Conference Proceedings ({{ proceedings.size }})
 
-<ol reversed>
+<ol>
 {% for pub in proceedings %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
@@ -187,9 +187,9 @@ grand_parent: TRIUMF
 
 ## Theses ({{ theses.size }})
 
-<ol reversed>
+<ol>
 {% for pub in theses %}
-   <li>
+   <li value="{{ forloop.length | minus: forloop.index0 }}">
    {% if pub.author %}
       <p>
       {% for author in pub.author  %}
