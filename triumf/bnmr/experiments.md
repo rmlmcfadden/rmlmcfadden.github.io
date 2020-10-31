@@ -31,4 +31,5 @@ An up-to-date list of approved β-NMR experiments is given below.
       <td>{{ exp.title }}</td>
       <td>{{ exp.spokespersons | join: ", " }}</td>
    </tr>
+   {% endfor %}
 </table>
