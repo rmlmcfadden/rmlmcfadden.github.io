@@ -240,3 +240,4 @@ with open("../_data/triumf/bnmr/experiments.yaml", "w") as fh:
                 fh.write("- experiment: '%s'\n" % number)
                 fh.write("  title: '%s'\n" % fix_fmt(title))
                 fh.write("  spokespersons: [%s]\n" % spokespersons.replace("  ", ", "))
+                fh.write("  url: '%s%s'\n" % (expbaseurl, number))

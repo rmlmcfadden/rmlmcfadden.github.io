@@ -27,7 +27,7 @@ An up-to-date list of approved β-NMR experiments is given below.
    </thead>
    {% for exp in site.data.triumf.bnmr.experiments %}
    <tr>
-      <td><a href="https://mis.triumf.ca/science/experiment/view/{{ exp.number }}">{{ exp.number }}</a>{{ exp.number }}</td>
+      <td><a href="{{ exp.url }}">{{ exp.number }}</a></td>
       <td>{{ exp.title }}</td>
       <td>{{ exp.spokespersons | join: ", " }}</td>
    </tr>
