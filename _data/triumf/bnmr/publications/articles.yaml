@@ -630,14 +630,15 @@
     isotopic chains when coupled to a laser excitation beamline to polarize the
     nuclei of interest. Recently, the β-NQR technique in a zero magnetic field
     has been applied for the first time to measure the ratio of static nuclear
-    quadrupole moments of <sup>8,9</sup>Li, Q<sub>9</sub>/Q<sub>8</sub> =
-    0.96675(9) denoted by <i>Q</i><sub>8</sub> for <sup>8</sup>Li and
+    quadrupole moments of <sup>8,9</sup>Li, <i>Q</i><sub>9</sub>/<i>Q</i><sub>8</sub>
+    = 0.96675(9) denoted by <i>Q</i><sub>8</sub> for <sup>8</sup>Li and
     <i>Q</i><sub>9</sub> for <sup>9</sup>Li, respectively. This shows agreement
     with present literature values but with significantly improved precision.
     Based on the literature, the quadrupole moment for <sup>8</sup>Li has been
-    re-evaluated to be |Q<sub>8</sub>| = 32.6(5) mb. From this, the quadrupole
-    moment for <sup>9</sup>Li is calculated as |<i>Q</i><sub>9</sub>| = 31.5(5)
-    mb with the error being dominated by the error of <i>Q</i><sub>8</sub>.
+    re-evaluated to be |<i>Q</i><sub>8</sub>| = 32.6(5) mb. From this, the
+    quadrupole moment for <sup>9</sup>Li is calculated as |<i>Q</i><sub>9</sub>|
+    = 31.5(5) mb with the error being dominated by the error of
+    <i>Q</i><sub>8</sub>.
   journal: 'J. Phys. G: Nucl. Part. Phys.'
   volume: 38
   issue: 7
@@ -1762,7 +1763,7 @@
     - W. A. MacFarlane
   abstract: >-
     We report β-detected NMR of ion-implanted <sup>8</sup>Li in a single crystal
-    and thin film of the strongly correlated metal LaNiO<sup>3</sup>.
+    and thin film of the strongly correlated metal LaNiO<sub>3</sub>.
     Spin-lattice relaxation measurements reveal two distinct local environments,
     both metallic as evident from <i>T</i>-linear Korringa
     1/<i>T</i><sub>1</sub> below 200 K with slopes comparable to other metals. A
@@ -1774,7 +1775,7 @@
     to dilute oxygen vacancies. We attribute the two environments to two
     distinct but similar crystallographic <sup>8</sup>Li sites and not to any
     form of phase inhomogeneity, but this is inconsistent with the conventional
-    rhombohedral structure of LaNiO<sup>3</sup>, and also cannot be simply
+    rhombohedral structure of LaNiO<sub>3</sub>, and also cannot be simply
     explained by the common alternative orthorhombic or monoclinic distortions.
   journal: Phys. Rev. B
   volume: 100
