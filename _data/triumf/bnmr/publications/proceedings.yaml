@@ -99,12 +99,12 @@
     - C. Bommas
     - E. Dumont
     - L. H. Greene
-  abstact: >-
+  abstract: >-
     A spectrometer for β-detected nuclear magnetic resonance (β-NMR) has been
     commissioned at the ISAC facility at TRIUMF. A beam of low energy highly
-    spin polarized 8Li+ can be decelerated and implanted into ultra-thin
-    structures 6-400 nm thick. β-NMR provides local information on the
-    electronic and magnetic properties of materials which is similar to
+    spin polarized <sup>8</sup>Li<sup>+</sup> can be decelerated and implanted
+    into ultra-thin structures 6-400 nm thick. β-NMR provides local information
+    on the electronic and magnetic properties of materials which is similar to
     conventional NMR but can be used as a sensitive probe of ultra-thin films,
     interfaces and other nanostructures. We report here on the status of the
     spectrometer and preliminary results on a simple metal film.
