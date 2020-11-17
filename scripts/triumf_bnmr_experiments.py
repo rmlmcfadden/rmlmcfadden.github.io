@@ -230,6 +230,18 @@ with open("triumf_bnmr_experiments.html", "w") as fh:
     # fh.write(tabs(0) + "</center>\n")
 """
 
+
+def get_status(experiment):
+    url = expbaseurl + experiment
+    html = requests.get(url).text
+    if "Closed" in html:
+        return "Closed"
+    elif "Approved" in html:
+        return "Approved"
+    else:
+        return "Unknown"
+
+
 # write the list to yaml file.
 with open("../_data/triumf/bnmr/experiments.yaml", "w") as fh:
     for experiment in experiments:
@@ -237,7 +249,9 @@ with open("../_data/triumf/bnmr/experiments.yaml", "w") as fh:
             df["Number"], df["Title"], df["Spokespersons"]
         ):
             if experiment == number:
+                status = get_status(experiment)
                 fh.write("- experiment: '%s'\n" % number)
                 fh.write("  title: '%s'\n" % fix_fmt(title))
                 fh.write("  spokespersons: [%s]\n" % spokespersons.replace("  ", ", "))
                 fh.write("  url: '%s%s'\n" % (expbaseurl, number))
+                fh.write("  status: '%s'\n" % (status))

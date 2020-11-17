@@ -15,13 +15,14 @@ experiments (i.e., those which may be directly competative with one another) are
 generally forbidden, it is useful to keep track of what experiments are
 happening in parallel, as well as those that have already been performed.
 
-An up-to-date list of approved β-NMR experiments is given below.
+An up-to-date list of β-NMR experiments at TRIUMF is given below.
 
 <table>
    <thead>
       <th>Number</th>
       <th>Title</th>
       <th>Spokespersons</th>
+      <th>Status</th>
    </thead>
    <tbody>
    {% assign experiments = site.data.triumf.bnmr.experiments | reverse %}
@@ -30,6 +31,7 @@ An up-to-date list of approved β-NMR experiments is given below.
       <td><a href="{{ exp.url }}">{{ exp.experiment }}</a></td>
       <td>{{ exp.title }}</td>
       <td>{{ exp.spokespersons | join: ", " }}</td>
+      <td>{{ exp.status }}</td>
    </tr>
    {% endfor %}
    </tbody>
