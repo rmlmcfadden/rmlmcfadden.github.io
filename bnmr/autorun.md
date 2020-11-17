@@ -3,7 +3,6 @@ layout: default
 title: Autorun
 description: β-NMR Automatic Run Control
 parent: β-NMR
-grand_parent: TRIUMF
 ---
 
 # Autorun

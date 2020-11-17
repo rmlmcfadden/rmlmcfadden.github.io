@@ -243,7 +243,7 @@ def get_status(experiment):
 
 
 # write the list to yaml file.
-with open("../_data/triumf/bnmr/experiments.yaml", "w") as fh:
+with open("../_data/bnmr/experiments.yaml", "w") as fh:
     for experiment in experiments:
         for number, title, spokespersons in zip(
             df["Number"], df["Title"], df["Spokespersons"]

@@ -3,7 +3,6 @@ layout: default
 title: Experiments
 description: List of approved β-NMR experiments at TRIUMF.
 parent: β-NMR
-grand_parent: TRIUMF
 mathjax: true
 ---
 
@@ -25,7 +24,7 @@ An up-to-date list of β-NMR experiments at TRIUMF is given below.
       <th>Status</th>
    </thead>
    <tbody>
-   {% assign experiments = site.data.triumf.bnmr.experiments | reverse %}
+   {% assign experiments = site.data.bnmr.experiments | reverse %}
    {% for exp in experiments %}
    <tr>
       <td><a href="{{ exp.url }}">{{ exp.experiment }}</a></td>

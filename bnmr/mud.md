@@ -2,7 +2,7 @@
 layout: default
 title: MUD
 description: MUon Data (MUD).
-parent: TRIUMF
+parent: β-NMR
 has_children: true
 has_toc: true
 ---
