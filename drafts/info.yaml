@@ -1,0 +1,24 @@
+github_username: rmlmcfadden
+gitlab_username: rmlm
+orcid: 0000-0002-1389-2410
+
+education:
+  - degree: B.Sc. (Hons.)
+    year: 2013
+    school: Mount Allison University
+    address: Sackville, NB, Canada
+    url: https://www.mta.ca/
+    supervisor: K. Ghandi
+    thesis: >-
+      Muonium chemistry in sub- and supercritical carbon dioxide: reaction with
+      vinylidene fluoride
+  - degree: Ph.D.
+    year: 2020
+    school: University of British Columbia
+    address: Vancouver, BC, Canada
+    url: https://www.ubc.ca/
+    supervisor: W. A. MacFarlane and R. F. Kiefl
+    thesis: >-
+      Microscopic dynamics of isolated lithium in crystalline solids revealed by
+      nuclear magnetic relaxation and resonance of <sup>8</sup>Li
+
