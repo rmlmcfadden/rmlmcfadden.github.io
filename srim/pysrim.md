@@ -66,14 +66,17 @@ return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
 ## Example: a multi-layered heterostructure
 
 Here I give an example showcasing `pysrim`'s capabilities.
-The script below creates a target with a complex layered structure, which would
-be unpleasent to do "by hand", and runs several `TRIM` calculations for a single
-ion at a few different implantation energies. Conveniently, the script takes
-care of moving all the results their own (new) folder after each calculations
-completes.
-
-Try it out yourself!
+The script below creates a target with a complex layered structure
+(one that would be particularly unpleasent to do "by hand")
+and runs several `TRIM` calculations for a single ion at
+a few different implantation energies.
+Conveniently, the script takes care of moving all the results to
+their own (new) folder after each calculations completes.
 
 {% highlight python %}
 {% include_relative heterostructure.py %}
 {% endhighlight %}
+
+Try it out yourself!
+
+Download: [`heterostructure.py`]({{ site.baseurl }}{% link /srim/heterostructure.py %})
