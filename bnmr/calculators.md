@@ -130,7 +130,7 @@ or click outside the box to update the values.
 </center>
 
 The above expression is accurate to ± 3 %.
-
+Note that this expression is only valid for data collected before September 2019!
 
 ## β-NQR
 
