@@ -37,4 +37,7 @@ Experimental Evaluation Committee (EEC) prior to being allocated beamtime.
 More details can be found
 [here](https://www.triumf.ca/research-program/planning-experiments).
 
+A list of <i>all</i> approved experiments at [TRIUMF] can be found
+[here](https://mis.triumf.ca/science/experiment/list.jsf?schedule=View+all&discipline=View+all&status=View+all).
+
 [TRIUMF]: https://www.triumf.ca/
