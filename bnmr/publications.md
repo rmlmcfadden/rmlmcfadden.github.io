@@ -9,12 +9,11 @@ parent: β-NMR
 {: .no_toc }
 
 This is my (unoffical) curated list of β-NMR (and related) publications coming
-out of TRIUMF. Most of the literature is related to materials science, but
+out of [TRIUMF]. Most of the literature is related to materials science, but
 results from nuclear physics experiments are also included for completeness.
 
-For an idea of what <i>unpublished</i> experiments have previously or are
-currently being done using the technique, have a look the
-[Experiments page]({% link bnmr/experiments.md %}).
+For an idea of what science is currently being researched using the technique,
+have a look the [Experiments]({% link bnmr/experiments.md %}) page.
 
 ## Table of contents
 {: .no_toc .text-delta}
@@ -245,3 +244,5 @@ currently being done using the technique, have a look the
    </li>
 {% endfor %}
 </ol>
+
+[TRIUMF]: https://www.triumf.ca/

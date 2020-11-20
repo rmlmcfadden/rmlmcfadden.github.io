@@ -8,13 +8,8 @@ mathjax: true
 
 # Experiments
 
-Experiments at TRIUMF must be approved by an Experimental Evaluation Committee
-(EEC) before being allocated beamtime. Since duplicate and overlapping
-experiments (i.e., those which may be directly competative with one another) are
-generally forbidden, it is useful to keep track of what experiments are
-happening in parallel, as well as those that have already been performed.
-
-An up-to-date list of β-NMR experiments at TRIUMF is given below.
+An up-to-date list of β-NMR experiments that have previously or currently being
+performed at [TRIUMF] is given below.
 
 <table>
    <thead>
@@ -35,3 +30,11 @@ An up-to-date list of β-NMR experiments at TRIUMF is given below.
    {% endfor %}
    </tbody>
 </table>
+
+Note that, as with all accelerator based experiments at [TRIUMF], all β-NMR
+experiments require the submission of a written proposal and approval from an
+Experimental Evaluation Committee (EEC) prior to being allocated beamtime.
+More details can be found
+[here](https://www.triumf.ca/research-program/planning-experiments).
+
+[TRIUMF]: https://www.triumf.ca/
