@@ -14,7 +14,7 @@ results from nuclear physics experiments are also included for completeness.
 
 For an idea of what <i>unpublished</i> experiments have previously or are
 currently being done using the technique, have a look the
-[Experiments page]({{ site.baseurl }}{% link /bnmr/experiments.md %}).
+[Experiments page]({% link bnmr/experiments.md %}).
 
 ## Table of contents
 {: .no_toc .text-delta}

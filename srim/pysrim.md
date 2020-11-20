@@ -79,4 +79,4 @@ their own (new) folder after each calculations completes.
 
 Try it out yourself!
 
-Download: [`heterostructure.py`]({{ site.baseurl }}{% link /srim/heterostructure.py %})
+Download: [`heterostructure.py`]({% link srim/heterostructure.py %})
