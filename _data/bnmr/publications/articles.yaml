@@ -1836,6 +1836,37 @@
   submitted: 2019-07-19
   published: 2019-11-12
 - title: >-
+    Erratum: High resolution β-NMR study of <sup>8</sup>Li<sup>+</sup> implanted
+    in gold [Phys. Rev. B 77, 214107 (2008)]
+  author:
+    - T. J. Parolin
+    - Z. Salman
+    - K. H. Chow
+    - Q. Song
+    - J. Valiani
+    - H. Saadaoui
+    - A. O’Halloran
+    - M. D. Hossain
+    - T. A. Keeler
+    - R. F. Kiefl
+    - S. R. Kreitzman
+    - C. D. P. Levy
+    - R. I. Miller
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Smadella
+    - D. Wang
+    - M. Xu
+    - W. A. MacFarlane
+  journal: Phys. Rev. B
+  volume: 100
+  issue: 20
+  pages: 209904(E)
+  year: 2019
+  doi: 10.1103/PhysRevB.100.209904
+  submitted: 2019-10-24
+  published: 2019-11-18
+- title: >-
     Investigation of ionic and anomalous magnetic behavior in CrSe<sub>2</sub>
     using <sup>8</sup>Li β-NMR
   author:
