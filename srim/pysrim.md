@@ -32,6 +32,24 @@ advantageous as it:
 It even works well when running on Linux
 (i.e., it automatically calls `wine SRIM.exe`, `wine TRIM.exe`, etc.)!
 
+As a bonus, it also has a short paper that can be cited:
+<ul>
+  <li>
+    <p>
+      C. Ostrouchov, Y. Zhang, and W. J. Weber.
+    </p>
+    <p>
+      <i>pysrim: automation, analysis, and plotting of SRIM calculations.</i>
+    </p>
+    <p>
+      J. Open Source Software <b>3</b>, 829 (2018).
+    </p>
+    <p>
+      <i class="ai ai-doi"></i>
+      <a href="https://doi.org/10.21105/joss.00829">10.21105/joss.00829</a>
+    </p>
+  </li>
+</ul>
 
 ## Caveats
 
@@ -42,9 +60,9 @@ using it:
   safely. This is due to a recent change in `pyYAML` requiring a `Loader` to be
   specified as a `kwarg`. There is currently a
   [merge request](https://gitlab.com/costrouc/pysrim/-/merge_requests/4) on the
-  project's GitLab page to fix this, but until this gets officially patched it
-  can be mended by editing line 10 of `srim/core/elemementdb.py` so that it
-  reads:
+  project's [GitLab page](https://gitlab.com/costrouc/pysrim) to fix this, but
+  until this gets officially patched it can be mended by editing line 10 of
+  `srim/core/elemementdb.py` so that it reads:
 
 {% highlight python %}
 return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
@@ -79,4 +97,4 @@ their own (new) folder after each calculations completes.
 
 Try it out yourself!
 
-Download: [`heterostructure.py`]({% link srim/heterostructure.py %})
+Download [`heterostructure.py`]({% link srim/heterostructure.py %}).
