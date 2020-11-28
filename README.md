@@ -5,5 +5,4 @@ This repository contains the the source code for my personal website
 It is built using [Jekyll](https://jekyllrb.com/) and hosted for free using
 [GitHub Pages](https://pages.github.com/).
 
-The site's contents mainly serve my own academic interests, but hopefully some
-of it is also of interest/use to you!
+The content of the site mainly caters to my own (largely academic) interests.
