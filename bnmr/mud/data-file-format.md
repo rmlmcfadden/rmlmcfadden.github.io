@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data File Format
-description: MUD format.
+description: MUD Data File format.
 parent: MUD
 grand_parent: β-NMR
 ---
@@ -12,7 +12,7 @@ grand_parent: β-NMR
 <i>
 This page is a reproduction of the content found at
 [http://cmms.triumf.ca/mud/mud_fmt.html](http://cmms.triumf.ca/mud/mud_fmt.html "MUD Data Format").
-Though this is mainly to test the formatting of the markdown to html convension,
+Though this is mainly to test the formatting of the markdown-to-html convension,
 I have made minor changes thoughout the text to improve readability.
 </i>
 
@@ -24,16 +24,16 @@ I have made minor changes thoughout the text to improve readability.
 
 ## Overview
 
-The muon data (MUD) format used at TRIUMF is
-an efficent framework for storing and retrieving muSR data.
-Its existing structure is optimized for muSR data,
+The MUon Data (MUD) format used at TRIUMF is an
+efficent framework for storing and retrieving μSR data.
+Its existing structure is optimized for μSR data,
 but the basic framework is universal and the definition is extensible,
 so it can grow to meet new demands.
 
 The MUD format is characterized by the organization of data into Sections.
 The instance of each Section is defined by two long integers:
-the Type identification (secID) and
-a number specifying the instance of the type (instanceID).
+the Type identification (`secID`) and
+a number specifying the instance of the type (`instanceID`).
 The format has been designed to allow for quick implementation of
 new Section types or modifications of old types,
 high flexibility while maintaining a standard,
@@ -42,9 +42,10 @@ Type identifiers can be assigned to
 new Section types used for applications local to a lab,
 but the ideal is to have shared data type specifications,
 with generally-accepted ID codes.
-To this end, ranges of secID numbers are reserved for individual laboratories,
+To this end,
+ranges of `secID` numbers are reserved for individual laboratories,
 to prevent conflicts of local definitions,
-and there is a range for generic secIDs whose definitions can be collected
+and there is a range for generic `secID`s whose definitions can be collected
 (at TRIUMF) and distributed with the MUD program libraries.
 
 ## File Contents
@@ -68,14 +69,15 @@ which may be thought of as being contained within the Group Section.
 The whole MUD file is a particular case of a MUD group.
 
 The most important MUD Sections are those that hold data,
-and the secID implies how to read that data.
+and the `secID` implies how to read that data.
 Not only the content and the organization,
 but also the encoding are specified by the definition of the Section type.
-A specific secID implies a specific data layout as well as specific byte order,
+A specific `secID` implies a specific
+data layout as well as specific byte order,
 floating-point format (although floating-point should be avoided),
 or character encoding for that section;
 using, say, a different character encoding requires a
-different secID so the data can be read without confusion.
+different `secID` so the data can be read without confusion.
 The MUD library includes standard routines to read the
 file's encoding into the computer's native format.
 
@@ -84,23 +86,23 @@ file's encoding into the computer's native format.
 MUD files are pure binary streams, without any record format.
 This is attractive for moving files between operating systems,
 some of which have no concept of file records.
-On VMS systems, with a rich repertoire of record types,
+On [VMS] systems, with a rich repertoire of record types,
 MUD files are typically called "stream LF" because
 that is what C programs automatically produce,
 even though the correct type should be "stream".
-FTP transfer between VMS and Unix systems does not work well,
+[FTP] transfer between [VMS] and [Unix] systems does not work well,
 because it usually assumes a particular record format
-(fixed 512 byte records) on the VMS end.
-To use FTP one should first "zip" the files, and transfer the zip archive.
+(fixed 512 byte records) on the [VMS] end.
+To use [FTP] one should first "zip" the files, and transfer the zip archive.
 NFS works well.
 
 ## Software Library/Applications
 
 It is intended that the data be accessed via the set of
 supplied routines for reading and writing the MUD format.
-There are both high-level (API) routines for
+There are both high-level ([API]) routines for
 accessing particular components of existing MUD Sections,
-and low-level routines used to implement the API or
+and low-level routines used to implement the [API] or
 to read and write MUD files directly.
 If such low-level access is desired,
 inspection of the (C language) source code (which is not extensive)
@@ -114,7 +116,7 @@ The specification of a Section type includes the following four steps:
 2. Writing one C subroutine that handles the specifics of the reading, writing, and management of the Section, in a brief and well-defined manner (Example 2).
 3. Adding an entry to the C subroutine that dynamically creates instances of each Section.
 4. Reserving the unique 32-bit integer identifier(s) for the new type.
-5. Optionally: Adding the corresponding "friendly" API functions. 
+5. Optionally: Adding the corresponding "friendly" [API] functions. 
 
 The Section definition and its ID should be contributed to the
 centralized library (maintained at TRIUMF),
@@ -141,16 +143,7 @@ positions the file pointer to the beginning of this Section.
 
 Here are some programming examples using the MUD library routines.
 For information on using the higher-level access routines,
-see the MUD Programmer's Guide.
-
-    
-        Structure declaration in C
-        Structure declaration in VAX Fortran
-        Structure declaration in Fortran 90/95
-        
-        Modern Fortran
-        VAX Fortran
-        Extended Fortran-77 (g77)
+see the MUD [Programmer's Guide]({% link bnmr/mud/programmers-guide.md %}).
 
 ### Sample MUD format structure
 
@@ -161,7 +154,6 @@ Sample MUD format structure for C (from `mud.h`)
 {% highlight c %}
 typedef struct {
     MUD_CORE    core;
-
     UINT32  ID;
     UINT32  prevReplyID;
     UINT32  nextReplyID;
@@ -174,12 +166,11 @@ typedef struct {
 
 #### VAX Fortran 
 
-The same structure for VAX Fortran (from `mud.finc`)
+The same structure for [VAX] Fortran (from `mud.finc`)
 
 {% highlight fortran %}
 structure /MUD_SEC_CMT/
    record /MUD_CORE/ core
-
    integer*4  ID
    integer*4  prevReplyID
    integer*4  nextReplyID
@@ -198,7 +189,6 @@ The same structure for Fortran 90/95 (from `mud.f90`)
 type MUD_SEC_CMT
    sequence
    type(MUD_CORE) core
-
    integer(mf_i4)  ID
    integer(mf_i4)  prevReplyID
    integer(mf_i4)  nextReplyID
@@ -328,7 +318,7 @@ main( void )
      */
     fin = MUD_openInput( filename );
     if( fin == NULL ) {
-	fprintf( stderr, "failed to open file \"%s\"\n", filename );
+	 fprintf( stderr, "failed to open file \"%s\"\n", filename );
         exit( 0 );
     }
 
@@ -340,8 +330,8 @@ main( void )
     }
  
     run_fmt_ID = MUD_instanceID( pMUD_head );
-    if (run_fmt_ID == MUD_FMT_TRI_TD_ID) printf( "TRIUMF TD-muSR data\n" ); 
-    if (run_fmt_ID == MUD_FMT_TRI_TI_ID) printf( "TRIUMF I-muSR data\n" ) ;
+    if (run_fmt_ID == MUD_FMT_TRI_TD_ID) printf( "TRIUMF TD-MuSR data\n" ); 
+    if (run_fmt_ID == MUD_FMT_TRI_TI_ID) printf( "TRIUMF TI-MuSR data\n" ) ;
 
     /*
      *  Access the header for the third histogram, in the TD histogram group,
@@ -421,7 +411,6 @@ Sample Fortran applications:
         character(len=20) title
 
         type(MUD_SEC_GEN_HIST_HDR) MUD_hist_hdr(32)
-
 
         !
         !  Open an MUD format file
@@ -559,7 +548,7 @@ Sample Fortran applications:
         end ! program mud_test_fortran
 {% endhighlight %}
 
-Sample for old (but extended) Fortran77 (g77)
+Sample for old (but extended) FORTRAN 77 (`g77`)
 
 {% highlight fortran %}
         program mud_test_fortran
@@ -584,7 +573,6 @@ Sample for old (but extended) Fortran77 (g77)
             integer*4   hh_c_instanceID
             integer*4   hh_c_sizeof
             integer*4   hh_c_proc
-!         
             integer*4   hh_histType
             integer*4   hh_nBytes
             integer*4   hh_nBins
@@ -598,7 +586,6 @@ Sample for old (but extended) Fortran77 (g77)
             integer*4   hh_bkgd2
             integer*4   hh_nEvents
             integer*4   hh_pcsTitle
-
 
         common /cmn_hdr/ 
      +   hh_c_pNext, hh_c_size, hh_c_secID, hh_c_instanceID, 
@@ -663,3 +650,9 @@ Sample for old (but extended) Fortran77 (g77)
         stop
         end
 {% endhighlight %}
+
+[API]: https://en.wikipedia.org/wiki/API
+[FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
+[Unix]: https://en.wikipedia.org/wiki/Unix
+[VAX]: https://en.wikipedia.org/wiki/VAX
+[VMS]: https://en.wikipedia.org/wiki/OpenVMS

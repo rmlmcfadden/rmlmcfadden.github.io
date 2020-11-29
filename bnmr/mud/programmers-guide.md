@@ -12,7 +12,7 @@ grand_parent: β-NMR
 <i>
 This page is a reproduction of the content found at
 [http://cmms.triumf.ca/mud/mud_friendly.html](http://cmms.triumf.ca/mud/mud_friendly.html "MUD Programmer's Guide").
-Though this is mainly to test the formatting of the markdown to html convension,
+Though this is mainly to test the formatting of the markdown-to-html convension,
 I have made minor changes thoughout the text to improve readability.
 </i>
 
@@ -48,8 +48,10 @@ you may also need to use the routine `MUD_pack` (see Miscellaneous routines).
 The prototype declarations listed in this file are
 intended to give guidance to programming applications.
 The prototypes are declared in the include files:
-`mud.h` (C), `mud.finc` (Vax Fortran),
-`mud.f90` (Fortran 90+), `mud.f77` (Fortran 77).
+- `mud.h` (C),
+- `mud.finc` ([VAX] Fortran),
+- `mud.f90` (Fortran 90+),
+- `mud.f77` (Fortran 77).
 
 For C, the type `UINT32` is also defined in `mud.h`.
 It is used to ensure a 32-bit (4-byte) unsigned integer across architectures.
@@ -62,9 +64,9 @@ In the Fortran prototypes displayed below,
 the parameters are named according to their type:
 
 {% highlight fortran %}
-i_  =  integer*4
-c_  =  character*n
-d_  =  double precision (real*8)
+i_ = integer*4
+c_ = character*n
+d_ = double precision (real*8)
 {% endhighlight %}
 
 Parameters of type `?` indicate an array that may be of several different types.
@@ -97,7 +99,7 @@ For example, which histogram.
 ### A note on time
 
 All measures of time (single values or arrays) are stored in 32 bit integers
-as the number of seconds since 00:00:00 GMT, January 1, 1970.
+as the number of seconds since `00:00:00 GMT, January 1, 1970`.
 This is, or was, the same as used by the standard C library function time
 and stored in the C type definition `time_t`,
 but on newer systems `time_t` is 64-bit.
@@ -113,14 +115,14 @@ All non-portable issues (byte ordering, floating-point representation)
 are handled by the library.
 The library has been built on the following platforms:
 
-- Linux (32 and 64 bit)
-- Windows XP and later
-- DOS (Borland C++ 3.1 - 16 bit) (no Fortran routines)
-- VAX/VMS
-- Alpha/VMS
+- [Linux] (32 and 64 bit)
+- [Microsoft Windows] (XP and later)
+- [DOS] (Borland C++ 3.1 - 16 bit) (no Fortran routines)
+- [VAX]/[VMS]
+- Alpha/[VMS]
 - SGI
-- Sun Solaris
-- Mac OSX (Darwin) (no Fortran routines)
+- Sun [Solaris]
+- [macOS] (Darwin) (no Fortran routines)
 
 and should build easily on many others.
 
@@ -140,7 +142,7 @@ Valid file types include (defined in the include file):
 {% highlight c %}
 MUD_FMT_GEN_ID,
 MUD_FMT_TRI_TD_ID /* TD-MuSR */
-MUD_FMT_TRI_TI_ID /* I-MuSR */
+MUD_FMT_TRI_TI_ID /* TI-MuSR */
 {% endhighlight %}
 
 The close routine returns a boolean status.
@@ -201,14 +203,14 @@ int MUD_getDas( int fh, char* das, int strdim );
 int MUD_getExperimenter( int fh, char* experimenter, int strdim );
 {% endhighlight %}
 
-Not in I-MuSR:
+Not in TI-MuSR:
 
 {% highlight c %}
 int MUD_getTemperature( int fh, char* temperature, int strdim );
 int MUD_getField( int fh, char* field, int strdim );
 {% endhighlight %}
 
-I-MuSR only:
+TI-MuSR only:
 
 {% highlight c %}
 int MUD_getSubtitle( int fh, char* subtitle, int strdim );
@@ -238,14 +240,14 @@ integer*4 fMUD_getDas( i_fh, c_das )
 integer*4 fMUD_getExperimenter( i_fh, c_experimenter )
 {% endhighlight %}
 
-Not in I-MuSR:
+Not in TI-MuSR:
 
 {% highlight fortran %}
 integer*4 fMUD_getTemperature( i_fh, c_temperature )
 integer*4 fMUD_getField( i_fh, c_field )
 {% endhighlight %}
 
-I-MuSR only:
+TI-MuSR only:
 
 {% highlight fortran %}
 integer*4 fMUD_getSubtitle( i_fh, c_subtitle )
@@ -264,7 +266,7 @@ The only valid type currently defined in `mud.h` is `MUD_GRP_CMT_ID`,
 in which comments are plain text.
 Should comments start being used,
 an enhanced type could be defined to support various text encoding,
-mark-up style (such as html), and (graphical) attachments.
+mark-up style (such as [HTML]), and (graphical) attachments.
 
 #### C routines
 
@@ -575,14 +577,14 @@ int MUD_setDas( int fh, char* das );
 int MUD_setExperimenter( int fh, char* experimenter );
 {% endhighlight %}
 
-Not in I-MuSR:
+Not in TI-MuSR:
 
 {% highlight c %}
 int MUD_setTemperature( int fh, char* temperature );
 int MUD_setField( int fh, char* field );
 {% endhighlight %}
 
-I-MuSR only:
+TI-MuSR only:
 
 {% highlight c %}
 int MUD_setSubtitle( int fh, char* subtitle );
@@ -612,14 +614,14 @@ integer*4 fMUD_setDas( i_fh, c_das )
 integer*4 fMUD_setExperimenter( i_fh, c_experimenter )
 {% endhighlight %}
 
-Not in I-MuSR:
+Not in TI-MuSR:
 
 {% highlight fortran %}
 integer*4 fMUD_setTemperature( i_fh, c_temperature )
 integer*4 fMUD_setField( i_fh, c_field )
 {% endhighlight %}
 
-I-MuSR only:
+TI-MuSR only:
 
 {% highlight fortran %}
 integer*4 fMUD_setSubtitle( i_fh, c_subtitle )
@@ -768,8 +770,8 @@ MUD_GRP_GEN_IND_VAR_ARR_ID /* TI-MuSR */
 
 The type `MUD_GRP_GEN_IND_VAR_ID` has statistics data only.
 The type `MUD_GRP_GEN_IND_VAR_ARR_ID` has statistics data,
-history data and possibly time data
-(time that the data point was taken, in seconds since 00:00 Jan. 1, 1970).
+history data and possibly time data (time that the data point was taken,
+in seconds since `00:00:00 GMT, January 1, 1970`).
 
 For history data, the data type is specified in `dataType`,
 with values of `1` for integer, `2` for real and `3` for string.
@@ -942,3 +944,14 @@ integer*4 fMUD_pack( i_num, i_inBinSize, ?_inArray(?), i_outBinSize, ?_outArray(
 
       end
 {% endhighlight %}
+
+[API]: https://en.wikipedia.org/wiki/API
+[Linux]: https://en.wikipedia.org/wiki/Linux
+[FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
+[HTML]: https://en.wikipedia.org/wiki/HTML
+[macOS]: https://en.wikipedia.org/wiki/MacOS
+[Solaris]: https://en.wikipedia.org/wiki/Solaris_(operating_system)
+[Unix]: https://en.wikipedia.org/wiki/Unix
+[VAX]: https://en.wikipedia.org/wiki/VAX
+[VMS]: https://en.wikipedia.org/wiki/OpenVMS
+[Microsoft Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
