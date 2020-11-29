@@ -15,7 +15,7 @@ The original citations for the work are:
   <li>
     <p>J. P. Biersack and W. Eckstein</p>
     <p><i>Sputtering studies with the Monte Carlo Program TRIM.SP</i></p>
-    <p>Appl. Phys. <b>34</b>, 73-94 (1984).</p>
+    <p>Appl. Phys. A <b>34</b>, 73-94 (1984).</p>
     <p>
     <i class="ai ai-doi"></i>
     <a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a>
