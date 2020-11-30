@@ -30,7 +30,7 @@ An overview of the technique can be found in a recent review article:
   <li>
     <p>W. A. MacFarlane.</p>
     <p><i>Implanted-ion βNMR: a new probe for nanoscience.</i></p>
-    <p>Solid State Nucl. Magn. Reson. <b>68-69</b>, 1-12 (2015).W</p>
+    <p>Solid State Nucl. Magn. Reson. <b>68-69</b>, 1-12 (2015).</p>
     <p>
       <i class="ai ai-doi"></i>
       <a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a>
