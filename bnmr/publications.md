@@ -74,6 +74,7 @@ have a look the [Experiments]({% link bnmr/experiments.md %}) page.
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -130,6 +131,7 @@ have a look the [Experiments]({% link bnmr/experiments.md %}) page.
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -186,6 +188,7 @@ have a look the [Experiments]({% link bnmr/experiments.md %}) page.
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -242,6 +245,7 @@ have a look the [Experiments]({% link bnmr/experiments.md %}) page.
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 

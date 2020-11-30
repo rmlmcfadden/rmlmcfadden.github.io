@@ -138,6 +138,7 @@ nav_order: 1
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -194,6 +195,7 @@ nav_order: 1
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -250,6 +252,7 @@ nav_order: 1
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
 
@@ -306,5 +309,6 @@ nav_order: 1
       </p>
    {% endif %}
    </li>
+   <hr>
 {% endfor %}
 </ol>
