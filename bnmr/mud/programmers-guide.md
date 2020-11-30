@@ -48,6 +48,7 @@ you may also need to use the routine `MUD_pack` (see Miscellaneous routines).
 The prototype declarations listed in this file are
 intended to give guidance to programming applications.
 The prototypes are declared in the include files:
+
 - `mud.h` (C),
 - `mud.finc` ([VAX] Fortran),
 - `mud.f90` (Fortran 90+),
@@ -155,14 +156,14 @@ The file handle is therefore an index selecting among loaded MUD structures.
 The `MUD_closeRead` operation closes the file and
 releases the memory used to hold the MUD structure.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_openRead( char* filename, UINT32* pType );
 int MUD_closeRead( int fh );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_openRead( c_filename, i_Type )
@@ -182,7 +183,7 @@ MUD_SEC_GEN_RUN_DESC_ID    /* TD-MuSR */
 MUD_SEC_TRI_TI_RUN_DESC_ID /* TI-MuSR */
 {% endhighlight %}
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_getRunDesc( int fh, UINT32* pType );
@@ -219,7 +220,7 @@ int MUD_getComment2( int fh, char* comment2, int strdim );
 int MUD_getComment3( int fh, char* comment3, int strdim );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_getRunDesc( i_fh, i_Type )
@@ -268,7 +269,7 @@ Should comments start being used,
 an enhanced type could be defined to support various text encoding,
 mark-up style (such as [HTML]), and (graphical) attachments.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_getComments( int fh, UINT32* pType, UINT32* pNum );
@@ -280,7 +281,7 @@ int MUD_getCommentTitle( int fh, int num, char* title, int strdim );
 int MUD_getCommentBody( int fh, int num, char* body, int strdim );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_getComments( i_fh, i_Type, i_Num )
@@ -329,7 +330,7 @@ Arrays that are returned already unpacked by `MUD_getHistData`
 always have `4` bytes per bin.
 Make sure that your array `pData` is large enough. 
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_getHists( int fh, UINT32* pType, UINT32* pNumHists );
@@ -351,7 +352,7 @@ int MUD_getHistData( int fh, int Histnum, void* pData );
 int MUD_getHistpData( int fh, int Histnum, void** ppData );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_getHists( i_fh, i_Type, i_NumHists )
@@ -388,7 +389,7 @@ label for a particular numbered scaler,
 and `MUD_getScalerCounts` gives an array of two 4-byte integers:
 the scaler total, and the most recent rate.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_getScalers( int fh, UINT32* pType, UINT32* pNumScal );
@@ -396,7 +397,7 @@ int MUD_getScalerLabel( int fh, int Scalnum, char* label, int strdim );
 int MUD_getScalerCounts( int fh, int Scalnum, UINT32* pCounts );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_getScalers( i_fh, i_Type, i_NumScal )
@@ -431,7 +432,7 @@ using `MUD_getIndVarpData` and `MUD_getIndVarpTimeData`.
 In this case, it is up to the programmer to unpack the data (if necessary).
 Note that time data is never packed.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_getIndVars( int fh, UINT32* pType, UINT32* pNumIV );
@@ -458,7 +459,7 @@ int MUD_getIndVarTimeData( int fh, int num, UINT32* pTimeData );
 int MUD_getIndVarpTimeData( int fh, int num, UINT32** ppTimeData );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_getIndVars( i_fh, i_Type, i_NumIV )
@@ -525,7 +526,7 @@ modify the data (`MUD_set...`),
 then write the altered data using `MUD_closeWriteFile`
 specifying the new file name to write.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_openWrite( char* filename, UINT32 type );
@@ -534,7 +535,7 @@ int MUD_closeWrite( int fh );
 int MUD_closeWriteFile( int fh, char* filename );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_openWrite( c_filename, i_type )
@@ -556,7 +557,7 @@ MUD_SEC_GEN_RUN_DESC_ID    /* TD-MuSR */
 MUD_SEC_TRI_TI_RUN_DESC_ID /* TI-MuSR */
 {% endhighlight %}
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_setRunDesc( int fh, UINT32 type );
@@ -593,7 +594,7 @@ int MUD_setComment2( int fh, char* comment2 );
 int MUD_setComment3( int fh, char* comment3 );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_setRunDesc( i_fh, i_type )
@@ -637,7 +638,7 @@ comment group of type `type` with `numCom` comments.
 This must be done before defining the comments.
 The only valid type is (defined in the include file): `MUD_GRP_CMT_ID`.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_setComments( int fh, UINT32 type, UINT32 numCom );
@@ -649,7 +650,7 @@ int MUD_setCommentTitle( int fh, int num, char* title );
 int MUD_setCommentBody( int fh, int num, char* body );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_setComments( i_fh, i_type, i_num )
@@ -683,7 +684,7 @@ For C usage, it might be desireable to pass a
 pointer to the array using `MUD_setHistpData`.
 In this case, it is left to the programmer to pack the array (if necessary).
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_setHists( int fh, UINT32 type, UINT32 numHists );
@@ -705,7 +706,7 @@ int MUD_setHistData( int fh, int Histnum, void* pData );
 int MUD_setHistpData( int fh, int Histnum, void* pData );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_setHists( i_fh, i_type, i_numHists )
@@ -741,7 +742,7 @@ Note that scaler counts are passed in
 an array of two four-byte unsigned integers.
 The first element is the scaler total, and the second is the most recent rate.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_setScalers( int fh, UINT32 type, UINT32 numScal );
@@ -749,7 +750,7 @@ int MUD_setScalerLabel( int fh, int num, char* label );
 int MUD_setScalerCounts( int fh, int num, UINT32* pCounts );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_setScalers( i_fh, i_type, i_num )
@@ -782,7 +783,7 @@ using `MUD_setIndVarpData` and `MUD_setIndVarpTimeData`.
 In this case, it is up to the programmer to pack the data (if necessary).
 Note that time data is never packed.
 
-#### C routines
+C routines:
 
 {% highlight c %}
 int MUD_setIndVars( int fh, UINT32 type, UINT32 numIV );
@@ -796,7 +797,7 @@ int MUD_setIndVarDescription( int fh, int num, char* description );
 int MUD_setIndVarUnits( int fh, int num, char* units );
 {% endhighlight %}
 
-for `MUD_GRP_GEN_IND_VAR_ARR_ID` groups:
+For `MUD_GRP_GEN_IND_VAR_ARR_ID` groups:
 
 {% highlight c %}
 int MUD_setIndVarNumData( int fh, int num, UINT32 numData );
@@ -809,7 +810,7 @@ int MUD_setIndVarpData( int fh, int num, void* pData );
 int MUD_setIndVarpTimeData( int fh, int num, UINT32* pTimeData );
 {% endhighlight %}
 
-#### Fortran routines
+Fortran routines:
 
 {% highlight fortran %}
 integer*4 fMUD_setIndVars( i_fh, i_type, i_numIV )
@@ -823,7 +824,7 @@ integer*4 fMUD_setIndVarDescription( i_fh, i_num, c_description )
 integer*4 fMUD_setIndVarUnits( i_fh, i_num, c_units )
 {% endhighlight %}
 
-for `MUD_GRP_GEN_IND_VAR_ARR_ID` groups:
+For `MUD_GRP_GEN_IND_VAR_ARR_ID` groups:
 
 {% highlight fortran %}
 integer*4 fMUD_setIndVarNumData( i_fh, i_num, i_numData )
@@ -850,13 +851,13 @@ where a packed array is indicated by a bin size of `0` (zero),
 and `numBins` is the number of bins.
 You must make sure that `outArray` has enough space for the resultant array.
 
-#### C routine
+C routine:
 
 {% highlight c %}
 int MUD_pack( int num, int inBinSize, void* inArray, int outBinSize, void* outArray );
 {% endhighlight %}
 
-#### Fortran routine
+Fortran routine:
 
 {% highlight fortran %}
 integer*4 fMUD_pack( i_num, i_inBinSize, ?_inArray(?), i_outBinSize, ?_outArray(?) )
@@ -946,12 +947,13 @@ integer*4 fMUD_pack( i_num, i_inBinSize, ?_inArray(?), i_outBinSize, ?_outArray(
 {% endhighlight %}
 
 [API]: https://en.wikipedia.org/wiki/API
-[Linux]: https://en.wikipedia.org/wiki/Linux
+[DOS]: https://en.wikipedia.org/wiki/DOS
 [FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
 [HTML]: https://en.wikipedia.org/wiki/HTML
+[Linux]: https://en.wikipedia.org/wiki/Linux
+[Microsoft Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
 [macOS]: https://en.wikipedia.org/wiki/MacOS
 [Solaris]: https://en.wikipedia.org/wiki/Solaris_(operating_system)
 [Unix]: https://en.wikipedia.org/wiki/Unix
 [VAX]: https://en.wikipedia.org/wiki/VAX
 [VMS]: https://en.wikipedia.org/wiki/OpenVMS
-[Microsoft Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows

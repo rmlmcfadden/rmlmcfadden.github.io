@@ -147,9 +147,7 @@ see the MUD [Programmer's Guide]({% link bnmr/mud/programmers-guide.md %}).
 
 ### Sample MUD format structure
 
-#### C
-
-Sample MUD format structure for C (from `mud.h`)
+Sample MUD format structure for C (from `mud.h`):
 
 {% highlight c %}
 typedef struct {
@@ -164,9 +162,7 @@ typedef struct {
 } MUD_SEC_CMT;
 {% endhighlight %}
 
-#### VAX Fortran 
-
-The same structure for [VAX] Fortran (from `mud.finc`)
+The same structure for [VAX] Fortran (from `mud.finc`):
 
 {% highlight fortran %}
 structure /MUD_SEC_CMT/
@@ -181,9 +177,7 @@ structure /MUD_SEC_CMT/
 end structure
 {% endhighlight %}
 
-#### Fortran
-
-The same structure for Fortran 90/95 (from `mud.f90`)
+The same structure for Fortran 90/95 (from `mud.f90`):
 
 {% highlight fortran %}
 type MUD_SEC_CMT
@@ -390,11 +384,9 @@ main( void )
  */
 {% endhighlight %}
 
-### Sample application in Fortran
+### Sample applications in Fortran
 
-Sample Fortran applications:
-
-#### Modern Fortran
+Modern Fortran:
 
 {% highlight fortran %}
         program mud_test_fortran
@@ -472,7 +464,7 @@ Sample Fortran applications:
         end program mud_test_fortran
 {% endhighlight %}
 
-#### Sample for VAX Fortran
+[VAX] Fortran:
 
 {% highlight fortran %}
         program mud_test_fortran
@@ -548,7 +540,7 @@ Sample Fortran applications:
         end ! program mud_test_fortran
 {% endhighlight %}
 
-Sample for old (but extended) FORTRAN 77 (`g77`)
+Old (but extended) FORTRAN 77 (`g77`):
 
 {% highlight fortran %}
         program mud_test_fortran
