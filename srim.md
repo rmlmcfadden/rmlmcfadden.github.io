@@ -31,4 +31,4 @@ complicated tasks that are useful for many branches of science
 (e.g., the stopping profile of an implanted ion).
 
 [closed source]: https://en.wikipedia.org/wiki/Proprietary_software
-[Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basichttps://en.wikipedia.org/wiki/Proprietary_software
+[Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
