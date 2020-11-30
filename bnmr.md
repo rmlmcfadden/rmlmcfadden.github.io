@@ -21,10 +21,10 @@ that are inaccessible through other means of study.
 
 A modern implementation of the β-NMR technique can be found at
 [TRIUMF]’s Isotope Separator and Accelerator (ISAC) facility in Vancouver, BC.
-Additional (though somewhat dated) information can be found at
-<http://bnmr.triumf.ca>.
 
-An overview of the technique can be foun in a recent review article:
+An overview of the technique can be found in a recent review article:
+
+---
 
 <ul>
   <li>
@@ -37,6 +37,11 @@ An overview of the technique can be foun in a recent review article:
     </p>
   </li>
 </ul>
+
+---
+
+Additional (though somewhat dated) information can be found at:
+<http://bnmr.triumf.ca>.
 
 [MRI]: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging
 [NMR]: https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance

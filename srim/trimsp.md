@@ -11,6 +11,8 @@ TRIM.SP is an offshoot of the original [TRIM] program that additionally includes
 sputtering effects in the simulation of ion implantation.
 The original citations for the work are:
 
+---
+
 <ul>
   <li>
     <p>J. P. Biersack and W. Eckstein</p>
@@ -31,6 +33,8 @@ The original citations for the work are:
     </p>
   </li>
 </ul>
+
+---
 
 The code still sees routine use as a means of calculating μ<sup>+</sup>
 stopping distances in μSR experiments using the [LEM facility] at [PSI].

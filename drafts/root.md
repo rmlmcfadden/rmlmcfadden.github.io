@@ -22,23 +22,21 @@ succinctly advertising ROOT's capabilities:
 
 The canonical citation for ROOT is:
 
+---
+
 <ul>
   <li>
-    <p>
-      R. Brun and F. Rademakers.
-    </p>
-    <p>
-      <i>ROOT - an object oriented data analysis framework.</i>
-    </p>
-    <p>
-      Nucl. Instrum. Methods Phys. Res., Sect. A <b>389</b>, 81-86 (1997).
-    </p>
+    <p>R. Brun and F. Rademakers.</p>
+    <p><i>ROOT - an object oriented data analysis framework.</i></p>
+    <p>Nucl. Instrum. Methods Phys. Res., Sect. A <b>389</b>, 81-86 (1997).</p>
     <p>
       <i class="ai ai-doi"></i>
       <a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a>
     </p>
   </li>
 </ul>
+
+---
 
 The source code for ROOT and related projects can be found on [Github].
 
@@ -58,7 +56,7 @@ complexity.
 
 That said, ROOT does allow one to do some rather complicated things
 (e.g., <i>parallelized</i> and <i>vectorized</i> fitting of data)
-throught a relatively straightforward interface.
+through a relatively straightforward interface.
 Similarly, when a histogram is involved, ROOT is "king".
 It is for these reasons that I often find myself using ROOT and
 here I will try to document how I overcame some use-case hurdles or give

@@ -33,6 +33,9 @@ It even works well when running on Linux
 (i.e., it automatically calls `wine SRIM.exe`, `wine TRIM.exe`, etc.)!
 
 As a bonus, it also has a short paper that can be cited:
+
+---
+
 <ul>
   <li>
     <p>
@@ -50,6 +53,8 @@ As a bonus, it also has a short paper that can be cited:
     </p>
   </li>
 </ul>
+
+---
 
 ## Caveats
 
