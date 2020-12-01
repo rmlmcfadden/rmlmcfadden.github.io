@@ -2,8 +2,8 @@
 layout: default
 title: ROOT
 description: ROOT Data Analysis Framework
-has_children: false
-has_toc: false
+has_children: true
+has_toc: true
 ---
 
 # ROOT
