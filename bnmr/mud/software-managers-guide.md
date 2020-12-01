@@ -26,16 +26,16 @@ I have made minor changes thoughout the text to improve readability.
 
 The sources for MUD are kept in a
 [CVS repository](https://dasdevpc2.triumf.ca/cgi-bin/cvsweb.cgi/mud/?cvsroot=MUSR),
-which may be read over the World Wide Web.
+which may be read over the [World Wide Web].
 
-The subdirectories are explained are follows:
+The subdirectories are explained as follows:
 
-- `lib/`:library for reading and writing the data format.
+- `lib/`: library for reading and writing the data format.
 - `bin/`: location of executable programs.
 - `src/`: library sources.
-- `util/`: sources for file conversion/dump utility mud_util.
+- `util/`: sources for file conversion/dump utility `mud_util`.
 - `extra/`: extra utility programs.
-- `cmt/`: comment manager program - not used. 
+- `cmt/`: comment manager program (not used). 
 
 The file `mud.zip` should contain the
 sources necessary for building the library and
@@ -84,4 +84,6 @@ The procedure is as follows:
 6. Add the module to the `OBJS` list in the makefiles
    `descrip.mms`, `makefile.`, `makefile.dos`, and `makefile.linux`.
    Then, rebuild the installation zip file.
-   This is the latest installation file for all platforms. 
+   This is the latest installation file for all platforms.
+
+[World Wide Web]: https://en.wikipedia.org/wiki/World_Wide_Web
