@@ -56,6 +56,24 @@ As a bonus, it also has a short paper that can be cited:
 
 ---
 
+## Example: a multi-layered heterostructure
+
+Here I give an example showcasing `pysrim`'s capabilities.
+The script below creates a target with a complex layered structure
+(one that would be particularly unpleasent to do "by hand")
+and runs several `TRIM` calculations for a single ion at
+a few different implantation energies.
+Conveniently, the script takes care of moving all the results to
+their own (new) folder after each calculations completes.
+
+{% highlight python %}
+{% include_relative heterostructure.py %}
+{% endhighlight %}
+
+Try it out yourself!
+
+Download [`heterostructure.py`]({% link srim/heterostructure.py %}).
+
 ## Caveats
 
 `pysrim`, unfortunately, isn't perfect and I ran into the following issues while
@@ -85,21 +103,3 @@ return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
 - The autosave input in `TRIM` setup does not appear to work; the calculation
   won't run if the `kwarg` is specified. This is relatively minor, so my
   workaround is to just avoid providing the parameter.
-
-## Example: a multi-layered heterostructure
-
-Here I give an example showcasing `pysrim`'s capabilities.
-The script below creates a target with a complex layered structure
-(one that would be particularly unpleasent to do "by hand")
-and runs several `TRIM` calculations for a single ion at
-a few different implantation energies.
-Conveniently, the script takes care of moving all the results to
-their own (new) folder after each calculations completes.
-
-{% highlight python %}
-{% include_relative heterostructure.py %}
-{% endhighlight %}
-
-Try it out yourself!
-
-Download [`heterostructure.py`]({% link srim/heterostructure.py %}).
