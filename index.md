@@ -5,7 +5,7 @@ description: Homepage of my personal website.
 nav_exclude: true
 ---
 
-Hello, world! Welcome to my personal webpage.
+Hello, world - welcome to my personal webpage!
 
-The site's contents largely cater to my own academic interests, but hopefully
-some of it is of use/interest to you too!
+The content here caters primarily to my own academic interests,
+but hopefully some of it is of use to you too!
