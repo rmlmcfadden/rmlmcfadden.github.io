@@ -7,8 +7,8 @@ parent: Ion Implantation
 
 # TRIM.SP
 
-`TRIM.SP` is an offshoot of the original [TRIM] program that additionally includes
-sputtering effects in the simulation of ion implantation.
+`TRIM.SP` is an offshoot of the original [`TRIM`] program that additionally
+includes sputtering effects in the simulation of ion implantation.
 The original citations for the work are:
 
 ---
@@ -48,4 +48,4 @@ can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 [LEM facility]: https://www.psi.ch/en/smus/lem
 [LEM group]: https://www.psi.ch/en/low-energy-muons
 [PSI]: https://www.psi.ch/en
-[TRIM]: https://doi.org/10.1016/0029-554X(80)90440-1
+[`TRIM`]: https://doi.org/10.1016/0029-554X(80)90440-1
