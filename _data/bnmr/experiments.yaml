@@ -68,6 +68,11 @@
   spokespersons: [R.F. Kiefl, W.A. MacFarlane, E. Morenzoni, G.D. Morris, D. Wang]
   url: 'https://mis.triumf.ca/science/experiment/view/M1153'
   status: 'Closed'
+- experiment: 'S1155'
+  title: 'Ground State Moments of <sup>11</sup>Li'
+  spokespersons: [M.R. Pearson]
+  url: 'https://mis.triumf.ca/science/experiment/view/S1155'
+  status: 'Closed'
 - experiment: 'M1165'
   title: 'Investigation of the Magnetic Proximity Effect by <sup>8</sup>Li β-NMR'
   spokespersons: [K.H. Chow, W.A. MacFarlane, G.D. Morris, Q. Song]
@@ -93,6 +98,11 @@
   spokespersons: [W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1306'
   status: 'Closed'
+- experiment: 'S1329'
+  title: 'Quadrupole Moments of Magnesium Isotopes'
+  spokespersons: [M.R. Pearson, A. Voss]
+  url: 'https://mis.triumf.ca/science/experiment/view/S1329'
+  status: 'Approved'
 - experiment: 'M1354'
   title: 'Depth-resolved measurements of dynamics in polymer thin films using spin­‐polarized radioactive probes'
   spokespersons: [I. McKenzie]

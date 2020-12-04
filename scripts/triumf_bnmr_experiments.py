@@ -8,7 +8,7 @@ baseurl = "https://mis.triumf.ca/science/experiment/list.jsf"
 
 # we want every MMS experiment
 schedule = "View+all"
-discipline = "M"
+discipline = "View+all"
 status = "View+all"
 
 # make the full url
@@ -182,6 +182,7 @@ def fix_fmt(string):
     pairs = [
         ["8Li", "<sup>8</sup>Li"],
         ["9Li", "<sup>9</sup>Li"],
+        ["11Li", "<sup>11</sup>Li"],
         ["Li+", "Li<sup>+</sup>"],
         ["31Mg", "<sup>31</sup>Mg"],
         ["UBe13", "UBe<sub>13</sub>"],
