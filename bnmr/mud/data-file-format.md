@@ -24,7 +24,7 @@ I have made minor changes thoughout the text to improve readability.
 
 ## Overview
 
-The MUon Data (MUD) format used at TRIUMF is an
+The MUon Data (MUD) format used at [TRIUMF] is an
 efficent framework for storing and retrieving μSR data.
 Its existing structure is optimized for μSR data,
 but the basic framework is universal and the definition is extensible,
@@ -46,7 +46,7 @@ To this end,
 ranges of `secID` numbers are reserved for individual laboratories,
 to prevent conflicts of local definitions,
 and there is a range for generic `secID`s whose definitions can be collected
-(at TRIUMF) and distributed with the MUD program libraries.
+(at [TRIUMF]) and distributed with the MUD program libraries.
 
 ## File Contents
 
@@ -110,16 +110,21 @@ should reveal the necessary information.
 
 ## Defining New Types
 
-The specification of a Section type includes the following four steps:
+The specification of a Section type includes the following steps:
 
-1. Definition of a structure in C, and optionally a corresponding structure in Fortran (see Example 1)
-2. Writing one C subroutine that handles the specifics of the reading, writing, and management of the Section, in a brief and well-defined manner (Example 2).
-3. Adding an entry to the C subroutine that dynamically creates instances of each Section.
+1. Definition of a structure in C and, optionally,
+   a corresponding structure in Fortran
+   (see [Sample MUD Format Structure](#sample-mud-format-structure)).
+2. Writing one C subroutine that handles the specifics of the reading,
+   writing, and management of the Section, in a brief and well-defined manner
+   (see [Subroutine to Handle the Section Type](#subroutine-to-handle-the-section-type)).
+3. Adding an entry to the C subroutine that dynamically creates instances of
+   each Section.
 4. Reserving the unique 32-bit integer identifier(s) for the new type.
-5. Optionally: Adding the corresponding "friendly" [API] functions. 
+5. Finally, (optionally) adding the corresponding "friendly" [API] functions.
 
 The Section definition and its ID should be contributed to the
-centralized library (maintained at TRIUMF),
+centralized library (maintained at [TRIUMF]),
 allowing all MUD-aware applications to understand them.
 
 Applications may be written in C or Fortran and linked to the MUD library,
@@ -128,9 +133,10 @@ In C, the Sections may be written from a linked list of structures.
 Routines are available for the creation of Sections and maintaining the list.
 In both languages, the entire file may be read into a linked list,
 and then search routines are used to access specific Sections of the list
-(see Example 3).
+(see [Sample Application in C](#sample-application-in-c)).
 Alternatively, the I/O of each Section may be done separately,
-also in both languages (see Example 4).
+also in both languages
+(see [Sample Applications in Fortran](#sample-applications-in-fortran)).
 Access to individual Sections in the data file may be
 sequential or pseudo-direct.
 The pseudo-direct access involves the call to a
@@ -145,7 +151,7 @@ Here are some programming examples using the MUD library routines.
 For information on using the higher-level access routines,
 see the MUD [Programmer's Guide]({% link bnmr/mud/programmers-guide.md %}).
 
-### Sample MUD format structure
+### Sample MUD Format Structure
 
 Sample MUD format structure for C (from `mud.h`):
 
@@ -196,11 +202,14 @@ end type
 Note that the Fortran structures are identical to the C structure,
 including the use of pointers to strings.
 Subroutines are provided for conversion between these pointers and
-ordinary Fortran character variables (see Example 4, `fMUD_ctofString`).
+ordinary Fortran character variables
+(see [Sample Applications in Fortran](#sample-applications-in-fortran),
+`fMUD_ctofString`).
 
-### Subroutine to handle the Section type
+### Subroutine to Handle the Section Type
 
-Subroutine to handle the type in Example 1.
+Subroutine to handle the type in
+[Sample MUD Format Structure](#sample-mud-format-structure).
 The operations to perform are:
 
 {% highlight c %}
@@ -215,436 +224,40 @@ MUD_GETSIZE /* Print textual summary of section (skipping bulk data). */
 The subroutine is:
 
 {% highlight c %}
-int
-MUD_SEC_CMT_proc( op, pBuf, pMUD )
-    MUD_OPT op;
-    BUF* pBuf;
-    MUD_SEC_CMT* pMUD;
-{
-    int size;
-    char tempStr1[32];
-
-    switch( op )
-    {
-        case MUD_FREE:
-            _free( pMUD->author );
-            _free( pMUD->title );
-            _free( pMUD->comment );
-            break;
-        case MUD_DECODE:
-            decode_4( pBuf, &pMUD->ID );
-            decode_4( pBuf, &pMUD->prevReplyID );
-            decode_4( pBuf, &pMUD->nextReplyID );
-            decode_4( pBuf, &pMUD->time );
-            decode_str( pBuf, &pMUD->author );
-            decode_str( pBuf, &pMUD->title );
-            decode_str( pBuf, &pMUD->comment );
-            break;
-        case MUD_ENCODE:
-            encode_4( pBuf, &pMUD->ID );
-            encode_4( pBuf, &pMUD->prevReplyID );
-            encode_4( pBuf, &pMUD->nextReplyID );
-            encode_4( pBuf, &pMUD->time );
-            encode_str( pBuf, &pMUD->author );
-            encode_str( pBuf, &pMUD->title );
-            encode_str( pBuf, &pMUD->comment );
-            break;
-        case MUD_GET_SIZE:
-            size = 3*sizeof( UINT32 );
-            size += 1*sizeof( TIME );
-            size += sizeof( MUD_STR_LEN_TYPE ) + _strlen( pMUD->author );
-            size += sizeof( MUD_STR_LEN_TYPE ) + _strlen( pMUD->title );
-            size += sizeof( MUD_STR_LEN_TYPE ) + _strlen( pMUD->comment );
-            return( size );
-        case MUD_SHOW:
-            printf( "  MUD_SEC_CMT: \n" );
-            printf( "    number:[%ld],  prevReply:[%ld],  nextReply:[%ld]\n", 
-                        pMUD->ID, pMUD->prevReplyID, pMUD->nextReplyID );
-            strcpy( tempStr1, ctime( (time_t*)&pMUD->time ) );
-            tempStr1[strlen(tempStr1)-1] = '\0';
-            printf( "    time:[%s]\n", tempStr1 );
-            if( pMUD->author ) printf( "    author:\"%s\"\n", pMUD->author );
-            if( pMUD->title ) printf( "    title:\"%s\"\n", pMUD->title );
-            if( pMUD->comment ) printf( "    comment:\"%s\"\n", pMUD->comment );
-            break;
-        case MUD_HEADS:
-            printf( "Comment number %ld.     ", pMUD->ID );
-            if( pMUD->prevReplyID > 0 )
-              printf("  Re: #%ld.    ", pMUD->prevReplyID );
-            if( pMUD->nextReplyID > 0 )
-              printf("  Next: #%ld.", pMUD->nextReplyID );
-            printf( "\n" );
-            strcpy( tempStr1, ctime( (time_t*)&pMUD->time ) );
-            tempStr1[strlen(tempStr1)-1] = '\0';
-            if( pMUD->author ) printf( "    author: %s,     time: %s\n", pMUD->author, tempStr1 );
-            if( pMUD->title ) printf( "    title: %s\n", pMUD->title );
-            if( pMUD->comment ) printf( "%s\n", pMUD->comment );
-            break;
-    }
-    return( 1 );
-}
+{% include_relative mud_sec_cmt_proc.c %}
 {% endhighlight %}
 
-### Sample application in C
+### Sample Application in C
 
 Sample C application:
 
 {% highlight c %}
-/*
- *  mud_test.c
- */
-
-#include "mud.h"
-
-int
-main( void )
-{
-    FILE* fin;
-    FILE* fout;
-    MUD_SEC_GRP* pMUD_head = NULL;
-    MUD_SEC_GEN_RUN_DESC* pMUD_desc = NULL;
-    MUD_SEC_GEN_HIST_HDR* pMUD_hist = NULL;
-    UINT32 run_fmt_ID;
-    char* filename = "006663.msr";
-
-    /*
-     *  Read an MUD format file into a linked list
-     */
-    fin = MUD_openInput( filename );
-    if( fin == NULL ) {
-	 fprintf( stderr, "failed to open file \"%s\"\n", filename );
-        exit( 0 );
-    }
-
-    pMUD_head = MUD_readFile( fin );
-    fclose( fin );
-    if (pMUD_head == NULL) {
-      fprintf( stderr, "failed to read file \"%s\"\n", filename );
-      exit( 0 );
-    }
- 
-    run_fmt_ID = MUD_instanceID( pMUD_head );
-    if (run_fmt_ID == MUD_FMT_TRI_TD_ID) printf( "TRIUMF TD-MuSR data\n" ); 
-    if (run_fmt_ID == MUD_FMT_TRI_TI_ID) printf( "TRIUMF TI-MuSR data\n" ) ;
-
-    /*
-     *  Access the header for the third histogram, in the TD histogram group,
-     *  in the overall data group.
-     */
-    pMUD_hist = MUD_search( pMUD_head,
-                            MUD_SEC_GRP_ID, run_fmt_ID,
-                            MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID,
-                            MUD_SEC_GEN_HIST_HDR_ID, 3, 
-                            0 );
-    /*
-     *  Alternative but equivalent search starts at the members of
-     *  the overall data group.
-     */
-    pMUD_hist = MUD_search( pMUD_head->pMem,
-                            MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID,
-                            MUD_SEC_GEN_HIST_HDR_ID, 3, 
-                            0 );
-
-    if (pMUD_hist == NULL) {
-      fprintf( stderr, "could not find a histogram 3\n" );
-      exit( 0 );
-    }
-    printf( "Number of bins in histogram 3: %d\n", pMUD_hist->nBins );
-
-    /*
-     *  Add a second ("2") run description section to the list (silly nonsense)
-     */
-    pMUD_desc = (MUD_SEC_GEN_RUN_DESC*)MUD_new( MUD_SEC_GEN_RUN_DESC_ID, 2 );
-    MUD_addToGroup( pMUD_head, pMUD_desc );
-
-    /*
-     :
-     :  Do something not silly here
-     :
-     */
-
-    /*
-     *  Write MUD format file over the same filename (replace original)
-     */
-    fout = MUD_openOutput( filename );
-    if( fout == NULL ) exit( 0 );
-
-    MUD_writeFile( fout, pMUD_head );
-
-    fclose( fout );
-
-    /*
-     *  Free the linked list
-     */
-    MUD_free( pMUD_head );
-}
-
-/*
- *  end mud_test.c
- */
+{% include_relative mud_test.c %}
 {% endhighlight %}
 
-### Sample applications in Fortran
+### Sample Applications in Fortran
 
 Modern Fortran:
 
 {% highlight fortran %}
-        program mud_test_fortran
-        implicit none
-
-        include 'mud.f90'
-
-        integer, parameter :: i4 = selected_int_kind(9) ! integer*4
-
-        integer(kind=i4) status
-        integer(kind=i4) i
-        character(len=32) filename
-        integer(kind=i4) fileHandle
-        character(len=20) title
-
-        type(MUD_SEC_GEN_HIST_HDR) MUD_hist_hdr(32)
-
-        !
-        !  Open an MUD format file
-        !
-        filename = '001234.msr'
-
-        fileHandle = fMUD_openInput( filename )
-        if (fileHandle .eq. 0) then
-           write (*,*) 'Could not open file ',filename, &
-               '  (',fileHandle,')'
-           stop
-        endif
-        write (*,*) 'Opened file ', filename
-
-        !
-        !  Position the file before the first histogram of the 
-        !  TD histogram group
-        !
-        status = fMUD_fseek( fileHandle, &
-                            MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID, &
-                            0, 0 )
-        if( status .eq. -1 ) then
-           write (*,*) 'Failed to find histogram group!  status=',status
-           goto 999
-        endif
-
-        !
-        !  Read the histogram headers
-        !
-        do i=1,32  !  we dimensioned MUD_hist_hdr(32)
-
-            status = fMUD_fseek( fileHandle, &
-                          MUD_SEC_GEN_HIST_HDR_ID, i, &
-                          0)
-            !
-            !  If no more histograms, then we are finished:
-            !
-            if (status .eq. -1 ) exit
-
-            status = fMUD_read( fileHandle, MUD_hist_hdr(i) )
-
-            !
-            !  Access the histogram title
-            !
-            if (status.eq.1) then
-               ! OK, get character string from string pointer, then display.
-               call fMUD_ctofString( title, MUD_hist_hdr(i)%pcsTitle )
-               write (*,*) 'histogram ',i,'  title = "',trim(title),'"'
-            else
-               write (*,*) 'Failed to read header for histogram ',i
-            endif
-
-        end do
-
- 999    continue
-
-        call fMUD_close( fileHandle )
-
-        end program mud_test_fortran
+{% include_relative mud_test.f90 %}
 {% endhighlight %}
 
 [VAX] Fortran:
 
 {% highlight fortran %}
-        program mud_test_fortran
-        implicit none
-
-        include 'mud.finc'
-
-        integer*4 status
-        integer*4 i
-        character*32 filename
-        integer*4 fileHandle
-        character*20 title
-
-        record /MUD_SEC_GEN_HIST_HDR/ MUD_hist_hdr(8)
-
-
-        !
-        !  Open an MUD format file
-        !
-        filename = '001234.msr'
-
-        fileHandle = fMUD_openInput( filename )
-        if (fileHandle .eq. 0) then
-           write (*,*) 'Could not open file ',filename,
-     +          '  (',fileHandle,')'
-           stop
-        endif
-        write (*,*) 'Opened file ', filename
-
-        !
-        !  Position the file before the first histogram of the 
-        !  TD histogram group
-        !
-        status = fMUD_fseek( fileHandle, 
-     +                       MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID,
-     +                       0, 0 )
-        if( status .eq. -1 ) then
-           write (*,*) 'Failed to find histogram group!  status=',status
-           goto 999
-        endif
-        !
-        !  Read the histogram headers
-        !
-
-        do i=1,8  !  we dimensioned MUD_hist_hdr(8)
-
-            status = fMUD_fseek( fileHandle, 
-     +                     MUD_SEC_GEN_HIST_HDR_ID, i, 
-     +                     0)
-            !
-            !  If no more histograms, then we are finished:
-            !
-            if (status .eq. -1 ) goto 999
-
-            status = fMUD_read( fileHandle, MUD_hist_hdr(i) )
-
-            !
-            !  Access the histogram title
-            !
-            if (status.eq.1) then
-               call fMUD_ctofString( title, MUD_hist_hdr(i).pcsTitle )
-               write (*,*) 'histogram ',i,'  title = "',title,'"'
-            else
-               write (*,*) 'Failed to read header for histogram',i
-            endif
-
-        end do
-
- 999    continue
-
-        call fMUD_close( fileHandle )
-
-        end ! program mud_test_fortran
+{% include_relative mud_test.finc %}
 {% endhighlight %}
 
 Old (but extended) FORTRAN 77 (`g77`):
 
 {% highlight fortran %}
-        program mud_test_fortran
-
-        include 'mud.f77'
-
-        integer*4 status
-        integer*4 i
-        character*32 filename
-        integer*4 fileHandle
-        character*20 title
-
-        integer*4 MUD_hist_hdr
-
-*  Hist header structure, implemented as a common block.
-*  All hist header elements are named hh_... The core elements
-*  are named hh_c_...
-
-            integer*4   hh_c_pNext              !* pointer to next section *
-            integer*4   hh_c_size
-            integer*4   hh_c_secID              !* Ident of section type *
-            integer*4   hh_c_instanceID
-            integer*4   hh_c_sizeof
-            integer*4   hh_c_proc
-            integer*4   hh_histType
-            integer*4   hh_nBytes
-            integer*4   hh_nBins
-            integer*4   hh_bytesPerBin
-            integer*4   hh_fsPerBin
-            integer*4   hh_t0_ps
-            integer*4   hh_t0_bin
-            integer*4   hh_goodBin1
-            integer*4   hh_goodBin2
-            integer*4   hh_bkgd1
-            integer*4   hh_bkgd2
-            integer*4   hh_nEvents
-            integer*4   hh_pcsTitle
-
-        common /cmn_hdr/ 
-     +   hh_c_pNext, hh_c_size, hh_c_secID, hh_c_instanceID, 
-     +   hh_c_sizeof, hh_c_proc,
-     +   hh_histType, hh_nBytes, hh_nBins, hh_bytesPerBin, 
-     +   hh_fsPerBin, hh_t0_ps, hh_t0_bin, hh_goodBin1, hh_goodBin2,
-     +   hh_bkgd1, hh_bkgd2, hh_nEvents, hh_pcsTitle
-
-        equivalence(hh_c_pNext,MUD_hist_hdr)
-
-        !
-        !  Open an MUD format file
-        !
-        filename = '001234.msr'
-
-        fileHandle = fMUD_openInput( filename )
-        if (fileHandle .eq. 0) then
-           write (*,*) 'Could not open file ',filename,
-     +          '  (',fileHandle,')'
-           stop
-        endif
-        write (*,*) 'Opened file ', filename
-
-        !
-        !  Position the file before the first histogram of the 
-        !  TD histogram group
-        !
-        status = fMUD_fseek( fileHandle, 
-     +                       MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID,
-     +                       0 )
-        if( status .eq. -1 ) then
-           write (*,*) 'Failed to find histogram group!  status=',status
-           goto 999
-        endif
-        !
-        !  Read the histogram headers
-        !
-        do i=1,16
-
-            status = fMUD_fseek( fileHandle, 
-     +                     MUD_SEC_GEN_HIST_HDR_ID, i, 
-     +                     0 )
-
-            if (status .eq. -1 ) goto 999
-
-            status = fMUD_read( fileHandle, MUD_hist_hdr )
-
-            !
-            !  Access the histogram title
-            !
-            if (status.eq.1) then
-               call fMUD_ctofString( title, hh_pcsTitle )
-               write (*,*) ' histogram title = <', title, '>'
-            else
-               write (*,*) ' Failed to read header for histogram',i
-            endif
-
-        end do
-
- 999    continue
-        call fMUD_close( fileHandle )
-        stop
-        end
+{% include_relative mud_test.f77 %}
 {% endhighlight %}
 
 [API]: https://en.wikipedia.org/wiki/API
 [FTP]: https://en.wikipedia.org/wiki/File_Transfer_Protocol
+[TRIUMF]: https://www.triumf.ca/
 [Unix]: https://en.wikipedia.org/wiki/Unix
 [VAX]: https://en.wikipedia.org/wiki/VAX
 [VMS]: https://en.wikipedia.org/wiki/OpenVMS

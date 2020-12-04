@@ -1,0 +1,71 @@
+        program mud_test_fortran
+        implicit none
+
+        include 'mud.finc'
+
+        integer*4 status
+        integer*4 i
+        character*32 filename
+        integer*4 fileHandle
+        character*20 title
+
+        record /MUD_SEC_GEN_HIST_HDR/ MUD_hist_hdr(8)
+
+
+        !
+        !  Open an MUD format file
+        !
+        filename = '001234.msr'
+
+        fileHandle = fMUD_openInput( filename )
+        if (fileHandle .eq. 0) then
+           write (*,*) 'Could not open file ',filename,
+     +          '  (',fileHandle,')'
+           stop
+        endif
+        write (*,*) 'Opened file ', filename
+
+        !
+        !  Position the file before the first histogram of the 
+        !  TD histogram group
+        !
+        status = fMUD_fseek( fileHandle, 
+     +                       MUD_SEC_GRP_ID, MUD_GRP_TRI_TD_HIST_ID,
+     +                       0, 0 )
+        if( status .eq. -1 ) then
+           write (*,*) 'Failed to find histogram group!  status=',status
+           goto 999
+        endif
+        !
+        !  Read the histogram headers
+        !
+
+        do i=1,8  !  we dimensioned MUD_hist_hdr(8)
+
+            status = fMUD_fseek( fileHandle, 
+     +                     MUD_SEC_GEN_HIST_HDR_ID, i, 
+     +                     0)
+            !
+            !  If no more histograms, then we are finished:
+            !
+            if (status .eq. -1 ) goto 999
+
+            status = fMUD_read( fileHandle, MUD_hist_hdr(i) )
+
+            !
+            !  Access the histogram title
+            !
+            if (status.eq.1) then
+               call fMUD_ctofString( title, MUD_hist_hdr(i).pcsTitle )
+               write (*,*) 'histogram ',i,'  title = "',title,'"'
+            else
+               write (*,*) 'Failed to read header for histogram',i
+            endif
+
+        end do
+
+ 999    continue
+
+        call fMUD_close( fileHandle )
+
+        end ! program mud_test_fortran

@@ -24,8 +24,7 @@ I have made minor changes thoughout the text to improve readability.
 
 ## Location of files
 
-The sources for MUD are kept in a
-[CVS repository](https://dasdevpc2.triumf.ca/cgi-bin/cvsweb.cgi/mud/?cvsroot=MUSR),
+The sources for MUD are kept in a [CVS repository],
 which may be read over the [World Wide Web].
 
 The subdirectories are explained as follows:
@@ -40,7 +39,9 @@ The subdirectories are explained as follows:
 The file `mud.zip` should contain the
 sources necessary for building the library and
 file conversion utility on any supported platform.
-See the MUD Installation Guide for more details on installing MUD.
+See the MUD
+[Installation Guide]({% link bnmr/mud/installation-guide.md %})
+for more details on installing MUD.
 
 ## Extending the format
 
@@ -86,4 +87,5 @@ The procedure is as follows:
    Then, rebuild the installation zip file.
    This is the latest installation file for all platforms.
 
+[CVS repository]: https://dasdevpc2.triumf.ca/cgi-bin/cvsweb.cgi/mud/?cvsroot=MUSR
 [World Wide Web]: https://en.wikipedia.org/wiki/World_Wide_Web
