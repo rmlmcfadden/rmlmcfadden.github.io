@@ -16,13 +16,13 @@ Though this is mainly to test the formatting of the markdown-to-html convension,
 I have made minor changes thoughout the text to improve readability.
 </i>
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta}
 
 1. TOC
 {:toc}
 
-## Location of files
+## Location of Files
 
 The sources for MUD are kept in a [CVS repository],
 which may be read over the [World Wide Web].
@@ -43,7 +43,7 @@ See the MUD
 [Installation Guide]({% link bnmr/mud/installation-guide.md %})
 for more details on installing MUD.
 
-## Extending the format
+## Extending the Format
 
 You may wish to extend the library with a
 new section tailored to your lab or experiment type.

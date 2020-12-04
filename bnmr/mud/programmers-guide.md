@@ -16,7 +16,7 @@ Though this is mainly to test the formatting of the markdown-to-html convension,
 I have made minor changes thoughout the text to improve readability.
 </i>
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta}
 
 1. TOC
@@ -43,7 +43,7 @@ A file may be opened for reading, writing, or both (modification).
 If you are programming in C,
 you may also need to use the routine `MUD_pack` (see Miscellaneous routines).
 
-### Prototyle delcarations
+### Prototyle Delcarations
 
 The prototype declarations listed in this file are
 intended to give guidance to programming applications.
@@ -76,7 +76,7 @@ It is left to the programmer to ensure that the type
 and size of the arrays passed to these routines is sensible.
 Fortran character strings are returned padded with spaces.
 
-### Common parameters
+### Common Parameters
 
 All routines except `MUD_open*` and `MUD_pack` return a boolean status value
 (`0` for failure, `1` for success).
@@ -97,7 +97,7 @@ Many routines take an integer parameter (`num`)
 indicating which of many instances is to be dealt with.
 For example, which histogram.
 
-### A note on time
+### Time
 
 All measures of time (single values or arrays) are stored in 32 bit integers
 as the number of seconds since `00:00:00 GMT, January 1, 1970`.
@@ -108,7 +108,7 @@ Programmers should beware that MUD files continue to use 32-bit time values
 regardless of the local system's `time_t` type.
 MUD's time will run out in the year 2038.
 
-### Platforms supported
+### Supported Platforms
 
 The MUD library of routines has been written so that
 data files may be used on all supported platforms.
@@ -127,9 +127,9 @@ The library has been built on the following platforms:
 
 and should build easily on many others.
 
-## Reading a data file
+## Reading a Data File
 
-### Opening and closing a data file for reading
+### Opening and Closing
 
 Opening the file is the first thing that must be done when reading a file,
 and closing is the last.
@@ -484,9 +484,9 @@ integer*4 fMUD_getIndVarData( i_fh, i_num, ?_pData(?) )
 integer*4 fMUD_getIndVarTimeData( i_fh, i_num, i_TimeData(?) )
 {% endhighlight %}
 
-## Writing a data file
+## Writing a Data File
 
-### Opening and closing a file for writing
+### Opening and Closing
 
 Writing a data file can be handled in three different ways,
 where the best choice depends on the origin of the data.
@@ -835,9 +835,9 @@ integer*4 fMUD_setIndVarData( i_fh, i_num, ?_pData(?) )
 integer*4 fMUD_setIndVarTimeData( i_fh, i_num, i_TimeData(?) )
 {% endhighlight %}
 
-## Miscellaneous routines
+## Miscellaneous Routines
 
-### Packing/unpacking Integer Histograms
+### Packing/Unpacking Integer Histograms
 
 `MUD_pack` is used to pack or unpack integer histogram data.
 This routine is not necessary in typical use involving the routines
@@ -865,7 +865,7 @@ integer*4 fMUD_pack( i_num, i_inBinSize, ?_inArray(?), i_outBinSize, ?_outArray(
 
 ## Examples
 
-### Fortran test
+### Fortran Test
 
 (works with `g77`):
 

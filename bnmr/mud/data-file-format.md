@@ -16,7 +16,7 @@ Though this is mainly to test the formatting of the markdown-to-html convension,
 I have made minor changes thoughout the text to improve readability.
 </i>
 
-## Table of contents
+## Table of Contents
 {: .no_toc .text-delta}
 
 1. TOC
