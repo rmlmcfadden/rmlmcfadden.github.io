@@ -2,12 +2,12 @@
 layout: default
 title: TRIM.SP
 description: TRIM.SP
-parent: SRIM
+parent: Ion Implantation
 ---
 
 # TRIM.SP
 
-TRIM.SP is an offshoot of the original [TRIM] program that additionally includes
+`TRIM.SP` is an offshoot of the original [TRIM] program that additionally includes
 sputtering effects in the simulation of ion implantation.
 The original citations for the work are:
 
@@ -23,6 +23,7 @@ The original citations for the work are:
     <a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a>
     </p>
   </li>
+<hr>
   <li>
     <p>W. Eckstein</p>
     <p><i>Backscattering and sputtering with the monte-carlo program TRIM.SP</i></p>
@@ -38,9 +39,9 @@ The original citations for the work are:
 
 The code still sees routine use as a means of calculating μ<sup>+</sup>
 stopping distances in μSR experiments using the [LEM facility] at [PSI].
-A modified version of the TRIM.SP source code (maintained by the [LEM group])
+A modified version of the `TRIM.SP` source code (maintained by the [LEM group])
 can be found [here](https://gitlab.psi.ch/nemu/simulation).
-Additionally, an online interface to TRIM.SP
+Additionally, an online interface to `TRIM.SP`
 (with limited simulation capabilities)
 can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 

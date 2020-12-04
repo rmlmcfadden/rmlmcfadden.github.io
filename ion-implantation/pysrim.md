@@ -2,7 +2,7 @@
 layout: default
 title: pysrim
 description: Automation, analysis, and plotting of SRIM calculations
-parent: SRIM
+parent: Ion Implantation
 ---
 
 # pysrim
@@ -72,7 +72,7 @@ their own (new) folder after each calculations completes.
 
 Try it out yourself!
 
-Download [`heterostructure.py`]({% link srim/heterostructure.py %}).
+Download [`heterostructure.py`]({% link ion-implantation/heterostructure.py %}).
 
 ## Caveats
 
