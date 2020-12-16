@@ -13,6 +13,11 @@
   spokespersons: [R.F. Kiefl, R. Miller]
   url: 'https://mis.triumf.ca/science/experiment/view/M817'
   status: 'Closed'
+- experiment: 'S863'
+  title: 'Magnetic Dipole Moments Measurements of <sup>75,77,79</sup>Ga using Low Temperature Nuclear Orientation and β-NMR'
+  spokespersons: [P. Mantica]
+  url: 'https://mis.triumf.ca/science/experiment/view/S863'
+  status: 'Closed'
 - experiment: 'M897'
   title: 'Absolute Magnetic Penetration Depth in the Meissner State of Superconductors Measured with Low Frequency β-NMR.'
   spokespersons: [R.F. Kiefl, G.D. Morris, J.E. Sonier]
@@ -22,6 +27,16 @@
   title: 'Photo-induced Dynamics and Reactivity of Spin Polarized <sup>8</sup>Li in Semiconductors'
   spokespersons: [K.H. Chow, R.F. Kiefl]
   url: 'https://mis.triumf.ca/science/experiment/view/M913'
+  status: 'Closed'
+- experiment: 'S971'
+  title: 'Precise Measurement of the Quadrupole Moments of <sup>20,21,25</sup>Na'
+  spokespersons: [K. Matsuta, T. Minamisono]
+  url: 'https://mis.triumf.ca/science/experiment/view/S971'
+  status: 'Closed'
+- experiment: 'S972'
+  title: 'Meson and Quark Effects in the Nuclear β Decay of <sup>20</sup>F'
+  spokespersons: [K. Matsuta]
+  url: 'https://mis.triumf.ca/science/experiment/view/S972'
   status: 'Closed'
 - experiment: 'M1036'
   title: 'β-NMR Study of Single Molecule Magnets Film'
@@ -235,7 +250,7 @@
   status: 'Approved'
 - experiment: 'M1760'
   title: 'The modification of polymer dynamics by plastic deformation studied by <sup>8</sup>Li βNMR'
-  spokespersons: [G.L.W. Cross, Derek Fujimoto, W.A. MacFarlane]
+  spokespersons: [G.L.W. Cross, D. Fujimoto, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1760'
   status: 'Approved'
 - experiment: 'M1770'
@@ -275,7 +290,7 @@
   status: 'Approved'
 - experiment: 'M1892'
   title: 'Depth-resolved dynamics in polymer thin films near the glass transition using βNMR'
-  spokespersons: [Derek Fujimoto, R.F. Kiefl, W.A. MacFarlane]
+  spokespersons: [D. Fujimoto, R.F. Kiefl, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1892'
   status: 'Approved'
 - experiment: 'M1902'
@@ -305,7 +320,7 @@
   status: 'Approved'
 - experiment: 'M1945'
   title: 'Transformation of ultrastable polymer glasses'
-  spokespersons: [J. A. Forrest, I. McKenzie]
+  spokespersons: [J. A. Forrest, I. McKenzie, T. Trumpour]
   url: 'https://mis.triumf.ca/science/experiment/view/M1945'
   status: 'Approved'
 - experiment: 'M1960'
@@ -315,7 +330,7 @@
   status: 'Approved'
 - experiment: 'M1963'
   title: 'Depth profile of the superconducting dirty layer in niobium'
-  spokespersons: [T. Junginger, R.E. Laxdal]
+  spokespersons: [R.E. Laxdal, E. Thoeng]
   url: 'https://mis.triumf.ca/science/experiment/view/M1963'
   status: 'Approved'
 - experiment: 'M2038'
@@ -330,7 +345,7 @@
   status: 'Approved'
 - experiment: 'M2072'
   title: 'Interfacial dynamics of ionic liquids and glasses measured with β-NMR'
-  spokespersons: [Derek Fujimoto, W.A. MacFarlane]
+  spokespersons: [D. Fujimoto, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M2072'
   status: 'Approved'
 - experiment: 'M2078'
