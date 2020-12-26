@@ -220,8 +220,8 @@
     magnetic field penetrates into the surface of a super-conductor while in the
     Meissner state. In the clean limit the absolute value of <i>λ</i> is
     directly related to the superfluid density <i>n<sub>s</sub></i> via
-    1/λ<sup>2</sup> =
-    μ<sub>0</sub><i>e</i><sup>2</sup><i><i>n<sub>s</sub></i>/<i>m</i><sup>*</sup>,
+    1/<i>λ</i><sup>2</sup> =
+    <i>μ</i><sub>0</sub><i>e</i><sup>2</sup><i>n<sub>s</sub></i>/<i>m</i><sup>*</sup>,
     where <i>m</i><sup>*</sup> is the effective mass. Consequently, its
     variation as a function of temperature, doping and orientation are of
     central importance intesting microscopic theories of exotic superconductors.
