@@ -1912,4 +1912,59 @@
   submitted: 2019-09-04
   accepted: 2020-02-14
   published: 2020-02-26
+- title: >-
+    Local electronic and magnetic properties of the doped topological insulators
+    Bi<sub>2</sub>Se<sub>3</sub>:Ca and Bi<sub>2</sub>Te<sub>3</sub>:Mn
+    investigated using ion-implanted <sup>8</sup>Li β-NMR
+  author:
+    - R. M. L. McFadden
+    - A. Chatzichristos
+    - D. L. Cortie
+    - D. Fujimoto
+    - Y. S. Hor
+    - H. Ji
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - R. J. Cava
+    - W. A. MacFarlane
+  abstract: >-
+    We report β-detected nuclear magnetic resonance (β-NMR) measurements in
+    Bi<sub>2</sub>Se<sub>3</sub>:Ca (BSC) and Bi<sub>2</sub>Te<sub>3</sub>:Mn
+    (BTM) single crystals using <sup>8</sup>Li<sup>+</sup> implanted to depths
+    on the order of 100 nm. Above ~200 K, spin-lattice relaxation (SLR) reveals
+    diffusion of <sup>8</sup>Li<sup>+</sup>, with activation energies of ~0.4 eV
+    (~0.2 eV) in BSC (BTM). At lower temperatures, the nuclear magnetic
+    resonance (NMR) properties are those of a heavily doped semiconductor in the
+    metallic limit, with Korringa relaxation and a small, negative,
+    temperature-dependent Knight shift in BSC. From this, we make a detailed
+    comparison with the isostructural tetradymite Bi<sub>2</sub>Te<sub>2</sub>Se
+    (BTS) [McFadden et al., Phys Rev. B <b>99</b>, 125201 (2019)]. In the magnetic BTM,
+    the effects of the dilute Mn moments predominate, but remarkably the
+    <sup>8</sup>Li signal is not wiped out through the magnetic transition at 13
+    K, with a prominent critical peak in the SLR that is suppressed in a high
+    applied field. This detailed characterization of the <sup>8</sup>Li NMR
+    response is an important step towards using depth-resolved β-NMR to study
+    the low-energy properties of the chiral topological surface state (TSS).
+    With the bulk NMR response now established in several
+    Bi<sub>2</sub>Ch<sub>3</sub> tetradymite topological insulators (TIs), the
+    prospect of directly probing their chiral TSS using the depth resolution
+    afforded by β-NMR remains strong.
+  journal: Phys. Rev. B
+  volume: 102
+  issue: 23
+  pages: 235206
+  year: 2020
+  doi: 10.1103/PhysRevB.102.235206
+  arxiv:
+    id: 1911.12212
+    cat: cond-mat.mtrl-sci
+  submitted: 2020-01-22
+  accepted: 2020-12-08
+  published: 2020-12-28
 
