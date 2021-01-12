@@ -37,20 +37,20 @@ edited and executed - there are simply too many options to type out for each
 build! 
 
 Assuming a directory structure similar to the following:
-```
+{% highlight bash %}
 .
 ├── build
 │   └── root
 ├── build-root.sh
 └── root
-```
+{% endhighlight %}
 where `root/` is the ROOT git repository,
 `build/root/` is the ROOT build directory,
 and `build-root.sh` is the build script,
 I automate compiling the ROOT source code by running
-```bash
+{% highlight bash %}
 bash build-root.sh
-```
+{% endhighlight %}
 which you can download here: [`build-root.sh`]({% link root/build-root.sh %})
 
 It's still a work in progress, but it gets the job done.
