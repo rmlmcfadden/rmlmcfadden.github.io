@@ -29,4 +29,12 @@ sudo make install
 sudo cp src/mud.h /usr/local/include
 {% endhighlight %}
 
+The last step above is mostly for convenience - you could equally include 
+`mud.h` directly in the source code of each project that links to `libmud.a`.
+
+Note that if you already have [Musrfit] installed, the above steps are
+unecessary ([Musrfit] builds/installs the MUD library/headers when it's
+compiled).
+
 [Linux]: https://en.wikipedia.org/wiki/Linux
+[Musrfit]: http://lmu.web.psi.ch/musrfit/user/html/
