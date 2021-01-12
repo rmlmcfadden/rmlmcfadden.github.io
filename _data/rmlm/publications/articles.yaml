@@ -619,7 +619,7 @@
     - W. A. MacFarlane
   abstract: >-
     We report β-detected NMR of ion-implanted <sup>8</sup>Li in a single crystal
-    and thin film of the strongly correlated metal LaNiO<sup>3</sup>.
+    and thin film of the strongly correlated metal LaNiO<sub>3</sub>.
     Spin-lattice relaxation measurements reveal two distinct local environments,
     both metallic as evident from <i>T</i>-linear Korringa
     1/<i>T</i><sub>1</sub> below 200 K with slopes comparable to other metals. A
@@ -631,7 +631,7 @@
     to dilute oxygen vacancies. We attribute the two environments to two
     distinct but similar crystallographic <sup>8</sup>Li sites and not to any
     form of phase inhomogeneity, but this is inconsistent with the conventional
-    rhombohedral structure of LaNiO<sup>3</sup>, and also cannot be simply
+    rhombohedral structure of LaNiO<sub>3</sub>, and also cannot be simply
     explained by the common alternative orthorhombic or monoclinic distortions.
   journal: Phys. Rev. B
   volume: 100
