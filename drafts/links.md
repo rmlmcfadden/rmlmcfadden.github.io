@@ -22,11 +22,19 @@ one is maintained by the UBC Libarary:
 
 <https://journal-abbreviations.library.ubc.ca/>
 
-## VESTA
+## Crystallography
 
 [VESTA] is a freeware tool for visualizating crystal structures.
 All available versions of the software can be found here:
-
 <http://jp-minerals.org/vesta/archives/>
 
 [VESTA]: http://jp-minerals.org/vesta/en/
+
+Bilbao Crystallographic Server
+<https://www.cryst.ehu.es/>
+
+Crystallography Open Database
+<https://www.crystallography.net/cod/>
+
+XCrySDen: X-window CRYstalline Structures and DENsities
+<http://www.xcrysden.org/>
