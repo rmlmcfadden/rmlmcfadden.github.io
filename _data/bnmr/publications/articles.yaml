@@ -406,6 +406,44 @@
   doi: 10.1016/j.jmr.2007.11.022
   submitted: 2007-07-20
   published: 2007-12-08
+- title: Quadrupole moments of neutron-deficient <sup>20,21</sup>Na
+  author:
+    - K. Minamisono
+    - K. Matsuta
+    - T. Minamisono
+    - C. D. P. Levy
+    - T. Nagatomo
+    - M. Ogura
+    - T. Sumikama
+    - J. A. Behr
+    - K. P. Jackson
+    - M. Mihara
+    - M. Fukuda
+  abstract: >-
+    The electric-quadrupole coupling constant of the ground states of the proton
+    drip line nucleus <sup>20</sup>Na (<i>I</i><sup>π</sup> = 2<sup>+</sup>,
+    <i>T</i><sub>1/2</sub> = 447.9 ms) and the neutron-deficient nucleus
+    <sup>21</sup>Na (<i>I</i><sup>π</sup> = 3/2<sup>+</sup>,
+    <i>T</i><sub>1/2</sub> = 22.49 s) in a hexagonal ZnO single crystal were
+    precisely measured to be |<i>eqQ/h</i>| = 690 ± 12 kHz and 939 ± 14 kHz,
+    respectively, using the multi-frequency β-ray detecting nuclear magnetic
+    resonance technique under presence of an electric-quadrupole interaction. An
+    electric-quadrupole coupling constant of <sup>27</sup>Na in the ZnO crystal
+    was also measured to be |<i>eqQ/h</i>| = 48.4 ± 3.8 kHz. The
+    electric-quadrupole moments were extracted as |<i>Q</i>(<sup>20</sup>Na)| =
+    10.3 ± 0.8 <i>e</i> fm<sup>2</sup> and |<i>Q</i>(<sup>21</sup>Na)| = 14.0 ±
+    1.1 <i>e</i> fm<sup>2</sup>, using the electric-coupling constant of
+    <sup>27</sup>Na and the known quadrupole moment of this nucleus as
+    references. The present results are well explained by shell-model
+    calculations in the full <i>sd</i>-shell model space.
+  journal: Phys. Lett. B
+  volume: 672
+  issue: 2
+  pages: 120-125
+  year: 2009
+  doi: 10.1016/j.physletb.2009.01.006
+  submitted: 2008-07-30
+  published: 2009-01-10
 - title: >-
     Low-field cross spin relaxation of <sup>8</sup>Li in superconducting
     NbSe<sub>2</sub>

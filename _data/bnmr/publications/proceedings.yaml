@@ -334,6 +334,68 @@
   submitted: 2002-12-28
   published: 2002-12-28
 - title: >-
+    Production of Nuclear Polarization of Na Isotopes at ISAC/TRIUMF and its
+    Hyperfine Interaction
+  author:
+    - K. Minamisono
+    - K. Matsuta
+    - T. Minamisono
+    - C. D. P. Levy
+    - T. Nagatomo
+    - M. Ogura
+    - T. Sumikama
+    - J. A. Behr
+    - K. P. Jackson
+    - H. Fujiwara
+    - M. Mihara
+    - M. Fukuda
+  abstract: >-
+    Hyperfine interactions of Na isotopes in single crystals have been studied
+    using highly nuclear polarized <sup>20,21,26,27,28</sup>Na beams provided by
+    ISAC/TRIUMF. The degree of polarization kept in the crystals, the
+    spin-lattice relaxation times, the electric quadrupole coupling constants
+    and the initial distribution of the populations were measured. Such
+    knowledge is indispensable for the application of the hyperfine interactions
+    in the study of precision measurements such as the nuclear structure through
+    nuclear moments and the fundamental symmetries.
+  journal: Hyperfine Interact.
+  volume: 159
+  issue: 1-4
+  pages: 261-264
+  year: 2004
+  doi: 10.1007/s10751-005-9107-2
+  submitted: 2004-12-01
+  published: 2004-12-01
+- title: β-ray Angular Distribution from Purely Nuclear Spin Aligned <sup>20</sup>Na
+  author:
+    - K. Minamisono
+    - K. Matsuta
+    - T. Minamisono
+    - C. D. P. Levy
+    - T. Nagatomo
+    - M. Ogura
+    - T. Sumikama
+    - J. A. Behr
+    - K. P. Jackson
+    - H. Fujiwara
+    - M. Mihara
+    - M. Fukuda
+  abstract: >-
+    The alignment correlation term in the β-decay angular distribution from
+    purely nuclear spin aligned <sup>20</sup>Na has been measured for the first
+    time. The final objective is to test the <i>G</i> parity symmetry, one of
+    the fundamental symmetry in the weak nucleon current. For artificial
+    creation of the alignment, the knowledge of the hyperfine interaction of
+    <sup>20</sup>Na implanted in a single-crystal ZnO was utilized.
+  journal: Hyperfine Interact.
+  volume: 159
+  issue: 1-4
+  pages: 265-268
+  year: 2004
+  doi: 10.1007/s10751-005-9108-1
+  submitted: 2004-12-01
+  published: 2004-12-01
+- title: >-
     Nuclear spin relaxation of <sup>8</sup>Li in a thin film of
     La<sub>0.67</sub>Ca<sub>0.33</sub>MnO<sub>3</sub>
   author:
