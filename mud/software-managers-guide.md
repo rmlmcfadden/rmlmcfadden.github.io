@@ -3,7 +3,6 @@ layout: default
 title: Software Manager's Guide
 description: MUD Software Manager's Guide.
 parent: MUD
-grand_parent: β-NMR
 ---
 
 # Software Manager's Guide

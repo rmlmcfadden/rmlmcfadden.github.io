@@ -3,7 +3,6 @@ layout: default
 title: Installation Guide
 description: MUD Library Installation Guide.
 parent: MUD
-grand_parent: β-NMR
 ---
 
 # Installation Guide

@@ -3,7 +3,6 @@ layout: default
 title: Data File Format
 description: MUD Data File format.
 parent: MUD
-grand_parent: β-NMR
 ---
 
 # Data File Format

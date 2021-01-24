@@ -3,7 +3,6 @@ layout: default
 title: Programmer's Guide
 description: MUD Programmer's Guide.
 parent: MUD
-grand_parent: β-NMR
 ---
 
 # Programmer's Guide
