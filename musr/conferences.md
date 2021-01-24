@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Conference Proceedings
+title: Conferences
 description: International Conferences on Muon Spin Rotation, Relaxation and Resonance (μSR).
 parent: μSR
 ---
 
-# Conference Proceedings
+# Conferences
 {: .no_toc }
 
 ## Table of contents
