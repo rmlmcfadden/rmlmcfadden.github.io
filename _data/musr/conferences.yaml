@@ -1,0 +1,165 @@
+- year: 1978
+  number: 1
+  location: Rohrschach, Switzerland
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 6
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/6-1'
+- year: 1980
+  number: 2
+  location: Vancouver, Canada
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 8
+    issue: 4-6
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/8-4'
+- year: 1983
+  number: 3
+  location: Shimoda, Japan
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 17
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/17-1'
+  - journal: Hyperfine Interact.
+    volume: 18
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/18-1'
+  - journal: Hyperfine Interact.
+    volume: 19
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/19-1'
+- year: 1986
+  number: 4
+  location: Uppsala, Sweden
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 31
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/31-1'
+  - journal: Hyperfine Interact.
+    volume: 32
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/32-1'
+- year: 1990
+  number: 5
+  location: Oxford, UK
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 63
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/63-1'
+  - journal: Hyperfine Interact.
+    volume: 64
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/64-1'
+  - journal: Hyperfine Interact.
+    volume: 65
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/65-1'
+- year: 1993
+  number: 6
+  location: Maui, USA
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 85
+    issue: 1
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/85-1'
+  - journal: Hyperfine Interact.
+    volume: 86
+    issue: 1
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/86-1'
+  - journal: Hyperfine Interact.
+    volume: 87
+    issue: 1
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/87-1'
+- year: 1996
+  number: 7
+  location: Nikko, Japan
+  website: null
+  proceedings:
+  - journal: Hyperfine Interact.
+    volume: 104
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/104-1'
+  - journal: Hyperfine Interact.
+    volume: 105
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/105-1'
+  - journal: Hyperfine Interact.
+    volume: 106
+    issue: 1-4
+    url: 'https://link.springer.com/journal/10751/volumes-and-issues/106-1'
+- year: 1999
+  number: 8
+  location: Diablerets, Switzerland
+  website: null
+  proceedings:
+  - journal: Physica B
+    volume: 298
+    issue: Suppl. C
+    url: 'https://www.sciencedirect.com/journal/physica-b-condensed-matter/vol/289/suppl/C'
+- year: 2002
+  number: 9
+  location: Williamsburg, USA
+  website: null
+  proceedings:
+  - journal: Physica B
+    volume: 326
+    issue: 1
+    url: 'https://www.sciencedirect.com/journal/physica-b-condensed-matter/vol/326/issue/1'
+- year: 2005
+  number: 10
+  location: Oxford, UK
+  website: null
+  proceedings:
+  - name: Physica B
+    volume: 374-375
+    issue: null
+    url: 'https://www.sciencedirect.com/journal/physica-b-condensed-matter/vol/374-375'
+- year: 2008
+  number: 11
+  location: Tsukuba, Japan
+  website: 'http://msr08.riken.jp/'
+  proceedings:
+  - journal: Physica B
+    volume: 404
+    issue: 5
+    url: 'https://www.sciencedirect.com/journal/physica-b-condensed-matter/vol/404/issue/5'
+- year: 2011
+  number: 12
+  location: Cancun, Mexico
+  website: 'http://musr2011.triumf.ca/'
+  proceedings:
+  - journal: Phys. Proc.
+    volume: 30
+    issue: null
+    url: 'https://www.sciencedirect.com/journal/physics-procedia/vol/30'
+- year: 2014
+  number: 13
+  location: Grindelwald, Switzerland
+  website: 'http://www.psi.ch/musr2014'
+  proceedings:
+  - journal: 'J. Phys.: Conf. Ser.'
+    volume: 551
+    issue: null
+    url: 'https://iopscience.iop.org/issue/1742-6596/551/1'
+- year: 2017
+  number: 14
+  location: Sapporo, Japan
+  website: 'http://www.jmeson.org/musr2017/'
+  proceedings:
+  - journal: JPS Conf. Proc.
+    volume: 21
+    issue: null
+    url: 'https://journals.jps.jp/doi/book/10.7566/muSR2017'
+- year: 2021
+  location: Parma, Italy
+  website: https://indico.stfc.ac.uk/event/53/
