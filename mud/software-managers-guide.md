@@ -39,7 +39,7 @@ The file `mud.zip` should contain the
 sources necessary for building the library and
 file conversion utility on any supported platform.
 See the MUD
-[Installation Guide]({% link bnmr/mud/installation-guide.md %})
+[Installation Guide]({% link mud/installation-guide.md %})
 for more details on installing MUD.
 
 ## Extending the Format

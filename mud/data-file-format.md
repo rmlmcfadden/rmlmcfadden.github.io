@@ -148,7 +148,7 @@ positions the file pointer to the beginning of this Section.
 
 Here are some programming examples using the MUD library routines.
 For information on using the higher-level access routines,
-see the MUD [Programmer's Guide]({% link bnmr/mud/programmers-guide.md %}).
+see the MUD [Programmer's Guide]({% link mud/programmers-guide.md %}).
 
 ### Sample MUD Format Structure
 
