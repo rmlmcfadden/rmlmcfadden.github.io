@@ -247,7 +247,7 @@
   title: 'Novel spin textures in magnetically doped Weyl semimetals'
   spokespersons: [Z. Salman]
   url: 'https://mis.triumf.ca/science/experiment/view/M1759'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1760'
   title: 'The modification of polymer dynamics by plastic deformation studied by <sup>8</sup>Li βNMR'
   spokespersons: [G.L.W. Cross, D. Fujimoto, W.A. MacFarlane]
@@ -320,7 +320,7 @@
   status: 'Approved'
 - experiment: 'M1945'
   title: 'Transformation of ultrastable polymer glasses'
-  spokespersons: [J. A. Forrest, I. McKenzie, T. Trumpour]
+  spokespersons: [J. A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M1945'
   status: 'Approved'
 - experiment: 'M1960'
@@ -352,4 +352,14 @@
   title: 'β-NMR investigation of the magnetism in La<sub>2</sub>CuO<sub>4</sub>/LaNiO<sub>3</sub> superlattices'
   spokespersons: [V. L. Karner, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M2078'
+  status: 'Approved'
+- experiment: 'M2100'
+  title: '<sup>8</sup>Li studies of Li<sup>+</sup> ionic mobility in entropy stabilized oxides'
+  spokespersons: [W.A. MacFarlane, J.O. Ticknor]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2100'
+  status: 'Approved'
+- experiment: 'M2101'
+  title: 'Exploration of dilute-limit lithium diffusion in anion substituted molybdenum disulfide using β-NMR'
+  spokespersons: [W.A. MacFarlane, J.O. Ticknor]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2101'
   status: 'Approved'
