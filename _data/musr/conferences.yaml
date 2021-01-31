@@ -120,7 +120,7 @@
   location: Oxford, UK
   website: null
   proceedings:
-  - name: Physica B
+  - journal: Physica B
     volume: 374-375
     issue: null
     url: 'https://www.sciencedirect.com/journal/physica-b-condensed-matter/vol/374-375'
