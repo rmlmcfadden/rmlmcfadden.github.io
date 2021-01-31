@@ -1,6 +1,7 @@
 - year: 1978
   number: 1
   location: Rohrschach, Switzerland
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -10,6 +11,7 @@
 - year: 1980
   number: 2
   location: Vancouver, Canada
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -19,6 +21,7 @@
 - year: 1983
   number: 3
   location: Shimoda, Japan
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -36,6 +39,7 @@
 - year: 1986
   number: 4
   location: Uppsala, Sweden
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -49,6 +53,7 @@
 - year: 1990
   number: 5
   location: Oxford, UK
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -66,6 +71,7 @@
 - year: 1993
   number: 6
   location: Maui, USA
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -83,6 +89,7 @@
 - year: 1996
   number: 7
   location: Nikko, Japan
+  date: null
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -100,6 +107,7 @@
 - year: 1999
   number: 8
   location: Diablerets, Switzerland
+  date: null
   website: null
   proceedings:
   - journal: Physica B
@@ -109,6 +117,7 @@
 - year: 2002
   number: 9
   location: Williamsburg, USA
+  date: 3-7 Jun 2002
   website: null
   proceedings:
   - journal: Physica B
@@ -118,6 +127,7 @@
 - year: 2005
   number: 10
   location: Oxford, UK
+  date: 8-12 August 2005
   website: null
   proceedings:
   - journal: Physica B
@@ -127,6 +137,7 @@
 - year: 2008
   number: 11
   location: Tsukuba, Japan
+  date: 21-25 July 2008
   website: 'http://msr08.riken.jp/'
   proceedings:
   - journal: Physica B
@@ -136,6 +147,7 @@
 - year: 2011
   number: 12
   location: Cancun, Mexico
+  date: 16-20 May 2011
   website: 'http://musr2011.triumf.ca/'
   proceedings:
   - journal: Phys. Proc.
@@ -145,6 +157,7 @@
 - year: 2014
   number: 13
   location: Grindelwald, Switzerland
+  date: 1-6 June 2014
   website: 'http://www.psi.ch/musr2014'
   proceedings:
   - journal: 'J. Phys.: Conf. Ser.'
@@ -154,6 +167,7 @@
 - year: 2017
   number: 14
   location: Sapporo, Japan
+  date: 25-30 June 2017
   website: 'http://www.jmeson.org/musr2017/'
   proceedings:
   - journal: JPS Conf. Proc.
@@ -163,4 +177,5 @@
 - year: 2021
   number: 15
   location: Parma, Italy
+  date: 5-9 July 2021
   website: https://indico.stfc.ac.uk/event/53/
