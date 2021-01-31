@@ -8,39 +8,37 @@ parent: μSR
 # Conferences
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta}
 
-1. TOC
-{:toc}
-
-{% assign conferences = site.data.musr.conferences | sort: "year" | reverse %}
-
-{% for conference in conferences %}
-    <h2>{{ conference.year | prepend: "μSR" }}</h2>
-    
-    <dl>
-    
-    <dt>Location</dt>
-    <dd>{{ conference.location }}</dd>
-    
-    <dt>Website</dt>
-    <dd>
-    {% if conference.website %}
-        <a href="{{ conference.website }}">{{ conference.website }}</a>
-    {% endif %}
-    </dd>
-    
-    <dt>Proceedings</dt>
-    <dd>
-    {% for p in conference.proceedings %}
-        <p>
-        <a href="{{ p.url }}">
-        {{ p.journal }} <b>{{ p.volume }}</b> (<i>{{ p.issue }}</i>)
-        </a>
-        </p>
+<table>
+    <thead>
+        <th>Number</th>
+        <th>Year</th>
+        <th>Location</th>
+        <th>Website</th>
+        <th>Proceedings</th>
+    </thead>
+    <tbody>
+    {% assign conferences = site.data.musr.conferences | sort: "year" | reverse %}
+    {% for conf in conferences %}
+    <tr>
+        <td>{{ conf.number }}</td>
+        <td>{{ conf.year }}</td>
+        <td>{{ conf.location }}</td>
+        <td>
+            {% if conf.website %}
+                <a href="{{ conf.website }}">Link</a>
+            {% endif %}
+        </td>
+        <td>
+            {% for proc in conf.proceedings %}
+                <p>
+                <a href="{{ proc.url }}">
+                {{ proc.journal }} <b>{{ proc.volume }}</b> (<i>{{ proc.issue }}</i>)
+                </a>
+                </p>
+            {% endfor %}
+        </td>
+    </tr>
     {% endfor %}
-    </dd>
-    
-    </dl>
-{% endfor %}
+    </tbody>
+</table>
