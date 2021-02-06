@@ -13,7 +13,7 @@ out of [TRIUMF]. Most of the literature is related to materials science, but
 results from nuclear physics experiments are also included for completeness.
 
 For a glimpse at some of the ongoing research using the technique,
-have a look the [β-NMR / Experiments]({% link bnmr/experiments.md %}) page.
+have a look at the [β-NMR / Experiments]({% link bnmr/experiments.md %}) page.
 
 ## Table of contents
 {: .no_toc .text-delta}
