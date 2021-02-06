@@ -12,8 +12,8 @@ This is my (unoffical) curated list of β-NMR (and related) publications coming
 out of [TRIUMF]. Most of the literature is related to materials science, but
 results from nuclear physics experiments are also included for completeness.
 
-For an idea of what science is currently being researched using the technique,
-have a look the [Experiments]({% link bnmr/experiments.md %}) page.
+For a glimpse at some of the ongoing research using the technique,
+have a look the [β-NMR / Experiments]({% link bnmr/experiments.md %}) page.
 
 ## Table of contents
 {: .no_toc .text-delta}
