@@ -24,11 +24,12 @@ nav_order: 1
     <dd><a href="{{ rmlm.gitlab_username | prepend: "https://gitlab.com/" }}">{{ rmlm.gitlab_username }}</a></dd>
 </dl>
 
-I'm currently a Postdoctoral Researcher at TRIUMF, with affiliation in both the
-Accelerator (T. Junginger) and Life Sciences (M. Stachura) Divisions.
-My research interests are (primarily) in the use of radioactive beams as tools
-for studying the chemistry and physics of materials, especially with
-[β-NMR]({% link bnmr.md %}) and [μSR]({% link musr.md %}).
+I'm currently a Postdoctoral Researcher at [TRIUMF] - Canada's particle
+accelerator centre - where I share affiliation with both Accelerator and Life
+Sciences Divisions though my supervisors ([T. Junginger] and [M. Stachura]).
+My research focuses on the use of radioactive beams as tools for studying the
+chemistry and physics of materials, primarily though the
+[β-NMR]({% link bnmr.md %}) and [μSR]({% link musr.md %}) techniques.
 
 I'm also an avid, self-taught programmer, having frequently written short
 scripts (in [Python]) and larger codebases (in [C++]) for much of the last
@@ -41,6 +42,9 @@ running, reading novels, cooking, and consuming craft beer.
 
 <img src="/assets/images/rmlm.jpg" title="{{ rmlm.name }}" width="100%"/>
 
+[T. Junginger]: https://www.triumf.ca/profiles/5656
+[M. Stachura]: https://www.triumf.ca/profiles/5570
+[TRIUMF]: https://www.triumf.ca/
 [C++]: https://isocpp.org/
 [Python]: https://www.python.org/
 [Rust]: https://www.rust-lang.org/
