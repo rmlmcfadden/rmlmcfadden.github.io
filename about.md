@@ -39,7 +39,7 @@ I'm starting to learn [Rust].
 Besides these "professional" interests, my main hobbies include skateboarding,
 running, reading novels, cooking, and consuming craft beer.
 
-<img src="/assets/rmlm.jpg" title="{{ rmlm.name }}" width="100%"/>
+<img src="/assets/images/rmlm.jpg" title="{{ rmlm.name }}" width="100%"/>
 
 [C++]: https://isocpp.org/
 [Python]: https://www.python.org/
