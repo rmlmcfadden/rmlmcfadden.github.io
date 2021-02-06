@@ -28,7 +28,7 @@ I'm currently a Postdoctoral Researcher at TRIUMF, with affiliation in both the
 Accelerator (T. Junginger) and Life Sciences (M. Stachura) Divisions.
 My research interests are (primarily) in the use of radioactive beams as tools
 for studying the chemistry and physics of materials, especially with
-[β-NMR]({% link bnmr.md %})) and [μSR]({% link musr.md %}).
+[β-NMR]({% link bnmr.md %}) and [μSR]({% link musr.md %}).
 
 I'm also an avid, self-taught programmer, having frequently written short
 scripts (in [Python]) and larger codebases (in [C++]) for much of the last
