@@ -11,12 +11,14 @@ has_toc: true
 MUon Data (MUD) files are the storage format for results from
 [µSR]({% link musr.md %}) and [β-NMR]({% link bnmr.md %})
 experiments performed at [TRIUMF].
-All non-commercial measurments, colloquially referred to as "runs",
-can be retrieved from a comprehensive ["archive"]
-maintained by the [CMMS] group.
 
-While the original documentation for the MUD format is given
-[elsewhere](http://cmms.triumf.ca/mud/ "MUon Data (MUD) access"),
+All (non-commercial) measurments,
+colloquially referred to as "runs",
+can be retrieved from a comprehensive ["archive"]
+maintained by the [TRIUMF] [CMMS] group.
+
+While the original documentation for the MUD format is given elsewhere
+(<http://cmms.triumf.ca/mud/>),
 here I give a slightly modified version,
 mainly with enhanced typsetting and presentation.
 
