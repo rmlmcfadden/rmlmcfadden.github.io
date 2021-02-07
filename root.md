@@ -20,7 +20,7 @@ succinctly advertising ROOT's capabilities:
 - ROOT: analyzing petabytes of data, scientifically.
 - ROOT: analyzing, storing and visualizing big data, scientifically.
 
-The source code for ROOT and related projects are hosted on [Github] and further
+The source code for ROOT and related projects are hosted on [GitHub] and further
 details, including documentation and tutorials, can be found on the ROOT
 [homepage].
 
@@ -77,6 +77,6 @@ examples of nice features others might like to make use of.
 [C++]: https://isocpp.org/
 [CERN]: https://home.cern/
 [homepage]: https://root.cern/
-[Github]: https://github.com/root-project
+[GitHub]: https://github.com/root-project
 [Python]: https://www.python.org/
 [the ROOT of all evil]: http://insectnation.org/articles/problems-with-root.html
