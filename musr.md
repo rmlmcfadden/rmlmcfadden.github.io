@@ -46,7 +46,7 @@ A nice, though somewhat old, introduction/overview of the technique is given in:
     <dt>Editor</dt>
         <dd>G. L. Trigg</dd>
     <dt>Publisher</dt>
-        <dd>Wiley-VCH</dd>d
+        <dd>Wiley-VCH</dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1002/3527600434.eap258">10.1002/3527600434.eap258</a></dd>
 </dl>
