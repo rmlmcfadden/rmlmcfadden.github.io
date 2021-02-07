@@ -41,7 +41,7 @@ A nice, though somewhat old, introduction/overview of the technique is given in:
         <dd>11</dd>
     <dt>Pages</dt>
         <dd>23-53</dd>
-    <dt>Year</dd>
+    <dt>Year</dt>
         <dd>1994</dd>
     <dt>Editor</dt>
         <dd>G. L. Trigg</dd>
