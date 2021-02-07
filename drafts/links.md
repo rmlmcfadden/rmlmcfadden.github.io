@@ -59,3 +59,7 @@ Piled Higher and Deeper (PhD) Comics
 
 Retraction Watch: tracking retractions as a window into the scientific process
 <https://retractionwatch.com/>
+
+TOC ROFL: a collection of amusing table of contents (TOC) graphics found in
+<i>published</i> scientific journal articles.
+<https://tocrofl.tumblr.com/>
