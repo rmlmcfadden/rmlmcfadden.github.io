@@ -8,8 +8,9 @@ parent: μSR
 # Conferences
 {: .no_toc }
 
-Here I compile a list the past and future
-International Conferences on Muon Spin Rotation, Relaxation and Resonance (μSR).
+Here I compile a list of all past and future
+<i>International Conferences on Muon Spin Rotation, Relaxation and Resonance (μSR)</i>.
+
 A link to each conference website and published proceedings are included,
 if available.
 
