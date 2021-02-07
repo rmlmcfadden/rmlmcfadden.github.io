@@ -34,7 +34,7 @@ chemistry and physics of materials, primarily though the
 [β-NMR]({% link bnmr.md %}) and [μSR]({% link musr.md %}) techniques.
 A list of my scholarly works can be found through my Open Researcher and
 Contributor ID (ORCID):
-<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">{{ rmlm.orcid }}</a>
+<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">{{ rmlm.orcid }}</a>.
 
 I'm also an avid, self-taught programmer, and have written hundreds of short
 scripts (mostly in [Python]) and larger codebases (mainly in [C++]) in my
