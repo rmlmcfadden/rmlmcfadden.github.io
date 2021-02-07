@@ -51,7 +51,28 @@ A nice, though somewhat old, introduction/overview of the technique is given in:
         <dd><a href="https://doi.org/10.1002/3527600434.eap258">10.1002/3527600434.eap258</a></dd>
 </dl>
 
+Only a few facilicities exist worldwide where [μSR] experiments are performed.
+These include:
+
+- [TRIUMF]'s [CMMS]
+- [PSI]'s [LMU]
+- [ISIS]'s [Neutron and Muon Source]
+- [J-PARC]'s [Materials and Life Science Experimental Facility]
+
+
 [μSR]: https://en.wikipedia.org/wiki/Muon_spin_spectroscopy
 [NMR]: https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance
 [EPR]: https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance
 [MRI]: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging
+
+[TRIUMF]: https://www.triumf.ca/
+[CMMS]: https://cmms.triumf.ca/
+
+[PSI]: https://www.psi.ch/en
+[LMU]: https://www.psi.ch/en/lmu
+
+[J-PARC]: https://j-parc.jp/researcher/index-e.html
+[Materials and Life Science Experimental Facility]: https://j-parc.jp/researcher/MatLife/en/instrumentation/ms.html
+
+[ISIS]: https://www.isis.stfc.ac.uk/Pages/home.aspx
+[Neutron and Muon Source]: https://www.isis.stfc.ac.uk/Pages/Muon-spectroscopy.aspx
