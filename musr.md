@@ -22,7 +22,7 @@ the same detection scheme, though it is much less well-known.
 
 Many review articles and monographs have been written on the principles and
 applications of [μSR], which can easily be found online.
-For example, <https://muonsources.org/> provides lists of
+For example, <https://muonsources.org> provides lists of
 [brochures](https://muonsources.org/resources/usr-literature/brochures/),
 [books](https://muonsources.org/resources/usr-literature/books/),
 and
