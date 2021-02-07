@@ -48,3 +48,14 @@ Crystallography Open Database
 
 XCrySDen: X-window CRYstalline Structures and DENsities
 <http://www.xcrysden.org/>
+
+## Entertainment
+
+xkcd: a webcomic of romance, sarcasm, math, and language.
+<https://xkcd.com/>
+
+Piled Higher and Deeper (PhD) Comics
+<https://phdcomics.com/>
+
+Retraction Watch: tracking retractions as a window into the scientific process
+<https://retractionwatch.com/>
