@@ -43,6 +43,18 @@ An overview of the technique can be found in a recent review article:
         <dd>2015</dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a></dd>
+    <dt>Abstract</dt>
+        <dd>
+        NMR detected by radioactive beta decay, β-NMR, is undergoing a
+        renaissance largely due to the availability of high intensity low energy
+        beams of the most common probe ion, <sup>8</sup>Li<sup>+</sup>, and
+        dedicated facilities for materials research. The radioactive detection
+        scheme, combined with the low energy ion beam, enable depth resolved NMR
+        measurements in crystals, thin films and multilayers on depth scales of
+        2-200 nm. After a brief historical introduction, technical aspects of
+        implanted-ion β-NMR are presented, followed by a review of recent
+        applications to a wide range of solids.
+        </dd>
 </dl>
 
 Additional (though somewhat dated) information can be found at:
