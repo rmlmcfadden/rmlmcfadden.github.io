@@ -26,21 +26,37 @@ details, including documentation and tutorials, can be found on the ROOT
 
 The canonical citation for the ROOT framework is:
 
----
-
-<ul>
-  <li>
-    <p>R. Brun and F. Rademakers.</p>
-    <p><i>ROOT - an object oriented data analysis framework.</i></p>
-    <p>Nucl. Instrum. Methods Phys. Res., Sect. A <b>389</b>, 81-86 (1997).</p>
-    <p>
-      <i class="ai ai-doi"></i>
-      <a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a>
-    </p>
-  </li>
-</ul>
-
----
+<dl>
+    <dt>Title</dt>
+        <dd>ROOT - an object oriented data analysis framework</dd>
+    <dt>Author</dt>
+        <dd>R. Brun, F. Rademakers</dd>
+    <dt>Journal</dt>
+        <dd>Nucl. Instrum. Methods Phys. Res., Sect. A</dd>
+    <dt>Volume</dt>
+        <dd>389</dd>
+    <dt>Issue</dt>
+        <dd>1-2</dd>
+    <dt>Pages</dt>
+        <dd>81-86</dd>
+    <dt>Year</dt>
+        <dd>1997</dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a></dd>
+    <dt>Abstract</dt>
+        <dd>
+        The ROOT system in an Object Oriented framework for large scale data
+        analysis. ROOT written in C++, contains, among others, an efficient
+        hierarchical OO database, a C++ interpreter, advanced statistical
+        analysis (multi-dimensional histogramming, fitting, minimization,
+        cluster finding algorithms) and visualization tools. The user interacts
+        with ROOT via a graphical user interface, the command line or batch
+        scripts. The command and scripting language is C++ (using the
+        interpreter) and large scripts can be compiled and dynamically linked
+        in. The OO database design has been optimized for parallel access
+        (reading as well as writing) by multiple processes.
+        </dd>
+</dl>
 
 While I have used ROOT for many years (espcially during my PhD),
 I wouldn't describe the entire experience as "smooth" or "pleasant".
