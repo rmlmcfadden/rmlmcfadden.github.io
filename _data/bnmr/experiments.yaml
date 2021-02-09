@@ -338,6 +338,11 @@
   spokespersons: [J. A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M2038'
   status: 'Approved'
+- experiment: 'M2045'
+  title: 'Dilute-limit lithium diffusion in an inorganic solid state electrolyte thin film: Lithium lanthanum titanate'
+  spokespersons: [W.A. MacFarlane, J.O. Ticknor]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2045'
+  status: 'Approved'
 - experiment: 'M2061'
   title: 'β-NMR study of topological surface states in superconducting Fe<sub>1+y</sub>(Te<sub>1-x</sub>Se<sub>x</sub>)'
   spokespersons: [O.O. Bernal, S.R. Dunsiger]
