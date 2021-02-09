@@ -57,7 +57,7 @@ An overview of the technique can be found in a recent review article:
         </dd>
     <dt>Graphic</dt>
         <dd>
-        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926204015000181-fx1.jpg" alt="Graphical abstract" width="100%">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926204015000181-fx1.jpg" alt="Graphical abstract">
         </dd>
 </dl>
 
