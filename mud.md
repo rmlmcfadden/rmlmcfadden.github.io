@@ -14,14 +14,14 @@ experiments performed at [TRIUMF].
 
 All (non-commercial) measurments,
 colloquially referred to as "runs",
-can be retrieved from a comprehensive ["archive"]
-maintained by the [TRIUMF] [CMMS] group.
+can be retrieved from a comprehensive "[archive]"
+maintained by [TRIUMF]'s [CMMS] group.
 
-While the original documentation for the MUD format is given elsewhere
-(<http://cmms.triumf.ca/mud/>),
+While the original documentation for the MUD format is given at
+<https://cmms.triumf.ca/>,
 here I give a slightly modified version,
 mainly with enhanced typsetting and presentation.
 
-[CMMS]: http://cmms.triumf.ca/
-["archive"]: http://cmms.triumf.ca/mud/runSel.html
+[CMMS]: https://cmms.triumf.ca/
+[archive]: https://cmms.triumf.ca/mud/runSel.html
 [TRIUMF]: https://www.triumf.ca/
