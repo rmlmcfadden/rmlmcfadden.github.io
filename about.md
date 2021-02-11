@@ -7,7 +7,7 @@ nav_order: 1
 
 # About
 
-<img src="/assets/images/rmlm.jpg" title="{{ rmlm.name }}" width="100%"/>
+<img src="/assets/images/rmlm.jpg" title="{{ rmlm.name }}" width="100%">
 
 {% assign rmlm = site.data.rmlm.info %}
 
