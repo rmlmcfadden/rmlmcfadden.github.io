@@ -8,6 +8,8 @@ has_toc: true
 
 # ROOT
 
+<img src="https://root.cern.ch/img/logos/ROOT_Logo/misc/generic-logo-color-plustext-512.png" width="100%">
+
 ROOT is an open-source data analysis framework born at [CERN] in the 1990s.
 While it is targeted primarily for high energy physics experiments,
 its utility extends beyond this relm, providing many features that are useful
