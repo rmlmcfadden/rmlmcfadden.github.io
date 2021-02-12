@@ -62,7 +62,7 @@ An overview of the technique can be found in a recent review article:
 </dl>
 
 Additional (though somewhat dated) information can be found at:
-<http://bnmr.triumf.ca>.
+<https://bnmr.triumf.ca>.
 
 [EPR]: https://en.wikipedia.org/wiki/Electron_paramagnetic_resonance
 [MRI]: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging
