@@ -17,8 +17,7 @@ if available.
 
 <table>
     <thead>
-        <th>Number</th>
-        <th>Year</th>
+        <th>Date</th>
         <th>Location</th>
         <th>Website</th>
         <th>Proceedings</th>
@@ -27,9 +26,10 @@ if available.
     {% assign conferences = site.data.musr.conferences | sort: "year" | reverse %}
     {% for conf in conferences %}
     <tr>
-        <td>{{ conf.number }}</td>
-        <td>{{ conf.year }}</td>
-        <td>{{ conf.location }}</td>
+        <td>{{ conf.date }}</td>
+        <td>
+            <a href="{{ conf.location | prepend: "https://www.google.com/maps/place/" }}">{{ conf.location }}</a>
+        </td>
         <td>
             {% if conf.website %}
                 <a href="{{ conf.website }}">Link</a>
@@ -39,7 +39,7 @@ if available.
             {% for proc in conf.proceedings %}
                 <p>
                 <a href="{{ proc.url }}">
-                {{ proc.journal }} <b>{{ proc.volume }}</b> (<i>{{ proc.issue }}</i>)
+                {{ proc.journal }} <b>{{ proc.volume }}</b> {% if proc.issue %}(<i>{{ proc.issue }}</i>){% endif %}
                 </a>
                 </p>
             {% endfor %}
