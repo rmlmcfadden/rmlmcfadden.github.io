@@ -32,7 +32,7 @@ if available.
         </td>
         <td>
             {% if conf.website %}
-                <a href="{{ conf.website }}">Link</a>
+                <a href="{{ conf.website }}">{{ conf.website }}</a>
             {% endif %}
         </td>
         <td>
