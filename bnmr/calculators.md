@@ -196,6 +196,10 @@ Download [`demagnetization_factor_ellipsoid.py`]({% link bnmr/demagnetization_fa
 
 Download [`demagnetization_factor_prism.py`]({% link bnmr/demagnetization_factor_prism.py %}).
 
+## Beamline optics
+
+See: <https://beta.hla.triumf.ca/beam/tuneX/>.
+
 
 [Python]: https://www.python.org/
 [TRIUMF]: https://www.triumf.ca/
