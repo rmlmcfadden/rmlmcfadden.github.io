@@ -36,23 +36,26 @@ As a bonus, it also has a short paper that can be cited:
 
 ---
 
-<ul>
-  <li>
-    <p>
-      C. Ostrouchov, Y. Zhang, and W. J. Weber.
-    </p>
-    <p>
-      <i>pysrim: automation, analysis, and plotting of SRIM calculations.</i>
-    </p>
-    <p>
-      J. Open Source Software <b>3</b>, 829 (2018).
-    </p>
-    <p>
-      <i class="ai ai-doi"></i>
-      <a href="https://doi.org/10.21105/joss.00829">10.21105/joss.00829</a>
-    </p>
-  </li>
-</ul>
+<dl>
+    <dt>Title</dt>
+        <dd>pysrim: automation, analysis, and plotting of SRIM calculations</dd>
+    <dt>Author</dt>
+        <dd>C. Ostrouchov, Y. Zhang, W. J. Weber</dd>
+    <dt>Journal</dt>
+        <dd>J. Open Source Software</dd>
+    <dt>Volume</dt>
+        <dd>3</dd>
+    <dt>Issue</dt>
+        <dd>28</dd>
+    <dt>Pages</dt>
+        <dd>829</dd>
+    <dt>Year</dt>
+        <dd>2018</dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.21105/joss.00829">10.21105/joss.00829</a></dd>
+    <dt><i class="fab fa-gitlab"></i></dt>
+        <dd><a href="https://gitlab.com/costrouc/pysrim">costrouc/pysrim</a></dd>
+</dl>
 
 ---
 
