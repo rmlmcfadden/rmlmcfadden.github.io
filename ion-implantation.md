@@ -8,7 +8,7 @@ has_toc: true
 
 # Ion Implantation
 
-Here I provide some notes on [ion implantion] - mainly computer simulation codes.
+Here I provide some notes on [ion implantation] - mainly computer simulation codes.
 
 A good resource on the topic is:
 
