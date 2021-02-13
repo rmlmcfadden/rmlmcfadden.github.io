@@ -5,7 +5,7 @@ description: Automation, analysis, and plotting of SRIM calculations
 parent: Ion Implantation
 ---
 
-# pysrim
+# `pysrim`
 {: .no_toc }
 
 ## Table of contents

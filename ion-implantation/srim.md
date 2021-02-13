@@ -5,7 +5,7 @@ description: Stopping and range of ions in matter.
 parent: Ion Implantation
 ---
 
-# SRIM
+# `SRIM`
 
 The Stopping and Range of Ions in Matter (`SRIM`) is a collection of software
 for calculations/simulations dealing with ion transport in matter.

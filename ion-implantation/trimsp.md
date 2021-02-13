@@ -5,7 +5,7 @@ description: TRIM.SP
 parent: Ion Implantation
 ---
 
-# TRIM.SP
+# `TRIM.SP`
 
 `TRIM.SP` is an offshoot of the original [`TRIM`] program that additionally
 includes sputtering effects in the simulation of ion implantation.
