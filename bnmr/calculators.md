@@ -194,7 +194,7 @@ Download [`demagnetization_factor_ellipsoid.py`]({% link bnmr/demagnetization_fa
 {% include_relative demagnetization_factor_prism.py %}
 {% endhighlight %}
 
-Download [`heterostructure.py`]({% link bnmr/demagnetization_factor_prism.py %}).
+Download [`demagnetization_factor_prism.py`]({% link bnmr/demagnetization_factor_prism.py %}).
 
 
 [Python]: https://www.python.org/
