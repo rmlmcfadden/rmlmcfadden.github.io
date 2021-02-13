@@ -32,7 +32,7 @@ if available.
         </td>
         <td>
             {% if conf.website %}
-                <a href="{{ conf.website }}">{{ conf.website }}</a>
+                <a href="{{ conf.website }}"><i class="fas fa-external-link-alt"></i></a>
             {% endif %}
         </td>
         <td>
