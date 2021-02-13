@@ -21,7 +21,7 @@ Further details can be found at the `SRIM` homepage (<http://www.srim.org/>),
 as well as the textbook sharing the same name.
 
 <a href="https://www.lulu.com/content/1524197?page=1&pageSize=4">
-<img src="assets/images/srim_textbook_cover.jpg" alt="SRIM textbook" width="25%">
+<img src="/assets/images/srim_textbook_cover.jpg" alt="SRIM textbook" width="25%">
 </a>
 
 Papers dealing with specific versions of `SRIM` also exist:
