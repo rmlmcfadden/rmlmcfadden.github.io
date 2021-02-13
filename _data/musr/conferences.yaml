@@ -1,7 +1,7 @@
 - year: 1978
   number: 1
   location: Rohrschach, Switzerland
-  date: null
+  date: 4-7 September 1978
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -11,7 +11,7 @@
 - year: 1980
   number: 2
   location: Vancouver, Canada
-  date: null
+  date: 11-15 August 1980
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -21,7 +21,7 @@
 - year: 1983
   number: 3
   location: Shimoda, Japan
-  date: null
+  date: 18-22 April 1983
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -39,7 +39,7 @@
 - year: 1986
   number: 4
   location: Uppsala, Sweden
-  date: null
+  date: 23-27 June 1986
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -53,7 +53,7 @@
 - year: 1990
   number: 5
   location: Oxford, UK
-  date: null
+  date: 9-12 April 1990
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -71,7 +71,7 @@
 - year: 1993
   number: 6
   location: Maui, USA
-  date: null
+  date: 6-11 June 1993
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -89,7 +89,7 @@
 - year: 1996
   number: 7
   location: Nikko, Japan
-  date: null
+  date: 15-19 April 1996
   website: null
   proceedings:
   - journal: Hyperfine Interact.
@@ -107,7 +107,7 @@
 - year: 1999
   number: 8
   location: Diablerets, Switzerland
-  date: null
+  date: 30 August - 3 September 1999
   website: null
   proceedings:
   - journal: Physica B
