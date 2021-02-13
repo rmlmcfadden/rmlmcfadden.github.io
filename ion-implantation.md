@@ -46,7 +46,7 @@ A good resource on the topic is:
         overview of the literature is given, making this book of interest to the
         active reseacher as well to students entering the field.
         </dd>
-    <dt>Cover</i></dt>
+    <dt>Cover</dt>
         <dd><img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-642-73513-4"></dd>
 </dl>
 
