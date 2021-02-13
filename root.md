@@ -28,6 +28,8 @@ details, including documentation and tutorials, can be found on the ROOT
 
 The canonical citation for the ROOT framework is:
 
+---
+
 <dl>
     <dt>Title</dt>
         <dd>ROOT - an object oriented data analysis framework</dd>
@@ -58,7 +60,11 @@ The canonical citation for the ROOT framework is:
         in. The OO database design has been optimized for parallel access
         (reading as well as writing) by multiple processes.
         </dd>
+    <dt><i class="fab fa-github"></i></dt>
+        <dd><a href="https://github.com/root-project/root">root-project/root</a></dd>
 </dl>
+
+---
 
 While I have used ROOT for many years (espcially during my PhD),
 I wouldn't describe the entire experience as "smooth" or "pleasant".
