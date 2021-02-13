@@ -188,7 +188,7 @@ _a_ = 0.175 ± 0.046 G and _b_ = 2.2131 ± 0.0019 G / A.
 
 Download [`demagnetization_factor_ellipsoid.py`]({% link bnmr/demagnetization_factor_ellipsoid.py %}).
 
-## Rectangular prism
+### Rectangular prism
 
 {% highlight python %}
 {% include_relative demagnetization_factor_prism.py %}
