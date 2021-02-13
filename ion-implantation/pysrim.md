@@ -16,7 +16,7 @@ parent: Ion Implantation
 
 ## Introduction
 
-The Python package `pysrim` provides a slick and convenient way of scripting
+The [Python] package `pysrim` provides a slick and convenient way of scripting
 some of the tedious aspects involed with running many similar `SRIM`
 calculations. Its key strength is it provides a convenient interface to 
 programatically define the calculation input. This is particularly
@@ -29,7 +29,7 @@ advantageous as it:
 - makes the record of the calculation <i>much</i> more readable than `SRIM`'s
   own custom (and dated) input format.
 
-It even works well when running on Linux
+It even works well when running on [Linux]
 (i.e., it automatically calls `wine SRIM.exe`, `wine TRIM.exe`, etc.)!
 
 As a bonus, it also has a short paper that can be cited:
@@ -63,11 +63,11 @@ As a bonus, it also has a short paper that can be cited:
 
 Here I give an example showcasing `pysrim`'s capabilities.
 The script below creates a target with a complex layered structure
-(one that would be particularly unpleasent to do "by hand")
+(one that would be particularly unpleasent construct "by hand")
 and runs several `TRIM` calculations for a single ion at
 a few different implantation energies.
 Conveniently, the script takes care of moving all the results to
-their own (new) folder after each calculations completes.
+their own (new) folder after each calculation completes.
 
 {% highlight python %}
 {% include_relative heterostructure.py %}
@@ -86,8 +86,8 @@ using it:
   safely. This is due to a recent change in `pyYAML` requiring a `Loader` to be
   specified as a `kwarg`. There is currently a
   [merge request](https://gitlab.com/costrouc/pysrim/-/merge_requests/4) on the
-  project's [GitLab page](https://gitlab.com/costrouc/pysrim) to fix this, but
-  until this gets officially patched it can be mended by editing line 10 of
+  project's [GitLab] page (<https://gitlab.com/costrouc/pysrim>) to fix this,
+  but until this gets officially patched it can be mended by editing line 10 of
   `srim/core/elemementdb.py` so that it reads:
 
 {% highlight python %}
@@ -106,3 +106,7 @@ return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
 - The autosave input in `TRIM` setup does not appear to work; the calculation
   won't run if the `kwarg` is specified. This is relatively minor, so my
   workaround is to just avoid providing the parameter.
+
+[Python]: https://www.python.org/
+[Linux]: https://en.wikipedia.org/wiki/Linux
+[GitLab]: https://about.gitlab.com/
