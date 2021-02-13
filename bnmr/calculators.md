@@ -8,11 +8,13 @@ parent: β-NMR
 # Calculators
 {: .no_toc }
 
-This is a collection of calculators useful for running β-NMR/β-NQR experiments
-at TRIUMF.
+This is a small collection of calculators useful for running β-NMR/β-NQR
+experiments at [TRIUMF] (see also <https://bnmr.triumf.ca/>).
 
-Simply enter a new value in one of the forms and press ENTER
-or click outside the box to update the values.
+Some of the calculators are web forms, where you simply enter a new value in one
+of the boxes on the page and press ENTER or click outside the box to update the
+values. Others are [Python] scripts, which can be downloaded and run on your own
+machine.
 
 ## Table of contents
 {: .no_toc .text-delta}
@@ -20,9 +22,7 @@ or click outside the box to update the values.
 1. TOC
 {:toc}
 
-## β-NMR
-
-### Bandwidth to pulse duration converter
+## Bandwidth-to-pulse-duration converter for modulated RF fields
 
 <center>
 <form>
@@ -78,7 +78,7 @@ or click outside the box to update the values.
 </center>
 
 
-### Antenna pickup to RF field converter
+## β-NMR antenna-pickup-to-RF-field converter
 
 <center>
 <form>
@@ -132,9 +132,7 @@ or click outside the box to update the values.
 The above expression is accurate to ± 3 %.
 Note that this expression is only valid for data collected before September 2019!
 
-## β-NQR
-
-### Magnetic field calibration
+## β-NQR magnetic field calibration and calculator
 
 <center>
 <form>
@@ -179,3 +177,25 @@ Note that this expression is only valid for data collected before September 2019
 
 The calibration constants are:
 _a_ = 0.175 ± 0.046 G and _b_ = 2.2131 ± 0.0019 G / A.
+
+## Demagnetization factors for common sample geometries
+
+### Ellipsoid
+
+{% highlight python %}
+{% include_relative demagnetization_factor_ellipsoid.py %}
+{% endhighlight %}
+
+Download [`demagnetization_factor_ellipsoid.py`]({% link bnmr/demagnetization_factor_ellipsoid.py %}).
+
+## Rectangular prism
+
+{% highlight python %}
+{% include_relative demagnetization_factor_prism.py %}
+{% endhighlight %}
+
+Download [`heterostructure.py`]({% link bnmr/demagnetization_factor_prism.py %}).
+
+
+[Python]: https://www.python.org/
+[TRIUMF]: https://www.triumf.ca/
