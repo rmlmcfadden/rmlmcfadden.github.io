@@ -18,11 +18,28 @@ This includes:
 - and ion beam therapy.
 
 Further details can be found at the `SRIM` homepage (<http://www.srim.org/>),
-as well as the textbook sharing the same name.
+as well as the textbook sharing the same name:
 
-<a href="https://www.lulu.com/content/1524197?page=1&pageSize=4">
-<img src="/assets/images/srim_textbook_cover.jpg" alt="SRIM textbook" width="25%">
-</a>
+---
+
+<dl>
+    <dt>Title</dt>
+        <dd>SRIM - The Stopping and Range of Ions in Matter</dd>
+    <dt>Author</dt>
+        <dd>J. F. Ziegler, J. P. Biersack, M. D. Ziegler</dd>
+    <dt>Edition</dt>
+        <dd>7</dd>
+    <dt>Publisher</dt>
+        <dd>SRIM Co.</dd>
+    <dt>Address</dt>
+        <dd>Chester, MD</dd>
+    <dt>Year</dt>
+        <dd>2008>/dd>
+    <dt>Cover</dt>
+        <dd><img src="/assets/images/srim_textbook_cover.jpg" alt="SRIM textbook" width="25%"></dd>
+</dl>
+
+---
 
 Papers dealing with specific versions of `SRIM` also exist:
 
