@@ -40,7 +40,7 @@
     {% endif %}
     
     {% if pub.url %}
-        <dt><i class="fa fa-link"></i></dt>
+        <dt><i class="fas fa-external-link-alt"></i></dt>
         <dd><a href="{{ pub.url }}">{{ pub.url }}</a></dd>
     {% endif %}
 </dl>
