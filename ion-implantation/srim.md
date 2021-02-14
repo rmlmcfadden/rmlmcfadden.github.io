@@ -34,7 +34,7 @@ as well as the textbook sharing the same name:
     <dt>Address</dt>
         <dd>Chester, MD</dd>
     <dt>Year</dt>
-        <dd>2008>/dd>
+        <dd>2008</dd>
     <dt>Cover</dt>
         <dd><img src="/assets/images/srim_textbook_cover.jpg" alt="SRIM textbook" width="25%"></dd>
 </dl>
