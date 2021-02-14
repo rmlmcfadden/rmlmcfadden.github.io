@@ -28,6 +28,8 @@ Canada.
 
 An overview of the technique can be found in a recent review article:
 
+---
+
 <dl>
     <dt>Title</dt>
         <dd>Implanted-ion βNMR: a new probe for nanoscience</dd>
@@ -60,6 +62,8 @@ An overview of the technique can be found in a recent review article:
         <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926204015000181-fx1.jpg" alt="Graphical abstract">
         </dd>
 </dl>
+
+---
 
 Additional (though somewhat dated) information can be found at:
 <https://bnmr.triumf.ca>.
