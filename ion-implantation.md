@@ -47,7 +47,7 @@ A good resource on the topic is:
         active reseacher as well to students entering the field.
         </dd>
     <dt>Cover</dt>
-        <dd><img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-642-73513-4"></dd>
+        <dd><img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-642-73513-4" width="25%"></dd>
 </dl>
 
 ---
