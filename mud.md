@@ -18,7 +18,7 @@ can be retrieved from a comprehensive "[archive]"
 maintained by [TRIUMF]'s [CMMS] group.
 
 While the original documentation for the MUD format is given at
-<https://cmms.triumf.ca/>,
+<https://cmms.triumf.ca/mud/>,
 here I give a slightly modified version,
 mainly with enhanced typsetting and presentation.
 
