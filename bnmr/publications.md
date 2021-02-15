@@ -38,6 +38,14 @@ have a look at the [β-NMR / Experiments]({% link bnmr/experiments.md %}) page.
 
 
 
+{% assign reviews = site.data.bnmr.publications.reviews | sort: "published" | reverse %}
+
+## Reviews ({{ reviews.size }})
+
+{% include_relative publications_reviews.md %}
+
+
+
 {% assign proceedings = site.data.bnmr.publications.proceedings | sort: "published" | reverse %}
 
 ## Conference Proceedings ({{ proceedings.size }})

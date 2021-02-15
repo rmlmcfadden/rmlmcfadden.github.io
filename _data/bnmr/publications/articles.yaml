@@ -65,35 +65,6 @@
   submitted: 2003-10-17
   published: 2004-10-05
 - title: >-
-    Application of low energy spin polarized radioactive ion beams in condensed
-    matter research
-  author:
-    - R. F. Kiefl
-    - K. H. Chow
-    - W. A. MacFarlane
-    - G. D. Morris
-    - C. D. P. Levy
-    - Z. Salman
-  abstract: >-
-    The new ISAC facility at TRIUMF (Canada), produces some of the world's most
-    intense radioactive ion beams (RIBs). Although the primary scientific
-    motivation for these facilities lies in nuclear physics and nuclear
-    astrophysics, RIBs also have applications in condensed matter (CM). Many
-    pioneering CM experiments have already been performed at the ISOLDE facility
-    (CERN). Continuing on this path at ISAC we have recently polarized a beam of
-    <sup>8</sup>Li<sup>+</sup> to be used as a magnetic probe of ultra-thin
-    films and interfaces. We report here on progress in developing this new
-    application of low energy RIBs, which is based on the technique of
-    β-detected nuclear magnetic resonance (β-NMR).
-  journal: Nucl. Phys. News
-  volume: 15
-  issue: null
-  pages: '26-32'
-  year: 2005
-  doi: 10.1080/10506890500454592
-  submitted: 2006-09-21
-  published: 2006-09-21
-- title: >-
     Near-surface structural phase transition of SrTiO<sub>3</sub> studied with
     zero-field β-detected nuclear spin relaxation and resonance
   author:
@@ -940,31 +911,6 @@
     cat: cond-mat.mtrl-sci
   submitted: 2012-01-09
   published: 2012-12-20
-- title: Recent progress with β-NMR at ISAC
-  author:
-    - R. F. Kiefl
-    - W. A. MacFarlane
-    - K. H. Chow
-    - G. D. Morris
-    - C. D. P. Levy
-    - M. R. Pearson
-  abstract: >-
-    The ISAC facility at TRIUMF in Vancouver, Canada, produces intense beams of
-    radioactive ions that are used in a broad research program encompassing
-    fundamental properties of nuclei, nuclear astrophysics, medical physics,
-    condensed matter physics, and physical chemistry. The focus of this article
-    is on the latter subject and in particular recent developments in the use of
-    β-detected NMR to probe electronic, magnetic, and structural properties of
-    thin films and interfaces. Over the last 10 years considerable progress has
-    been made developing the technique and applying it to current problems.
-  journal: Nucl. Phys. News
-  volume: 23
-  issue: null
-  pages: '29-32'
-  year: 2013
-  doi: 10.1080/10619127.2013.855575
-  submitted: 2014-01-06
-  published: 2014-01-06
 - title: >-
     Finite-size effects in the nuclear magnetic resonance of epitaxial palladium
     thin films
@@ -1084,58 +1030,6 @@
   doi: 10.1021/ja503066a
   submitted: 2014-03-26
   published: 2014-05-25
-- title: Laser polarization facility
-  author:
-    - C. D. P. Levy
-    - M. R. Pearson
-    - R. F. Kiefl
-    - E. Mané
-    - G. D. Morris
-    - A. Voss
-  abstract: >-
-    An overview of the laser polarizer facility at ISAC is provided. The
-    charge-exchange cell is described in some detail.
-  journal: Hyperfine Interact.
-  volume: 225
-  issue: 1
-  pages: '165'
-  year: 2014
-  doi: 10.1007/s10751-013-0896-4
-  submitted: 2013-10-23
-  published: 2013-10-23
-- title: β-NMR
-  author:
-    - G. D. Morris
-  abstract: >-
-    The β-NMR facility at ISAC is constructed specifically for experiments in
-    condensed matter physics with radioactive ion beams. Using co-linear optical
-    pumping, a <sup>8</sup>Li<sup>+</sup> ion beam having a large nuclear spin
-    polarisation and low energy (nominally 30 keV) can be generated. When
-    implanted into materials these ions penetrate to shallow depths comparable
-    to length scales of interest in the physics of surfaces and interfaces
-    between materials. Such low-energy ions can be decelerated with simple
-    electrostatic optics to enable depth-resolved studies of near-surface
-    phenomena over the range of about 2-200 nm. Since the β-NMR signal is
-    extracted from the asymmetry intrinsic to beta-decay and therefore monitors
-    the polarisation of the radioactive probe nuclear magnetic moments, this
-    technique is fundamentally a probe of local magnetism. More generally
-    though, any phenomena which affects the polarisation of the implanted spins
-    by, for example, a change in resonance frequency, line width or relaxation
-    rate can be studied. The β-NMR program at ISAC currently supports a number
-    of experiments in magnetism and superconductivity as well as novel
-    ultra-thin heterostructures exhibiting properties that cannot occur in bulk
-    materials. The general purpose zero/low field and high field spectrometers
-    are configured to perform CW and pulsed RF nuclear magnetic resonance and
-    spin relaxation experiments over a range of temperatures (3-300 K) and
-    magnetic fields (0-9 T).
-  journal: Hyperfine Interact.
-  volume: 225
-  issue: 1
-  pages: '173-182'
-  year: 2014
-  doi: 10.1007/s10751-013-0894-6
-  submitted: 2013-10-23
-  published: 2013-10-23
 - title: >-
     β-detected NMR of <sup>8</sup>Li<sup>+</sup> in Bi, Sb, and the topological
     insulator Bi<sub>0.9</sub>Sb<sub>0.1</sub>
@@ -1223,28 +1117,6 @@
   submitted: 2014-10-10
   accepted: 2015-01-08
   published: 2015-01-21
-- title: 'Implanted-ion βNMR: a new probe for nanoscience'
-  author:
-    - W. A. MacFarlane
-  abstract: >-
-    NMR detected by radioactive beta decay, β-NMR, is undergoing a renaissance
-    largely due to the availability of high intensity low energy beams of the
-    most common probe ion, <sup>8</sup>Li<sup>+</sup>, and dedicated facilities
-    for materials research. The radioactive detection scheme, combined with the
-    low energy ion beam, enable depth resolved NMR measurements in crystals,
-    thin films and multilayers on depth scales of 2-200 nm. After a brief
-    historical introduction, technical aspects of implanted-ion β-NMR are
-    presented, followed by a review of recent applications to a wide range of
-    solids.
-  journal: Solid State Nucl. Magn. Reson.
-  volume: 68-69
-  issue: null
-  pages: '1-12'
-  year: 2015
-  doi: 10.1016/j.ssnmr.2015.02.004
-  submitted: 2014-12-19
-  revised: 2015-02-09
-  published: 2015-02-21
 - title: >-
     Spin fluctuations in the exotic metallic state of
     Sr<sub>2</sub>RuO<sub>4</sub> studied with β-NMR
