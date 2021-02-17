@@ -43,8 +43,6 @@ The canonical citation for the ROOT framework is:
         <dd>81-86</dd>
     <dt>Year</dt>
         <dd>1997</dd>
-    <dt><i class="ai ai-doi"></i></dt>
-        <dd><a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a></dd>
     <dt>Abstract</dt>
         <dd>
         The ROOT system in an Object Oriented framework for large scale data
@@ -58,10 +56,12 @@ The canonical citation for the ROOT framework is:
         in. The OO database design has been optimized for parallel access
         (reading as well as writing) by multiple processes.
         </dd>
-    <dt><i class="fab fa-github"></i></dt>
-        <dd><a href="https://github.com/root-project/root">root-project/root</a></dd>
     <dt>Logo</dt>
         <dd><img src="https://root.cern.ch/img/logos/ROOT_Logo/misc/generic-logo-color-plustext-512.png" width="100%"></dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a></dd>
+    <dt><i class="fab fa-github"></i></dt>
+        <dd><a href="https://github.com/root-project/root">root-project/root</a></dd>
 </dl>
 
 ---
