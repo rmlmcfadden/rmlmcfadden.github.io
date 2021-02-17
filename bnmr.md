@@ -43,8 +43,6 @@ An overview of the technique can be found in a recent review article:
         <dd>1-12</dd>
     <dt>Year</dt>
         <dd>2015</dd>
-    <dt><i class="ai ai-doi"></i></dt>
-        <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a></dd>
     <dt>Abstract</dt>
         <dd>
         NMR detected by radioactive beta decay, β-NMR, is undergoing a
@@ -61,6 +59,8 @@ An overview of the technique can be found in a recent review article:
         <dd>
         <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926204015000181-fx1.jpg" alt="Graphical abstract">
         </dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a></dd>
 </dl>
 
 ---
