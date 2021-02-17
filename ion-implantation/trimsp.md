@@ -28,6 +28,25 @@ The original citations for the work are:
         <dd>73-94</dd>
     <dt>Year</dt>
         <dd>1984</dd>
+    <dt>Abstract</dt>
+        <dd>
+        The Monte Carlo Program TRIM.SP (sputtering version of TRIM) was used to
+        determine sputtering yields and energy and angular distributions of
+        sputtered particles in physical (collisional) sputtering processes. The
+        output is set up to distinguish between the contributions of primary and
+        secondary knock-on atoms as caused by in- and outgoing incident ions, in
+        order to get a better understanding of the sputtering mechanisms and to
+        check on previous theoretical models. The influence of the interatomic
+        potential and the inelastic energy loss model as well as the surface
+        binding energy on the sputtering yield is investigated. Further results
+        are sputtering yields versus incident energy and angle as well as total
+        angular distributions of sputtered particles and energy distributions in
+        specific solid angles for non-normal incidence. The calculated data are
+        compared with experimental results as far as possible. From this
+        comparison it turns out that the TRIM.SP is able to reproduce
+        experimental results even in very special details of angular and energy
+        distributions.
+        </dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a></dd>
 </dl>
@@ -49,6 +68,13 @@ The original citations for the work are:
         <dd>239-250</dd>
     <dt>Year</dt>
         <dd>1994</dd>
+    <dt>Abstract</dd>
+        <dd>
+        The changes of the program TRIM.SP namely the vectorization and other
+        minor changes since its first publication in 1984 are shortly described.
+        Examples especially about backscattering and sputtering illustrate the
+        possibilities which can be handled by the program.
+        </dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1080/10420159408219787">10.1080/10420159408219787</a></dd>
 </dl>
