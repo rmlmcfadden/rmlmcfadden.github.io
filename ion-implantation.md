@@ -29,8 +29,6 @@ A good resource on the topic is:
         <dd>Berlin, Heidelberg</dd>
     <dt>Year</dt>
         <dd>1991</dd>
-    <dt><i class="ai ai-doi"></i></dt>
-        <dd><a href="https://doi.org/10.1007/978-3-642-73513-4">10.1007/978-3-642-73513-4</a></dd>
     <dt>Introduction</dt>
         <dd>
         In this book the author discusses the investigation of ion bombardment
@@ -48,6 +46,8 @@ A good resource on the topic is:
         </dd>
     <dt>Cover</dt>
         <dd><img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-642-73513-4" width="25%"></dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1007/978-3-642-73513-4">10.1007/978-3-642-73513-4</a></dd>
 </dl>
 
 ---
