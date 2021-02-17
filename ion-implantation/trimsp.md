@@ -13,27 +13,45 @@ The original citations for the work are:
 
 ---
 
-<ul>
-  <li>
-    <p>J. P. Biersack and W. Eckstein</p>
-    <p><i>Sputtering studies with the Monte Carlo Program TRIM.SP</i></p>
-    <p>Appl. Phys. A <b>34</b>, 73-94 (1984).</p>
-    <p>
-    <i class="ai ai-doi"></i>
-    <a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a>
-    </p>
-  </li>
-<hr>
-  <li>
-    <p>W. Eckstein</p>
-    <p><i>Backscattering and sputtering with the monte-carlo program TRIM.SP</i></p>
-    <p>Radiat. Eff. Defects Solids <b>130-131</b>, 239-250 (1994).</p>
-    <p>
-    <i class="ai ai-doi"></i>
-    <a href="https://doi.org/10.1080/10420159408219787">10.1080/10420159408219787</a>
-    </p>
-  </li>
-</ul>
+<dl>
+    <dt>Title</dt>
+        <dd>Sputtering studies with the Monte Carlo program TRIM.SP</dd>
+    <dt>Author</dt>
+        <dd>J. P. Biersack, W. Eckstein</dd>
+    <dt>Journal</dt>
+        <dd>Appl. Phys. A</dd>
+    <dt>Volume</dd>
+        <dd>34</dd>
+    <dt>Issue</dt>
+        <dd>2</dd>
+    <dt>Pages</dt>
+        <dd>73-94</dd>
+    <dt>Year</dt>
+        <dd>1984</dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a></dd>
+</dl>
+
+---
+
+<dl>
+    <dt>Title</dt>
+        <dd>Backscattering and sputtering with the Monte-Carlo program TRIM.SP</dd>
+    <dt>Author</dt>
+        <dd>W. Eckstein</dd>
+    <dt>Journal</dt>
+        <dd>Radiat. Eff. Defects Solids</dd>
+    <dt>Volume</dt>
+        <dd>130-131</dd>
+    <dt>Issue</dt>
+        <dd>1</dd>
+    <dt>Pages</dt>
+        <dd>239-250</dd>
+    <dt>Year</dt>
+        <dd>1994</dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1080/10420159408219787">10.1080/10420159408219787</a></dd>
+</dl>
 
 ---
 
