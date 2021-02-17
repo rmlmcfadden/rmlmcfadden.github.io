@@ -20,9 +20,12 @@ alternatives, I think in time it will be their successor.
 
 The [GitHub] page for the project can be found here:
 
-<https://github.com/lcpp-org/RustBCA>
+<dl>
+    <dt>GitHub <i class="fab fa-github"></i></dt>
+        <dd><a href="https://github.com/lcpp-org/RustBCA">lcpp-org/RustBCA</a></dd>
+</dl>
 
 [BCA]: https://en.wikipedia.org/wiki/Binary_collision_approximation
 [Rust]: https://www.rust-lang.org/
-[TOML]: https://en.wikipedia.org/wiki/TOML
+[TOML]: https://toml.io/en/
 [GitHub]: https://github.com/
