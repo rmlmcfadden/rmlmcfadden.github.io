@@ -85,6 +85,7 @@
 
 [TRIUMF]: https://www.triumf.ca/
 [CMMS]: https://cmms.triumf.ca/
+[PHYSICA]: https://computing.triumf.ca/legacy/physica/
 
 [CLS]: https://www.lightsource.ca/
 
