@@ -1,8 +1,20 @@
-{% assign preprints = site.data.bnmr.publications.preprints | sort: "published" | reverse %}
+---
+layout: default
+title: Journal Articles
+description: β-NMR journal articles.
+parent: Publications
+grand_parent: β-NMR
+---
+
+# Journal Articles
+
+{% assign articles = site.data.bnmr.publications.articles | sort: "published" | reverse %}
+
+To date, {{ articles.size }} journal articles have been published.
 
 <hr>
 
-{% for pub in preprints %}
+{% for pub in articles %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -20,6 +32,31 @@
             {% endif %}
         {% endfor %}
         </dd>
+    {% endif %}
+    
+    {% if pub.journal %}
+        <dt>Journal</dt>
+        <dd>{{ pub.journal }}</dd>
+    {% endif %}
+    
+    {% if pub.volume %}
+        <dt>Volume</dt>
+        <dd>{{ pub.volume }}</dd>
+    {% endif %}
+    
+    {% if pub.issue %}
+        <dt>Issue</dt>
+        <dd>{{ pub.issue }}</dd>
+    {% endif %}
+    
+    {% if pub.pages %}
+        <dt>Pages</dt>
+        <dd>{{ pub.pages }}</dd>
+    {% endif %}
+    
+    {% if pub.year %}
+        <dt>Year</dt>
+        <dd>{{ pub.year }}</dd>
     {% endif %}
     
     {% if pub.abstract %}

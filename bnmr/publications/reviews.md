@@ -1,4 +1,16 @@
+---
+layout: default
+title: Reviews
+description: β-NMR review articles.
+parent: Publications
+grand_parent: β-NMR
+---
+
+# Reviews
+
 {% assign reviews = site.data.bnmr.publications.reviews | sort: "published" | reverse %}
+
+To date, {{ reviews.size }} review articles have been published.
 
 <hr>
 

@@ -1,8 +1,20 @@
-{% assign articles = site.data.bnmr.publications.articles | sort: "published" | reverse %}
+---
+layout: default
+title: Theses
+description: β-NMR theses.
+parent: Publications
+grand_parent: β-NMR
+---
+
+# Theses
+
+{% assign theses = site.data.bnmr.publications.theses | sort: "published" | reverse %}
+
+To date, {{ theses.size }} theses using the technique have been written.
 
 <hr>
 
-{% for pub in articles %}
+{% for pub in theses %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -22,24 +34,19 @@
         </dd>
     {% endif %}
     
-    {% if pub.journal %}
-        <dt>Journal</dt>
-        <dd>{{ pub.journal }}</dd>
+    {% if pub.degree %}
+        <dt>Degree</dt>
+        <dd>{{ pub.degree }}</dd>
     {% endif %}
     
-    {% if pub.volume %}
-        <dt>Volume</dt>
-        <dd>{{ pub.volume }}</dd>
+    {% if pub.school %}
+        <dt>School</dt>
+        <dd>{{ pub.school }}</dd>
     {% endif %}
     
-    {% if pub.issue %}
-        <dt>Issue</dt>
-        <dd>{{ pub.issue }}</dd>
-    {% endif %}
-    
-    {% if pub.pages %}
-        <dt>Pages</dt>
-        <dd>{{ pub.pages }}</dd>
+    {% if pub.address %}
+        <dt>Address</dt>
+        <dd>{{ pub.address }}</dd>
     {% endif %}
     
     {% if pub.year %}

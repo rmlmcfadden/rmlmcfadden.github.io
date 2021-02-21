@@ -1,4 +1,16 @@
+---
+layout: default
+title: Conference Proceedings
+description: β-NMR conference proceedings.
+parent: Publications
+grand_parent: β-NMR
+---
+
+# Conference Proceedings
+
 {% assign proceedings = site.data.bnmr.publications.proceedings | sort: "published" | reverse %}
+
+To date, {{ proceedings.size }} articles have been published in conference proceedings.
 
 <hr>
 

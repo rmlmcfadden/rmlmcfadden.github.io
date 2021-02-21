@@ -1,8 +1,20 @@
-{% assign theses = site.data.bnmr.publications.theses | sort: "published" | reverse %}
+---
+layout: default
+title: Electronic Preprints
+description: β-NMR electronic preprints.
+parent: Publications
+grand_parent: β-NMR
+---
+
+# Electronic Preprints
+
+{% assign preprints = site.data.bnmr.publications.preprints | sort: "published" | reverse %}
+
+There are currently {{ preprints.size }} not yet published.
 
 <hr>
 
-{% for pub in theses %}
+{% for pub in preprints %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -20,26 +32,6 @@
             {% endif %}
         {% endfor %}
         </dd>
-    {% endif %}
-    
-    {% if pub.degree %}
-        <dt>Degree</dt>
-        <dd>{{ pub.degree }}</dd>
-    {% endif %}
-    
-    {% if pub.school %}
-        <dt>School</dt>
-        <dd>{{ pub.school }}</dd>
-    {% endif %}
-    
-    {% if pub.address %}
-        <dt>Address</dt>
-        <dd>{{ pub.address }}</dd>
-    {% endif %}
-    
-    {% if pub.year %}
-        <dt>Year</dt>
-        <dd>{{ pub.year }}</dd>
     {% endif %}
     
     {% if pub.abstract %}
