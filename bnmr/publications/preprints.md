@@ -10,7 +10,7 @@ grand_parent: β-NMR
 
 {% assign preprints = site.data.bnmr.publications.preprints | sort: "published" | reverse %}
 
-There are currently {{ preprints.size }} not yet published.
+There are currently {{ preprints.size }} electronic preprints awaiting publication.
 
 <hr>
 
