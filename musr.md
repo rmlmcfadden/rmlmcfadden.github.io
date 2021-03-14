@@ -53,7 +53,7 @@ A nice, though somewhat old, introduction/overview of the technique is given in:
         <dd><a href="https://doi.org/10.1002/3527600434.eap258">10.1002/3527600434.eap258</a></dd>
 </dl>
 
-Only a few facilicities exist worldwide where [μSR] experiments are performed.
+Only a few facilities exist worldwide where [μSR] experiments are performed.
 These include:
 
 - [TRIUMF]'s [CMMS]
