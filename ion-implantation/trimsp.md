@@ -68,7 +68,7 @@ The original citations for the work are:
         <dd>239-250</dd>
     <dt>Year</dt>
         <dd>1994</dd>
-    <dt>Abstract</dd>
+    <dt>Abstract</dt>
         <dd>
         The changes of the program TRIM.SP namely the vectorization and other
         minor changes since its first publication in 1984 are shortly described.
