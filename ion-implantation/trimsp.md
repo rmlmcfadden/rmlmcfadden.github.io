@@ -20,7 +20,7 @@ The original citations for the work are:
         <dd>J. P. Biersack, W. Eckstein</dd>
     <dt>Journal</dt>
         <dd>Appl. Phys. A</dd>
-    <dt>Volume</dd>
+    <dt>Volume</dt>
         <dd>34</dd>
     <dt>Issue</dt>
         <dd>2</dd>
