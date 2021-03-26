@@ -56,7 +56,12 @@ To date, {{ theses.size }} theses using the technique have been written.
     
     {% if pub.abstract %}
         <dt>Abstract</dt>
-        <dd>{{ pub.abstract }}</dd>
+        <dd>
+            <details>
+                <summary></summary>
+                {{ pub.abstract }}
+            </details>
+        </dd>
     {% endif %}
     
     {% if pub.doi %}

@@ -61,7 +61,12 @@ To date, {{ articles.size }} journal articles have been published.
     
     {% if pub.abstract %}
         <dt>Abstract</dt>
-        <dd>{{ pub.abstract }}</dd>
+        <dd>
+            <details>
+                <summary></summary>
+                {{ pub.abstract }}
+            </details>
+        </dd>
     {% endif %}
     
     {% if pub.doi %}

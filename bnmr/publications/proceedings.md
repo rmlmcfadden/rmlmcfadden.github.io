@@ -61,7 +61,12 @@ To date, {{ proceedings.size }} articles have been published in conference proce
     
     {% if pub.abstract %}
         <dt>Abstract</dt>
-        <dd>{{ pub.abstract }}</dd>
+        <dd>
+            <details>
+                <summary></summary>
+                {{ pub.abstract }}
+            </details>
+        </dd>
     {% endif %}
     
     {% if pub.doi %}

@@ -36,7 +36,12 @@ There are currently {{ preprints.size }} electronic preprints awaiting publicati
     
     {% if pub.abstract %}
         <dt>Abstract</dt>
-        <dd>{{ pub.abstract }}</dd>
+        <dd>
+            <details>
+                <summary></summary>
+                {{ pub.abstract }}
+            </details>
+        </dd>
     {% endif %}
     
     {% if pub.doi %}
