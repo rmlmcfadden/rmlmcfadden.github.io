@@ -16,7 +16,7 @@
     Comparison of a theoretical model to experimental results on the
     Au(40 Å)/Ag(200 Å)/Fe(140 Å) sample suggest that the induced hyperfine
     magnetism decays with distance into the Ag layer from the
-    magnetic/nonmagnetic interface like x<sup>-1.84</sup> from a maximum of
+    magnetic/nonmagnetic interface like <i>x</i><sup>-1.84</sup> from a maximum of
     ~0.3 T at the magnetic/nonmagnetic interface.
   degree: MSc
   school: University of British Columbia
@@ -292,10 +292,10 @@
     resonances were clearly resolved from the nonmagnetic GaAs substrate and the
     magnetic Ga<sub>1-x</sub>Mn<sub>x</sub>As film. The latter one negatively
     shifts and is linearly proportional to the applied field. The hyperfine
-    coupling constant AHF of <sup>8</sup>Li<sup>+</sup> in
+    coupling constant <i>A</i><sub>HF</sub> of <sup>8</sup>Li<sup>+</sup> in
     Ga<sub>1-x</sub>Mn<sub>x</sub>As is found to be negative. The SLR rate λ
     does not follow Korringa’s Law and its amplitude shows a weak temperature
-    dependence through <i>T<sub>C</sub></i>. The behaviours of AHF and λ suggest
+    dependence through <i>T<sub>C</sub></i>. The behaviours of <i>A</i><sub>HF</sub> and λ suggest
     that the delocalized holes originate from a Mn derived impurity band. No
     evidence of magnetic phase separation is found.
     </p>
