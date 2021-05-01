@@ -1,4 +1,21 @@
 ---
+layout: default
+title: musrfit
+description: musrfit data analysis framework
+parent: μSR
+---
+
+# `musrfit`
+
+`musrfit` is a data analysis framework for time-differential μSR data,
+consisting of a suite of interoperating programs.
+Through a custom scripted interface, the user can easily process, analyze, and
+visualize their data, with sophisticated operations (e.g., global fitting of
+<i>arbitrary</i> functions) made trivial.
+
+For more information, see:
+
+---
 
 <dl>
     <dt>Title</dt>
@@ -44,6 +61,14 @@
         <dd>
         <a href="https://bitbucket.org/muonspin/musrfit/">muonspin/musrfit</a>
         </dd>
+    <dt>Documentation</dt>
+        <dd>
+        <a href="https://lmu.web.psi.ch/musrfit/user/html/index.html">https://lmu.web.psi.ch/musrfit/user/html/index.html</a>
+        </dd>
 </dl>
 
 ---
+
+## Examples
+
+To be added...
