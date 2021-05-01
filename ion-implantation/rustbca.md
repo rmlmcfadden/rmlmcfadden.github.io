@@ -25,7 +25,7 @@ The [GitHub] page for the project can be found here:
         <dd><a href="https://github.com/lcpp-org/RustBCA">lcpp-org/RustBCA</a></dd>
     <dt>Logo</dt>
         <dd>
-        <img src="https://github.com/lcpp-org/RustBCA/blob/master/docs/testlogo.png" alt="RustBCA Logo" width="25%">
+        <img src="https://raw.githubusercontent.com/lcpp-org/RustBCA/master/docs/testlogo.png" alt="RustBCA Logo" width="25%">
         </dd>
 </dl>
 
