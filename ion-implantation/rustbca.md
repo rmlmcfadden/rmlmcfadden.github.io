@@ -23,6 +23,10 @@ The [GitHub] page for the project can be found here:
 <dl>
     <dt>GitHub <i class="fab fa-github"></i></dt>
         <dd><a href="https://github.com/lcpp-org/RustBCA">lcpp-org/RustBCA</a></dd>
+    <dt>Logo</dt>
+        <dd>
+        <img src="https://github.com/lcpp-org/RustBCA/blob/master/docs/testlogo.png" alt="RustBCA Logo" width="25%">
+        </dd>
 </dl>
 
 [BCA]: https://en.wikipedia.org/wiki/Binary_collision_approximation
