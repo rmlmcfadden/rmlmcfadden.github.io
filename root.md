@@ -45,6 +45,8 @@ The canonical citation for the ROOT framework is:
         <dd>1997</dd>
     <dt>Abstract</dt>
         <dd>
+        <details>
+        <summary></summary>
         The ROOT system in an Object Oriented framework for large scale data
         analysis. ROOT written in C++, contains, among others, an efficient
         hierarchical OO database, a C++ interpreter, advanced statistical
@@ -55,6 +57,7 @@ The canonical citation for the ROOT framework is:
         interpreter) and large scripts can be compiled and dynamically linked
         in. The OO database design has been optimized for parallel access
         (reading as well as writing) by multiple processes.
+        </details>
         </dd>
     <dt>Logo</dt>
         <dd><img src="https://root.cern.ch/img/logos/ROOT_Logo/misc/generic-logo-color-plustext-512.png" width="100%"></dd>

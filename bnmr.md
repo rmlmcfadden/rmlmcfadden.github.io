@@ -45,6 +45,8 @@ An overview of the technique can be found in a recent review article:
         <dd>2015</dd>
     <dt>Abstract</dt>
         <dd>
+        <details>
+        <summary></summary>
         NMR detected by radioactive beta decay, β-NMR, is undergoing a
         renaissance largely due to the availability of high intensity low energy
         beams of the most common probe ion, <sup>8</sup>Li<sup>+</sup>, and
@@ -54,6 +56,7 @@ An overview of the technique can be found in a recent review article:
         2-200 nm. After a brief historical introduction, technical aspects of
         implanted-ion β-NMR are presented, followed by a review of recent
         applications to a wide range of solids.
+        </details>
         </dd>
     <dt>Graphic</dt>
         <dd>

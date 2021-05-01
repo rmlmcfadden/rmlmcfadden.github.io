@@ -31,6 +31,8 @@ A good resource on the topic is:
         <dd>1991</dd>
     <dt>Introduction</dt>
         <dd>
+        <details>
+        <summary></summary>
         In this book the author discusses the investigation of ion bombardment
         of solids by computer simulation, with the aim of demonstrating the
         usefulness of this approach to the problem of interactions of ions with
@@ -43,6 +45,7 @@ A good resource on the topic is:
         particles with energies from the eV to the MeV range. An extensive
         overview of the literature is given, making this book of interest to the
         active reseacher as well to students entering the field.
+        </details>
         </dd>
     <dt>Cover</dt>
         <dd><img src="https://media.springernature.com/w306/springer-static/cover-hires/book/978-3-642-73513-4" width="25%"></dd>

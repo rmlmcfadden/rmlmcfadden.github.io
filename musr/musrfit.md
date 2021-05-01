@@ -32,6 +32,8 @@ For more information, see:
         <dd>2012</dd>
     <dt>Abstract</dt>
         <dd>
+        <details>
+        <summary></summary>
         A free data-analysis framework for μSR has been developed. musrfit is
         fully written in C++, is running under GNU/Linux, Mac OS X, as well as
         Microsoft Windows, and is distributed under the terms of the GNU GPL. It
@@ -48,6 +50,7 @@ For more information, see:
         with a minimal amount of overhead for the user. Currently, musrfit can
         read the following facility raw-data files: PSI-BIN, MDU (PSI), ROOT
         (LEM/PSI), WKM (outdated ASCII format), MUD (TRIUMF), NeXus (ISIS).
+        </details>
         </dd>
     <dt>DOI <i class="ai ai-doi"></i></dt>
         <dd>

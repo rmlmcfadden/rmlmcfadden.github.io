@@ -30,6 +30,8 @@ The original citations for the work are:
         <dd>1984</dd>
     <dt>Abstract</dt>
         <dd>
+        <details>
+        <summary></summary>
         The Monte Carlo Program TRIM.SP (sputtering version of TRIM) was used to
         determine sputtering yields and energy and angular distributions of
         sputtered particles in physical (collisional) sputtering processes. The
@@ -46,6 +48,7 @@ The original citations for the work are:
         comparison it turns out that the TRIM.SP is able to reproduce
         experimental results even in very special details of angular and energy
         distributions.
+        </details>
         </dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1007/BF00614759">10.1007/BF00614759</a></dd>
@@ -70,10 +73,13 @@ The original citations for the work are:
         <dd>1994</dd>
     <dt>Abstract</dt>
         <dd>
+        <details>
+        <summary></summary>
         The changes of the program TRIM.SP namely the vectorization and other
         minor changes since its first publication in 1984 are shortly described.
         Examples especially about backscattering and sputtering illustrate the
         possibilities which can be handled by the program.
+        </details>
         </dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1080/10420159408219787">10.1080/10420159408219787</a></dd>
