@@ -60,7 +60,7 @@ The canonical citation for the ROOT framework is:
         </details>
         </dd>
     <dt>Logo</dt>
-        <dd><img src="https://root.cern.ch/img/logos/ROOT_Logo/misc/generic-logo-color-plustext-512.png" width="100%"></dd>
+        <dd><img src="https://root.cern.ch/img/logos/ROOT_Logo/misc/generic-logo-color-plustext-512.png" width="50%"></dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1016/S0168-9002(97)00048-X">10.1016/S0168-9002(97)00048-X</a></dd>
     <dt><i class="fab fa-github"></i></dt>
