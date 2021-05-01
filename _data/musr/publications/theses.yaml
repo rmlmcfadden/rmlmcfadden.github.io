@@ -1,0 +1,215 @@
+- title: μSR studies of the metallic alkali fullerides
+  author:
+    - W. A. MacFarlane
+  abstract: >-
+    <p>
+    Results of muon spin rotation (μ-SR) in the metallic intercalated C₆₀
+    compounds (AnC₆₀, where An are n alkali metal atoms) are presented. Except
+    for the case of K₁C₆₀, the metallic state of these systems is unstable at
+    low temperature (to a superconducting transition in A₃C₆₀ and a magnetic
+    metal insulator transition in A₁C₆₀).
+    </p>
+    <p>
+    In A₃C₆₀, the properties of the metallic and superconducting states are
+    investigated using i) diamagnetic muons to probe the distribution of
+    internal magnetic field and ii) paramagnetic muonium (Mu) trapped within the
+    C₆₀ cage to probe the electronic excitations. Mu is found to exhibit strong
+    T₁ relaxation due to its interaction with the conduction electrons. In the
+    superconducting state this relaxation rate exhibits a small enhancement
+    (Hebel-Slichter coherence peak) which possesses an anomalously strong
+    magnetic field supression. Exponential temperature dependence of the
+    relaxation rate at low reduced temperature is observed, and from this
+    estimates of the superconducting energy gap are obtained. At very low
+    reduced temperature, deviations from this behaviour are found. Estimates of
+    the magnetic penetration depth from broadening of the diamagnetic precession
+    signal in the vortex state are also presented and discussed.
+    </p>
+    <p>
+    In A₁C₆₀ (A = Rb and Cs), the magnetic state is investigated with zero field
+    μ-SR. Observation of a small rapidly damped oscillation below 2K in Cs₁C₆₀
+    is the first evidence from μ-SR of magnetic order in these materials. The
+    relaxation at higher temperature indicates that the internal fields are
+    static and possess a broad distribution, indicating a highly disordered
+    static magnetic structure. From the magnitude of the zero field relaxation
+    rates, estimates of the magnitude of the internal field are made.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 1997
+  doi: 10.14288/1.0085447
+  url: 'https://hdl.handle.net/2429/8562'
+  published: 1997-11-25
+- title: >-
+    The magnetic penetration depth and the vortex core radius in type-II
+    superconductors
+  author:
+    - J. E. Sonier
+  abstract: >-
+    <p>
+    In this thesis, muon spin rotation (μSR) measurements of the internal magnetic field distribution in the vortex state of the high-T[sub c] superconductor YBa₂Cu₃O₇_[sub ⍴] and the conventional type-II superconductor NbSe₂ are presented. From the measured field distributions, the "characteristic length scales of superconductivity" are extracted. It is found that both the a-b plane magnetic penetration depth λ[sub ab] and the vortex-core radius r[sub o] (which is closely related to the coherence length Ɛ[sub ab] vary as functions of temperature and magnetic field in both materials.
+    </p>
+    <p>
+    The behaviour of λ[sub ab](H, T) and r[sub 0](H, T) at low temperatures is found to be substantially different in YBa₂Cu₃0₇_⍴ from what is observed in NbSe₂. This reflects the unconventional nature of the pairing mechanism in this compound. The temperature dependence of λ[sub ab] in the vortex state of YBa₂Cu₃0₇_⍴ agrees well with microwave cavity measurements in the Meissner state. The magnetic field dependence of λ[sub ab], in YBa₂Cu₃0₇_⍴ is found to be considerably stronger than in NbSe₂. This is likely due to both the nonlinear and the nonlocal effects associated with nodes in the superconducting energy gap. However, in NbSe₂ (where nonlocal effects are negligible), it is not clear whether the field dependence of can be explained solely in terms of the nonlinear effects associated with an isotropic s-wave energy gap.
+    </p>
+    <p>
+    The vortex-core radius r[sub 0] is found to decrease with increasing magnetic field in both superconductors. The reduction in the vortex-core size appears to be due to the increased strength of the vortex-vortex interactions. An important consequence of this variation with field is that Ɛ[sub ab] in the vortex state, which is generally regarded to be extremely small i n the high-T[sub c] compounds, is comparatively large at low magnetic fields.
+    </p>
+    <p>
+    The vortex-core radius is also found to increase with increasing temperature. The strength of this variation is considerably weaker in YBa₂Cu₃0₇_⍴ than in NbSe₂. One possible interpretation is that the quantum limit is realized at much higher temperatures in the high-T[sub c] compound. The measured temperature dependence of r[sub 0] in both superconductors is weaker than current theoretical predictions for an isolated vortex.
+    </p>
+    <p>
+    Finally, the effects of vortex pinning and thermal fluctuations of the vortex lines are considered. It is found that the vortex lattice is strongly pinned in YBa₂Cu₃0₇_⍴. The vortex lattice in the underdoped compound YBa₂Cu₃O₆.₆₀ is found to exhibit quasi-2D behaviour. In particular, a field-induced transition of the 3D-vortex lattice to a 2Dvortex lattice is observed—which appears to be due to the small c-axis coherence length and vortex pinning in the Cu0₂ layers of this material. Also, the 3D-solid vortex lattice in YBa₂Cu₃O₆.₆₀ at low temperatures is found to melt and/or undergo a transition to a 2D-vortex lattice as the temperature is increased.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 1998
+  doi: 10.14288/1.0085673
+  url: 'https://hdl.handle.net/2429/8608'
+  published: 1998-04-06
+- title: >-
+     Superconductivity and magnetism in cuprate single crystals and thin-film
+     heterostructures 
+  author:
+    - B. M. Wojek
+  abstract: >-
+    <p>
+    The work at hand is concerned with the study of elementary properties of cupra-te high-temperature superconductors by means of low-energy muon-spin rotation(LE-μSR). One of the elementary quantities of a superconductor isits magne-tic penetration depthλwhich is the characteristic length on which the magneticinduction decays into the material and which is a measure of the superfluid den-sity. In anisotropic superconductorsλdepends on the direction of the screeningcurrents—in the cupratesλabis the relevant screening length if the currents flowparallel to the CuO2planes of the structure whileλcdetermines the decay ofthe magnetic field for currents perpendicular to the planes.In YBa2Cu3O7−δtheexistence of one-dimensional CuO chains parallel to the planes implies an ortho-rhombic structure on the material which gives rise to an anisotropy in the in-planepenetration depth and therefore differentλaandλb. Here, the LE-μSR techniquewith an effective background-suppression method has been employed to determineλaband its in-plane anisotropy in the most direct way by measuring the magneticfield profile and its temperature dependence in the Meissner state of optimallydoped detwinned YBa2Cu3O7−δsingle crystals (Tc≈94 K). The field profileshave been found to be exponential on the scale ofλabbut there are deviationsclose to the crystal surface. These can partially be related to surface-flux-trappingeffects, however, a full explanation remains elusive. The obtained average valuesofλaband the in-plane anisotropy agree overall well with resultsof studies withless direct methods.
+    </p>
+    <p>
+    The further parts of this work report on studies of cuprate thin-film heterostructu-res. Such structures consisting of thin layers of materialswith different electronicproperties are ideally suited to study the interplay between them. First, trilayerand bilayer samples of superconducting YBa2Cu3O7−δ(Tc≈88 K) and isostructu-ral antiferromagnetically ordered “semiconducting” PrBa2Cu3O7−δ(TN≈280 K)have been investigated. Through the observation of the Meissner effect it is foundthat superconductivity can be induced in PrBa2Cu3O7−δlayers by the proximityto YBa2Cu3O7−δlayers while the intrinsic antiferromagnetic ordering of the pla-nar Cu moments in about 90 % of the volume of the PrBa2Cu3O7−δis hardlydisturbed by the Cooper-pair transport through the material. The reason for thatmight be that the transport in fact is mainly governed by tunneling through lo-calized states in the CuO chains or it is probably found in thedelicate electronicstructure of PrBa2Cu3O7−δitself, whose insulating state is close to superconduc-tivity and where therefore, small changes in the electronicproperties might causethe appearance of a superconducting phase at least in parts of the samples.
+    </p>
+    <p>
+    In a second thin-film-heterostructure study the coupling between optimally do-ped La1.84Sr0.16CuO4(Tc≈32 K) through a barrier layer of strongly underdopedLa1.94Sr0.06CuO4(T′c.5 K) in the “pseudogap state” has been investigated. Inthese structures superconducting screening throughout all layers is observed in theMeissner state up to temperatures of about 4T′cindicating an induced superfluiddensity in the barrier layer above its own transition temperature. However, theinduced superfluid density is suppressed more effectively bythermal excitationsthan in intrinsic superconductors and vanishes at a temperature smaller thanTc.On the premise of proximity effects based on a leaking of Cooper pairs from asuperconductor into a normal metal these effects are not expected over such atemperature range.
+    </p>
+  degree: PhD
+  school: Universität Zürich
+  address: Zürich
+  year: 2012
+  doi: 10.5167/uzh-57024
+  url: 'https://www.zora.uzh.ch/id/eprint/57024/'
+  published: 2012-01-24
+- title: >-
+    Absolute value of the magnetic penetration depth and field profile in the
+    Meissner state of exotic superconductors Yttrium barium copper oxide and
+    Co-doped pnictide
+  author:
+    - M. M. Hossain
+  abstract: >-
+    <p>
+    One of the fundamental quantities of a superconductor is the magnetic
+    penetration depth, <i>λ</i>, which is the characteristic length scale that a
+    magnetic field penetrates into the surface of a super-conductor while in the
+    Meissner state. In the clean limit the absolute value of <i>λ</i> is
+    directly related to the superfluid density <i>n<sub>s</sub></i> via
+    1/<i>λ</i><sup>2</sup> =
+    <i>μ</i><sub>0</sub><i>e</i><sup>2</sup><i>n<sub>s</sub></i>/<i>m</i><sup>*</sup>,
+    where <i>m</i><sup>*</sup> is the effective mass. Consequently, its
+    variation as a function of temperature, doping and orientation are of
+    central importance intesting microscopic theories of exotic superconductors.
+    </p>
+    <p>
+    A low energy beam of spin polarized muons has recently been
+    developed, at the Paul Scherrer Institute, to directly measure <i>λ</i> in a
+    superconductor. When a muon (μ<sup>+</sup>) decays, it emits a fast decay
+    positron preferentially along the direction of its spin due to the parity
+    violating decay. The time evolution of statistical average direction of the
+    spin polarization of the muon ensemble depends sensitively on the local
+    magnetic field which can be monitored as a function of the mean depth of
+    implantation. In this way it is possible to measure the field profile near
+    the surface ofa superconductor and extract the magnetic penetration depth in
+    a direct manner which is not otherwise possible with conventional bulk
+    methods.
+    </p>
+    <p>
+    In this thesis, accurate measurements of <i>λ</i> and its
+    anisotropy (︀≡ <i>λ<sub>a</sub>/λ<sub>b</sub></i>)︀ have been made for three
+    different oxygen (<i>x</i> = 6.52, 6.92 and 6.998) contents of
+    YBa<sub>2</sub>Cu<sub>3</sub>O<sub>6+x</sub> as well as in
+    Ba(Co<sub>0.074</sub>Fe<sub>0.926</sub>)<sub>2</sub>As<sub>2</sub>. The
+    measured values of <i>λ</i> and the in-plane anisotropies are considerably
+    different from that reported in the literature, using less direct methods.
+    The <i>a</i>–<i>b</i> anisotropy is surprisingly insensitive to <i>x</i> in
+    YBa<sub>2</sub>Cu<sub>3</sub>O<sub>6+x</sub>. We observe an exponential
+    decay of the magnetic field and corresponding supercurrent density deep
+    inside the crystals. Small deviationsfrom the London model are observed
+    which indicate there is a suppression of the supercurrent density close to
+    the surface. The measured (<i>λ</i>) values are also found to depart
+    substantially from the Uemura relation (︀<i>T<sub>c</sub></i> ∝
+    1/<i>λ</i><sup>2</sup>)︀.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2012
+  doi: 10.14288/1.0073321
+  url: 'https://hdl.handle.net/2429/43479'
+  published: 2012-10-18
+- title: Doping and interface effects in topological materials
+  author:
+    - J. A. Krieger
+  abstract: >-
+    <p>
+    Topological materials are characterized by their exotic electronic bulk and
+    boundary states. This rich phenomenology can be further extended by
+    introducing novel properties into these materialsvia doping or via proximity
+    effects at interfaces. This thesis presents a detailed investigation of
+    these systems, establishing low energy muon spin spectroscopy (LE-μSR) and
+    soft X-ray angle resolved photoemission spectroscopy (SX-ARPES) as
+    complementary probes of their magnetic and electronic properties. We show
+    that these techniques are suited both to further our fundamental
+    understanding of the physics in topological materials and to reveal tuning
+    parameters that can be subsequently used in designing devices.
+    </p>
+    <p>
+    First, we applied this approach to investigate the role of magnetic and
+    superconducting doping intopological insulators. We were able to show that
+    Cr and V doping in the topological insulation (Bi,Sb)2Te3 can generate long
+    range magnetic order, but we found that this approach inherently suffers
+    from a broad magnetic transition where the magnetism appears gradually in
+    parts of the sample. We identified the critical dopant concentration, below
+    which the topological insulatorremains only partially magnetically ordered
+    even at the lowest temperature. Furthermore, we discovered the presence of a
+    non-dispersive V impurity band in the vicinity of the Fermi level. We
+    identify these factors as main contributors to the low temperature limits on
+    establishing a quantum anomalous Hall effect in these systems.
+    </p>
+    <p>
+    We then studied proximity induced magnetism and superconductivity in
+    topological insulators. We compared the magnetic proximity between EuS and
+    the topological insulator Bi2Se3 with proximityof EuS to the topologically
+    trivial metal titanium and show that the local magnetic fields behave
+    similarly in both systems, implying that their origin is mostly independent
+    of the topological properties of the interface electronic states. In
+    addition, we revealed the band structure of the buried topological
+    insulator.
+    </p>
+    <p>
+    At the interface between the Bi2Se3 and the conventional superconductor Nb,
+    we discovered an odd-frequency superconducting state that is proximity
+    induced into the topological insulator. This manifests itself as an
+    intrinsic paramagnetic Meissner effect in Bi2Se3, which we detected in
+    depth-resolved measurements of the local magnetic field.
+    </p>
+    <p>
+    Finally we presented first attempts at introducing magnetism into Weyl
+    semimetals. For this we have identified 2H-MoTe2 as an intrinsic
+    semiconducting antiferromagnet. Such a component could be invaluable for
+    various spintronics and topotronics devices, especially due to its layered
+    structure which allows it to be easily integrated into heterostructures.
+    </p>
+    <p>
+    The results of this thesis emphasize the importance of a thorough
+    microscopic understanding ofdoping and interface effects and demonstrate
+    that using a combination of LE-μSR and SX-ARPES offers a more generally
+    applicable experimental route towards this goal.
+    </p>
+  degree: PhD
+  school: ETH Zürich
+  address: Zürich
+  year: 2021
+  doi: 10.3929/ethz-b-000460760
+  url: 'https://hdl.handle.net/20.500.11850/460760'
+  published: 2021-01-11
+
