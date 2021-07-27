@@ -22,8 +22,8 @@ The tuning "algorithm" is:
 
 1. Perform a 1n (i.e., Na or Rb cell) scan. The is to find the optimal bias
    needed to Doppler-shift the beam onto resonance with the counter propagating
-   polarizing laser light. Use the NBM for this. For 8Li, a typical optimum is
-   ~100 V.
+   polarizing laser light. Use the NBM for this. For <sup>8</sup>Li, a typical
+   optimum is ~100 V.
 2. Tune NMR at ZF with EL3 on; get a centred spot; does varying EL1/EL2 by 
    ±300 V move the beamspot or just vary its shape/intensity? If the former
    (i.e., it moves), adjust the upstream elements. The goal is to get the beam
@@ -44,6 +44,15 @@ The tuning "algorithm" is:
 
 The optimum settings for the steering elements on the beamline can be calculated
 and viewed using the [tuneX] application.
+
+Note that when using a <sup>31</sup>Mg<sup>+</sup> beam, it is perhaps best to
+skip the "adjustements" given in step 2 and go directly to step 4 (i.e., ramp
+up the magnet). This is focus the beta into the detectors and give better
+metrics for the rates/beamspot. Without the fousing effect from the field, the
+rates may be lower enough (on the order of ~1k s<sup>-1</sup>) that it is hard
+to judge if all of the beam is delivered to the spectrometer.
+See the bnmr logbooks from, for example, October 2019 and July 2021 for further
+notes during tuning.
 
 [EPICS]: https://en.wikipedia.org/wiki/EPICS
 [TRIUMF]: https://www.triumf.ca/
