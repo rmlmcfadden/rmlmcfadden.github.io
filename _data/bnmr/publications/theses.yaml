@@ -456,7 +456,7 @@
     100 K and another at higher temperatures. We suggest the low temperature
     process is unrelated to lithium motion, but rather a consequence of electron
     polarons in the vicinity of the implanted <sup>8</sup>Li<sup>+</sup>. Above
-    100 K, Li⁺ undergoes diffusion as an isolated uncomplexed cation,
+    100 K, Li<sup>+</sup> undergoes diffusion as an isolated uncomplexed cation,
     characterized by an activation energy and prefactor that are in agreement
     with macroscopic diffusion measurements, but not with theory.
     </p>
@@ -488,4 +488,57 @@
   doi: 10.14288/1.0389972
   url: https://hdl.handle.net/2429/74167
   published: 2020-04-24
+- title: >-
+    The interfacial dynamics of amorphous materials as revealed by β-NMR
+    measurements and molecular simulations
+  author:
+    - D. J. Fujimoto
+  abstract: >-
+    <p>
+    The free surface is important for developing a fundamental understanding
+    of dynamical length scales in glasses. We first investigate the relaxation
+    of freestanding atactic polystyrene (aPS) thin films with molecular dynamics
+    simulations. As in previous coarse-grained simulations, the surface
+    modification on the relaxation times for backbone segments and phenyl rings
+    may be expressed as a power law relation, wherein the bulk dynamics fully
+    encapsulate the temperature-dependence. Variation of the coupling exponent
+    with distance from the surface is consistent with depth-dependent activation
+    barriers. We also quantify a reduction of dynamical heterogeneity, transient
+    spatial fluctuations of the dynamics, at the interface which can be
+    interpreted in the framework of cooperative models for glassy dynamics.
+    </p>
+    <p>
+    Capable of depth-resolved measurements near the surface, implanted-ion
+    beta-detected nuclear magnetic resonance (β-NMR) has been a powerful
+    technique for the study of dynamics in aPS thin films. We have completed and
+    commissioned an upgrade to the β-NMR spectrometer, extending the accessible
+    upper temperature, and enabling a direct comparison between this
+    experimental technique and the molecular dynamics simulations. We
+    demonstrate that the modified spectrometer is now capable of operation to at
+    least 400 K, an improvement of more than 80 K.
+    </p>
+    <p>
+    We also demonstrate
+    the application of β-NMR as a probe of ionic liquid molecular dynamics
+    through the measurement of <sup>8</sup>Li<sup>+</sup> spin-lattice
+    relaxation (SLR) and resonance in 1-ethyl-3-methylimidazolium acetate. The
+    motional narrowing of the resonance, and the local maxima in the SLR rate,
+    1/<i>T</i><sub>1</sub>, imply a sensitivity to sub-nanosecond Li<sup>+</sup>
+    solvation dynamics. From an analysis of 1/<i>T</i><sub>1</sub>, we extract
+    an activation energy and Vogel-Fulcher-Tammann constant in agreement with
+    the dynamic viscosity of the bulk solvent. Near the melting point, the
+    lineshape is broad and intense, and the form of the relaxation is
+    non-exponential, reflective of our sensitivity to heterogeneous dynamics
+    near the glass transition. We also employ the depth resolution capabilities
+    of this technique to probe the subsurface dynamics with nanometer
+    resolution. We show modified dynamics near the surface in, and above, the
+    glassy state.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2021
+  doi: 10.14288/1.0401227
+  url: 'https://hdl.handle.net/2429/79192'
+  published: 2021-08-05
 
