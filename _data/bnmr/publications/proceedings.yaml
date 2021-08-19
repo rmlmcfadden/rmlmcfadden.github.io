@@ -2095,7 +2095,8 @@
   published: 2018-03-01
 - title: TRIUMF MuSR and βNMR research facilities
   author:
-    - S. R. Kreitzman and G. D. Morris
+    - S. R. Kreitzman
+    - G. D. Morris
   abstract: >-
     The TRIUMF Centre for Molecular and Materials Sciences (MMS) supports a MuSR
     user facility and a βNMR research program. An overview of this
