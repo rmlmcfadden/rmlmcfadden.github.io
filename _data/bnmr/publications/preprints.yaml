@@ -53,4 +53,42 @@
     id: 2106.00211
     cat: cond-mat.str-el
   published: 2021-06-01
+- title: Nuclear magnetic resonance of ion implanted <sup>8</sup>Li in ZnO
+  author:
+    - J. R. Adelman
+    - D. Fujimoto
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - V. L. Karner
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - E. Thoeng
+    - J. O. Ticknor
+    - N. Ohashi
+    - K. M. Kojima
+    - W. A. MacFarlane
+  abstract: >-
+    We report on the stability and magnetic state of ion implanted
+    <sup>8</sup>Li in single crystals of the semiconductor ZnO using β-detected
+    nuclear magnetic resonance. At ultradilute concentrations, the spectra
+    reveal distinct Li sites from 7.6 to 400 K. Ionized shallow donor
+    interstitial Li is stable across the entire temperature range, confirming
+    its ability to self-compensate the acceptor character of its (Zn)
+    substitutional counterpart. Above 300 K, spin-lattice relaxation indicates
+    the onset of correlated local motion of interacting defects, and the spectra
+    show a site change transition from disordered configurations to
+    substitutional. Like the interstitial, the substitutional shows no resolved
+    hyperfine splitting, indicating it is also fully ionized above 210 K. The
+    electric field gradient at the interstitial <sup>8</sup>Li exhibits
+    substantial temperature dependence with a power law typical of non-cubic
+    metals. 
+  arxiv:
+    id: 2109.08637
+    cat: cond-mat.mtrl-sci
+  published: 2021-09-17
 
