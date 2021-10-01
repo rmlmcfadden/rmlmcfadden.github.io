@@ -1877,4 +1877,23 @@
   submitted: 2020-01-22
   accepted: 2020-12-08
   published: 2020-12-28
+- title: 'bfit: a Python application for beta-detected NMR'
+  author:
+    - D. Fujimoto
+  abstract: >-
+    Beta-detected nuclear magnetic resonance (β-NMR) measures the beta-decay of
+    probe radioactive nuclei to infer the electromagnetic character of the
+    probe’s local environment. Similar to muon spin rotation (μSR), this
+    technique allows for unique insight of material properties not easily
+    measured by conventional NMR. The bfit package provides a graphical user
+    interface (GUI) and application programming interface (API) to facilitate
+    the analysis of implanted-ion β-NMR measurements taken at TRIUMF.
+  journal: J. Open Source Software
+  volume: 6
+  issue: 65
+  pages: 3598
+  year: 2021
+  doi: 10.21105/joss.03598
+  submitted: 2021-06-22
+  published: 2021-09-30
 
