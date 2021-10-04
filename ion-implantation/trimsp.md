@@ -136,6 +136,15 @@ Additionally, an online interface to `TRIM.SP`
 (with limited simulation capabilities)
 can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 
+## Caveats
+
+- Bin widths less than 2 A (e.g., 1 A) do not work... floating point rounding
+  problem?
+- The maximum number of bins in the `.rge` output is hardcoded in the Fortran src
+- Only up to 5 elements per layer!?
+- GUI has trouble parsing chemical formulas w/ non-integer stochiometries
+-
+
 [LEM facility]: https://www.psi.ch/en/smus/lem
 [LEM group]: https://www.psi.ch/en/low-energy-muons
 [PSI]: https://www.psi.ch/en
