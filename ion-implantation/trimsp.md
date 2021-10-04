@@ -143,7 +143,8 @@ can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 - The maximum number of bins in the `.rge` output is hardcoded in the Fortran src
 - Only up to 5 elements per layer!?
 - GUI has trouble parsing chemical formulas w/ non-integer stochiometries
--
+- parameters for electronic stopping are for protons, taken from ICRU report 49.
+  note the report omits a value for carbon, so one has been added ad hoc.
 
 [LEM facility]: https://www.psi.ch/en/smus/lem
 [LEM group]: https://www.psi.ch/en/low-energy-muons
