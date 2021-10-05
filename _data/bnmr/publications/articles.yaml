@@ -299,7 +299,7 @@
   year: 2008
   doi: 10.1103/PhysRevB.77.144429
   arxiv:
-    id: 0803.3874
+    id: '0803.3874'
     cat: cond-mat.str-el
   submitted: 2007-10-12
   published: 2008-04-28
@@ -1396,7 +1396,7 @@
   journal: Phys. Rev. B
   volume: 96
   issue: 9
-  pages: 094402
+  pages: '094402'
   year: 2017
   doi: 10.1103/PhysRevB.96.094402
   submitted: 2017-02-01
@@ -1637,7 +1637,7 @@
   journal: Phys. Rev. Lett.
   volume: 123
   issue: 9
-  pages: 095901
+  pages: '095901'
   year: 2019
   doi: 10.1103/PhysRevLett.123.095901
   arxiv:
