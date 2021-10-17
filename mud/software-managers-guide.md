@@ -11,8 +11,8 @@ parent: MUD
 <i>
 This page is a reproduction of the content found at
 [http://cmms.triumf.ca/mud/mud_managers.html](http://cmms.triumf.ca/mud/mud_managers.html "MUD Software Manager's Guide").
-Though this is mainly to test the formatting of the markdown-to-html convension,
-I have made minor changes thoughout the text to improve readability.
+Though this is mainly to test the formatting of the markdown-to-html conversion,
+I have made minor changes throughout the text to improve readability.
 </i>
 
 ## Table of Contents
