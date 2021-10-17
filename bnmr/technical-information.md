@@ -12,6 +12,6 @@ has_toc: true
 Here is a collection of technical information pertaining to running a β-NMR
 experiment at [TRIUMF].
 
-For information related to data storage, see the [MUD]({% link mud.md %}) page.
+For information related to data storage, see the [MUD]({% link ../mud.md %}) page.
 
 [TRIUMF]: https://www.triumf.ca/
