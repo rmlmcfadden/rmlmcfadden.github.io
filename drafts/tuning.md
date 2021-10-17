@@ -57,3 +57,36 @@ notes during tuning.
 [EPICS]: https://en.wikipedia.org/wiki/EPICS
 [TRIUMF]: https://www.triumf.ca/
 [tuneX]: https://beta.hla.triumf.ca/beam/tuneX/
+
+## The β-NQR "extension"
+
+In 2021, the high parallel field extension the "β-NQR" leg of the ISAC low-energy
+beamline was completed. This new end station offers the ability to apply ~2 kG
+magnetic fields perpendicular to a sample surface - a desirable feature for
+certain scientific applications.
+
+There is less experience using the new beamline optics and these notes
+(originally by Edward Thoeng) serve as an aid for tuning to the extension.
+
+### Objectives
+
+- Establish a common tune to both the NMR and NQR spectrometers with the NMR magnetic on.
+- Make sure that the beam is always centered on-axis going into the NQR leg.
+  This detail is crucial for the ability to focus the beam using electrostatic quadrupoles
+  without moving the beamspot (i.e., the beam position).
+
+### Procedure
+
+1. Turn all magnets off at both the NMR and NQR spectrometers.
+  - Set the NMR magnet (in CAMP) to 0 T.
+  - Set `BNQR:HH3` to 0 A.
+  - Set `BNQR:HH6` to 0 A.
+1. Tune using stable <sup>7</sup>Li<sup>+</sup> to NQR.
+  - Make sure the beam is centred on `ILE2A:RPM2`.
+    Should see peaks at 0.5 mm (horizontal) and 1.5 mm (vertical).
+    If not, only adjust `ILE2:B21` for X-steering and `ILE2:YCB19` for Y-steering.
+    The beam profile should also be circular and roughly 2 rms in both X- and Y-directions.
+    If not, adjust `ILE2:Q16`, `ILE2:Q17`, `ILE2:Q18`, and/or `ILE2:Q19`.
+    Check that the `ILE2A:RPM2` peak positions do not move when `ILE2A:Q2` is changed.
+    If they do, the beam is not centred and `ILE2:B21`/`ILE2:YCB19` need to be adjusted.
+  - Make sure the beam in centred on `ILE2A:LPM0`.
