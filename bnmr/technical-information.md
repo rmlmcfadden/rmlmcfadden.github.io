@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+title: Technical Information
 description: β-NMR technical information.
 parent: β-NMR
 has_children: true
