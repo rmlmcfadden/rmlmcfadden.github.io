@@ -2,7 +2,8 @@
 layout: default
 title: Autorun
 description: β-NMR Automatic Run Control
-parent: β-NMR
+parent: Technical Information
+grand_parent: β-NMR
 ---
 
 # Autorun

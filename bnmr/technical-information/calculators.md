@@ -2,7 +2,8 @@
 layout: default
 title: Calculators
 description: Some useful calculators for β-NMR/β-NQR experiments at TRIUMF.
-parent: β-NMR
+parent: Technical Information
+grand_parent: β-NMR
 ---
 
 # Calculators
