@@ -7,6 +7,7 @@ grand_parent: β-NMR
 ---
 
 # Tuning
+{: .no_toc }
 
 In contrast to μSR experiments at [TRIUMF],
 tuning the radioactive beam for a
@@ -18,6 +19,12 @@ operators so that they may deliver a beam with a "good" tune that satisfies the
 (rather stringent) criteria for the experiment.
 This mainly comes in towards the end of the startup - once the RIB has been
 delivered up to the front of either spectrometer.
+
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
 
 ## General Instructions
 
