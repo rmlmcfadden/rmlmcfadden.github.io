@@ -9,6 +9,15 @@ grand_parent: β-NMR
 # Thermometers
 {: .no_toc }
 
+<i>
+This page is a reproduction of the content found at
+<https://www.triumf.info/wiki/bnmr/index.php/BNMR_Thermometers>
+and
+<https://www.triumf.info/wiki/bnmr/index.php/BNQR_Thermometers>.
+Though this is mainly to test the formatting of the markdown-to-html conversion,
+I have made minor changes throughout the text to improve readability.
+</i>
+
 ## Table of contents
 {: .no_toc .text-delta}
 
