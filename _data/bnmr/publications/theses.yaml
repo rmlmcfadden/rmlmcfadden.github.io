@@ -541,4 +541,63 @@
   doi: 10.14288/1.0401227
   url: 'https://hdl.handle.net/2429/79192'
   published: 2021-08-05
-
+- title: >-
+    Finite size effects in strongly correlated transition metal oxides probed by
+    β-detected NMR
+  author:
+    - V. L. Karner
+  abstract: >-
+    <p>
+    In this thesis, the strongly correlated metal LaNiO<sub>3</sub> was
+    studied in bulk and heterostructures using <sup>8</sup>Li β-NMR. The main
+    objective of the thesis was to probe the metallic state and how it changes
+    on approach to a dimensionality-induced metal-insulator transition (MIT) in
+    heterostructures. With its sensitivity to the metallic state, akin to
+    conventional NMR, and ability to study thin films and heterostructures,
+    <sup>8</sup>Li β-NMR is uniquely suited to tackle this challenging subject.
+    </p>
+    <p>
+    In bulk LaNiO<sub>3</sub>, spin-lattice relaxation (SLR)
+    measurements reveal two equally abundant components with linear temperature
+    dependence below 200 K. The linearity is consistent with a Korringa
+    mechanism and is evidence of a conventional metallic state. The resonance is
+    characterized by a single broad line with a small temperature independent
+    Knight shift. The normalized Korringa product indicates substantial
+    antiferromagnetic correlations.
+    </p>
+    <p>
+    In LaNiO<sub>3</sub>
+    heterostructures with insulating LaAlO<sub>3</sub>, an MIT and Néel order
+    has been observed when the thickness of LaNiO<sub>3</sub> is reduced to 2
+    u.c.. We used <sup>8</sup>Li β-NMR to study heterostructures with varying
+    thicknesses of LaNiO<sub>3</sub>. SLR measurements show two equally abundant
+    components with distinct temperature dependences. One component is linear
+    with temperature, and only weakly affected by LaNiO<sub>3</sub> thickness.
+    In contrast, the second component is non-linear, and strongly depends on
+    thickness. We attribute the two component relaxation in the heterostructures
+    and bulk LaNiO<sub>3</sub> to microscopic phase separation of the electronic
+    state.
+    </p>
+    <p>
+    Finally, we studied some novel LaNiO<sub>3</sub>
+    heterostructures where LaAlO<sub>3</sub> was replaced with the magnetic
+    insulator La<sub>2</sub>CuO<sub>4</sub>. Bulk La<sub>2</sub>CuO<sub>4</sub>
+    is characterized by long-range antiferromagnetic order below
+    <i>T<sub>N</sub></i> ≈ 300 K which is extremely sensitive to doping. In a
+    La<sub>2</sub>CuO<sub>4</sub> film, SLR measurements reveal fast but
+    measurable 1/<i>T</i><sub>1</sub>. We see evidence of magnetic order not
+    from a peak in 1/<i>T</i><sub>1</sub> but instead by a gradual loss of
+    asymmetry beginning at 140 K. We attribute the suppression of
+    <i>T<sub>N</sub></i> and the broad transition to inhomogeneous hole doping
+    in the film. Below 40 K, an upturn in 1/<i>T</i><sub>1</sub> suggests
+    freezing of mobile holes from the more doped regions of the sample. The
+    behavior in the heterostructures is similar to the
+    La<sub>2</sub>CuO<sub>4</sub> film.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2021
+  doi: 10.14288/1.0402656
+  url: 'https://hdl.handle.net/2429/80103'
+  published: 2021-10-27
