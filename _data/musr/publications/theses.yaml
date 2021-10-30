@@ -212,4 +212,60 @@
   doi: 10.3929/ethz-b-000460760
   url: 'https://hdl.handle.net/20.500.11850/460760'
   published: 2021-01-11
-
+- title: >-
+    Charge-neutral muon centers in magnetic and non-magnetic materials:
+    implications and applications
+  author:
+    - M. H. Dehn
+  abstract: >-
+    <p>
+    Spin polarized muons are widely known as extremely sensitive local
+    probes of magnetism. Muon spin rotation (μSR) spectroscopy has made key
+    contributions in the study of complex condensed matter systems such as
+    frustrated and dilute magnetic systems and superconductors. Additionally,
+    positively charged muons implanted into semiconductors and insulators often
+    bind an electron to form muonium (Mu=[μ<sup>+</sup>e<sup>-</sup>]), a
+    charge-neutral muon-electron bound state. Muonium has been studied
+    extensively in a wide range of semiconducting and insulating materials,
+    motivated by the fact that its electronic structure inside a material is
+    virtually identical to that of isolated hydrogen defects, one of the most
+    ubiquitous impurities in semiconductors. However, such measurements are
+    thought to be limited to non-magnetic compounds; in magnetic materials,
+    muonium is widely assumed to be unobservable, and charge-neutral muon states
+    are generally not considered relevant.
+    </p>
+    <p>
+    Here, we present strong
+    evidence that charge-neutral muon centers do exist in magnetic compounds.
+    Detailed μSR investigations of the prototypical antiferromagnets
+    Cr<sub>2</sub>O<sub>3</sub>, <sub>2</sub>O<sub>3</sub> and MnF<sub>2</sub>
+    reveal that charge-neutral muon states can form and take on different
+    shapes, including muon-polaron complexes and interstitial centers with large
+    muon-electron hyperfine coupling. Crucially, we find that in magnetic
+    materials, charge-neutral muon states do not display any signatures
+    conventionally associated with muonium, effectively "hiding" their presence.
+    Despite their inconspicuous signals, charge-neutral centers can
+    significantly change how the muons interact with their host material and
+    thus significantly alter the μSR signals. In addition, we clearly
+    demonstrate for MnF<sub>2</sub> that the charge-state of the muon and the
+    magnetic properties measured by μSR are closely related, and both aspects
+    have to be considered when using μSR to determine the intrinsic magnetic
+    properties. These results indicate that μSR may be useful to study not only
+    the electronic impact of hydrogen defects, but also their role as magnetic
+    impurities in non-conductive magnetic compounds.
+    </p>
+    <p>
+    For comparison, we
+    also investigate charge-neutral muon-polaron complexes in non-magnetic
+    TiO<sub>2</sub> as well as vacuum-like muonium diffusing through the voids
+    of an amorphous silica aerogel. These examples are used to highlight the
+    differences and similarities between charge-neutral muon states in magnetic
+    and non-magnetic materials.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2021
+  doi: 10.14288/1.0402625
+  url: 'https://hdl.handle.net/2429/80070'
+  published: 2021-10-26
