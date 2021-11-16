@@ -1896,4 +1896,49 @@
   doi: 10.21105/joss.03598
   submitted: 2021-06-22
   published: 2021-09-30
+- title: >-
+    Evolution of the metallic state of LaNiO<sub>3</sub>/LaAlO<sub>3</sub>
+    superlattices measured by <sup>8</sup>Li β-detected NMR
+  author:
+    - V. L. Karner
+    - A. Chatzichristos
+    - D. L. Cortie
+    - D. Fujimoto
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - E. Benckiser
+    - A. V. Boris
+    - G. Cristiani
+    - G. Logvenov
+    - B. Keimer
+    - W. A. MacFarlane
+  abstract: >-
+    Using ion-implanted <sup>8</sup>Li β-detected NMR, we study the evolution of
+    the correlated metallic state of LaNiO<sub>3</sub> in a series of
+    LaNiO<sub>3</sub>/LaAlO<sub>3</sub> superlattices as a function of bilayer
+    thickness. Spin-lattice relaxation measurements in an applied field of 6.55
+    T reveal two equal amplitude components: one with metallic (<i>T</i> linear)
+    1/<i>T</i><sub>1</sub>, and a second with a more complex
+    <i>T</i>-dependence. The metallic character of the slow relaxing component
+    is only weakly affected by the LaNiO<sub>3</sub> thickness, while the fast
+    component is much more sensitive, exhibiting the opposite temperature
+    dependence (increasing towards low <i>T</i>) in the thinnest, most magnetic
+    samples. The origin of this bipartite relaxation is discussed in terms of
+    electronic phase separation.
+  journal: Phys. Rev. B
+  volume: 104
+  issue: 20
+  pages: 205114
+  year: 2021
+  arxiv:
+    id: 2106.00211
+    cat: cond-mat.str-el
+  submitted: 2021-06-01
+  revised: 2021-08-29
+  accepted: 2021-10-27
+  published: 2021-11-12
 
