@@ -126,4 +126,25 @@
   submitted: 2014-12-19
   revised: 2015-02-09
   published: 2015-02-21
-
+- title: 'Status and progress of ion-implanted βNMR at TRIUMF'
+  author:
+    - W. A. MacFarlane
+  abstract: >-
+    Beta-detected NMR is a type of nuclear magnetic resonance that uses the
+    asymmetric property of radioactive beta decay to provide a "nuclear"
+    detection scheme. It is vastly more sensitive than conventional NMR on a per
+    nuclear spin basis but requires a suitable radioisotope. I briefly present
+    the general aspects of the method and its implementation at TRIUMF, where
+    ion implantation of the NMR radioisotope is used to study a variety of
+    samples including crystalline solids and thin films, and more recently, soft
+    matter and even room temperature ionic liquids. Finally, I review the
+    progress of the TRIUMF βNMR program in the period 2015-2021.
+  journal: Z. Phys. Chem.
+  volume: null
+  issue: null
+  pages: null
+  year: 2021
+  doi: 10.1515/zpch-2021-3154
+  submitted: 2021-10-28
+  revised: 2021-11-12
+  published: 2021-12-08
