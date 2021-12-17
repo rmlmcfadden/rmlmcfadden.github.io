@@ -2109,6 +2109,45 @@
   doi: 10.7566/JPSCP.21.011056
   submitted: 2017-06-23
   published: 2018-03-01
+- title: Beta-SRF - A new facility to characterize SRF materials near fundamental limits
+  author:
+    - E. Thoeng
+    - R. A. Baartman
+    - R. E. Laxdal
+    - B. Matheson
+    - G. Morris
+    - N. Muller
+    - S. Saminathan
+    - A. Chen
+    - T. Junginger
+  abstract: >-
+    Demands of CW high-power LINAC require SRF cavities operating at the
+    frontier of high accelerating gradient and low RF power dissipation, i.e.
+    high quality factor (Q<sub>0</sub>). This requirement poses a challenge for
+    standard surface treatment recipes of SRF cavities. In a recent
+    breakthrough, elliptical SRF cavities doped with Nitrogen have been shown to
+    improve Q<sub>0</sub> by a factor of 3, close to the fundamental SRF limit.
+    The fundamental mechanisms at microscopic level and optimum doping recipe,
+    however, have still not fully been understood. Materials other than Nb have
+    also been proposed for SRF cavities to overcome the fundamental limit
+    already reached with Nitrogen doping, e.g. Nb<sub>3</sub>Sn,
+    MgB<sub>2</sub>, and Nb-SIS multilayer. At TRIUMF, a unique experimental
+    facility is currently being developed to address these issues. This facility
+    will be able to probe local surface magnetic field in the order of the
+    London Penetration Depth (several tens of nm) via β decay detection of a
+    low-energy radioactive ion-beam. This allows depth-resolution and
+    layer-by-layer measurement of magnetic field shielding effectiveness of
+    different SRF materials at high-parallel field (up to 200 mT). Design and
+    current development of this facility will be presented here, as well as
+    commissioning and future measurements strategies for new SRF materials.
+  journal: Proc. Int. Part. Accel. Conf.
+  volume: 9
+  issue: null
+  pages: '4961-4963'
+  year: 2018
+  doi: 10.18429/JACoW-IPAC2018-THPML122
+  submitted: 2018-06-01
+  published: 2018-06-01
 - title: 'Spin polarized beam for battery materials research: µ<sup>±</sup>SR and β-NMR'
   author:
     - J. Sugiyama
@@ -2155,4 +2194,41 @@
   doi: 10.1007/s10751-019-1560-4
   submitted: 2019-02-26
   published: 2019-02-26
+- title: Progress of TRIUMF Beta-SRF facility for novel SRF materials
+  author:
+    - E. Thoeng
+    - R. A. Baartman
+    - P. Kolb
+    - R. E. Laxdal
+    - B. Matheson
+    - G. Morris
+    - N. Muller
+    - S. Saminathan
+    - T. Junginger
+  abstract: >-
+    SRF cavities made with bulk Nb have been the backbone of high-power modern
+    linear accelerators. Demands for higher energy and more efficient linear
+    accelerators, however, have strained the capabilities of bulk Nb close to
+    its fundamental limit. Several routes have been proposed using thin film
+    novel superconductors (e.g. Nb<sub>3</sub>Sn), SIS multilayer, and N-doping.
+    Beta-NMR techniques are more suitable for the characterization of Meissner
+    state in these materials, due to the capability of soft-landing radioactive
+    ions on the nanometer scale of London penetration depth, as compared to
+    micrometer probe of the muSR technique. Upgrade of the existing beta-NQR
+    beamline, combined with the capability of high parallel magnetic field
+    (200 mT) are the scope of the beta-SRF facility which has been fully funded.
+    All hardware required for the upgrade has also been procured. The status of
+    the commissioning, which is currently in phase I, is reported here, together
+    with the future schedule of phase II with the fully installed beta-SRF
+    beamline. Finally, the detail layout of the completed beamline and sample
+    requirements will be included in this paper which might be of interest of
+    future users.
+  journal: Proc. Int. Conf. RF Supercond.
+  volume: 19
+  issue: null
+  pages: '964-967'
+  year: 2019
+  doi: 10.18429/JACoW-SRF2019-THP047
+  submitted: 2019-06-23
+  published: 2019-06-30
 
