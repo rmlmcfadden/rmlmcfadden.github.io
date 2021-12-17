@@ -2109,4 +2109,50 @@
   doi: 10.7566/JPSCP.21.011056
   submitted: 2017-06-23
   published: 2018-03-01
+- title: 'Spin polarized beam for battery materials research: µ<sup>±</sup>SR and β-NMR'
+  author:
+    - J. Sugiyama
+  abstract: >-
+    Spin polarized particles exhibiting beta decay, such as, muon and
+    <sup>8</sup>Li are very useful for detecting internal magnetic fields in
+    solids. Here, I review our attempts to use these spin polarized beams for
+    battery materials research. Due to a unique lifetime and gyromagnetic ratio
+    of muon, a positive muon spin rotation and relaxation (µ<sup>+</sup>SR)
+    technique is very popular for studying microscopic internal magnetic fields
+    in condensed matters caused by electron and nuclear magnetism. Particularly
+    in 2009, it was found that Li<sup>+</sup> ion diffusion in
+    Li<sub>x</sub>CoO<sub>2</sub>, which is the most common cathode material in
+    a Li-ion battery, is detectable with µ<sup>+</sup>SR even under the
+    presence of paramagnetic Co ions
+    (Sugiyama et al., Phys. Rev. Lett. <b>103</b>, 147601, 2009),
+    while NMR is unable to do so due to the effect of localized magnetic moments
+    on a spin-lattice relaxation rate. Such finding opened the door for
+    µ<sup>+</sup>SR on energy materials research. Since then, many battery
+    materials have been investigated with µ<sup>+</sup>SR in order to determine
+    their intrinsic diffusion coefficient (<i>D</i>) of Li<sup>+</sup> and
+    Na<sup>+</sup> ions. Furthermore, using such intrinsic <i>D</i>, the other
+    important parameters are successfully derived, such as, the reactive surface
+    area, diffusion pathway, and density of mobile ions. In 2018, we have
+    initiated to measure internal magnetic fields in solids with a negative
+    muon, i.e. a µ<sup>-</sup>SR technique, in J-PARC
+    (Sugiyama et al., Phys. Rev. Lett. <b>121</b>, 087202, 2018).
+    This will provide a new insight for microscopic internal magnetic fields
+    from lattice sites, while µ<sup>+</sup>SR does so from interstitial sites.
+    On the contrary, a long lifetime of <sup>8</sup>Li (1.21 s) makes a
+    <sup>8</sup>Li β-NMR technique suitable for detecting both concentration and
+    diffusion of Li in solids. Particularly in TRIUMF, since the implantation
+    energy of <sup>8</sup>Li is tunable from almost 0 to about 28 keV, we can
+    measure both spin-lattice relaxation rate and spin-spin relaxation rate as a
+    function of depth up to about 200 nm, as well as µ<sup>+</sup>SR using a low
+    energy muon beam in PSI. These will clarify whether the space charge layer
+    of Li<sup>+</sup> exists at the interface between electrode and electrolyte
+    material.
+  journal: Hyperfine Interact.
+  volume: 240
+  issue: null
+  pages: '17'
+  year: 2019
+  doi: 10.1007/s10751-019-1560-4
+  submitted: 2019-02-26
+  published: 2019-02-26
 
