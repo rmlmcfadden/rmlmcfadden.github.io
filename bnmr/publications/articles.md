@@ -12,9 +12,20 @@ grand_parent: β-NMR
 
 To date, {{ articles.size }} journal articles have been published.
 
-<hr>
+<!-- create an empty array -->
+{% assign years = "" | split: ',' %}
+<!-- push content directly into it -->
+{% for article in articles %}
+	{% assign years = years | push: article.year %}
+{% endfor %}
+<!-- extract the unique values -->
+{% assign unique_years = years | uniq %}
 
+{% for year in unique_years %}
+<details>
+<summary>{{ year }}</summary>
 {% for pub in articles %}
+{% if year == pub.year %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -87,4 +98,7 @@ To date, {{ articles.size }} journal articles have been published.
     {% endif %}
 </dl>
 <hr>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}

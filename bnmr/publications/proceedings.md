@@ -12,9 +12,20 @@ grand_parent: β-NMR
 
 To date, {{ proceedings.size }} articles have been published in conference proceedings.
 
-<hr>
+<!-- create an empty array -->
+{% assign years = "" | split: ',' %}
+<!-- push content directly into it -->
+{% for proceeding in proceedings %}
+	{% assign years = years | push: proceeding.year %}
+{% endfor %}
+<!-- extract the unique values -->
+{% assign unique_years = years | uniq %}
 
+{% for year in unique_years %}
+<details>
+<summary>{{ year }}</summary>
 {% for pub in proceedings %}
+{% if year == pub.year %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -87,4 +98,7 @@ To date, {{ proceedings.size }} articles have been published in conference proce
     {% endif %}
 </dl>
 <hr>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}
