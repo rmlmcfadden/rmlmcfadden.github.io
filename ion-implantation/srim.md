@@ -59,7 +59,59 @@ For those who prefer to work with scripts over `SRIM`'s [GUI],
 check out [pysrim]({% link ion-implantation/pysrim.md %}),
 which provides a nice [Python] interface to the application.
 
+## Running on Linux
+
+Though `SRIM` is a (legacy) [Microsoft Windows] application,
+it is possible to run the program on [Linux] thanks to the magic of [Wine].
+Some install instructions are already available [online](https://appdb.winehq.org/objectManager.php?sClass=application&iId=5992) and these seemed to work well in the past;
+however, for recent versions of [Wine]/[Linux], a modified installation procedure
+was required.
+
+First, I removed any previous instance of [Wine] by executing:
+
+{% highlight bash %}
+rm -rf ~/.wine
+{% endhighlight %}
+
+Next, I added the following to my `.bashrc` file:
+
+{% highlight bash %}
+export WINEARCH=win32
+export WINEPREFIX=~/.wine
+{% endhighlight %}
+
+and in a fresh terminal run:
+
+{% highlight bash %}
+winecfg
+{% endhighlight %}
+
+This ensures a clean 32-bit instance is set up.
+
+Through inspection of the contents of `~/.wine/drive_c/windows/system32`,
+I noticed that many of the `.dll` and `.ocx` files needed by `SRIM` are already
+present. Instead following the exact instructions of registering each of the
+`.ocx`s provided with the application, I elected to start `SRIM` via:
+
+{% highlight bash %}
+wine SRIM.exe
+{% endhighlight %}
+
+which then prompted me with error messages as to which files were
+unregistered/missing. To rectify this, I both copied the missing files
+(from the `SRIM Setup` directory) to `~/.wine/drive_c/windows/system32` and
+registered them using:
+
+{% highlight bash %}
+regsvr32 *.ocx
+{% endhighlight %}
+
+Afterwards, `SRIM` ran without issue!
+
 [closed source]: https://en.wikipedia.org/wiki/Proprietary_software
 [Visual Basic]: https://en.wikipedia.org/wiki/Visual_Basic
 [GUI]: https://en.wikipedia.org/wiki/Graphical_user_interface
 [Python]: https://www.python.org/
+[Microsoft Windows]: https://en.wikipedia.org/wiki/Microsoft_Windows
+[Linux]: https://en.wikipedia.org/wiki/Linux
+[Wine]: https://www.winehq.org/
