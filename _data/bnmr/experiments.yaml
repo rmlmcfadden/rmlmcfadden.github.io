@@ -182,7 +182,7 @@
   title: 'Li distribution in the interface between electrode and electrolyte'
   spokespersons: [J. Sugiyama]
   url: 'https://mis.triumf.ca/science/experiment/view/M1490'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1509'
   title: 'beta-NMR study on spinel-type battery materials'
   spokespersons: [J. Sugiyama]
@@ -232,12 +232,12 @@
   title: 'Diffusion of <sup>8</sup>Li in thin films'
   spokespersons: [A. Chatzichristos, R.F. Kiefl]
   url: 'https://mis.triumf.ca/science/experiment/view/M1606'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1674'
   title: '<sup>8</sup>Li β-NMR studies of strong spin orbit coupling in transition metal oxides'
   spokespersons: [J. Bertinshaw, D. Cortie, C. Dietl, B.J. Kim, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1674'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1743'
   title: 'β-NMR studies of dilute-limit lithium diffusion in van der Waals layered solids'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden, J. Sugiyama, I. Umegaki]
@@ -262,7 +262,7 @@
   title: 'β-NMR studies of lithium-ion mobility in tunnel structured materials'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden]
   url: 'https://mis.triumf.ca/science/experiment/view/M1771'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1814'
   title: 'Probing ferromagnetism in metastable Ru due to Jahn-Teller effect via B-NMR'
   spokespersons: [P. A. Quarterman]
@@ -272,12 +272,12 @@
   title: '<sup>8</sup>Li βNMR study of the origin of the heavy fermions in epitaxial films of LiV<sub>2</sub>O<sub>4</sub>'
   spokespersons: [V. L. Karner, W.A. MacFarlane, U. Niemann]
   url: 'https://mis.triumf.ca/science/experiment/view/M1821'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1822'
   title: '<sup>8</sup>Li betaNMR study of the Inverse Perovskite Oxide Topological Dirac Semimetals'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden, H. Nakamura]
   url: 'https://mis.triumf.ca/science/experiment/view/M1822'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1828'
   title: 'β-NMR study of wide gap semiconductor ZnO and In-Ga-Zn-O'
   spokespersons: [K.M. Kojima]
@@ -287,22 +287,22 @@
   title: 'Strain-induced ferroelectricity in SrTiO<sub>3</sub> thin films'
   spokespersons: [M.H. Dehn, R.F. Kiefl]
   url: 'https://mis.triumf.ca/science/experiment/view/M1871'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1892'
   title: 'Depth-resolved dynamics in polymer thin films near the glass transition using βNMR'
   spokespersons: [D. Fujimoto, R.F. Kiefl, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1892'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1902'
   title: 'Search for slow spin fluctuations in underdoped YBa<sub>2</sub>Cu<sub>3</sub>O<sub>6+x</sub>'
   spokespersons: [R.F. Kiefl, L. Shu]
   url: 'https://mis.triumf.ca/science/experiment/view/M1902'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1903'
   title: 'Spin waves in low dimensional magnets based on van-der Waals materials'
   spokespersons: [D. Cortie, R.F. Kiefl, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1903'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1921'
   title: 'In-situ ferromagnetic resonance for spin transport applications'
   spokespersons: [S.R. Dunsiger, G.D. Morris]
@@ -317,7 +317,7 @@
   title: 'Depth, temperature and molecular weight dependence of dynamics in polystyrene thin films'
   spokespersons: [J. A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M1939'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1945'
   title: 'Transformation of ultrastable polymer glasses'
   spokespersons: [J. A. Forrest, I. McKenzie]
@@ -330,7 +330,7 @@
   status: 'Approved'
 - experiment: 'M1963'
   title: 'Depth profile of the superconducting dirty layer in niobium'
-  spokespersons: [R.E. Laxdal, E. Thoeng]
+  spokespersons: [R.E. Laxdal, R. M. L. McFadden, E. Thoeng]
   url: 'https://mis.triumf.ca/science/experiment/view/M1963'
   status: 'Approved'
 - experiment: 'M2038'
@@ -372,4 +372,9 @@
   title: 'Characterization of titanium hydride thin films for betavoltaic applications'
   spokespersons: [B. Ellis]
   url: 'https://mis.triumf.ca/science/experiment/view/M2167'
+  status: 'Approved'
+- experiment: 'M2220'
+  title: 'Weak magnetism in Nb oxides as a source of losses in quantum materials'
+  spokespersons: [S.R. Dunsiger, Y. Krasnikova]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2220'
   status: 'Approved'
