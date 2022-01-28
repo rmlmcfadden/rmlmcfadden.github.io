@@ -26,7 +26,7 @@ A modern implementation of the β-NMR technique can be found at
 [TRIUMF]’s Isotope Separator and Accelerator (ISAC) facility in Vancouver, BC,
 Canada.
 
-An overview of the technique can be found in a recent review article:
+An overview of the technique can be found in the recent review articles:
 
 ---
 
@@ -64,6 +64,37 @@ An overview of the technique can be found in a recent review article:
         </dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a></dd>
+</dl>
+
+---
+
+<dl>
+    <dt>Title</dt>
+        <dd>Status and progress of ion-implanted βNMR at TRIUMF</dd>
+    <dt>Author</dt>
+        <dd>W. A. MacFarlane</dd>
+    <dt>Journal</dt>
+        <dd>Z. Phys. Chem.</dd>
+    <dt>Year</dt>
+        <dd>2021</dd>
+    <dt>Abstract</dt>
+        <dd>
+        <details>
+        <summary></summary>
+        Beta-detected NMR is a type of nuclear magnetic resonance that uses the
+        asymmetric property of radioactive beta decay to provide a "nuclear"
+        detection scheme. It is vastly more sensitive than conventional NMR on a
+        per nuclear spin basis but requires a suitable radioisotope. I briefly
+        present the general aspects of the method and its implementation at
+        TRIUMF, where ion implantation of the NMR radioisotope is used to study
+        a variety of samples including crystalline solids and thin films, and
+        more recently, soft matter and even room temperature ionic liquids.
+        Finally, I review the progress of the TRIUMF βNMR program in the period
+        2015–2021.
+        </details>
+        </dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1515/zpch-2021-3154">10.1515/zpch-2021-3154</a></dd>
 </dl>
 
 ---
