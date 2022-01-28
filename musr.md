@@ -70,7 +70,7 @@ Another more recent review is given in:
         <dd>Nat. Rev. Methods Primers</dd>
     <dt>Volume</dt>
         <dd>2</dd>
-    <dt>Article</dt>
+    <dt>Article Number</dt>
         <dd>4</dd>
     <dt>Year</dt>
         <dd>2022</dd>
@@ -98,6 +98,8 @@ Another more recent review is given in:
         developments.
         </details>
         </dd>
+    <dt>PrimeView</dt>
+        <dd><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43586-022-00094-x/MediaObjects/43586_2022_94_Figa_HTML.png" width="100%"></dd>
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1038/s43586-021-00089-0">10.1038/s43586-021-00089-0</a></dd>
 </dl>
