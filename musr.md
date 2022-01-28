@@ -30,6 +30,8 @@ and
 for those interested.
 A nice, though somewhat old, introduction/overview of the technique is given in:
 
+---
+
 <dl>
     <dt>Title</dt>
         <dd>Muon spin rotation/relaxation/resonance</dd>
@@ -52,6 +54,55 @@ A nice, though somewhat old, introduction/overview of the technique is given in:
     <dt><i class="ai ai-doi"></i></dt>
         <dd><a href="https://doi.org/10.1002/3527600434.eap258">10.1002/3527600434.eap258</a></dd>
 </dl>
+
+---
+
+Another more recent review is given in:
+
+---
+
+<dl>
+    <dt>Title</dt>
+        <dd>Muon spin spectroscopy</dd>
+    <dt>Author</dt>
+        <dd>A. D. Hillier, S. J. Blundell, I. McKenzie, I. Umegaki, L. Shu, J. A. Wright, T. Prokscha, F. Bert, K. Shimomura, A. Berlie, H. Alberto, I. Watanabe</dd>
+    <dt>Journal</dt>
+        <dd>Nat. Rev. Methods Primers</dd>
+    <dt>Volume</dt>
+        <dd>2</dd>
+    <dt>Article</dt>
+        <dd>4</dd>
+    <dt>Year</dt>
+        <dd>2022</dd>
+    <dt>Abstract</dt>
+        <dd>
+        <details>
+        <summary></summary>
+        Muons are particles with a spin of ½ that can be implanted into a wide
+        range of condensed matter materials to act as a local probe of the
+        surrounding atomic environment. Measurement of the muon’s precession and
+        relaxation provides an insight into how it interacts with its local
+        environment. From this, unique information is obtained about the static
+        and dynamic properties of the material of interest. This has enabled
+        muon spin spectroscopy, more commonly known as muon spin
+        rotation/relaxation/resonance (μSR), to develop into a powerful tool to
+        investigate material properties such as fundamental magnetism,
+        superconductivity and functional materials. Alongside this, μSR may be
+        used to study, for example, energy storage materials, ionic diffusion in
+        potential batteries, the dynamics of soft matter, free radical
+        chemistry, reaction kinetics, semiconductors, advanced manufacturing and
+        cultural artefacts. This Primer is intended as an introductory article
+        and introduces the μSR technique, the typical results obtained and some
+        recent advances across various fields. Data reproducibility and
+        limitations are also discussed, before highlighting promising future
+        developments.
+        </details>
+        </dd>
+    <dt><i class="ai ai-doi"></i></dt>
+        <dd><a href="https://doi.org/10.1038/s43586-021-00089-0">10.1038/s43586-021-00089-0</a></dd>
+</dl>
+
+---
 
 Only a few facilities exist worldwide where [μSR] experiments are performed.
 These include:
