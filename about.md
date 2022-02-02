@@ -24,6 +24,8 @@ nav_order: 1
     <dd><a href="{{ rmlm.github_username | prepend: "https://github.com/" }}">{{ rmlm.github_username }}</a></dd>
     <dt>GitLab <i class="fab fa-gitlab"></i></dt>
     <dd><a href="{{ rmlm.gitlab_username | prepend: "https://gitlab.com/" }}">{{ rmlm.gitlab_username }}</a></dd>
+    <dt>Bitbucket <i class="fab fa-bitbucket"></i></dt>
+    <dd><a href="{{ rmlm.bitbucket_username | prepend: "https://bitbucket.org/" }}">{{ rmlm.bitbucket_username }}</a></dd>
 </dl>
 
 I'm currently a Postdoctoral Researcher at [TRIUMF] - Canada's particle
