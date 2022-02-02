@@ -6,6 +6,15 @@ parent: Ion Implantation
 ---
 
 # `SRIM`
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
+
+## Introduction
 
 The Stopping and Range of Ions in Matter (`SRIM`) is a collection of software
 for calculations/simulations dealing with ion transport in matter.
@@ -46,7 +55,7 @@ Papers dealing with specific versions of `SRIM` also exist:
 - [SRIM 2010](https://doi.org/10.1016/j.nimb.2010.02.091)
 - [SRIM 2003](https://doi.org/10.1016/j.nimb.2004.01.208)
 
-Though the software is free, it is [closed source] and writtin in
+Though the software is free, it is [closed source] and written in
 (the now defunct language) [Visual Basic].
 Niether of these traits are particularly appealing
 (or sensible) by modern standards.
@@ -106,6 +115,7 @@ registered them using:
 regsvr32 *.ocx
 {% endhighlight %}
 
+where `*.ocx` is the missing (copied) file.
 Afterwards, `SRIM` ran without issue!
 
 [closed source]: https://en.wikipedia.org/wiki/Proprietary_software
