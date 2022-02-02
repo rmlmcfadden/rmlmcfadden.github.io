@@ -6,6 +6,15 @@ parent: Ion Implantation
 ---
 
 # `TRIM.SP`
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
+
+## Introduction
 
 `TRIM.SP` is an offshoot of the original [`TRIM`] program that additionally
 includes sputtering effects in the simulation of ion implantation.
@@ -131,22 +140,47 @@ The original citations for the work are:
 The code still sees routine use as a means of calculating μ<sup>+</sup>
 stopping distances in μSR experiments using the [LEM facility] at [PSI].
 A modified version of the `TRIM.SP` source code (maintained by the [LEM group])
-can be found [here](https://gitlab.psi.ch/nemu/simulation).
+can be found at:
+
+---
+
+<dl>
+    <dt>GitLab <i class="fab fa-gitlab"></i></dt>
+        <dd><a href="https://gitlab.psi.ch/nemu/simulation">nemu/simulation</a></dd>
+    <dt>Bitbucket <i class="fab fa-bitbucket"></i></dt>
+        <dd><a href="https://bitbucket.org/zaher-salman/trimsp/">zaher-salman/trimsp</a></dd>
+</dl>
+
+---
+
 Additionally, an online interface to `TRIM.SP`
 (with limited simulation capabilities)
 can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 
 ## Caveats
 
-- Bin widths less than 2 A (e.g., 1 A) do not work... floating point rounding
-  problem?
-- The maximum number of bins in the `.rge` output is hardcoded in the Fortran src
-- Only up to 5 elements per layer!?
-- GUI has trouble parsing chemical formulas w/ non-integer stochiometries
-- parameters for electronic stopping are for protons, taken from ICRU report 49.
-  note the report omits a value for carbon, so one has been added ad hoc.
+- Bin widths less than 2 Å (e.g., 1 Å) do not behave as intended. I suspect
+  there is a floating-point rounding problem when writing the histogram data to
+  disk...
+- The maximum number of bins in the `.rge` output is hardcoded in the [Fortran]
+  source code...
+- Only up to 5 elements per layer can be simulated!?
+- The `TRIM.SP` [GUI] has trouble parsing chemical formulas with non-integer
+  stochiometries. A [regex] is used to parse the formulas, but devising a
+  pattern that works for <i>all</i> formulae is non-trivial
+  (see e.g., <https://stackoverflow.com/questions/23602175/regex-for-parsing-chemical-formulas>
+  or <https://stackoverflow.com/questions/46200305/a-strict-regular-expression-for-matching-chemical-formulae>).
+- The [GUI] automatically loads coefficients that define the electronic stopping
+  power of the target material (which is an awesome feature) using the tabulated
+  values for protons from [ICRU Report 49]; however, this compilation is rather
+  dated and even omits a low-energy value for carbon
+  (which has be filled in <i>ad hoc</i>).
 
 [LEM facility]: https://www.psi.ch/en/smus/lem
 [LEM group]: https://www.psi.ch/en/low-energy-muons
 [PSI]: https://www.psi.ch/en
 [`TRIM`]: https://doi.org/10.1016/0029-554X(80)90440-1
+[Fortran]: https://fortran-lang.org/
+[regex]: https://en.wikipedia.org/wiki/Regular_expression
+[GUI]: https://en.wikipedia.org/wiki/Graphical_user_interface
+[ICRU Report 49]: https://www.icru.org/report/stopping-power-and-ranges-for-protons-and-alpha-particles-report-49/
