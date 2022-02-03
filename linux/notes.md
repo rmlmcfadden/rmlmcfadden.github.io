@@ -14,6 +14,8 @@ Here I give some short notes related to the administration of a [Linux] system.
 ## Table of contents
 {: .no_toc .text-delta}
 
+1. TOC
+{:toc}
 
 ## Cleaning up space in `/`
 
