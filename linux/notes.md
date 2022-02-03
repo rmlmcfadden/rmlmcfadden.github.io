@@ -30,20 +30,20 @@ There are a few possibilities to try, such as:
 journalctl --disk-usage
 journalctl --verify
 journalctl --vacuum-size=50M
-{% endhighlight%}
+{% endhighlight %}
 
 or edit
 
 {% highlight bash %}
 /etc/systemd/journald.conf
-{% highlight bash %}
+{% endhighlight %}
 
 Alternatively, one can try cleaning the `packagekit` cache
 (which isn't done automatically!?).
 
 {% highlight bash %}
 pkcan refresh force -c -1
-{% highlight bash %}
+{% endhighlight %}
 
 
 ## Mounting LVM2 (LVMR?) filesystems
