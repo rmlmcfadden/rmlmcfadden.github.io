@@ -1942,4 +1942,60 @@
   revised: 2021-08-29
   accepted: 2021-10-27
   published: 2021-11-12
+- title: >-
+    A β-NMR study of the depth, temperature, and molecular-weight dependence of
+    secondary dynamics in polystyrene: Entropy–enthalpy compensation and dynamic
+    gradients near the free surface
+  author:
+    - I. McKenzie
+    - D. Fujimoto
+    - V. L. Karner
+    - R. Li
+    - W. A. MacFarlane
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - A. N. Raegan
+    - M. Stachura
+    - J. O. Ticknor
+    - J. A. Forrest
+  abstract: >-
+    We investigated the depth, temperature, and molecular-weight (MW) dependence
+    of the γ-relaxation in polystyrene glasses using implanted
+    <sup>8</sup>Li<sup>+</sup> and β-detected nuclear magnetic resonance.
+    Measurements were performed on thin films with MW ranging from 1.1 to
+    641 kg/mol. The temperature dependence of the average <sup>8</sup>Li
+    spin–lattice relaxation time (<i>T</i><sup>avg</sup><sub>1</sub>) was
+    measured near the free surface and in the bulk. Spin–lattice relaxation is
+    caused by phenyl ring flips, which involve transitions between local minima
+    over free-energy barriers with enthalpic and entropic contributions. We used
+    transition state theory to model the temperature dependence of the
+    γ-relaxation, and hence <i>T</i><sup>avg</sup><sub>1</sub>.
+    There is no clear correlation of the average
+    entropy of activation (<i>Δ<sup>‡</sup>S̄</i>) and enthalpy of activation
+    (<i>Δ<sup>‡</sup>H̄</i>) with MW, but there is a clear correlation between
+    <i>Δ<sup>‡</sup>S̄</i> and <i>Δ<sup>‡</sup>H̄</i>, i.e., entropy–enthalpy
+    compensation. This results in the average Gibbs energy of activation,
+    <i>Δ<sup>‡</sup>Ḡ</i>, being approximately independent of MW. Measurements
+    of the temperature dependence of <i>T</i><sup>avg</sup><sub>1</sub> as a
+    function of depth below the free surface indicate the inherent entropic
+    barrier, i.e., the entropy of activation corresponding to
+    <i>Δ<sup>‡</sup>H̄</i> = 0, has an exponential dependence on the distance
+    from the free surface before reaching the bulk value. This results in
+    <i>Δ<sup>‡</sup>Ḡ</i> near the free surface being lower than the bulk.
+    Combining these observations results in a model where the average
+    fluctuation rate of the γ-relaxation has a “double-exponential” depth
+    dependence. This model can explain the depth dependence of
+    1/<i>T</i><sup>avg</sup><sub>1</sub> in polystyrene films. The
+    characteristic length of enhanced dynamics is ~6 nm and approximately
+    independent of MW near room temperature.
+  journal: J. Chem. Phys.
+  volume: 156
+  issue: 8
+  pages: '084903'
+  year: 2022
+  doi: 10.1063/5.0081185
+  submitted: 2021-12-07
+  accepted: 2022-01-31
+  published: 2022-02-22
 
