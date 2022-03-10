@@ -17,6 +17,7 @@
     id: 2004.10395
     cat: physics.data-an
   published: 2020-04-22
+  year: 2020
 - title: Nuclear magnetic resonance of ion implanted <sup>8</sup>Li in ZnO
   author:
     - J. R. Adelman
@@ -55,4 +56,5 @@
     id: 2109.08637
     cat: cond-mat.mtrl-sci
   published: 2021-09-17
+  year: 2021
 
