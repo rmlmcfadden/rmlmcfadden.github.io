@@ -11,10 +11,23 @@ grand_parent: β-NMR
 {% assign preprints = site.data.bnmr.publications.preprints | sort: "published" | reverse %}
 
 There are currently {{ preprints.size }} electronic preprints awaiting publication.
+They are listed below in reverse chronological order.
 
+<!-- create an empty array -->
+{% assign years = "" | split: ',' %}
+<!-- push content directly into it -->
+{% for preprint in preprints %}
+	{% assign years = years | push: preprint.year %}
+{% endfor %}
+<!-- extract the unique values -->
+{% assign unique_years = years | uniq %}
+
+{% for year in unique_years %}
+<details>
+<summary>{{ year }}</summary>
 <hr>
-
 {% for pub in preprints %}
+{% if year == pub.year %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -62,4 +75,7 @@ There are currently {{ preprints.size }} electronic preprints awaiting publicati
     {% endif %}
 </dl>
 <hr>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}

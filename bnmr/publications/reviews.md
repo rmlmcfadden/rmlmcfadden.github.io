@@ -11,10 +11,23 @@ grand_parent: β-NMR
 {% assign reviews = site.data.bnmr.publications.reviews | sort: "published" | reverse %}
 
 To date, {{ reviews.size }} review articles have been published.
+They are listed below in reverse chronological order.
 
+<!-- create an empty array -->
+{% assign years = "" | split: ',' %}
+<!-- push content directly into it -->
+{% for review in reviews %}
+	{% assign years = years | push: review.year %}
+{% endfor %}
+<!-- extract the unique values -->
+{% assign unique_years = years | uniq %}
+
+{% for year in unique_years %}
+<details>
+<summary>{{ year }}</summary>
 <hr>
-
 {% for pub in reviews %}
+{% if year == pub.year %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -87,4 +100,7 @@ To date, {{ reviews.size }} review articles have been published.
     {% endif %}
 </dl>
 <hr>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}

@@ -11,6 +11,7 @@ grand_parent: β-NMR
 {% assign proceedings = site.data.bnmr.publications.proceedings | sort: "published" | reverse %}
 
 To date, {{ proceedings.size }} articles have been published in conference proceedings.
+They are listed below in reverse chronological order.
 
 <!-- create an empty array -->
 {% assign years = "" | split: ',' %}
@@ -24,6 +25,7 @@ To date, {{ proceedings.size }} articles have been published in conference proce
 {% for year in unique_years %}
 <details>
 <summary>{{ year }}</summary>
+<hr>
 {% for pub in proceedings %}
 {% if year == pub.year %}
 <dl>

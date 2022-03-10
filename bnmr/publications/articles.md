@@ -11,6 +11,7 @@ grand_parent: β-NMR
 {% assign articles = site.data.bnmr.publications.articles | sort: "published" | reverse %}
 
 To date, {{ articles.size }} journal articles have been published.
+They are listed below in reverse chronological order.
 
 <!-- create an empty array -->
 {% assign years = "" | split: ',' %}
@@ -24,6 +25,7 @@ To date, {{ articles.size }} journal articles have been published.
 {% for year in unique_years %}
 <details>
 <summary>{{ year }}</summary>
+<hr>
 {% for pub in articles %}
 {% if year == pub.year %}
 <dl>

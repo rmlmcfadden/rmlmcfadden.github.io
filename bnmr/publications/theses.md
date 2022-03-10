@@ -10,11 +10,24 @@ grand_parent: β-NMR
 
 {% assign theses = site.data.bnmr.publications.theses | sort: "published" | reverse %}
 
-To date, {{ theses.size }} theses using the technique have been written.
+To date, {{ theses.size }} theses using the β-NMR technique at TRIUMF have been written.
+They are listed below in reverse chronological order.
 
+<!-- create an empty array -->
+{% assign years = "" | split: ',' %}
+<!-- push content directly into it -->
+{% for thesis in theses %}
+	{% assign years = years | push: thesis.year %}
+{% endfor %}
+<!-- extract the unique values -->
+{% assign unique_years = years | uniq %}
+
+{% for year in unique_years %}
+<details>
+<summary>{{ year }}</summary>
 <hr>
-
 {% for pub in theses %}
+{% if year == pub.year %}
 <dl>
     {% if pub.title %}
         <dt>Title</dt>
@@ -82,4 +95,7 @@ To date, {{ theses.size }} theses using the technique have been written.
     {% endif %}
 </dl>
 <hr>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}
