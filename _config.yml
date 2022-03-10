@@ -17,7 +17,7 @@ title: rmlmcfadden.github.io
 description: My personal website
 baseurl: ""
 url: https://rmlmcfadden.github.io
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
 exclude:
