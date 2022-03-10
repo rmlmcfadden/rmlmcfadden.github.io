@@ -1096,10 +1096,10 @@
     β-detected nuclear spin relaxation of <sup>8</sup>Li<sup>+</sup> has been
     used to probe the depth dependence of molecular dynamics in high- and
     low-molecular-weight deuterated polystyrene. The average nuclear
-    spin-lattice relaxation rate, 1/<i>T</i><sup>avg</sup><sub>1</sub>, is a
+    spin-lattice relaxation rate, 1/<i>T</i><sub>1</sub><sup>avg</sup>, is a
     measure of the spectral density of the polymer motion at the Larmor
     frequency (41 MHz at 6.55 T). In both samples,
-    1/<i>T</i><sup>avg</sup><sub>1</sub> is depth independent below ~200 K but
+    1/<i>T</i><sub>1</sub><sup>avg</sup> is depth independent below ~200 K but
     above this temperature it decreases approximately exponentially with
     distance from the free surface, returning to bulk behavior for depths
     greater than ~10 nm. This is direct evidence for a region near the free
@@ -1965,19 +1965,19 @@
     <sup>8</sup>Li<sup>+</sup> and β-detected nuclear magnetic resonance.
     Measurements were performed on thin films with MW ranging from 1.1 to
     641 kg/mol. The temperature dependence of the average <sup>8</sup>Li
-    spin–lattice relaxation time (<i>T</i><sup>avg</sup><sub>1</sub>) was
+    spin–lattice relaxation time (<i>T</i><sub>1</sub><sup>avg</sup>) was
     measured near the free surface and in the bulk. Spin–lattice relaxation is
     caused by phenyl ring flips, which involve transitions between local minima
     over free-energy barriers with enthalpic and entropic contributions. We used
     transition state theory to model the temperature dependence of the
-    γ-relaxation, and hence <i>T</i><sup>avg</sup><sub>1</sub>.
+    γ-relaxation, and hence <i>T</i><sub>1</sub><sup>avg</sup>.
     There is no clear correlation of the average
     entropy of activation (<i>Δ<sup>‡</sup>S̄</i>) and enthalpy of activation
     (<i>Δ<sup>‡</sup>H̄</i>) with MW, but there is a clear correlation between
     <i>Δ<sup>‡</sup>S̄</i> and <i>Δ<sup>‡</sup>H̄</i>, i.e., entropy–enthalpy
     compensation. This results in the average Gibbs energy of activation,
     <i>Δ<sup>‡</sup>Ḡ</i>, being approximately independent of MW. Measurements
-    of the temperature dependence of <i>T</i><sup>avg</sup><sub>1</sub> as a
+    of the temperature dependence of <i>T</i><sub>1</sub><sup>avg</sup> as a
     function of depth below the free surface indicate the inherent entropic
     barrier, i.e., the entropy of activation corresponding to
     <i>Δ<sup>‡</sup>H̄</i> = 0, has an exponential dependence on the distance
@@ -1986,7 +1986,7 @@
     Combining these observations results in a model where the average
     fluctuation rate of the γ-relaxation has a “double-exponential” depth
     dependence. This model can explain the depth dependence of
-    1/<i>T</i><sup>avg</sup><sub>1</sub> in polystyrene films. The
+    1/<i>T</i><sub>1</sub><sup>avg</sup> in polystyrene films. The
     characteristic length of enhanced dynamics is ~6 nm and approximately
     independent of MW near room temperature.
   journal: J. Chem. Phys.
