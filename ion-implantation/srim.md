@@ -95,12 +95,14 @@ and in a fresh terminal run:
 winecfg
 {% endhighlight %}
 
-This ensures a clean 32-bit instance is set up.
+This ensures a clean 32-bit [Wine] instance is set up.
 
 Through inspection of the contents of `~/.wine/drive_c/windows/system32`,
 I noticed that many of the `.dll` and `.ocx` files needed by `SRIM` are already
 present. Instead following the exact instructions of registering each of the
-`.ocx`s provided with the application, I elected to start `SRIM` via:
+`.ocx`s provided with the application
+(i.e., in the folder `/path/to/srim/SRIM-Setup/`),
+I elected to start `SRIM` via:
 
 {% highlight bash %}
 wine SRIM.exe
@@ -116,6 +118,7 @@ regsvr32 *.ocx
 {% endhighlight %}
 
 where `*.ocx` is the missing (copied) file.
+
 Afterwards, `SRIM` ran without issue!
 
 [closed source]: https://en.wikipedia.org/wiki/Proprietary_software
