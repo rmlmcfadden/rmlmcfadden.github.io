@@ -167,14 +167,14 @@ can be found [here](http://musruser.psi.ch/cgi-bin/TrimSP.cgi).
 - Only up to 5 elements per layer can be simulated!?
 - The `TRIM.SP` [GUI] has trouble parsing chemical formulas with non-integer
   stochiometries. A [regex] is used to parse the formulas, but devising a
-  pattern that works for <i>all</i> formulae is non-trivial
-  (see e.g., <https://stackoverflow.com/questions/23602175/regex-for-parsing-chemical-formulas>
-  or <https://stackoverflow.com/questions/46200305/a-strict-regular-expression-for-matching-chemical-formulae>).
+  pattern that works for <i>all</i> formulae is non-trivial - see e.g.:
+  - [RegEx for parsing chemical formulas](https://stackoverflow.com/questions/23602175/regex-for-parsing-chemical-formulas)
+  - [A strict regular expression for matching chemical formulae](https://stackoverflow.com/questions/46200305/a-strict-regular-expression-for-matching-chemical-formulae)
 - The [GUI] automatically loads coefficients that define the electronic stopping
   power of the target material (which is an awesome feature) using the tabulated
   values for protons from [ICRU Report 49]; however, this compilation is rather
   dated and even omits a low-energy value for carbon
-  (which has be filled in <i>ad hoc</i>).
+  (which has been filled in <i>ad hoc</i>, as discussed [here](https://lmu.web.psi.ch/docu/LEM_Memo/LEM_EnergyLoss_CarbonFoil/MemoEnergyLossInC-TRIMSP.pdf)).
 
 [LEM facility]: https://www.psi.ch/en/smus/lem
 [LEM group]: https://www.psi.ch/en/low-energy-muons
