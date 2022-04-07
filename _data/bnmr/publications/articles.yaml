@@ -1998,4 +1998,56 @@
   submitted: 2021-12-07
   accepted: 2022-01-31
   published: 2022-02-22
+- title: >-
+    Repeatable photoinduced insulator-to-metal transition in yttrium oxyhydride
+    epitaxial thin films
+  author:
+    - Y. Komatsu
+    - R. Shimizu
+    - R. Sato
+    - M. Wilde
+    - K. Nishio
+    - T. Katase
+    - D. Matsumura
+    - H. Saitoh
+    - M. Miyauchi
+    - J. R. Adelman
+    - R. M. L. McFadden
+    - D. Fujimoto
+    - J. O. Ticknor
+    - M. Stachura
+    - I. McKenzie
+    - G. D. Morris
+    - W. A. MacFarlane
+    - J. Sugiyama
+    - K. Fukutani
+    - S. Tsuneyuki
+    - T. Hitosugi
+  abstract: >-
+    Currently, no known material retains its photoinduced metallic conductivity
+    over a long time while also exhibiting repeatable metal-to-insulator
+    recovery. Here, we demonstrate such a highly repeatable photoinduced
+    insulator-to-metal transition in yttrium oxyhydride
+    (YO<sub>x</sub>H<sub>y</sub>) epitaxial thin films. The temperature
+    (<i>T</i>) dependence of the electrical resistivity (<i>ρ</i>) of the films
+    transforms from the insulating to the metallic state
+    (d<i>ρ</i>/d<i>T</i> > 0) under ultraviolet laser illumination. The
+    YO<sub>x</sub>H<sub>y</sub> film recovers its original insulating state when
+    heated (125 °C) under an Ar atmosphere and regains metallic conductivity
+    when subsequently subjected to ultraviolet laser illumination again, showing
+    a repeatable photoinduced insulator-to-metal transition. First-principles
+    calculations show that the itinerant carriers originate from the variations
+    in the charge states of the hydrogen atoms that occupy octahedral
+    interstitial sites. This study indicates that tuning the site occupancy
+    (octahedral/tetrahedral) of the hydrogen atoms exerts a significant effect
+    on the photoresponse of metal hydrides.
+  journal: Chem. Mater.
+  volume: null
+  issue: null
+  pages: null
+  year: 2022
+  doi: 10.1021/acs.chemmater.1c03450
+  submitted: 2021-11-05
+  revised: 2022-02-03
+  published: 2022-04-06
 
