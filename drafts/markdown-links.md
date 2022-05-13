@@ -21,7 +21,10 @@
 [Stack Overflow]: https://stackoverflow.com/
 
 [Numerical Recipies]: http://www.numerical.recipes/
-[GSL]: https://www.gnu.org/software/gsl/
+[GNU Scientific Library]: https://www.gnu.org/software/gsl/
+[Boost]: https://www.boost.org/
+[Eigen]: https://eigen.tuxfamily.org/
+[ROOT]: https://root.cern/
 
 
 [xkcd]: https://xkcd.com/
@@ -66,6 +69,8 @@
 [Matplotlib]: https://matplotlib.org/
 [SymPy]: http://sympy.org/
 [IPython]: http://ipython.org/
+[scikit-learn]: https://scikit-learn.org/
+[Atomic Simulation Environment]: https://wiki.fysik.dtu.dk/ase/
 
 
 [TUG]: https://tug.org/
@@ -81,6 +86,7 @@
 [RSC-SRC]: https://rsc-src.ca/
 [CAP]: https://www.cap.ca/
 [CIC]: https://www.cheminst.ca/
+[IOP]: https://www.iop.org/
 
 
 [TRIUMF]: https://www.triumf.ca/
