@@ -16,6 +16,7 @@ of the existing tools have been written on a as-needed basis and it is not
 uncommon for "experimenters" to write their own code for a particular project.
 
 Here I give a brief (and incomplete!) survey of the available tools.
+Software considered outdated or defunct are marked as *OBSOLETE*.
 
 ## Table of contents
 {: .no_toc .text-delta}
@@ -58,19 +59,19 @@ Description to be added...
 
 ## bnmroffice
 
-*Obsolete!*
+*OBSOLETE*!
 
 Description to be added...
 
 ## bnmrfit
 
-*Obsolete!*
+*OBSOLETE*!
 
 Description to be added...
 
 ## bnmrminfit
 
-*Obsolete!*
+*OBSOLETE*!
 
 Description to be added...
 
