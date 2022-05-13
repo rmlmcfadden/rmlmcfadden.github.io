@@ -111,6 +111,28 @@ return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
   surface binding energies do not appear to be used automatically and need to
   specified manually.
 
+- Bragg corrections are not implemented on a per-layer basis. This is relatively
+  easy to fix by editing lines 42-48 in `srim/core/layer.py` to read:
+
+{% highlight python %}
+    def __init__(self, elements, density, width, phase=0, name=None, bragg_correction=1.0):
+        """Creation of Layer from elements, density, width, phase, and
+name"""
+        self.width = width
+        self.name = name
+        self.bragg_correction = bragg_correction
+        super(Layer, self).__init__(elements, density, phase)
+{% endhighlight %}
+
+  as well as lines 150-153 in `srim/input.py` to read:
+
+{% highlight python %}
+    def _write_bragg_correction(self):
+        return (
+            'Target Compound Corrections (Bragg)'
+        ) + self.newline + ' ' + ' '.join([str(layer.bragg_correction) for layer in self._trim.target.layers]) + self.newline
+{% endhighlight %}
+
 [Python]: https://www.python.org/
 [Linux]: https://en.wikipedia.org/wiki/Linux
 [GitLab]: https://about.gitlab.com/
