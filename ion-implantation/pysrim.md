@@ -108,7 +108,7 @@ return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
   workaround is to just avoid providing the parameter.
 
 - SRIM's default values for (element specific) displacement, lattice, and
-  surface binding energies do not appear to used automatically and need to
+  surface binding energies do not appear to be used automatically and need to
   specified manually.
 
 [Python]: https://www.python.org/
