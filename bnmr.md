@@ -75,8 +75,14 @@ An overview of the technique can be found in the recent review articles:
         <dd>W. A. MacFarlane</dd>
     <dt>Journal</dt>
         <dd>Z. Phys. Chem.</dd>
+    <dt>Volume</dt>
+        <dd>236</dd>
+    <dt>Issue</dt>
+        <dd>6-8</dd>
+    <dt>Pages</dt>
+        <dd>757-798</dd>
     <dt>Year</dt>
-        <dd>2021</dd>
+        <dd>2022</dd>
     <dt>Abstract</dt>
         <dd>
         <details>
