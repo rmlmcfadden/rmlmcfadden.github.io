@@ -2050,4 +2050,54 @@
   submitted: 2021-11-05
   revised: 2022-02-03
   published: 2022-04-06
+- title: >-
+    Magnesium(II)-ATP complexes in 1-ethyl-3-methylimidazolium acetate solutions
+    characterized by <sup>31</sup>Mg β-radiation-detected NMR spectroscopy
+  author:
+    - R. M. L. McFadden
+    - D. Szunyogh
+    - N. Bravo-Frank
+    - A. Chatzichristos
+    - M. H. Dehn
+    - D. Fujimoto
+    - A. Jancsó
+    - S. Johannsen
+    - I. Kálomista
+    - V. L. Karner
+    - R. F. Kiefl
+    - F. H. Larsen
+    - J. Lassen
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - H. McPhee
+    - G. D. Morris
+    - M. R. Pearson
+    - S. P. A. Sauer
+    - R. K. O. Sigel
+    - P. W. Thulstrup
+    - W. A. MacFarlane
+    - L. Hemmingsen
+    - M. Stachura
+  abstract: >-
+    The complexation of Mg<sup>II</sup> with adenosine 5'-triphosphate (ATP) is
+    omnipresent in biochemical energy conversion, but is difficult to
+    interrogate directly. Here we used the spin-1/2 β-emitter <sup>31</sup>Mg to
+    study Mg<sup>II</sup>-ATP complexation in 1-ethyl-3-methylimidazolium
+    acetate (EMIM-Ac) solutions using β-radiation-detected nuclear magnetic
+    resonance (β-NMR). We demonstrate that (nuclear) spin-polarized
+    <sup>31</sup>Mg, following ion-implantation from an accelerator beamline
+    into EMIM-Ac, binds to ATP within its radioactive lifetime before
+    depolarizing. The evolution of the spectra with solute concentration
+    indicates that the implanted <sup>31</sup>Mg initially bind to the solvent
+    acetate anions, whereafter they undergo dynamic exchange and form either a
+    mono- (<sup>31</sup>Mg-ATP) or di-nuclear (<sup>31</sup>MgMg-ATP) complex.
+    The chemical shift of <sup>31</sup>Mg-ATP is observed up-field of
+    <sup>31</sup>MgMg-ATP, in accord with quantum chemical calculations. These
+    observations constitute a crucial advance towards using β-NMR to probe
+    biologically relevant contexts.
+  journal: Angew. Chem. Int. Ed.
+  year: 2022
+  doi: 10.1002/anie.202207137
+  published: 2022-06-19
 
