@@ -63,7 +63,7 @@ An overview of the technique can be found in the recent review articles:
         <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926204015000181-fx1.jpg" alt="Graphical abstract">
         </dd>
     <dt><i class="ai ai-doi"></i></dt>
-        <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">j.ssnmr.2015.02.004</a></dd>
+        <dd><a href="https://doi.org/10.1016/j.ssnmr.2015.02.004">10.1016/j.ssnmr.2015.02.004</a></dd>
 </dl>
 
 ---
