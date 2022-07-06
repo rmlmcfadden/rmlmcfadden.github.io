@@ -7,7 +7,7 @@ nav_order: 1
 
 # About
 
-<img src="/assets/images/rmlm.jpg" title="{{ rmlm.name }}" width="100%">
+<img src="/assets/images/rmlm2.jpg" title="{{ rmlm.name }}" width="100%">
 
 {% assign rmlm = site.data.rmlm.info %}
 
@@ -18,6 +18,8 @@ nav_order: 1
     <dd><a href="{{ rmlm.location | prepend: "https://www.google.com/maps/place/" }}">{{ rmlm.location }}</a></dd>
     <dt>ORCID <i class="ai ai-orcid"></i></dt>
     <dd><a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">{{ rmlm.orcid }}</a></dd>
+    <dt>Google Scholar <i class="ai ai-google-scholar"></i></dt>
+    <dd><a href="{{ rmlm.googlescholar | prepend: "https://scholar.google.ca/citations?hl=en&user=" }}">{{ rmlm.googlescholar }}</a></dd>
     <dt>arXiv <i class="ai ai-arxiv"></i></dt>
     <dd><a href="{{ rmlm.arxiv | prepend: "https://arxiv.org/a/" }}">{{ rmlm.arxiv }}</a></dd>
     <dt>GitHub <i class="fab fa-github"></i></dt>
@@ -42,12 +44,11 @@ I'm also an avid, self-taught programmer, and have written hundreds of short
 scripts (mostly in [Python]) and larger codebases (mainly in [C++]) in my
 day-to-day work over the last decade. This has mostly been for the purpose of
 completing my own academic projects, but I do try to follow language
-developments out of personal interest. For instance, I'm working on learning
+developments out of personal interest. For instance, I'm (slowly) learning
 [Rust] in my spare time.
 
-Besides these "professional" interests, some of my hobbies include
-skateboarding, running, playing soccer, reading novels, cooking, and consuming
-craft beer.
+Besides these "professional" interests, some of my hobbies include:
+cycling, running, skateboarding, cooking, and consuming craft beer.
 
 [T. Junginger]: https://www.triumf.ca/profiles/5656
 [M. Stachura]: https://www.triumf.ca/profiles/5570
