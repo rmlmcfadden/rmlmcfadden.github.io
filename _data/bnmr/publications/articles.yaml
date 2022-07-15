@@ -21,7 +21,7 @@
     spin polarized <sup>8</sup>Li can be used as a sensitive probe of the local
     magnetic and electronic environment in nanostructures and ultrathin films in
     zero static applied magnetic field.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 70
   issue: 10
   pages: '104404'
@@ -56,7 +56,7 @@
     of the Knight shifts and spin relaxation rates are consistent with the
     Korringa law for a simple metal, implying that the NMR of implanted
     <sup>8</sup>Li reflects the spin suspectibility of bulk metallic silver.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 93
   issue: 15
   pages: '157601'
@@ -91,7 +91,7 @@
     <i>T<sub>c</sub></i> ~ 150 K, i.e., ~45 K higher than
     <i>T<sub>c</sub></i><sup>bulk</sup>, and that the tetragonal domains formed
     below <i>T<sub>c</sub></i> are randomly oriented.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 96
   issue: 14
   pages: '147601'
@@ -132,7 +132,7 @@
     expected for the large shift and is linear with <i>T</i> below
     <i>T</i><sup>*</sup>, showing no sign of additional relaxation mechanisms
     associated with the defect.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 98
   issue: 4
   pages: '047601'
@@ -171,7 +171,7 @@
     <i>S</i>. The temperature dependence of the Knight shifts and spin-lattice
     relaxation rates at high temperatures, i.e., when all the Li are in the
     <i>S</i> site, is consistent with the Korringa law for a simple metal.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 75
   issue: 7
   pages: '073405'
@@ -211,7 +211,7 @@
     magnetic field. In particular, in a low field of 10.8 mT, the core radius is
     much larger than the coherence length. The possible origin of these giant
     vortices is discussed.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 98
   issue: 16
   pages: '167001'
@@ -253,7 +253,7 @@
     of the line width indicates that the magnetic properties of the
     Mn<sub>12</sub> moments in this low-dimensional configuration differ from
     bulk Mn<sub>12</sub>.
-  journal: Nano Lett.
+  journal: Nano Letters
   volume: 7
   issue: 6
   pages: '1551'
@@ -292,7 +292,7 @@
     find that the induced hyperfine field in the Ag follows a power law decay
     away from the Ag/Fe interface with power −1.93(8), and a field extrapolated
     to 0.23(5) T at the interface.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 77
   issue: 14
   pages: '144429'
@@ -335,7 +335,7 @@
     relation; however, the rate increases dramatically for magnetic fields below
     about 2 mT. We attribute this to interaction of the <sup>8</sup>Li spin with
     the host lattice nuclear spins.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 77
   issue: 21
   pages: '214107'
@@ -369,7 +369,7 @@
     nonuniformly magnetized layer causes a strongly depth-dependent line
     broadening in an adjacent layer. We then give some experimental examples of
     resonance line broadening in heterostructures.
-  journal: J. Magn. Reson.
+  journal: Journal of Magnetic Resonance
   volume: 191
   issue: 1
   pages: '47-55'
@@ -407,7 +407,7 @@
     <sup>27</sup>Na and the known quadrupole moment of this nucleus as
     references. The present results are well explained by shell-model
     calculations in the full <i>sd</i>-shell model space.
-  journal: Phys. Lett. B
+  journal: Physics Letters B
   volume: 672
   issue: 2
   pages: 120-125
@@ -447,7 +447,7 @@
     variations in 1/<i>T</i><sub>1</sub> and λ are consistent with a wide
     distribution of superconducting gaps expected for a multiband
     superconductor.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 79
   issue: 14
   pages: '144518'
@@ -479,7 +479,7 @@
     with a site-dependent coupling to the Nb conduction electrons and suggest
     that the site change proceeds in two steps. We report Knight shifts for the
     two well-defined sites and perform a Korringa analysis.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 80
   issue: 17
   pages: '174109'
@@ -520,7 +520,7 @@
     the sample, likely due to pinning at twin boundaries. At low temperatures
     the broadening from such disorder does not scale with the superfluid
     density.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 80
   issue: 22
   pages: '224503'
@@ -559,7 +559,7 @@
     that of <sup>27</sup>Na in ZnO are also reported. The quadrupole moments of
     <sup>20,21</sup>Na were extracted from the electric-quadrupole coupling
     constants in ZnO, using the known quadrupole moment of <sup>27</sup>Na.
-  journal: 'Nucl. Instrum. Methods Phys. Res., Sect. A'
+  journal: 'Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment'
   volume: 616
   issue: 1
   pages: '45-54'
@@ -600,7 +600,7 @@
     less than 0.2 G, and is close to nuclear dipolar broadening in the Ag. This
     indicates that any fields due to broken time-reversal symmetry are less than
     0.2 G.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 83
   issue: 5
   pages: '054504'
@@ -648,7 +648,7 @@
     quadrupole moment for <sup>9</sup>Li is calculated as |<i>Q</i><sub>9</sub>|
     = 31.5(5) mb with the error being dominated by the error of
     <i>Q</i><sub>8</sub>.
-  journal: 'J. Phys. G: Nucl. Part. Phys.'
+  journal: 'Journal of Physics G: Nuclear and Particle Physics'
   volume: 38
   issue: 7
   pages: '075102'
@@ -681,7 +681,7 @@
     form at higher temperatures preferentially near the free surface of the
     crystal. The details of the tetragonal domain formation and their
     depth/lateral dependencies are discussed.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 83
   issue: 22
   pages: '224112'
@@ -729,7 +729,7 @@
     behavior despite metallic conductivity. No evidence is found of the
     microscopic magnetic phase separation that has been suggested by some
     low-energy muon spin-rotation measurements.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 84
   issue: 5
   pages: '054414'
@@ -772,7 +772,7 @@
     Hamiltonian. A strong collision model is used to extract a decoherence time
     as a result of the dipolar coupling of the <sup>8</sup>Li-Cu subsystem to
     the surrounding nuclear spin bath.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 85
   issue: 9
   pages: '092103'
@@ -809,7 +809,7 @@
     1/<i>T</i><sub>1</sub> is rapidly suppressed in a small magnetic field,
     indicating that it is due to remarkably slow diamagnetic fluctuations which
     are undetectable with conventional NMR.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 85
   issue: 22
   pages: 220501(R)
@@ -855,7 +855,7 @@
     propose that the low temperature saturation in <i>χ</i> of Pt may be related
     to an interband coupling between the <i>s</i> and <i>d</i> bands that is
     disrupted locally by the presence of the Li<sup>+</sup>.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 86
   issue: 6
   pages: '064419'
@@ -900,7 +900,7 @@
     model is used to determine that the observed relaxation is due to small
     fluctuating moments (~0.002 μ<sub>B</sub>) in the two samples with a larger
     LaAlO<sub>3</sub> spacer thickness.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 109
   issue: 25
   pages: '257207'
@@ -946,7 +946,7 @@
     shapes in much smaller Pt particles. However, they seem to originate, not
     from adsorbed species, but rather in confinement effects on the highly
     exhange-enhanced Pd <i>d</i> band.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 88
   issue: 14
   pages: '144424'
@@ -984,7 +984,7 @@
     <sup>9,11</sup>Li and their ratio is made with the latest models, however,
     no conclusion may yet be drawn owing to the size of the theoretical
     uncertainties.
-  journal: 'J. Phys. G: Nucl. Part. Phys.'
+  journal: 'Journal of Physics G: Nuclear and Particle Physics'
   volume: 14
   issue: 1
   pages: '015104'
@@ -1012,7 +1012,7 @@
     extremely low concentration, and PEO with 30 wt %
     LiCF<sub>3</sub>SO<sub>3</sub> over a wide range of temperatures both above
     and below the glass transition temperature. Recent measurements by Do et al.
-    [<i>Phys. Rev. Lett.</i> <b>2013</b>, 111, 018301] found that the
+    [<i>Physical Review Letters</i> <b>2013</b>, 111, 018301] found that the
     temperature dependence of the Li<sup>+</sup> conductivity was identical to
     that of the dielectric α relaxation and was well described by the
     Vogel-Fulcher-Tammann relation, implying the α relaxation dominates the
@@ -1022,7 +1022,7 @@
     propose that the hopping of Li<sup>+</sup> between cages involves motion of
     the polymer but that it is only for long-range diffusion where the α
     relaxation plays an important role.
-  journal: J. Am. Chem. Soc.
+  journal: Journal of the American Chemical Society
   volume: 136
   issue: 2
   pages: '7833-7836'
@@ -1070,7 +1070,7 @@
     low-density carriers. The prospects for depth-resolved studies of
     conventional and topological surface states at lower implantation energies
     are good.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 90
   issue: 21
   pages: '214422'
@@ -1144,7 +1144,7 @@
     <sup>8</sup>Li<sup>+</sup> implies a static stopping position in an
     interstitial site. The <sup>8</sup>Li<sup>+</sup> Knight shift is highly
     sensitive to the anisotropic static susceptibility.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 91
   issue: 24
   pages: 241113(R)
@@ -1190,7 +1190,7 @@
     materials under study, and understanding the role of heterogeneities is
     expected to lead to the discovery of novel phenomena involving quantum
     materials.
-  journal: Proc. Natl. Acad. Sci. U.S.A.
+  journal: Proceedings of the National Academy of Sciences of the United States of America
   volume: 112
   issue: 28
   pages: E3645-E3650
@@ -1232,7 +1232,7 @@
     layer exhibits spin relaxation related to the critical slowing of the Eu
     spins. A particularly strong relaxation in the Au overlayer suggests an
     unusual strong nonlocal coupling mechanism to <sup>8</sup>Li in the metal.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 92
   issue: 6
   pages: '064409'
@@ -1270,7 +1270,7 @@
     dynamics decay towards the bulk with a characteristic length of <i>ε</i> =
     11 ± 1  nm, closely matching the finite-size thresholds of hematite
     nanostructures.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 116
   issue: 10
   pages: 106103
@@ -1311,7 +1311,7 @@
     outweighs the effect of the larger activation energy and results in
     <sup>8</sup>Li<sup>+</sup> hopping being fastest in PEO followed by
     PEO:LiTFSI, PEO:LiOTf, and PEO:LiTFA.
-  journal: J. Chem. Phys.
+  journal: The Journal of Chemical Physics
   volume: 146
   issue: 24
   pages: 244903
@@ -1346,7 +1346,7 @@
     quadrupolar relaxation. These results bring insight into the nature of the
     fluctuations in the local environment of implanted <sup>8</sup>Li observed
     by β-NMR.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 96
   issue: 1
   pages: '014307'
@@ -1393,7 +1393,7 @@
     Li<sub>4</sub>Ti<sub>5</sub>O<sub>12</sub> implies that both β-NMR and
     μ<sup>+</sup>SR sense short-range Li motion, i.e., a jump diffusion of
     Li<sup>+</sup> to the nearest neighboring sites.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 96
   issue: 9
   pages: '094402'
@@ -1447,7 +1447,7 @@
     even up to high concentrations but that some key ingredient is missing in
     the calculations of the migration barrier. The anomalous prefactors provide
     further insight into both Li<sup>+</sup> and polaron motion.
-  journal: Chem. Mater.
+  journal: Chemistry of Materials
   volume: 29
   issue: 23
   pages: 10187-10197
@@ -1542,7 +1542,7 @@
     spectra of MgCl<sub>2</sub> in EMIM-Ac and EMIM-DCA compare favourably with
     conventional NMR, and exhibit linewidths of ~3 ppm, allowing for
     discrimination of species with oxygen and nitrogen coordination.
-  journal: Dalton Trans.
+  journal: Dalton Transactions
   volume: 47
   issue: 41
   pages: 14431-14435
@@ -1593,7 +1593,7 @@
     carriers in this heavily compensated semiconductor, but that conventional
     theories are unable to account for the extent of the field dependence.
     Conventional NMR of the stable host nuclei may help elucidate their origin.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 99
   issue: 12
   pages: 125201
@@ -1634,7 +1634,7 @@
     energies of 0.3341(21) eV above 200 K, whereas at lower temperatures it has
     a much smaller barrier of 0.0313(15) eV. We consider possible origins for
     the surface trapping, as well the nature of the low-<i>T</i> barrier.
-  journal: Phys. Rev. Lett.
+  journal: Physical Review Letters
   volume: 123
   issue: 9
   pages: '095901'
@@ -1687,7 +1687,7 @@
     form of phase inhomogeneity, but this is inconsistent with the conventional
     rhombohedral structure of LaNiO<sub>3</sub>, and also cannot be simply
     explained by the common alternative orthorhombic or monoclinic distortions.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 100
   issue: 16
   pages: 165109
@@ -1734,7 +1734,7 @@
     heterogeneous dynamics near the glass transition. The depth resolution of
     this technique may later provide a unique means of studying nanoscale
     phenomena in ionic liquids.
-  journal: Chem. Mater.
+  journal: Chemistry of Materials
   volume: 31
   issue: 22
   pages: 9346-9353
@@ -1747,7 +1747,7 @@
   published: 2019-11-12
 - title: >-
     Erratum: High resolution β-NMR study of <sup>8</sup>Li<sup>+</sup> implanted
-    in gold [Phys. Rev. B <b>77</b>, 214107 (2008)]
+    in gold [Physical Review B <b>77</b>, 214107 (2008)]
   author:
     - T. J. Parolin
     - Z. Salman
@@ -1768,7 +1768,7 @@
     - D. Wang
     - M. Xu
     - W. A. MacFarlane
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 100
   issue: 20
   pages: 209904(E)
@@ -1810,7 +1810,7 @@
     Together, the results suggest <sup>8</sup>Li<sup>+</sup> site occupation
     within the van der Waals gap between CrSe<sub>2</sub> trilayers. Possible
     origins of the two environments are discussed.
-  journal: RSC Adv.
+  journal: RSC Advances
   volume: 10
   issue: 14
   pages: 8190-8197
@@ -1865,7 +1865,7 @@
     Bi<sub>2</sub>Ch<sub>3</sub> tetradymite topological insulators (TIs), the
     prospect of directly probing their chiral TSS using the depth resolution
     afforded by β-NMR remains strong.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 102
   issue: 23
   pages: 235206
@@ -1888,7 +1888,7 @@
     measured by conventional NMR. The bfit package provides a graphical user
     interface (GUI) and application programming interface (API) to facilitate
     the analysis of implanted-ion β-NMR measurements taken at TRIUMF.
-  journal: J. Open Source Software
+  journal: Journal of Open Source Software
   volume: 6
   issue: 65
   pages: 3598
@@ -1929,7 +1929,7 @@
     dependence (increasing towards low <i>T</i>) in the thinnest, most magnetic
     samples. The origin of this bipartite relaxation is discussed in terms of
     electronic phase separation.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   volume: 104
   issue: 20
   pages: 205114
@@ -1989,7 +1989,7 @@
     1/<i>T</i><sub>1</sub><sup>avg</sup> in polystyrene films. The
     characteristic length of enhanced dynamics is ~6 nm and approximately
     independent of MW near room temperature.
-  journal: J. Chem. Phys.
+  journal: The Journal of Chemical Physics
   volume: 156
   issue: 8
   pages: '084903'
@@ -2041,7 +2041,7 @@
     interstitial sites. This study indicates that tuning the site occupancy
     (octahedral/tetrahedral) of the hydrogen atoms exerts a significant effect
     on the photoresponse of metal hydrides.
-  journal: Chem. Mater.
+  journal: Chemistry of Materials
   volume: 34
   issue: 8
   pages: 3616-3623
@@ -2096,7 +2096,7 @@
     <sup>31</sup>MgMg-ATP, in accord with quantum chemical calculations. These
     observations constitute a crucial advance towards using β-NMR to probe
     biologically relevant contexts.
-  journal: Angew. Chem. Int. Ed.
+  journal: Angewandte Chemie International Edition
   pages: e202207137
   year: 2022
   doi: 10.1002/anie.202207137
@@ -2138,7 +2138,7 @@
     electric field gradient at the interstitial <sup>8</sup>Li exhibits
     substantial temperature dependence with a power law typical of non-cubic
     metals.
-  journal: Phys. Rev. B
+  journal: Physical Review B
   arxiv:
     id: 2109.08637
     cat: cond-mat.mtrl-sci

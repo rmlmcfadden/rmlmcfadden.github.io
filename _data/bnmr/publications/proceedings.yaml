@@ -29,7 +29,7 @@
     spin polarized ions can be implanted at low energies (1-90 keV). In this
     paper we describe the facility and the initial experimental program with
     emphasis on how this technique can complement μSR.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 289-290
   issue: null
   pages: '640-647'
@@ -62,7 +62,7 @@
     found to be small. We report these measurements as a function of helium flow
     rates. A preliminary polarized <sup>8</sup>Li<sup>+</sup> run is planned for
     May, 2000.
-  journal: Nucl. Phys. A
+  journal: Nuclear Physics A
   volume: 701
   issue: 1-4
   pages: '253-258'
@@ -108,7 +108,7 @@
     conventional NMR but can be used as a sensitive probe of ultra-thin films,
     interfaces and other nanostructures. We report here on the status of the
     spectrometer and preliminary results on a simple metal film.
-  journal: 'Nucl. Instrum. Methods Phys. Res., Sect. B'
+  journal: 'Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms'
   volume: 204
   issue: null
   pages: '682-688'
@@ -145,7 +145,7 @@
     using a dual frequency, standing wave Ti:sapphire laser, is up to ~80 %.
     High polarization is achieved by matching the laser bandwidth to the energy
     spread in the beam. The status of the facility is reported.
-  journal: 'Nucl. Instrum. Methods Phys. Res., Sect. B'
+  journal: 'Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms'
   volume: 204
   issue: null
   pages: '689-693'
@@ -178,7 +178,7 @@
     constucted at TriUniversity Meson Facility in Vancouver, Canada. The unique
     features of this new facility are described, and some preliminary results on
     <sup>8</sup>Li<sup>+</sup> in GaAs are presented.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 340-342
   issue: null
   pages: '1151-1154'
@@ -210,7 +210,7 @@
     Range straggling measurements of <sup>8</sup>Li were conducted with thin
     films of metallic Al and Au on sapphire and SrTiO<sub>3</sub> substrates and
     the results were compared to SRIM code predictions.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 326
   issue: 1-4
   pages: '205-208'
@@ -257,7 +257,7 @@
     Ag. Since the <sup>8</sup>Li adopts a site with cubic symmetry in Ag there
     is no quadrupolar splitting of the resonance, and the <sup>8</sup>Li acts as
     a purely magnetic sensor.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 326
   issue: 1-4
   pages: '189-195'
@@ -291,7 +291,7 @@
     <i>ν<sub>Q</sub></i>(211 K) = 153.2(4) kHz. The cubic-to-tetragonal phase
     transition is reflected in the linewidths demonstrating that β-NMR is a
     sensitive probe of the structure near a surface.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 326
   issue: 1-4
   pages: '209-213'
@@ -325,7 +325,7 @@
     two lines to two distinct cubic sites with slightly different Knight shifts
     and discuss the application of this result to study fundamental phenomena
     exhibited by nano-confined metallic electrons.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 326
   issue: 1-4
   pages: '213-216'
@@ -358,7 +358,7 @@
     knowledge is indispensable for the application of the hyperfine interactions
     in the study of precision measurements such as the nuclear structure through
     nuclear moments and the fundamental symmetries.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 159
   issue: 1-4
   pages: 261-264
@@ -387,7 +387,7 @@
     the fundamental symmetry in the weak nucleon current. For artificial
     creation of the alignment, the knowledge of the hyperfine interaction of
     <sup>20</sup>Na implanted in a single-crystal ZnO was utilized.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 159
   issue: 1-4
   pages: 265-268
@@ -434,7 +434,7 @@
     the magnetic film. These results establish that low-energy β-NMR can be used
     as a probe of magnetic fluctuations in magnetic thin films over a wide range
     of temperatures.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '30-33'
@@ -468,7 +468,7 @@
     expected from the Korringa law for such a large <i>K</i>. We compare results
     from samples of very different thicknesses: 12.5 μm foil and a 100 nm thin
     film.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '419-422'
@@ -505,7 +505,7 @@
     a much broader distribution is observed when the Li stops close to the Fe.
     These results demonstrate that low energy β-NMR can act as a sensitive probe
     of the induced magnetism in the otherwise non-magnetic Ag spacer layers.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '79-82'
@@ -542,7 +542,7 @@
     for Korringa relaxation in a metal. These results suggest that Li adopts an
     interstitial position between the weakly coupled NbSe<sub>2</sub> layers and
     away from the conduction band.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '239-242'
@@ -581,7 +581,7 @@
     surprisingly large compared to the values expected from transitions between
     the |±2> ↔ |±1> spin states, indicating a significant mixing between the
     |±<i>m</i>> quadrupolar split levels.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '468-471'
@@ -620,7 +620,7 @@
     seen at low temperatures that is likely due to Li located at an interstitial
     site. Near room temperature, it appears that Li is converting to another
     site.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 374-375
   issue: null
   pages: '415-418'
@@ -651,7 +651,7 @@
     reaches a maximum at about 290 K. These results are consistent with a site
     change from an interstitial to a substitutional beginning at ~150 K. The
     field dependence of the linewidth at 100 K is also discussed.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 401-402
   issue: null
   pages: '254-257'
@@ -690,7 +690,7 @@
     Canada. We present first measurements using this method on a Cu single
     crystal and discuss future application for studies of isolated impurities in
     semiconductors.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 401-402
   issue: null
   pages: '662-665'
@@ -732,7 +732,7 @@
     laser tuned to the
     <sup>2</sup><i>S</i><sub>1/2</sub>-<sup>2</sup><i>P</i><sub>1/2</sub>
     transition of <sup>11</sup>Be<sup>+</sup> at 313 nm.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '1010-1012'
@@ -772,7 +772,7 @@
     fast relaxation is still observed at the lowest implantation energy where
     all the <sup>8</sup>Li stops in the Au capping layer. This may be due to a
     proximity effect from the EuO.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '619-621'
@@ -810,7 +810,7 @@
     <i>below</i> the superconducting transition temperature
     <i>T<sub>c</sub></i>. This is evidence of spontaneous disordered magnetism
     which could be associated with TRSB order.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '724-726'
@@ -850,7 +850,7 @@
     However, the lineshape is nearly symmetric with the absence of a
     <i>high-field</i> tail and exhibits a slight positive shift of the average
     field below <i>T<sub>c</sub></i>.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '727-729'
@@ -885,7 +885,7 @@
     much broader and more symmetric than expected for an ideal vortex lattice.
     These results indicate the observed field distribution in the Ag overlayer
     is dominated by extrinsic, long length scale disorder.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '730'
@@ -925,7 +925,7 @@
     nonmagnetic GaAs is observed down to the lowest implantation energy, for
     which none of the Li should reach the substrate. This unexpected depth
     dependence is discussed.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '892'
@@ -963,7 +963,7 @@
     shift was found to be negative and strongly temperature dependent. The
     implications are discussed and compared to other transition metals that have
     been studied via β-NMR previously.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '906-909'
@@ -1006,7 +1006,7 @@
     and the surrounding nuclei is evident as a resonant enhancement of the
     relaxation rate at the level crossing field. We discuss inferences about the
     site and structure of <sup>8</sup>Li<sup>+</sup> in Cu from this data.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '910-913'
@@ -1038,7 +1038,7 @@
     silver, as it makes a thermally activated site change. We develop a simple
     model of this phenomenon, which is found in a number of metals including Au
     and Nb.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '914-916'
@@ -1078,7 +1078,7 @@
     thicker samples. The corresponding spin-lattice relaxation rates are found
     to be linear with temperature <i>T</i>, but are roughly 50 % slower than the
     rates measured in a Pd foil. Potential explanations are discussed.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '917-919'
@@ -1115,7 +1115,7 @@
     averaged and Knight shift show evidence for a transition between the
     octahedral <i>O</i> and substitutional <i>S</i> sites at about 150 K, as
     observed in other fcc metals.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '920-923'
@@ -1158,7 +1158,7 @@
     is unaffected by the range of implantation depths available (10-150 nm);
     however, the temperature dependence of the polarization depends on the
     surface preparation of the SrTiO<sub>3</sub> sample.
-  journal: Physica B
+  journal: 'Physica B: Condensed Matter'
   volume: 404
   issue: 5-7
   pages: '924-926'
@@ -1191,7 +1191,7 @@
     polarized <sup>20</sup>F and <sup>11</sup>Be beams is described, the latter
     in some detail. Laser fluorescence spectroscopy at high sensitivity using
     unpolarized bunched beams is briefly mentioned.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 196
   issue: null
   pages: '287-294'
@@ -1231,7 +1231,7 @@
     <i>Q</i><sub>9</sub>/<i>Q</i><sub>8</sub> and
     <i>Q</i><sub>11</sub>/<i>Q</i><sub>9</sub> show agreement with present
     literature values with improved precision.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 312
   issue: null
   pages: '092063'
@@ -1267,7 +1267,7 @@
     cross-relaxation phenomena in copper. The clearest observation of these
     phenomena is via the appearance of peaks in the field dependence of the
     relaxation rates of the <sup>8</sup>Li<sup>+</sup> polarization.
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '16-19'
@@ -1289,7 +1289,7 @@
     and implantation depth dependencies. This method is highly suitable for
     measuring the magnetic properties of monolayers of single molecule magnets,
     but can also be extended to ultra-thin magnetic films.
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '168-173'
@@ -1332,7 +1332,7 @@
     lack of evidence for phase separation is, however, consistent with the full
     volume fraction magnetism found by a second low energy μSR measurement on a
     different sample using weak transverse field [2].
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '174-177'
@@ -1369,7 +1369,7 @@
     negative shift deeper into the sample. This shift saturates below 10 K, i.e.
     it does not follow a Curie's law that might be expected for dilute magnetic
     impurities. Possible origins are discussed.
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '227-230'
@@ -1405,7 +1405,7 @@
     Knight shift for this resonance is monitored at temperatures ranging from 4
     to 300 K. Over this range the Knight shift is found to be linearily
     dependent on the temperature.
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '156-159'
@@ -1435,7 +1435,7 @@
     relaxation rate equal to a sum of Lorentzians - one for each frequency
     component in the static polarization function
     <i>p<sub>s</sub></i>(<i>t</i>).
-  journal: Phys. Proc.
+  journal: Physics Procedia
   volume: 30
   issue: null
   pages: '38-41'
@@ -1475,7 +1475,7 @@
     because the surface of the film is decomposed due to chemical instability of
     the Li<sub>0.7</sub>CoO<sub>2</sub> phase in air. Such diffusive behavior
     was not observed for the LiCoO<sub>2</sub> film up to 310 K.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: 012009
@@ -1512,7 +1512,7 @@
     for a diluted magnetic alloy. The overall magnitude of the resonance shift
     at both temperatures is small suggesting a weak interaction between the
     <sup>8</sup>Li<sup>+</sup> and the magnetic Mn environment.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012023'
@@ -1550,7 +1550,7 @@
     band gap insulators. The origin of this fast relaxation is also likely
     quadrupolar and may be due to anisotropic <sup>8</sup>Li<sup>+</sup>
     diffusion.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012032'
@@ -1585,7 +1585,7 @@
     is evidence of slow spin dynamics in hole-burning measurements. The spin
     lattice relaxation is slow. The temperature dependence reveals interesting
     changes at low temperature whose origin remains uncertain.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012033'
@@ -1618,7 +1618,7 @@
     temperature and field dependence of the spin lattice relaxation of
     <sup>8</sup>Li in α-Al<sub>2</sub>O<sub>3</sub>, indicate that the
     <sup>8</sup>Li diffusion is negligible on the scale of its lifetime, 1.21 s.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012034'
@@ -1664,7 +1664,7 @@
     sample above its glass transition, motivating the construction of a high
     temperature spectrometer to enable further exploration at elevated
     temperature.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012039'
@@ -1698,7 +1698,7 @@
     high purity single crystal of bismuth to extract the sublevel populations
     under typical polarizer operating conditions, accounting for the spin
     relaxation in this semimetal.
-  journal: 'J. Phys.: Conf. Ser.'
+  journal: 'Journal of Physics: Conference Series'
   volume: 551
   issue: null
   pages: '012059'
@@ -1740,7 +1740,7 @@
     was used previously to optically pump the full Doppler-broadened absorption
     profile of a beam of <sup>11</sup>Be<sup>+</sup> with a single-frequency
     light source.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 237
   issue: null
   pages: '162'
@@ -1782,7 +1782,7 @@
     at 2.5 T and 3.5 T show strong linewidth dependency on the applied RF power,
     ranging from ~419 ppm for the highest RF power down to ~48 ppm for the
     lowest one.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 238
   issue: null
   pages: '32'
@@ -1807,7 +1807,7 @@
     identical to μSR in principle, but the longer lifetime of <sup>8</sup>Li
     allows one to probe the system on a very different time scale. In this sense
     β-NMR can be viewed as a complement or extension of μSR.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011001'
@@ -1840,7 +1840,7 @@
     site change, which we attribute to quadrupolar relaxation of the adjacent Au
     spins. We discuss the ingredients required for a quantitative theory of the
     low field relaxation.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011020'
@@ -1877,7 +1877,7 @@
     Li<sub>3</sub>PO<sub>4</sub> layer is found to become broad towards the
     boundary with the LiCoO<sub>2</sub> layer. This is consistent with the
     presence of an SCL.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011021'
@@ -1908,7 +1908,7 @@
     above 250 K, the relaxation in the denser ultrastable form is faster. In
     addition, in this temperature range, the data shows a significant thermal
     hysteresis.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011022'
@@ -1939,7 +1939,7 @@
     dependence, indicating that the relaxation mechanism could be due to a
     coupling between the quadrupole moment of <sup>8</sup>Li and the soft-mode,
     low energy phonons in LAO.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011023'
@@ -1973,7 +1973,7 @@
     nuclear moments similar to Al<sub>2</sub>O<sub>3</sub>. For YSZ the low
     field relaxation rate is also relatively fast possibly due to mobile
     O<sup>2-</sup> anions.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011024'
@@ -2020,7 +2020,7 @@
     spin-lattice relaxation rates due to a time-dependent background signal
     introduced by its progeny. The prospect of further use of 31Mg as a β-NMR
     probe for the study of condensed matter is good.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011047'
@@ -2062,7 +2062,7 @@
     place in two of the three primary decay channels of <sup>9</sup>Li as a way
     of increasing the effective asymmetry and enhance the signal of
     <sup>9</sup>Li β-NMR.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011048'
@@ -2085,7 +2085,7 @@
     using single or global fitting routines with pre-defined or new models.
     Currently, BnmrOffice reads TRIUMF’s MUD data and ASCII files, and can be
     extended to other formats.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011049'
@@ -2101,7 +2101,7 @@
     The TRIUMF Centre for Molecular and Materials Sciences (MMS) supports a MuSR
     user facility and a βNMR research program. An overview of this
     infrastructure, and its future prospects, are presented.
-  journal: JPS Conf. Proc.
+  journal: JPC Conference Proceedings
   volume: 21
   issue: null
   pages: '011056'
@@ -2140,7 +2140,7 @@
     different SRF materials at high-parallel field (up to 200 mT). Design and
     current development of this facility will be presented here, as well as
     commissioning and future measurements strategies for new SRF materials.
-  journal: Proc. Int. Part. Accel. Conf.
+  journal: Proceeding of the International Particle Accelerator Conference
   volume: 9
   issue: null
   pages: '4961-4963'
@@ -2186,7 +2186,7 @@
     energy muon beam in PSI. These will clarify whether the space charge layer
     of Li<sup>+</sup> exists at the interface between electrode and electrolyte
     material.
-  journal: Hyperfine Interact.
+  journal: Hyperfine Interactions
   volume: 240
   issue: null
   pages: '17'
@@ -2223,7 +2223,7 @@
     beamline. Finally, the detail layout of the completed beamline and sample
     requirements will be included in this paper which might be of interest of
     future users.
-  journal: Proc. Int. Conf. RF Supercond.
+  journal: Proceedings of the International Conference on RF Superconductivity
   volume: 19
   issue: null
   pages: '964-967'
