@@ -7,6 +7,8 @@ from iminuit import Minuit
 from iminuit.cost import LeastSquares
 from bdata import bdata, life
 from bfit import pulsed_strexp
+import json
+import os
 
 
 # year/run numbers for a subset of the 8Li SLR data in a LaNiO3 single crystal
@@ -18,6 +20,7 @@ runs = np.concatenate(
         range(40789, 40802 + 1),
     ]
 )
+runs = np.arange(40774, 40780)
 
 # empty dictionary for holding fit parameter initial guess
 # (to be passed to the minimizer later)
@@ -73,6 +76,20 @@ for run in runs:
 # calculate the "global" chi2 automagically
 global_chi2 = sum(chi2_list)
 
+# get the previous fit result (if it exists!)
+OLD_FIT_RESULTS_EXIST = os.path.isfile("fit_results.json")
+OLD_FIT_RESULTS_EXIST = False
+if OLD_FIT_RESULTS_EXIST:
+	# open them
+	with open("fit_results.json", "r") as fh:
+		# and put them in a dictionary!
+		old_fit_results = json.load(fh)
+		# overwrite the inital_params dictionary w/ the old fit results!
+		# initial_params = old_fit_results["values"]
+		for key, value in old_fit_results["values"].items():
+			initial_params[key] = value
+
+
 # set up the MINUIT2 minimizer
 m = Minuit(
     global_chi2,
@@ -85,6 +102,11 @@ for run in runs:
     m.limits["lambda_s%d" % run] = (0, None)
 
 
+# give better error estimate using previous fit results
+if OLD_FIT_RESULTS_EXIST:
+	for key, value in old_fit_results["errors"].items():
+		m.errors[key] = value
+
 # do the fitting!
 m.migrad()
 m.hesse()
@@ -92,6 +114,18 @@ m.hesse()
 
 # print the fit results to the terminal
 print(m)
+# print(m.covariance.to_table())
+
+# save the fit results to a json file to be read from later
+results_dict = {
+	"values": m.values.to_dict(),
+	"errors": m.errors.to_dict(),
+	"covariance": m.covariance.to_table(),
+}
+
+with open("fit_results.json", "w") as fh:
+	json.dump(results_dict, fh, indent="\t")
+	# json.dump(results_dict, fh)
 
 
 # plot the results
