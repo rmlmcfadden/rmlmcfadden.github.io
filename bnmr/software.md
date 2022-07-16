@@ -29,7 +29,7 @@ Software considered outdated or defunct are marked as *OBSOLETE*.
 Perhaps the most versatile set of tools for "wrangling" with any β-NMR data
 collected at [TRIUMF] are the [Python] packages [mudpy], [bdata], and [bfit].
 They are quite user-friendly, with [bfit] providing a feature-rich [GUI]
-convenient "beginngers" or "exploratory" analyses. Alternatively, the packages'
+convenient "beginners" or "exploratory" analyses. Alternatively, the packages'
 [API] can be used directly in [Python] scripts, providing an even finer level
 of control.
 
