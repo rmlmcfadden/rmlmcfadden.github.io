@@ -1807,7 +1807,7 @@
     identical to μSR in principle, but the longer lifetime of <sup>8</sup>Li
     allows one to probe the system on a very different time scale. In this sense
     β-NMR can be viewed as a complement or extension of μSR.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011001'
@@ -1840,7 +1840,7 @@
     site change, which we attribute to quadrupolar relaxation of the adjacent Au
     spins. We discuss the ingredients required for a quantitative theory of the
     low field relaxation.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011020'
@@ -1877,7 +1877,7 @@
     Li<sub>3</sub>PO<sub>4</sub> layer is found to become broad towards the
     boundary with the LiCoO<sub>2</sub> layer. This is consistent with the
     presence of an SCL.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011021'
@@ -1908,7 +1908,7 @@
     above 250 K, the relaxation in the denser ultrastable form is faster. In
     addition, in this temperature range, the data shows a significant thermal
     hysteresis.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011022'
@@ -1939,7 +1939,7 @@
     dependence, indicating that the relaxation mechanism could be due to a
     coupling between the quadrupole moment of <sup>8</sup>Li and the soft-mode,
     low energy phonons in LAO.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011023'
@@ -1973,7 +1973,7 @@
     nuclear moments similar to Al<sub>2</sub>O<sub>3</sub>. For YSZ the low
     field relaxation rate is also relatively fast possibly due to mobile
     O<sup>2-</sup> anions.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011024'
@@ -2020,7 +2020,7 @@
     spin-lattice relaxation rates due to a time-dependent background signal
     introduced by its progeny. The prospect of further use of 31Mg as a β-NMR
     probe for the study of condensed matter is good.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011047'
@@ -2062,7 +2062,7 @@
     place in two of the three primary decay channels of <sup>9</sup>Li as a way
     of increasing the effective asymmetry and enhance the signal of
     <sup>9</sup>Li β-NMR.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011048'
@@ -2085,7 +2085,7 @@
     using single or global fitting routines with pre-defined or new models.
     Currently, BnmrOffice reads TRIUMF’s MUD data and ASCII files, and can be
     extended to other formats.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011049'
@@ -2101,7 +2101,7 @@
     The TRIUMF Centre for Molecular and Materials Sciences (MMS) supports a MuSR
     user facility and a βNMR research program. An overview of this
     infrastructure, and its future prospects, are presented.
-  journal: JPC Conference Proceedings
+  journal: JPS Conference Proceedings
   volume: 21
   issue: null
   pages: '011056'
@@ -2231,4 +2231,48 @@
   doi: 10.18429/JACoW-SRF2019-THP047
   submitted: 2019-06-23
   published: 2019-06-30
+- title: First βNMR results on SRF samples at TRIUMF
+  author:
+    - E. Thoeng
+    - R. M. L. McFadden
+    - P. Kolb
+    - T. Junginger
+    - M. Asaduzzaman
+    - R. E. Laxdal
+    - V. L. Karner
+    - D. Fujimoto
+    - A. Chatzichristos
+    - J. O. Ticknor
+    - J. R. Adelman
+    - M. H. Dehn
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - M. Stachura
+    - S. R. Dunsiger
+    - G. D. Morris
+    - W. A. MacFarlane
+    - R. F. Kiefl
+    - D. L. Cortie
+  abstract: >-
+    The βNMR (β-detected nuclear magnetic resonance) facility at TRIUMF offers
+    the possibility of depth-resolved probing of the Meissner state over the
+    first 100 nm below a sample surface. The measurement can give the
+    attenuation of the applied magnetic field, as a function of depth. The
+    technique can be especially important when probing layered systems like the
+    dirty/clean S-S (superconductor-superconductor) bi-layer and S-I-S
+    (Superconductor-Insulator-Superconductor) structures. The TRIUMF SRF
+    (Superconducting RF) group has recently completed first measurements at
+    beta-NMR on Nb samples with various treatments. The results and method will
+    be reported.
+  journal: Proceedings of the International Conference on RF Superconductivity
+  volume: 20
+  issue: null
+  pages: '365-371'
+  year: 2022
+  doi: 10.18429/JACoW-SRF2021-TUOFDV08
+  submitted: 2021-07-09
+  revised: 2021-09-29
+  accepted: 2022-05-07
+  published: 2022-05-08
 
