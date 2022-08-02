@@ -2104,7 +2104,7 @@
   revised: 2022-06-16
   accepted: 2022-06-17
   published: 2022-06-19
-- title: Nuclear magnetic resonance of ion implanted <sup>8</sup>Li in ZnO
+- title: Nuclear magnetic resonance of <sup>8</sup>Li ions implanted in ZnO
   author:
     - J. R. Adelman
     - D. Fujimoto
@@ -2139,11 +2139,15 @@
     substantial temperature dependence with a power law typical of non-cubic
     metals.
   journal: Physical Review B
+  volume: 106
+  issue: 3
+  pages: '035205'
+  year: 2022
+  doi: 10.1103/PhysRevB.106.035205
   arxiv:
     id: 2109.08637
     cat: cond-mat.mtrl-sci
   submitted: 2021-09-17
   accepted: 2022-07-13
-  published: 2022-07-13
-  year: 2022
+  published: 2022-07-25
 
