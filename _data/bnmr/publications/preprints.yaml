@@ -18,4 +18,45 @@
     cat: physics.data-an
   published: 2020-04-22
   year: 2020
+- title: A new high parallel-field spectrometer at TRIUMF's β-NMR facility
+  author:
+    - E. Thoeng
+    - R. M. L. McFadden
+    - S. Saminathan
+    - G. D. Morris
+    - P. Kolb
+    - B. Matheson
+    - M. Asaduzzaman
+    - R. Baartman
+    - S. R. Dunsiger
+    - D. Fujimoto
+    - T. Junginger
+    - V. L. Karner
+    - S. Kiy
+    - R. Li
+    - M. Stachura
+    - J. O. Ticknor
+    - R. F. Kiefl
+    - W. A. MacFarlane
+    - R. E. Laxdal
+  abstract: >-
+    A new high field spectrometer has been built to extend the capabilities of
+    the β-detected nuclear magnetic resonance (β-NMR) facility at TRIUMF. This
+    new beamline extension allows β-NMR spectroscopy to be performed with fields
+    up to 200 mT parallel to a sample's surface (perpendicular to the ion beam),
+    allowing depth-resolved studies of local electromagnetic fields with spin
+    polarized probes at a much higher applied magnetic field than previously
+    available in this configuration. The primary motivation and application is
+    to allow studies of superconducting radio frequency (SRF) materials, close
+    to the critical fields of Nb metal, which is extensively used to fabricate
+    SRF cavities. The details of the design considerations and implementation of
+    the ultra-high vacuum (UHV) system, ion optics, beam diagnostics are
+    presented here. Commissioning of the beamline and spectrometer with
+    radioactive ions are also reported here. Future capabilities and
+    applications in other areas are also described.
+  arxiv:
+    id: 2211.15619
+    cat: cond-mat.mtrl-sci
+  published: 2022-11-28
+  year: 2022
 
