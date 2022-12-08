@@ -82,8 +82,8 @@ Download [`heterostructure.py`]({% link ion-implantation/heterostructure.py %}).
 `pysrim`, unfortunately, isn't perfect and I ran into the following issues while
 using it:
 
-- Everytime it runs, it complains that the `.yaml` file its reading isn't done
-  safely. This is due to a recent change in `pyYAML` requiring a `Loader` to be
+- Everytime it runs, it complains that the `.yaml` file it's reading isn't done
+  safely. This is due to a recent change in `pyYAML`, requiring a `Loader` to be
   specified as a `kwarg`. There is currently a
   [merge request](https://gitlab.com/costrouc/pysrim/-/merge_requests/4) on the
   project's [GitLab] page (<https://gitlab.com/costrouc/pysrim>) to fix this,
