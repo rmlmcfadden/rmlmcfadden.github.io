@@ -133,8 +133,8 @@ name"""
         ) + self.newline + ' ' + ' '.join([str(layer.bragg_correction) for layer in self._trim.target.layers]) + self.newline
 {% endhighlight %}
 
-- `pysrim` fails to parse simulation results where no ions stop in the target.
-  At least the fix is easy - simply comment out the exception raised on line 72
+- `pysrim` fails to parse results where no ions were stopped in the target. At
+  least the fix is easy - simply comment out the exception raised on line 72
   in `srim.py`.
 
 [Python]: https://www.python.org/
