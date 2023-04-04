@@ -160,7 +160,7 @@
   status: 'Approved'
 - experiment: 'M1426'
   title: '<sup>8</sup>Li βNMR studies of the metallic state of strongly correlated transition metal oxides'
-  spokespersons: [V. L. Karner, W.A. MacFarlane]
+  spokespersons: [V.L. Karner, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1426'
   status: 'Approved'
 - experiment: 'M1436'
@@ -210,17 +210,17 @@
   status: 'Closed'
 - experiment: 'M1563'
   title: 'βNMR study of finite size effects in ligand-capped metal nanoparticles'
-  spokespersons: [Z. Jang, V. L. Karner, W.A. MacFarlane]
+  spokespersons: [Z. Jang, V.L. Karner, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1563'
   status: 'Closed'
 - experiment: 'M1571'
   title: 'Comparison of <sup>8</sup>Li and <sup>9</sup>Li spin relaxation rates'
-  spokespersons: [V. L. Karner, R.F. Kiefl, R. M. L. McFadden]
+  spokespersons: [V.L. Karner, R.F. Kiefl, R. M. L. McFadden]
   url: 'https://mis.triumf.ca/science/experiment/view/M1571'
   status: 'Closed'
 - experiment: 'M1587'
   title: 'betaNMR studies of ultrastable molecular glasses'
-  spokespersons: [V. L. Karner, W.A. MacFarlane, I. McKenzie]
+  spokespersons: [V.L. Karner, W.A. MacFarlane, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M1587'
   status: 'Closed'
 - experiment: 'M1604'
@@ -252,7 +252,7 @@
   title: 'The modification of polymer dynamics by plastic deformation studied by <sup>8</sup>Li βNMR'
   spokespersons: [G.L.W. Cross, D. Fujimoto, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M1760'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1770'
   title: 'Polaronic effects in titanates studied with β-NMR'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden]
@@ -270,7 +270,7 @@
   status: 'Closed'
 - experiment: 'M1821'
   title: '<sup>8</sup>Li βNMR study of the origin of the heavy fermions in epitaxial films of LiV<sub>2</sub>O<sub>4</sub>'
-  spokespersons: [V. L. Karner, W.A. MacFarlane, U. Niemann]
+  spokespersons: [V.L. Karner, W.A. MacFarlane, U. Niemann]
   url: 'https://mis.triumf.ca/science/experiment/view/M1821'
   status: 'Closed'
 - experiment: 'M1822'
@@ -282,7 +282,7 @@
   title: 'β-NMR study of wide gap semiconductor ZnO and In-Ga-Zn-O'
   spokespersons: [K.M. Kojima]
   url: 'https://mis.triumf.ca/science/experiment/view/M1828'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1871'
   title: 'Strain-induced ferroelectricity in SrTiO<sub>3</sub> thin films'
   spokespersons: [M.H. Dehn, R.F. Kiefl]
@@ -307,20 +307,20 @@
   title: 'In-situ ferromagnetic resonance for spin transport applications'
   spokespersons: [S.R. Dunsiger, G.D. Morris]
   url: 'https://mis.triumf.ca/science/experiment/view/M1921'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1929'
   title: 'βNMR study on photo induced hydrogen diffusion in YO<sub>x</sub>H<sub>y</sub> film'
   spokespersons: [R. Shimizu, J. Sugiyama]
   url: 'https://mis.triumf.ca/science/experiment/view/M1929'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1939'
   title: 'Depth, temperature and molecular weight dependence of dynamics in polystyrene thin films'
-  spokespersons: [J. A. Forrest, I. McKenzie]
+  spokespersons: [J.A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M1939'
   status: 'Closed'
 - experiment: 'M1945'
   title: 'Transformation of ultrastable polymer glasses'
-  spokespersons: [J. A. Forrest, I. McKenzie]
+  spokespersons: [J.A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M1945'
   status: 'Approved'
 - experiment: 'M1960'
@@ -334,10 +334,10 @@
   url: 'https://mis.triumf.ca/science/experiment/view/M1963'
   status: 'Approved'
 - experiment: 'M2038'
-  title: 'Calibrating <sup>8</sup>Li<sup>+</sup> implantation profiles in polystyrene and studying secondary dynamics in ultra-thin polystyrene films'
-  spokespersons: [J. A. Forrest, I. McKenzie]
+  title: 'Calibrating <sup>8</sup>Li<sup>+</sup> implantation profiles and studying secondary dynamics in polymer films'
+  spokespersons: [J.A. Forrest, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M2038'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M2045'
   title: 'Dilute-limit lithium diffusion in an inorganic solid state electrolyte thin film: Lithium lanthanum titanate'
   spokespersons: [W.A. MacFarlane, J.O. Ticknor]
@@ -345,7 +345,7 @@
   status: 'Approved'
 - experiment: 'M2061'
   title: 'β-NMR study of topological surface states in superconducting Fe<sub>1+y</sub>(Te<sub>1-x</sub>Se<sub>x</sub>)'
-  spokespersons: [O.O. Bernal, S.R. Dunsiger]
+  spokespersons: [O.O. Bernal, S.R. Dunsiger, G.D. Morris]
   url: 'https://mis.triumf.ca/science/experiment/view/M2061'
   status: 'Approved'
 - experiment: 'M2072'
@@ -355,7 +355,7 @@
   status: 'Approved'
 - experiment: 'M2078'
   title: 'β-NMR investigation of the magnetism in La<sub>2</sub>CuO<sub>4</sub>/LaNiO<sub>3</sub> superlattices'
-  spokespersons: [V. L. Karner, W.A. MacFarlane]
+  spokespersons: [V.L. Karner, W.A. MacFarlane]
   url: 'https://mis.triumf.ca/science/experiment/view/M2078'
   status: 'Approved'
 - experiment: 'M2100'
@@ -370,11 +370,16 @@
   status: 'Approved'
 - experiment: 'M2167'
   title: 'Characterization of titanium hydride thin films for betavoltaic applications'
-  spokespersons: [B. Ellis]
+  spokespersons: [B. Ellis, I. McKenzie]
   url: 'https://mis.triumf.ca/science/experiment/view/M2167'
   status: 'Approved'
 - experiment: 'M2220'
   title: 'Weak magnetism in Nb oxides as a source of losses in quantum materials'
   spokespersons: [S.R. Dunsiger, Y. Krasnikova]
   url: 'https://mis.triumf.ca/science/experiment/view/M2220'
+  status: 'Approved'
+- experiment: 'M2265'
+  title: 'Measurement of the maximum field in the Meissner state of multilayer superconductor for SRF application'
+  spokespersons: [A. Asaduzzaman, T. Junginger]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2265'
   status: 'Approved'
