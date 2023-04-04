@@ -178,4 +178,9 @@
   number: 15
   location: Parma, Italy
   date: 29 August - 2 September 2022
-  website: https://indico.stfc.ac.uk/event/53/
+  website: 'https://indico.stfc.ac.uk/event/53/'
+  proceedings:
+  - journal: "J. Phys.: Conf. Ser."
+    volume: 2462
+    issue: null
+    url: 'https://iopscience.iop.org/issue/1742-6596/2462/1'
