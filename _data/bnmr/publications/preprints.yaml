@@ -18,47 +18,6 @@
     cat: physics.data-an
   published: 2020-04-22
   year: 2020
-- title: A new high parallel-field spectrometer at TRIUMF's β-NMR facility
-  author:
-    - E. Thoeng
-    - R. M. L. McFadden
-    - S. Saminathan
-    - G. D. Morris
-    - P. Kolb
-    - B. Matheson
-    - M. Asaduzzaman
-    - R. Baartman
-    - S. R. Dunsiger
-    - D. Fujimoto
-    - T. Junginger
-    - V. L. Karner
-    - S. Kiy
-    - R. Li
-    - M. Stachura
-    - J. O. Ticknor
-    - R. F. Kiefl
-    - W. A. MacFarlane
-    - R. E. Laxdal
-  abstract: >-
-    A new high field spectrometer has been built to extend the capabilities of
-    the β-detected nuclear magnetic resonance (β-NMR) facility at TRIUMF. This
-    new beamline extension allows β-NMR spectroscopy to be performed with fields
-    up to 200 mT parallel to a sample's surface (perpendicular to the ion beam),
-    allowing depth-resolved studies of local electromagnetic fields with spin
-    polarized probes at a much higher applied magnetic field than previously
-    available in this configuration. The primary motivation and application is
-    to allow studies of superconducting radio frequency (SRF) materials, close
-    to the critical fields of Nb metal, which is extensively used to fabricate
-    SRF cavities. The details of the design considerations and implementation of
-    the ultra-high vacuum (UHV) system, ion optics, beam diagnostics are
-    presented here. Commissioning of the beamline and spectrometer with
-    radioactive ions are also reported here. Future capabilities and
-    applications in other areas are also described.
-  arxiv:
-    id: 2211.15619
-    cat: cond-mat.mtrl-sci
-  published: 2022-11-28
-  year: 2022
 - title: >-
     Depth-resolved Meissner screening in a niobium thin film from spin-lattice
     relaxation of the implanted β-emitter <sup>8</sup>Li
@@ -100,4 +59,42 @@
     cat: cond-mat.mtrl-sci
   published: 2022-12-02
   year: 2022
+- title: >-
+    Ion-implanted <sup>8</sup>Li nuclear magnetic resonance in highly oriented
+    pyrolytic graphite
+  author:
+    - J. O. Ticknor
+    - J. Adelman
+    - A. Chatzichristos
+    - M. H. Dehn
+    - L. Egoriti
+    - D. Fujimoto
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - E. Thoeng
+    - W. A. MacFarlane
+  abstract: >-
+    We report β-detected nuclear magnetic resonance of ultra-dilute
+    <sup>8</sup>Li<sup>+</sup> implanted in highly oriented pyrolytic graphite
+    (HOPG). The absence of motional narrowing and diffusional spin-lattice
+    relaxation implies Li<sup>+</sup> is not appreciably mobile up to 400 K, in
+    sharp contrast to the highly lithiated stage compounds. However, the
+    relaxation is remarkably fast and persists down to cryogenic temperatures.
+    Ruling out extrinsic paramagnetic impurities and intrinsic ferromagnetism,
+    we conclude the relaxation is due to paramagnetic centers correlated with
+    implantation. While the resulting effects are not consistent with a Kondo
+    impurity, they also differ from free paramagnetic centers, and we suggest
+    that a resonant scattering approach may account for much of the observed
+    phenomenology.
+  arxiv:
+    id: 2301.07821
+    cat: cond-mat.mtrl-sci
+  published: 2023-01-18
+  year: 2023
 

@@ -2275,4 +2275,249 @@
   revised: 2021-09-29
   accepted: 2022-05-07
   published: 2022-05-08
-
+- title: >-
+    The site and high field βNMR properties of <sup>8</sup>Li<sup>+</sup>
+    implanted in α-Al<sub>2</sub>O<sub>3</sub>
+  author:
+    - W. A. MacFarlane
+    - J. K. Shenton
+    - Z. Salman
+    - A. Chatzichristos
+    - D. L. Cortie
+    - M. Dehn
+    - D. Fujimoto
+    - V. L. Karner
+    - R. F. Kiefl
+    - D. Koumoulis
+    - C. D. P. Levy
+    - R. M. L. McFadden
+    - I. McKenzie
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - J. O. Ticknor
+  abstract: >-
+    We present high (> 2 T) magnetic field βNMR measurements of
+    <sup>8</sup>Li<sup>+</sup> implanted in single crystals of sapphire, a
+    commonly used backing material for other samples. From the well-resolved
+    quadrupolar splitting, we extract the electric field gradient (EFG) at the
+    implanted <sup>8</sup>Li<sup>+</sup> site. Comparison with supercell density
+    functional theory calculations of the EFG allows us to identify the
+    octahedral interstitial site as the most likely candidate. In contrast to
+    the zero field βNQR spectra, where multiple singals are detected, only a
+    single site is evident at high field. We discuss possible explanations for
+    this discrepancy. The spin lattice relaxation is extremely slow
+    (1/<i>T</i><sub>1</sub> < 0.02 s<sup>−1</sup>) over a broad temperature
+    range from 4 to 300 K, demonstrating that cross relaxation with the
+    <sup>27</sup>Al nuclear spins is quenched in such high magnetic fields.
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012009'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012009
+  submitted: 2023-03-03
+  published: 2023-03-31
+- title: Inverse Laplace transform approaches to βNMR relaxation
+  author:
+    - W. A. MacFarlane
+    - D. Fujimoto
+    - R. M. L. McFadden
+  abstract: >-
+    Spin lattice relaxation is the simplest type of βNMR measurement. The usual
+    approach is to implant a pulse of hyperpolarized nuclei and monitor the
+    time-resolved β-decay asymmetry, yielding the ensemble average spin-lattice
+    relaxation. In the simplest case, the asymmetry decays exponentially with a
+    characteristic time constant <i>T</i><sub>1</sub>, but this ideal is rarely
+    obtained in practice. In most data, the relaxation is more complicated. This
+    can be the result of multiple crystallographic sites for the implanted probe
+    each having a distinct <i>T</i><sub>1</sub>. The sample may also be
+    inhomogeneous due to: impurities or defects (including interfaces that are
+    particularly important for thin films), intrinsic phase separation, or, if
+    it is a glass. There may also be a background signal from probe ions that
+    stop outside the sample. The general approach to this problem has been the
+    <i>ad hoc</i> development of an appropriate relaxation model that avoids
+    overparametrization.
+    Given the prevalence of more complicated relaxation, it is crucial to
+    develop a systematic approach to relaxation modelling. The decomposition of
+    a relaxing signal into exponentials is, however, a mathematically ill-posed
+    problem. This feature is intrinsic and unavoidable, but there are a number
+    of methods to accommodate it for noisy real-world data, including nuclear
+    spin relaxation.
+    Here we demonstrate one of the best and most commonly used methods, Tikhonov
+    regularization for the inverse Laplace transform, implemented for the
+    particular features of βNMR relaxation data, most importantly the strong
+    time dependence of the statistical uncertainty stemming from the radioactive
+    lifetime of the probe.
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012015'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012015
+  submitted: 2023-03-03
+  published: 2023-03-31
+- title: >-
+    Near-surface dynamics of the ionic liquid EMIM-Ac above and below the glass
+    transition
+  author:
+    - D. Fujimoto
+    - V. L. Karner
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - L. Hemmingsen
+    - R. F. Kiefl
+    - R. M. L. McFadden
+    - C. A. Michal
+    - G. D. Morris
+    - R. Li
+    - M. Pearson
+    - D. Szunyogh
+    - E. Thoeng
+    - J. O. Ticknor
+    - W. A. MacFarlane
+    - M. Stachura
+  abstract: >-
+    In our prior work, we showed that β-detected nuclear magnetic resonance
+    (β-NMR) was a good probe of bulk room temperature ionic liquid (RTIL)
+    dynamics and dynamic heterogeneity. We now investigate how the surface
+    modifies these properties, presenting the first depth-resolved β-NMR
+    measurements in 1-ethyl-3-methylimidazolium acetate as a liquid, supercooled
+    liquid, and glass. This interfacial region is important for understanding
+    how constrained dimensionality affects dynamics. We show that both the
+    surface and the glass transition have a large impact on molecular dynamics,
+    which in many aspects differs greatly from our expectations based on polymer
+    glasses. For example, in the glassy phase the surface dynamics appear to be
+    faster than in the bulk (i.e., liquid-like), yet just as heterogeneous
+    (i.e., glass-like).
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012051'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012051
+  submitted: 2023-03-03
+  published: 2023-03-31
+- title: >-
+    <sup>8</sup>Li spin relaxation as a probe of the modification of molecular
+    dynamics by inelastic deformation of glassy polystyrene
+  author:
+    - D. Fujimoto
+    - O. Brazil
+    - W. C. Oliver
+    - M. F. Jadidi
+    - A. Sinnott
+    - I. McKenzie
+    - A. Chatzichristos
+    - M. H. Dehn
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - J. O. Ticknor
+    - W. A. MacFarlane
+  abstract: >-
+    In our prior work, we showed that β-detected nuclear magnetic resonance
+    (β-NMR) was a good probe of bulk room temperature ionic liquid (RTIL)
+    dynamics and dynamic heterogeneity. We now investigate how the surface
+    modifies these properties, presenting the first depth-resolved β-NMR
+    measurements in 1-ethyl-3-methylimidazolium acetate as a liquid, supercooled
+    liquid, and glass. This interfacial region is important for understanding
+    how constrained dimensionality affects dynamics. We show that both the
+    surface and the glass transition have a large impact on molecular dynamics,
+    which in many aspects differs greatly from our expectations based on polymer
+    glasses. For example, in the glassy phase the surface dynamics appear to be
+    faster than in the bulk (i.e., liquid-like), yet just as heterogeneous
+    (i.e., glass-like).
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012053'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012053
+  submitted: 2023-03-03
+  published: 2023-03-31
+- title: >-
+    <sup>8</sup>Li βNMR studies of epitaxial thin films of the 3D topological
+    Dirac semimetal Sr<sub>3</sub>SnO
+  author:
+    - W. A. MacFarlane
+    - M. Oudah
+    - R. M. L. McFadden
+    - D. Huang
+    - A. C. Chatzichristos
+    - D. Fujimoto
+    - V. L. Karner
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - I. McKenzie
+    - G. D. Morris
+    - M. R. Pearson
+    - M. Stachura
+    - J. O. Ticknor
+    - E. Thoeng
+    - H. Nakamura
+    - H. Takagi
+  abstract: >-
+    The inverse perovskite Sr<sub>3</sub>SnO is a 3D cubic Dirac semimetal with
+    a very small energy gap. Its unusual electronic structure confers a variety
+    of novel properties, such as chiral topological surface states, and very
+    strong itinerant electron orbital magnetism. Remarkably, when doped it also
+    becomes superconducting. In the lowest carrier density samples, the Fermi
+    level lies close to the Dirac points, and orbital magnetism is maximal. Here
+    we report the results of ion-implanted <sup>8</sup>Li<sup>+</sup> βNMR in
+    Au-capped epitaxial thin films of Sr<sub>3</sub>SnO as a function of carrier
+    content. In addition, we stop the <sup>8</sup>Li in the Au overlayer to seek
+    proximal evidence of the chiral surface state.
+    In high magnetic field (6.55 T), we find remarkably little contrast in
+    spin-lattice relaxation (SLR) between low carrier density Sr<sub>3</sub>SnO
+    and the Au overlayer. In the inverse perovskite layer,
+    1/<i>T</i><sub>1</sub> ~ 0.14 s<sup>-1</sup>, slightly faster than Au at
+    300 K, while in the overlayer, there is a small but systematic enhancement
+    in 1/<i>T</i><sub>1</sub> compared to a control film of Au. The resonance in
+    the Sr<sub>3</sub>SnO layer is broad with a long tail towards negative shift
+    without resolved quadrupolar splitting.
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012057'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012057
+  submitted: 2023-03-03
+  published: 2023-03-31
+- title: >-
+    Effects of the rhombohedral distortion in LaAlO<sub>3</sub> on the
+    quadrupolar splitting of the implanted <sup>8</sup>Li<sup>+</sup> NMR
+  author:
+    - V. L. Karner
+    - A. Chatzichristos
+    - D. Fujimoto
+    - R. F. Kiefl
+    - C. D. P. Levy
+    - R. Li
+    - R. M. L. McFadden
+    - G. D. Morris
+    - M. R. Pearson
+    - J. O. Ticknor
+    - W. A. MacFarlane
+  abstract: >-
+    We report the β-detected NMR of implanted <sup>8</sup>Li<sup>+</sup> in the
+    rhombohedrally distorted perovskite LaAlO<sub>3</sub>. As observed in other
+    insulating perovskites, the resonance has large quadrupolar splitting.
+    However, it exhibits additional splitting due to the rhombohedral
+    distortion. In addition, the magnitude of the electric field gradient at the
+    <sup>8</sup>Li site is larger than in cubic perovskites, such as
+    SrTiO<sub>3</sub>, with <i>v<sub>Q</sub></i> ≈ 191.3 kHz.
+  journal: 'Journal of Physics: Conference Series'
+  volume: 2462
+  issue: null
+  pages: '012058'
+  year: 2023
+  doi: 10.1088/1742-6596/2462/1/012058
+  submitted: 2023-03-03
+  published: 2023-03-31
