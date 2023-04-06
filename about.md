@@ -31,13 +31,16 @@ nav_order: 1
 </dl>
 
 I'm a Ph.D. scientist with 10+ years of research experience and 45+
-peer-reviewed publications in journals run by reputable academic societies.
-A list of my scholarly works can be found through
-my
-<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">Open Researcher and Contributor ID (ORCID)</a>;
+peer-reviewed publications in journals run by reputable academic societies
+(see
+<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">
+    <i class="ai ai-orcid"></i>
+</a>
 or
-my
-<a href="{{ rmlm.googlescholar | prepend: "https://scholar.google.ca/citations?hl=en&user=" }}">Google Scholar profile</a>.
+<a href="{{ rmlm.googlescholar | prepend: "https://scholar.google.ca/citations?hl=en&user=" }}">
+    <i class="ai ai-google-scholar"></i>
+</a>
+).
 I have expertise in data analysis,
 including the handling of large datasets and the use of advanced analytic
 techniques
