@@ -24,28 +24,32 @@ nav_order: 1
     <dd><a href="{{ rmlm.arxiv | prepend: "https://arxiv.org/a/" }}">{{ rmlm.arxiv }}</a></dd>
     <dt>GitHub <i class="fab fa-github"></i></dt>
     <dd><a href="{{ rmlm.github_username | prepend: "https://github.com/" }}">{{ rmlm.github_username }}</a></dd>
-    <dt>GitLab <i class="fab fa-gitlab"></i></dt>
-    <dd><a href="{{ rmlm.gitlab_username | prepend: "https://gitlab.com/" }}">{{ rmlm.gitlab_username }}</a></dd>
     <dt>Bitbucket <i class="fab fa-bitbucket"></i></dt>
     <dd><a href="{{ rmlm.bitbucket_username | prepend: "https://bitbucket.org/" }}">{{ rmlm.bitbucket_username }}</a></dd>
+    <dt>GitLab <i class="fab fa-gitlab"></i></dt>
+    <dd><a href="{{ rmlm.gitlab_username | prepend: "https://gitlab.com/" }}">{{ rmlm.gitlab_username }}</a></dd>
 </dl>
 
-I'm currently a Postdoctoral Researcher at [TRIUMF] - Canada's particle
-accelerator centre - where I share affiliation with both Accelerator and Life
-Sciences Divisions though my supervisors ([T. Junginger] and [M. Stachura]).
-My research focuses on the use of radioactive beams as tools for studying the
-chemistry and physics of materials, primarily though the
-[β-NMR]({% link bnmr.md %}) and [μSR]({% link musr.md %}) techniques.
-A list of my scholarly works can be found through my Open Researcher and
-Contributor ID (ORCID):
-<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">{{ rmlm.orcid }}</a>.
-
-I'm also an avid, self-taught programmer, and have written hundreds of short
-scripts (mostly in [Python]) and larger codebases (mainly in [C++]) in my
-day-to-day work over the last decade. This has mostly been for the purpose of
-completing my own academic projects, but I do try to follow language
-developments out of personal interest. For instance, I'm (slowly) learning
-[Rust] in my spare time.
+I'm a Ph.D. scientist with 10+ years of research experience and 45+
+peer-reviewed publications in journals run by reputable academic societies.
+A list of my scholarly works can be found through
+my
+<a href="{{ rmlm.orcid | prepend: "https://orcid.org/" }}">Open Researcher and Contributor ID (ORCID)</a>;
+or
+my
+<a href="{{ rmlm.googlescholar | prepend: "https://scholar.google.ca/citations?hl=en&user=" }}">Google Scholar profile</a>.
+I have expertise in data analysis,
+including the handling of large datasets and the use of advanced analytic
+techniques
+(e.g., mathematical modelling, non-linear regression, machine learning, etc.)
+to extract quantitative insights.
+I'm an avid computer programmer,
+with over a decade of experience using, for example, [Python] and [C++]
+to solve complex analysis workflows,
+including the use software tools common to the domain of data science
+(e.g., [NumPy], [SciPy], [pandas], [matplotlib], [TensorFlow], [Git], etc.).
+I relish in the challenge of complex, interdisciplinary projects that require
+both innovation and continuous learning.
 
 Besides these "professional" interests, some of my hobbies include:
 cycling, running, skateboarding, cooking, and consuming craft beer.
@@ -56,3 +60,9 @@ cycling, running, skateboarding, cooking, and consuming craft beer.
 [C++]: https://isocpp.org/
 [Python]: https://www.python.org/
 [Rust]: https://www.rust-lang.org/
+[SciPy]: https://www.scipy.org/
+[NumPy]: http://numpy.org/
+[pandas]: http://pandas.pydata.org/
+[matplotlib]: https://matplotlib.org/
+[TensorFlow]: https://www.tensorflow.org/
+[Git]: https://git-scm.com/
