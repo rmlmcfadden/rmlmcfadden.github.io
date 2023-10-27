@@ -2199,4 +2199,52 @@
   submitted: 2022-12-02
   accepted: 2023-01-22
   published: 2023-02-10
+- title: >-
+    Depth-resolved Meissner screening in a niobium thin film from spin-lattice
+    relaxation of the implanted β-emitter <sup>8</sup>Li
+  author:
+    - R. M. L. McFadden
+    - M. Asaduzzaman
+    - T. J. Buck
+    - D. L. Cortie
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - R. F. Kiefl
+    - R. E. Laxdal
+    - C. D. Philip Levy
+    - W. A. MacFarlane
+    - G. D. Morris
+    - M. R. Pearson
+    - E. Thoeng
+    - T. Junginger
+  abstract: >-
+    We report measurements of the Meissner screening profile in a
+    Nb(300 nm)/Al<sub>2</sub>O<sub>3</sub> thin film using <sup>8</sup>Li
+    β-detected nuclear magnetic resonance (β-NMR). The NMR probe <sup>8</sup>Li
+    was ion-implanted into the Nb film at energies ≤ 20 keV, corresponding to
+    mean stopping depths comparable to Nb's magnetic penetration depth <i>λ</i>.
+    <sup>8</sup>Li's strong dipole-dipole coupling with the host <sup>93</sup>Nb
+    nuclei provided a "cross-relaxation" channel that dominated in low magnetic
+    fields, which conferred indirect sensitivity to the local magnetic field via
+    the spin-lattice relaxation (SLR) rate 1/<i>T</i><sub>1</sub>. From a fit of
+    the 1/<i>T</i><sub>1</sub> data to a model accounting for its dependence on
+    temperature, magnetic field, and <sup>8</sup>Li<sup>+</sup> implantation
+    energy, we obtained a magnetic penetration depth <i>λ</i><sub>0</sub> =
+    51.5(22) nm, consistent with a relatively short carrier mean-free-path
+    <i>ℓ</i> = 18.7(29) nm typical of similarly prepared Nb films. The results
+    presented here constitute an important step towards using <sup>8</sup>Li
+    β-NMR to characterize bulk Nb samples with engineered surfaces, which are
+    often used in the fabrication of particle accelerators.
+  journal: Journal of Applied Physics
+  volume: 134
+  issue: 16
+  pages: '163902'
+  year: 2023
+  doi: 10.1063/5.0175532
+  arxiv:
+    id: 2212.01137
+    cat: cond-mat.mtrl-sci
+  submitted: 2023-09-07
+  accepted: 2023-10-06
+  published: 2023-10-27
 
