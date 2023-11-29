@@ -18,42 +18,4 @@
     cat: physics.data-an
   published: 2020-04-22
   year: 2020
-- title: >-
-    Ion-implanted <sup>8</sup>Li nuclear magnetic resonance in highly oriented
-    pyrolytic graphite
-  author:
-    - J. O. Ticknor
-    - J. Adelman
-    - A. Chatzichristos
-    - M. H. Dehn
-    - L. Egoriti
-    - D. Fujimoto
-    - V. L. Karner
-    - R. F. Kiefl
-    - C. D. P. Levy
-    - R. Li
-    - R. M. L. McFadden
-    - G. D. Morris
-    - M. R. Pearson
-    - M. Stachura
-    - E. Thoeng
-    - W. A. MacFarlane
-  abstract: >-
-    We report β-detected nuclear magnetic resonance of ultra-dilute
-    <sup>8</sup>Li<sup>+</sup> implanted in highly oriented pyrolytic graphite
-    (HOPG). The absence of motional narrowing and diffusional spin-lattice
-    relaxation implies Li<sup>+</sup> is not appreciably mobile up to 400 K, in
-    sharp contrast to the highly lithiated stage compounds. However, the
-    relaxation is remarkably fast and persists down to cryogenic temperatures.
-    Ruling out extrinsic paramagnetic impurities and intrinsic ferromagnetism,
-    we conclude the relaxation is due to paramagnetic centers correlated with
-    implantation. While the resulting effects are not consistent with a Kondo
-    impurity, they also differ from free paramagnetic centers, and we suggest
-    that a resonant scattering approach may account for much of the observed
-    phenomenology.
-  arxiv:
-    id: 2301.07821
-    cat: cond-mat.mtrl-sci
-  published: 2023-01-18
-  year: 2023
 
