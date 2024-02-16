@@ -148,3 +148,39 @@
   submitted: 2021-10-28
   revised: 2021-11-12
   published: 2021-12-08
+- title: >-
+    SRF material research using muon spin rotation and beta-detected nuclear
+    magnetic resonance
+  author:
+    - T. Junginger
+    - R. Laxdal
+    - W. A. MacFarlane
+    - A. Suter
+  abstract: >-
+    Muon spins precess in transverse magnetic fields and emit a positron
+    preferentially in the spin direction at the instant of decay, enabling muon
+    spin rotation (μSR) as a precise probe of local magnetic fields in matter.
+    μSR has been used to characterize superconducting radio-frequency (SRF)
+    materials since 2010. At TRIUMF, a beam of 4.2 MeV μ<sup>+</sup> is
+    implanted at a material-dependent depth of approximately 150 μm. A dedicated
+    spectrometer was developed to measure the field of first vortex penetration
+    and pinning strength in SRF materials in parallel magnetic fields of up to
+    300 mT. A low-energy beam available at PSI implants μ<sup>+</sup> at
+    variable depth in the London layer allowing for direct measurements of the
+    London penetration depth from which other material parameters relevant for
+    SRF applications, such as the lower critical field and the superheating
+    field, can be calculated. Beta-detected nuclear magnetic resonance (β-NMR)
+    is a technique similar to low-energy μSR using beams of low-energy β
+    radioactive ions. With a recent upgrade, it is capable of detecting the
+    penetration of parallel magnetic vortices, depth resolved with nanometer
+    resolution at applied fields of up to 200 mT. In this paper, we review the
+    impact and capabilities of these techniques for SRF research.
+  journal: Frontiers in Electronic Materials
+  volume: 4
+  issue: null
+  pages: '1346235'
+  year: 2024
+  doi: 10.3389/femat.2024.1346235
+  submitted: 2023-11-29
+  accepted: 2024-01-25
+  published: 2024-02-15
