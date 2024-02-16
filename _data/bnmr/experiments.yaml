@@ -157,7 +157,7 @@
   title: 'Magnesium chemical shift measurements by <sup>31</sup>Mg βNMR'
   spokespersons: [L. Hemmingsen, W.A. MacFarlane, M. Stachura]
   url: 'https://mis.triumf.ca/science/experiment/view/M1424'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1426'
   title: '<sup>8</sup>Li βNMR studies of the metallic state of strongly correlated transition metal oxides'
   spokespersons: [V.L. Karner, W.A. MacFarlane]
@@ -242,7 +242,7 @@
   title: 'β-NMR studies of dilute-limit lithium diffusion in van der Waals layered solids'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden, J. Sugiyama, I. Umegaki]
   url: 'https://mis.triumf.ca/science/experiment/view/M1743'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1759'
   title: 'Novel spin textures in magnetically doped Weyl semimetals'
   spokespersons: [Z. Salman]
@@ -257,7 +257,7 @@
   title: 'Polaronic effects in titanates studied with β-NMR'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden]
   url: 'https://mis.triumf.ca/science/experiment/view/M1770'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1771'
   title: 'β-NMR studies of lithium-ion mobility in tunnel structured materials'
   spokespersons: [W.A. MacFarlane, R. M. L. McFadden]
@@ -327,7 +327,7 @@
   title: 'Using β-NMR spectroscopy to explore the coordination chemistry of different Ac-based novel chelators and radiopharmaceuticals'
   spokespersons: [C.D.P. Levy, M. Stachura]
   url: 'https://mis.triumf.ca/science/experiment/view/M1960'
-  status: 'Approved'
+  status: 'Closed'
 - experiment: 'M1963'
   title: 'Depth profile of the superconducting dirty layer in niobium'
   spokespersons: [R.E. Laxdal, R. M. L. McFadden, E. Thoeng]
@@ -382,4 +382,14 @@
   title: 'Measurement of the maximum field in the Meissner state of multilayer superconductor for SRF application'
   spokespersons: [A. Asaduzzaman, T. Junginger]
   url: 'https://mis.triumf.ca/science/experiment/view/M2265'
+  status: 'Approved'
+- experiment: 'M2310'
+  title: 'From Heavy Fermions to charge order in thin films of LiV<sub>2</sub>O<sub>4</sub>'
+  spokespersons: [W.A. MacFarlane]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2310'
+  status: 'Approved'
+- experiment: 'M2354'
+  title: 'Toward determining the sp<sup>3</sup> to sp<sup>2</sup> bond ratio in diamond-like-carbon for ultracold neutron applications'
+  spokespersons: [D. Fujimoto, R. Mammei]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2354'
   status: 'Approved'

@@ -126,6 +126,8 @@ experiments = [
     "M2167",
     "M2220",
     "M2265",
+    "M2310",
+    "M2354",
 ]
 
 # sort and reorder
@@ -212,6 +214,8 @@ def fix_fmt(string):
         ["Fe1+y(Te1-xSex)", "Fe<sub>1+y</sub>(Te<sub>1-x</sub>Se<sub>x</sub>)"],
         ["LiCoO2", "LiCoO<sub>2</sub>"],
         ["Pr2−xCexCuO4", "Pr<sub>2−x</sub>Ce<sub>x</sub>CuO<sub>4</sub>"],
+        ["sp2", "sp<sup>2</sup>"],
+        ["sp3", "sp<sup>3</sup>"],
     ]
     for p in pairs:
         fixed = fixed.replace(p[0], p[1])
