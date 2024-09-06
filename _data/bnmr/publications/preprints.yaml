@@ -18,4 +18,47 @@
     cat: physics.data-an
   published: 2020-04-22
   year: 2020
+- title: >-
+    Depth-resolved Characterization of Meissner Screening Breakdown in Surface
+    Treated Niobium
+  author:
+    - E. Thoeng
+    - M. Asaduzzaman
+    - P. Kolb
+    - R. M. L. McFadden
+    - G. D. Morris
+    - J. O. Ticknor
+    - S. R. Dunsiger
+    - V. L. Karner
+    - D. Fujimoto
+    - T. Junginger
+    - R. F. Kiefl
+    - W. A. MacFarlane
+    - R. Li
+    - S. Saminathan
+    - R. E. Laxdal
+  abstract: >-
+    We report direct measurements of the magnetic field screening at the limits
+    of the Meissner phase for two superconducting Nb samples. The samples are
+    processed with two different surface treatments that have been developed for
+    superconducting radio-frequency cavity applications - a "baseline" treatment
+    and an oxygen-doping ("O-doping") treatment. The measurements show: 1) that
+    the screening length is significantly longer in the "O-doping" sample
+    compared to the "baseline" sample; 2) that the screening length near the
+    limits of the Meissner phase increases with applied field; 3) the evolution
+    of the screening profile as the material transitions from the Meissner phase
+    to the mixed phase; and 4) a demonstration of the absence of any screening
+    profile for the highest applied field, indicative of the full flux entering
+    the sample. Measurements are performed utilizing the -detected nuclear
+    magnetic resonance (β-NMR) technique that allows depth resolved studies of
+    the local magnetic field within the first 100 nm of the surface. The study
+    takes advantage of the β-SRF beamline, a new facility at TRIUMF, Canada,
+    where field levels up to 200 mT are available parallel to the sample
+    surface to replicate radio frequency (RF) fields near the Meissner breakdown
+    limits of Nb.
+  arxiv:
+    id: 2405.05451
+    cat: cond-mat.supr-con
+  published: 2024-05-08
+  year: 2024
 
