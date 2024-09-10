@@ -57,7 +57,7 @@ Papers dealing with specific versions of `SRIM` also exist:
 
 Though the software is free, it is [closed source] and written in
 (the now defunct language) [Visual Basic].
-Niether of these traits are particularly appealing
+Neither of these traits are particularly appealing
 (or sensible) by modern standards.
 Nevertheless,
 it offers a user friendly interface for a number of
@@ -96,6 +96,8 @@ winecfg
 {% endhighlight %}
 
 This ensures a clean 32-bit [Wine] instance is set up.
+After executing the command, a dialog box will appear.
+If needed, select "Windows 7" as the [Microsoft Windows] version and click "OK". 
 
 Through inspection of the contents of `~/.wine/drive_c/windows/system32`,
 I noticed that many of the `.dll` and `.ocx` files needed by `SRIM` are already
@@ -118,6 +120,9 @@ regsvr32 *.ocx
 {% endhighlight %}
 
 where `*.ocx` is the missing (copied) file.
+Note: one also needs to extract the the missing [Visual Basic] library
+(`MSVBVM50.DLL`) from `MSVBvm50.exe` found in the `SRIM Outputs` directory
+and copy it to `~/.wine/drive_c/windows/system32` (does not need to be registered).
 
 Afterwards, `SRIM` ran without issue!
 

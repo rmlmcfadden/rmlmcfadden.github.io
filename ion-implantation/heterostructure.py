@@ -34,17 +34,27 @@ n_repetions = 3
 
 # loop over the repetions to create the heterostructure!
 for i in range(n_repetions):
+
     # 2 unit cell thick lanthanum nickelate layer
     LaNiO3 = Layer(
-        {"La": {"stoich": 1.0}, "Ni": {"stoich": 1.0}, "O": {"stoich": 3.0},},
+        {
+            "La": {"stoich": 1.0},
+            "Ni": {"stoich": 1.0},
+            "O": {"stoich": 3.0},
+        },
         density=7.11,
         width=2 * a_LaNiO3,
         name="LaNiO3(%d)" % i,
     )
     layers.append(LaNiO3)
+
     # 5 unit cell thick lanthanum aluminate layer
     LaAlO3 = Layer(
-        {"La": {"stoich": 1.0}, "Al": {"stoich": 1.0}, "O": {"stoich": 3.0},},
+        {
+            "La": {"stoich": 1.0},
+            "Al": {"stoich": 1.0},
+            "O": {"stoich": 3.0},
+        },
         density=6.52,
         width=5 * a_LaAlO3,
         name="LaAlO3(%d)" % i,
@@ -53,20 +63,26 @@ for i in range(n_repetions):
 
 # use a 0.5 mm sapphire layer as the bottom "substrate"
 Al2O3 = Layer(
-    {"Al": {"stoich": 2.0}, "O": {"stoich": 3.0},},
+    {
+        "Al": {"stoich": 2.0},
+        "O": {"stoich": 3.0},
+    },
     density=3.95,
     width=50000.0,
     name="Al2O3",
 )
 layers.append(Al2O3)
 
+
 # construct the mulitlayer target using the layers list
 target = Target(layers)
 
 # loop over implantation energies
 for E_eV in Energy_eV:
+
     # Construct the implanted 8Li ion
     ion = Ion("Li", energy=E_eV, mass=m_8Li)
+
     # Initialize a TRIM calculation with the ion & target
     trim = TRIM(
         target,

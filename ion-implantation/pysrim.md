@@ -79,6 +79,8 @@ Download [`heterostructure.py`]({% link ion-implantation/heterostructure.py %}).
 
 ## Caveats
 
+<del>
+
 `pysrim`, unfortunately, isn't perfect and I ran into the following issues while
 using it:
 
@@ -136,6 +138,11 @@ name"""
 - `pysrim` fails to parse results where no ions were stopped in the target. At
   least the fix is easy - simply comment out the exception raised on line 72
   in `srim.py`.
+
+</del>
+
+These issues/shortcomings are rectified in my custom form of `pysrim`;
+it can be obtained from: <https://github.com/rmlmcfadden/pysrim>
 
 [Python]: https://www.python.org/
 [Linux]: https://en.wikipedia.org/wiki/Linux
