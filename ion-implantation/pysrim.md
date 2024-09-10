@@ -79,42 +79,44 @@ Download [`heterostructure.py`]({% link ion-implantation/heterostructure.py %}).
 
 ## Caveats
 
-<del>
 
+
+<del>
 `pysrim`, unfortunately, isn't perfect and I ran into the following issues while
 using it:
+</del>
 
-- Everytime it runs, it complains that the `.yaml` file it's reading isn't done
+- <del>Everytime it runs, it complains that the `.yaml` file it's reading isn't done
   safely. This is due to a recent change in `pyYAML`, requiring a `Loader` to be
   specified as a `kwarg`. There is currently a
   [merge request](https://gitlab.com/costrouc/pysrim/-/merge_requests/4) on the
   project's [GitLab] page (<https://gitlab.com/costrouc/pysrim>) to fix this,
   but until this gets officially patched it can be mended by editing line 10 of
-  `srim/core/elemementdb.py` so that it reads:
+  `srim/core/elemementdb.py` so that it reads:</del>
 
 {% highlight python %}
 return yaml.load(open(dbpath, "r"), Loader=yaml.SafeLoader)
 {% endhighlight %}
 
-- It fails to parse `IONIZ.txt` output when the ion energy is less than 1 keV.
+- <del>It fails to parse `IONIZ.txt` output when the ion energy is less than 1 keV.
   The problem is with the regex expression used to parse the output. As a simple
   workaround, rather than fixing the problem, it is sufficient to just comment
-  out line 36 of `srim/output.py` so that it reads:
+  out line 36 of `srim/output.py` so that it reads:</del>
 
 {% highlight python %}
 # raise SRIMOutputParseError("unable to extract ion from file")
 {% endhighlight %}
 
-- The autosave input in `TRIM` setup does not appear to work; the calculation
+- <del>The autosave input in `TRIM` setup does not appear to work; the calculation
   won't run if the `kwarg` is specified. This is relatively minor, so my
-  workaround is to just avoid providing the parameter.
+  workaround is to just avoid providing the parameter.</del>
 
-- SRIM's default values for (element specific) displacement, lattice, and
+- <del>SRIM's default values for (element specific) displacement, lattice, and
   surface binding energies do not appear to be used automatically and need to
-  specified manually.
+  specified manually.</del>
 
-- Bragg corrections are not implemented on a per-layer basis. This is relatively
-  easy to fix by editing lines 42-48 in `srim/core/layer.py` to read:
+- <del>Bragg corrections are not implemented on a per-layer basis. This is relatively
+  easy to fix by editing lines 42-48 in `srim/core/layer.py` to read:</del>
 
 {% highlight python %}
     def __init__(self, elements, density, width, phase=0, name=None, bragg_correction=1.0):
@@ -126,7 +128,7 @@ name"""
         super(Layer, self).__init__(elements, density, phase)
 {% endhighlight %}
 
-  as well as lines 150-153 in `srim/input.py` to read:
+  <del>as well as lines 150-153 in `srim/input.py` to read:</del>
 
 {% highlight python %}
     def _write_bragg_correction(self):
@@ -135,14 +137,14 @@ name"""
         ) + self.newline + ' ' + ' '.join([str(layer.bragg_correction) for layer in self._trim.target.layers]) + self.newline
 {% endhighlight %}
 
-- `pysrim` fails to parse results where no ions were stopped in the target. At
+- <del>`pysrim` fails to parse results where no ions were stopped in the target. At
   least the fix is easy - simply comment out the exception raised on line 72
-  in `srim.py`.
+  in `srim.py`.</del>
 
-</del>
 
-These issues/shortcomings are rectified in my custom form of `pysrim`;
+These issues/shortcomings are rectified in my custom fork of `pysrim`;
 it can be obtained from: <https://github.com/rmlmcfadden/pysrim>
+
 
 [Python]: https://www.python.org/
 [Linux]: https://en.wikipedia.org/wiki/Linux
