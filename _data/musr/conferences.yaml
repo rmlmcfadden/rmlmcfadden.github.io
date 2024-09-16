@@ -174,7 +174,7 @@
     volume: 21
     issue: null
     url: 'https://journals.jps.jp/doi/book/10.7566/muSR2017'
-- year: 2021
+- year: 2022
   number: 15
   location: Parma, Italy
   date: 29 August - 2 September 2022
@@ -184,3 +184,18 @@
     volume: 2462
     issue: null
     url: 'https://iopscience.iop.org/issue/1742-6596/2462/1'
+- year: 2025
+  number: 16
+  location: Saint John's, Canada
+  date: 20-25 July 2025
+  website: 'https://indico.triumf.ca/event/537/'
+  proceedings:
+  - journal: null
+    volume: null
+    issue: null
+    url: null
+    
+    
+    
+    
+    
