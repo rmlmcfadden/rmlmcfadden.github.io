@@ -125,9 +125,11 @@ experiments = [
     "M2101",
     "M2167",
     "M2220",
+    "M2280",
     "M2265",
     "M2310",
     "M2354",
+    "M2400",
 ]
 
 # sort and reorder
@@ -207,6 +209,7 @@ def fix_fmt(string):
         ["LiV2O4", "LiV<sub>2</sub>O<sub>4</sub>"],
         ["SrTiO3", "SrTiO<sub>3</sub>"],
         ["LaAlO3", "LaAlO<sub>3</sub>"],
+        ["Al2O3", "Al<sub>2</sub>O<sub>3</sub>"],
         ["YBa2Cu3O6+x", "YBa<sub>2</sub>Cu<sub>3</sub>O<sub>6+x</sub>"],
         ["YOxHy", "YO<sub>x</sub>H<sub>y</sub>"],
         ["La2CuO4", "La<sub>2</sub>CuO<sub>4</sub>"],

@@ -383,6 +383,11 @@
   spokespersons: [A. Asaduzzaman, T. Junginger]
   url: 'https://mis.triumf.ca/science/experiment/view/M2265'
   status: 'Approved'
+- experiment: 'M2280'
+  title: 'Keeping cathodes from cracking: Probing Li<sup>+</sup> motion in Al<sub>2</sub>O<sub>3</sub>-coated NMC811 cathode material'
+  spokespersons: [P.J. Baker, A.R. Haworth, I. McClelland]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2280'
+  status: 'Approved'
 - experiment: 'M2310'
   title: 'From Heavy Fermions to charge order in thin films of LiV<sub>2</sub>O<sub>4</sub>'
   spokespersons: [W.A. MacFarlane]
@@ -392,4 +397,9 @@
   title: 'Toward determining the sp<sup>3</sup> to sp<sup>2</sup> bond ratio in diamond-like-carbon for ultracold neutron applications'
   spokespersons: [D. Fujimoto, R. Mammei]
   url: 'https://mis.triumf.ca/science/experiment/view/M2354'
+  status: 'Approved'
+- experiment: 'M2400'
+  title: 'Study of the local environment of lithium in Ta-STJs via Knight shifts'
+  spokespersons: [S. Friedrich, A. Lennarz]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2400'
   status: 'Approved'
