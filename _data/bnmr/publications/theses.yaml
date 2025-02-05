@@ -601,3 +601,42 @@
   doi: 10.14288/1.0402656
   url: 'https://hdl.handle.net/2429/80103'
   published: 2021-10-27
+- title: >-
+    Ion-implanted <sup>8</sup>Li nuclear magnetic resonance study of van der
+    Waals layered materials
+  author:
+    - J. Ticknor
+  abstract: >-
+    This thesis explores the behavior of dilute-limit lithium in different van
+    der Waals layered materials. The rationale for this choice is that their
+    spacious, two-dimensional atomic structure enables their use as good
+    electrode hosts in rechargeable lithium-ion batteries. In order to assist
+    efforts to simulate the mobility (or diffusion) of the lithium from
+    first-principles, we make use of <sup>8</sup>Li β-detected nuclear magnetic
+    resonance. Here, an isotopically pure beam of <sup>8</sup>Li is implanted
+    directly into a suitable sample. The <sup>8</sup>Li are isolated
+    (non-interacting) from one another, a situation that is ideally comparable
+    to theory, in contrast to the more concentrated regime that is dealt with in
+    most other experimental studies of diffusion. By monitoring the asymmetric
+    β-decay of the <sup>8</sup>Li correlated to its spin polarization, we are
+    sensitive to the temporal evolution of the local magnetic and electric field
+    distribution in the vicinity of the <sup>8</sup>Li probe as it moves within
+    its crystalline environment. Measurements of the spin-lattice relaxation
+    rate, as well as the resonance linewidth, are then connected to a model of
+    the elementary atomic hopping of the lithium. We apply this in three
+    separate case studies: semimetallic graphite, semiconducting MoX<sub>2</sub>
+    (X = S, Se), and metallic CrSe<sub>2</sub>. We find an absence of diffusive
+    mobility of lithium in graphite even to 400 K, marking a clear departure
+    from the more concentrated stage compounds. However, we find quantitative
+    evidence of lithium diffusion in both MoX<sub>2</sub> and CrSe<sub>2</sub>
+    near room temperature. The respective activation energy barriers in each
+    case are closely compared to prior results from theory. Other phenomena
+    (e.g., magnetic effects) that act in parallel to diffusion are also closely
+    examined.
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2025
+  doi: 10.14288/1.0447683
+  url: 'http://hdl.handle.net/2429/90060'
+  published: 2025-01-06
