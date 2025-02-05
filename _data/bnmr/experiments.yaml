@@ -403,3 +403,8 @@
   spokespersons: [S. Friedrich, A. Lennarz]
   url: 'https://mis.triumf.ca/science/experiment/view/M2400'
   status: 'Approved'
+- experiment: 'M2463'
+  title: 'Lithium-ion diffusion in inorganic solid electrolytes'
+  spokespersons: [T. Ashton, P.J. Baker, I. McKenzie]
+  url: 'https://mis.triumf.ca/science/experiment/view/M2463'
+  status: 'Approved'
