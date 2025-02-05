@@ -134,14 +134,12 @@ experiments = [
 ]
 
 # sort and reorder
-"""
 experiments = sorted(
-    experiments, reverse=True, key=lambda n: int(n.strip("M").strip("S"))
+    experiments,
+    reverse=False,
+    key=lambda n: int(n.strip("M").strip("S")),
 )
-"""
-experiments = sorted(
-    experiments, reverse=False, key=lambda n: int(n.strip("M").strip("S"))
-)
+
 
 #
 def md_table_row(number, title, spokespersons):
