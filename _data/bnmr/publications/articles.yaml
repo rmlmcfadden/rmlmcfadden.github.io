@@ -2344,4 +2344,49 @@
   submitted: 2024-05-10
   accepted: 2024-08-30
   published: 2024-09-14
-
+- title: >-
+    Lithium-ion dynamics in synthetic quartz studied via the NMR of implanted
+    <sup>8</sup>Li<sup>+</sup>
+  author:
+    - W. A. MacFarlane
+    - R. M. L. McFadden
+    - S. L. Spencer
+    - A. Chatzichristos
+    - J. O. Ticknor
+    - D. L. Cortie
+    - M. H. Dehn
+    - S. R. Dunsiger
+    - D. Fujimoto
+    - Z. H. Jang
+    - V. L. Karner
+    - R. F. Kiefl
+    - G. D. Morris
+    - M. Stachura
+  abstract: >-
+    We report β-detected nuclear magnetic resonance (β-NMR) measurements of
+    implanted <sup>8</sup>Li<sup>+</sup> in a synthetic single crystal of
+    α-SiO<sub>2</sub> (quartz). At 6.55 Tesla, the spectrum is comprised of a
+    large amplitude broad resonance and a quadrupolar multiplet that is only
+    revealed by an RF comb excitation. The quadrupole splitting is surprisingly
+    small, increases with temperature, and provides information on the
+    implantation site. Supercell density functional theory calculations show
+    that the small EFG is consistent with an in-channel interstitial site
+    (Wyckoff 3<it>a</it>). The spin-lattice relaxation is unexpectedly fast and
+    strongly temperature dependent with a diffusive peak above 200 K and a
+    second more prominent relaxation peak at lower temperature. Analysis of the
+    diffusive relaxation yields an activation barrier 178(43) meV for the
+    isolated Li<sup>+</sup>, in the range of other measurements and
+    calculations. To account for many of the other features of the data, it is
+    suggested that some of the implanted ions trap an electron forming the
+    neutral Li<sup>0</sup>, which is stable over a narrow range of temperatures.
+  journal: Physical Review B
+  volume: 112
+  issue: 1
+  pages: '014103'
+  arxiv:
+    id: 2503.19204
+    cat: cond-mat.mtrl-sci
+  submitted: null
+  accepted: null
+  published: 2025-07-08
+  year: 2025
