@@ -2391,3 +2391,56 @@
   published: 2025-07-08
   year: 2025
   doi: 10.1103/8d6t-2tg9
+- title: >-
+    Superconducting properties of thin film Nb<sub>1−x</sub>Ti<sub>x</sub>N
+    studied via the NMR of implanted <sup>8</sup>Li
+  author:
+    - M. Asaduzzaman
+    - R. M. L. McFadden
+    - E. Thoeng
+    - Y. Kalboussi
+    - I. Curci
+    - T. Proslier
+    - S. R. Dunsiger
+    - W. A. MacFarlane
+    - G. D. Morris
+    - R. Li
+    - J. O. Ticknor
+    - R. E. Laxdal
+    - T. Junginger
+  abstract: >-
+    We report measurements of the normal-state and superconducting properties of
+    thin-film Nb<sub>1−x</sub>Ti<sub>x</sub>N using <sup>8</sup>Li β-detected
+    nuclear magnetic resonance (β-NMR). In these experiments, radioactive
+    <sup>8</sup>Li<sup>+</sup> probes were implanted ∼21 nm below the surface of
+    a Nb<sub>1−x</sub>Ti<sub>x</sub>N(91 nm) film in
+    Nb<sub>0.75</sub>Ti<sub>0.25</sub>N(91 nm)/AlN(4 nm)/Nb and its NMR response
+    recorded (via <sup>8</sup>Li's β-emissions) between 4.6 K and 270 K in a
+    4.1 T field applied normal to its surface. Resonance measurements reveal
+    wide, symmetric lineshapes at all temperatures, with significant additional
+    broadening below the film's superconducting transition temperature
+    <i>T</i><sub>c</sub>(0 T) = 15.4 ± 0.7 K due to vortex lattice formation.
+    Fits to a broadening model find a magnetic penetration depth
+    <i>λ</i>(0 K) = 180.57 ± 0.30 nm and upper critical field
+    <i>B</i><sub>c2</sub>(0 K) = 18 ± 4 T, consistent with literature estimates.
+    Spin-lattice relaxation (SLR) measurements find a Korringa response at low
+    temperatures, with dynamic (i.e., thermally activated) contributions
+    dominating above ∼100 K. Below <i>T</i><sub>c</sub>, we observe a small H
+    bel-Slichter coherence peak characterized by a superconducting energy gap
+    <i>Δ</i>(0 K) = 2.60 ± 0.12 meV and modest Dynes-like broadening. Our
+    measurements suggest a gap ratio
+    2<i>Δ</i>(0 K)/<i>k</i><sub>B</sub><i>T</i><sub>c</sub>(0 T) = 3.92 ± 0.25,
+    consistent with strong-coupling behavior. Sources for the dynamic
+    high-<i>T</i> relaxation are suggested.
+  journal: 'Journal of Physics: Condensed Matter'
+  volume: 37
+  issue: 39
+  pages: '395701'
+  arxiv:
+    id: 2505.1459
+    cat: cond-mat.supr-con
+  submitted: 2025-06-05
+  revised: 2025-08-14
+  accepted: 2025-09-02
+  published: 2025-09-24
+  year: 2025
