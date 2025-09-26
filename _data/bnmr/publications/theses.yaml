@@ -640,3 +640,56 @@
   doi: 10.14288/1.0447683
   url: 'http://hdl.handle.net/2429/90060'
   published: 2025-01-06
+- title: >-
+    Depth-resolved studies of SRF materials using high parallel-field beta-NMR
+    spectrometer
+  author:
+    - E. Thoeng
+  abstract: >-
+    <p>
+    This thesis reports the implementation of a new spectrometer, which extends
+    the capability of TRIUMF β-NMR facility with fields up to 200 mT parallel
+    to the sample surface. The spectrometer is designed to allow nm-scale
+    depth-resolved studies of superconducting RF (SRF) materials up to the
+    critical field of Nb, the main material for SRF cavities. SRF cavities are
+    the main technology behind high-energy and high-power linear accelerators
+    worldwide. The accelerating electric fields along the cavity axis are
+    accompanied by the radio frequency (RF) magnetic fields parallel to the
+    cavity wall, which induce dissipation due to the penetrating magnetic fields
+    within ~100 nm of the cavity surface.
+    </p>
+    <p>
+    The ability of the SRF materials to screen magnetic fields and the maximum
+    field limit are very sensitive to surface treatments. The magnetic
+    field-dependent surface dissipation affects the operational cost of SRF
+    cavities, and the maximum magnetic field that can be sustained ultimately
+    limits the maximum accelerating gradient. Various surface treatment recipes
+    using heat treatment and/or impurity diffusion have been developed which
+    demonstrate enhanced performance of SRF cavities. Complete understanding of
+    the underlying mechanism of this enhancement, however, requires a controlled
+    study of the near surface. Depth-resolved measurements of the magnetic field
+    screening below the surface are made possible with this new spectrometer,
+    which combines local magnetic field measurements via spin-polarized
+    radioactive ion beam produced at TRIUMF, and the spectrometer which allows
+    high-parallel field and implantation depth-control of the ions.
+    </p>
+    <p>
+    The magnetic field configuration parallel to the sample surface but
+    transverse to the beam momentum deflects the beam vertically and requires
+    compensation via electrostatic steering. The details of design, assembly,
+    installation, and operations of the beamline and the spectrometer are all
+    presented in this thesis. Depth-resolved measurements on two Nb samples with
+    different surface treatments relevant to SRF cavities have been performed on
+    the new spectrometer up to 200 mT. The results demonstrate the sensitivity
+    of the β-NMR technique in characterizing the magnetic field screening and
+    provide a working method for future studies. Outlook on future experiments
+    on different SRF materials, as well as potential applications of the new
+    spectrometer for other materials are proposed.
+    </p>
+  degree: PhD
+  school: University of British Columbia
+  address: Vancouver
+  year: 2025
+  doi: 10.14288/1.0449858
+  url: 'http://hdl.handle.net/2429/92060'
+  published: 2025-08-25
