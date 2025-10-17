@@ -149,6 +149,8 @@ can be found at:
         <dd><a href="https://gitlab.psi.ch/nemu/simulation">nemu/simulation</a></dd>
     <dt>Bitbucket <i class="fab fa-bitbucket"></i></dt>
         <dd><a href="https://bitbucket.org/zaher-salman/trimsp/">zaher-salman/trimsp</a></dd>
+    <dt>PSI Gitea <i class="fab fa-git-alt"></i></dt>
+        <dd><a href="https://gitea.psi.ch/LMU/TRIMSP">LMU/TRIMSP</a></dd>
 </dl>
 
 ---
