@@ -66,7 +66,7 @@ For more information, see:
         </dd>
     <dt>Documentation</dt>
         <dd>
-        <a href="https://lmu.web.psi.ch/musrfit/user/html/index.html">https://lmu.web.psi.ch/musrfit/user/html/index.html</a>
+        <a href="https://lmu.pages.psi.ch/musrfit-docu/">https://lmu.pages.psi.ch/musrfit-docu/</a>
         </dd>
 </dl>
 
