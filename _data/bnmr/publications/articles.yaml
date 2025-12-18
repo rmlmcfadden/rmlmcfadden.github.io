@@ -2446,3 +2446,41 @@
   published: 2025-09-24
   year: 2025
   doi: 10.1088/1361-648X/ae0287
+- title: >-
+    Dynamics from the surface to the bulk in ultrastable and liquid-cooled
+    oligomeric glasses
+  author:
+    - I. McKenzie
+    - V. L. Karner
+    - R. Li
+    - W. A. MacFarlane
+    - G. D. Morris
+    - M. F. Thees
+    - J. O. Ticknor
+    - J. A. Forrest
+  abstract: >-
+    Ultrastable glasses (USGs) exhibit strikingly different properties from
+    liquid-cooled normal glasses (NGs), yet their molecular dynamics remain
+    poorly understood. Using β-detected NMR of implanted spin-polarized
+    <sup>8</sup>Li<sup>+</sup>, we directly track the depth and temperature
+    dependence of the γ relaxation—phenyl ring twisting—in highly monodisperse
+    atactic styrene oligomers. Near the bulk glass transition temperature
+    <i>T</i><sub>g</sub>, USGs show much faster surface dynamics but slower bulk
+    dynamics than an NG. Cooling below <i>𝑇</i><sub>g</sub> reveals a sharp
+    crossover at <i>T</i><sup>*</sup>, where surface dynamics vitrify on tens to
+    hundreds of nanosecond timescales and become slower than in the bulk. The NG
+    further displays two distinct <i>T</i><sup>*</sup> values near the surface,
+    pointing to heterogeneous local structure. Despite these differences, all
+    dynamics obey entropy-enthalpy compensation, suggesting a common molecular
+    mechanism. These results show that preparation and thermal history lock
+    styrene oligomeric glasses into distinct regions of the potential energy
+    landscape, giving rise to fundamentally different glassy dynamics.
+  journal: Physical Review Letters
+  volume: 135
+  issue: 23
+  pages: '238101'
+  submitted: 2025-06-19
+  accepted: 2025-10-27
+  published: 2025-12-05
+  year: 2025
+  doi: 10.1103/qyqb-9c57
