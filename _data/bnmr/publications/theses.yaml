@@ -693,3 +693,101 @@
   doi: 10.14288/1.0449858
   url: 'http://hdl.handle.net/2429/92060'
   published: 2025-08-25
+- title: >-
+    Characterization of SRF cavity materials with radioactive beam based
+    techniques for gradient enhancement
+  author:
+    - M. Asaduzzaman
+  abstract: >-
+    <p>
+    Superconducting radio frequency (SRF) cavities accelerate charged particle
+    beams by transferring radio frequency (RF) energy. When operated near
+    resonance, the applied RF power generates strong electromagnetic fields,
+    with the electric field driving beam acceleration and the accompanying
+    magnetic field running along the cavity surface. If this magnetic field
+    becomes too large, the superconductor quenches, transitioning to the normal
+    state and dissipating the stored energy. State-of-the-art Nb cavities are
+    limited by their superheating field (<i>B</i><sub>sh</sub>), which defines
+    the maximum sustainable surface field in the superconductor’s Meissner
+    state [1, 2]. Since applied magnetic field (<i>B</i><sub>0</sub>) scales
+    with the accelerating gradient (<i>E</i><sub>acc</sub>) (i.e., the energy
+    gain per unit length), increasing the sh limit allows a given beam energy to
+    be achieved with a shorter linear accelerator, thereby reducing both the
+    overall length and cost.
+    </p>
+    <p>
+    Coating Nb with thin superconducting layers of larger penetration depth λ
+    than Nb, with or without insulating spacers (i.e., forming
+    superconductor-superconductor (SS) or superconductor-insulator-superconductor
+    (SIS) heterostructures), can enhance the attainable <i>E</i><sub>acc</sub>
+    by sustaining the Meissner state beyond each layer’s <i>B</i><sub>sh</sub>,
+    supported by reduced surface currents and interfacial barriers. To
+    investigate how these coatings modify local magnetic behavior, "exotic"
+    ion-implanted β-detected spin spectroscopies (i.e., muon spin rotation (μSR),
+    low energy muon spin rotation (LE-μSR) and β-detected nuclear magnetic
+    resonance (βNMR)) were used to probe the internal fields within such
+    heterostructures.
+    </p>
+    <p>
+    Previous μSR studies have indicated the presence of an interface barrier to
+    flux penetration at the boundary between two superconductors, while
+    low-temperature baking (LTB) treatments showed apparent increases in the
+    vortex penetration field (μ0𝐻vp) where surface pinning effects could not be
+    excluded. Motivated by these findings, μSR measurements were performed on
+    Nb<sub>3</sub>Sn(2 µm)/Nb and LTB-treated Nb samples to distinguish between
+    interface-barrier and pinning contributions. Using thin Ag foils as energy
+    moderators for the implanted muon spin probes, depth profiling in the
+    10 µm-100 µm range of an SS bilayer revealed a <i>μ<sub>0</sub>H</i><sub>vp</sub>
+    consistent with Nb's metastable superheating field (<i>μ<sub>0</sub>H</i><sub>sh</sub>),
+    indicating a surface barrier that delays flux entry. In contrast, the
+    LTB-treated Nb exhibited a <i>μ<sub>0</sub>H</i><sub>vp</sub> close to the
+    lower critical field lower critical field (<i>μ<sub>0</sub>H</i><sub>c1</sub>)
+    of Nb, with values increasing with implantation depth, provides clear evidence
+    for surface-localized flux pinning.
+    </p>
+    <p>
+    Further optimization of multilayer coatings requires understanding how layer
+    thickness influences screening currents. To this end, LE-μSR measurements
+    probe nanoscale (depths ≲150 nm) Meissner screening in
+    Nb<sub>1–x</sub>Ti<sub>x</sub>N(<i>x</x> nm)/Nb bilayers
+    with surface-layer thicknesses <i>x</i> = 50, 80, and 160 in applied fields
+    of ≤ 25 mT. The results confirm strong current suppression in the surface
+    layer, consistent with theoretical predictions, and reveal bipartite field
+    profiles well described by London theory. The extracted penetration depth
+    λ<sub>Nb1–xTixN</sub> agrees with bulk values, establishing the optimal
+    coating thickness for maximizing the vortex penetration field. These
+    findings emphasize the importance of multilayered superconducting/insulating
+    stacks for achieving the highest <i>E</i><sub>acc</sub>.
+    </p>
+    <p>
+    To further investigate multilayer enhancement mechanisms, the superconducting
+    and normal-state properties of a thin-film
+    Nb<sub>0.75</sub>Ti<sub>0.25</sub>N(91 nm) in a
+    Nb<sub>0.75</sub>Ti<sub>0.25</sub>N(91 nm)/AlN(4 nm)/Nb SIS heterostructure
+    were studied using βNMR in the vortex state. Resonance spectra displayed broad,
+    symmetric lineshapes at all temperatures, with additional broadening below
+    critical temperature (<i>T</i><sub>c</sub>) ∼15 K, yielding penetration depth
+    (λ) and upper critical field (<i>B</i><sub>c2</sub>) values consistent with
+    literature. Spin-lattice relaxation (SLR) data exhibited metallic Korringa
+    behavior at low temperatures, modified below <i>T</i><sub>c</sub> by a
+    Hebel-Slichter peak characterized by a superconducting gap and modest
+    Dynes-like broadening, confirming the superconductor's strong-coupling
+    behaviour. Possible sources of high-<i>T</i> SLR dynamics are suggested.
+    </p>
+    <p>
+    Finally, this characterization of the superconducting layer in the SIS
+    heterostructure establishes a foundation for future studies of the
+    Meissner–vortex phase transition to directly test field enhancement. The
+    high-parallel-field βNMR spectrometer [3] has been upgraded for such
+    transition measurements, increasing the maximum <i>B</i><sub>0</sub> from
+    24 mT to ∼200 mT (comparable to the lower critical field (<i>B</i><sub>c1</sub>)
+    of Nb) parallel to the sample surface, enabling investigations under
+    realistic SRF cavity conditions.
+    </p>
+  degree: PhD
+  school: University of Victoria
+  address: Victoria
+  year: 2026
+  doi: null
+  url: 'https://hdl.handle.net/1828/23023'
+  published: 2026-01-02
