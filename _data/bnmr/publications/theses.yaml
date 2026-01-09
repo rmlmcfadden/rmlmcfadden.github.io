@@ -749,7 +749,7 @@
     Further optimization of multilayer coatings requires understanding how layer
     thickness influences screening currents. To this end, LE-μSR measurements
     probe nanoscale (depths ≲150 nm) Meissner screening in
-    Nb<sub>1–x</sub>Ti<sub>x</sub>N(<i>x</x> nm)/Nb bilayers
+    Nb<sub>1–x</sub>Ti<sub>x</sub>N(<i>x</i> nm)/Nb bilayers
     with surface-layer thicknesses <i>x</i> = 50, 80, and 160 in applied fields
     of ≤ 25 mT. The results confirm strong current suppression in the surface
     layer, consistent with theoretical predictions, and reveal bipartite field
@@ -788,6 +788,5 @@
   school: University of Victoria
   address: Victoria
   year: 2026
-  doi: null
   url: 'https://hdl.handle.net/1828/23023'
   published: 2026-01-02
