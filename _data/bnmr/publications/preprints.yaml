@@ -18,5 +18,50 @@
     cat: physics.data-an
   published: 2020-04-22
   year: 2020
+- title: Contrasting impurity-induced magnetism and dynamics in 2H-MoTe<sub>2</sub>
+  author:
+    - J. A. Krieger
+    - I. P. Rusinov
+    - S. Barua
+    - A. Chatzichristos
+    - J. Croese
+    - D. Fujimoto
+    - S. Holenstein
+    - V. L. Karner
+    - R. M. L. McFadden
+    - J. O. Ticknor
+    - W. A. MacFarlane
+    - R. F. Kiefl
+    - G. Balakrishnan
+    - E. V. Chulkov
+    - S. S. P. Parkin
+    - Z. Salman
+  abstract: >-
+    We investigate the behavior of interstitial <sup>8</sup>Li<sup>+</sup>
+    implanted near the surface of 2H-MoTe<sub>2</sub> using β-detected NMR. We
+    find that, unlike the muon, <sup>8</sup>Li<sup>+</sup> does not show any
+    signature of induced magnetism. This result is consistent with density
+    functional theory, which identifies the Li stopping site at the 2a Wyckoff
+    position in the van der Waals gap and confirms the absence of detectable
+    Li-induced electronic spin polarization. Both the spin-lattice relaxation
+    and the resonance lines show evidence of strong spin dynamics above ∼200 K,
+    reminiscent of local stochastic <sup>8</sup>Li<sup>+</sup> motion within a
+    cage. The resonance line shape consists of quadrupolar satellites on top of
+    a broad central peak. To better understand the interaction of 8Li+ with the
+    host material, we employ a frequency-comb measurement, by simultaneously
+    exciting four frequencies corresponding to the first-order quadrupolar
+    satellite transitions, ν<sub>0</sub> ± 3ν<sub>comb</sub> and
+    ν<sub>0</sub> ± ν<sub>comb</sub> around the Larmor frequency ν<sub>0</sub>
+    as a function of ν<sub>comb</sub>. This offers an enhanced sensitivity to
+    the quadrupolar split portion of the line. Using this method, we find a
+    small decrease of the quadrupolar frequency with increasing temperature,
+    showing the typical behavior associated with thermally excited phonons and
+    the absence of any magnetic response which was observed with other defects
+    in 2H-MoTe<sub>2</sub>.
+  arxiv:
+    id: 2601.20444
+    cat: cond-mat.mtrl-sci
+  published: 2026-01-28
+  year: 2026
 
 
